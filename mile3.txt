@@ -1,0 +1,6 @@
+health 2
+fail cond 1
+win cond 1
+different levels 2
+start menu 1
+moving platforms 2
