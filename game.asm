@@ -48,7 +48,7 @@
 .eqv	P_OFF_X				0x00000004 # unused
 .eqv	P_OFF_Y				0x00000005 # unused
 
-.eqv 	SLP_T				200			# Sleep time
+.eqv 	SLP_T				40			# Sleep time
 
 # Colours
 .eqv	RED					0xff0000
@@ -74,9 +74,6 @@ PLAYER_WALK_ANIM_ITER:	.word 0
 PLAYER_UP_ITER:			.word 0
 
 STAGE:					.word 1
-
-left:	.asciiz "left\n"
-right: 	.asciiz "right\n"
 
 # ----------------------------------------
 # Game Start
@@ -141,7 +138,7 @@ check_hearts:
 keypress_event:
 		li $t9, 0xffff0000  
 		lw $t8, 0($t9) 
-		beq $t8, 1, check_keypress 
+		bne $t8, 1, update_ud
 		
 # t2: x-coord, t3: y-coord, t8: key value, t9: key address
 check_keypress:
