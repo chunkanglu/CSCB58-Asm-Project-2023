@@ -60,7 +60,7 @@
 
 .eqv	PLATFORM			0xb4b4b4 			# L_GRAY
 
-.eqv	PLAYER_JUMP_HEIGHT	5
+.eqv	PLAYER_JUMP_HEIGHT	8
 
 # ----------------------------------------
 # Stored
@@ -163,6 +163,22 @@ check_keypress:
 key_left:	
 		beq $t2, 0, update_ud  # Do not go left if at left edge of display
 		
+		# Check the units left of player for walls
+		addi $t3, $t1, -4			# top unit left of player
+		
+		lw $t4, 0($t3)
+		beq $t4, L_GRAY, update_ud
+		
+		lw $t4, 256($t3)
+		beq $t4, L_GRAY, update_ud
+		
+		lw $t4, 512($t3)
+		beq $t4, L_GRAY, update_ud
+		
+		lw $t4, 768($t3)
+		beq $t4, L_GRAY, update_ud
+
+		# No wall on the left, can move left
 		addi $t1, $t1, -4 			# player position Left 1
 		addi $t2, $t2, -1 			# Update PLAYER_X coord
 		sw $t2, 0($s1) 				# Send update
@@ -174,6 +190,23 @@ key_left:
 						
 key_right:		
 		beq $t2, 60, update_ud  # Do not go right if at right edge of display
+		
+		# Check the units right of player for walls
+		addi $t3, $t1, 16			# top unit right of player
+		
+		lw $t4, 0($t3)
+		beq $t4, L_GRAY, update_ud
+		
+		lw $t4, 256($t3)
+		beq $t4, L_GRAY, update_ud
+		
+		lw $t4, 512($t3)
+		beq $t4, L_GRAY, update_ud
+		
+		lw $t4, 768($t3)
+		beq $t4, L_GRAY, update_ud
+
+		# No wall on the left, can move left
 		
 		addi $t1, $t1, 4 			# player position Right 1
 		addi $t2, $t2, 1 			# Update PLAYER_X coord
@@ -315,6 +348,7 @@ set_up:
 		j done_ud
 			
 stationary_or_fall:
+		sw $zero, 0($s4)			# Reset jump iteration
 		# $t5 stored if valid floor
 		beq $t5, 0, set_falling				# Set to fall if no valid floor
 		# Else stationary
@@ -462,6 +496,14 @@ exit:
 
 draw_level:
 		li $t9, PLATFORM
+		
+		sw $t9, 3328($s7)
+		sw $t9, 3332($s7)
+		sw $t9, 3336($s7)
+		sw $t9, 3340($s7)
+		sw $t9, 3344($s7)
+		sw $t9, 3348($s7)
+		sw $t9, 3352($s7)
 		
 		sw $t9, 5120($s7)
 		sw $t9, 5124($s7)
