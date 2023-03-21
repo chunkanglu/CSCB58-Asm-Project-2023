@@ -52,7 +52,7 @@
 
 # Colours
 .eqv	RED					0xff0000
-.eqv	D_RED				0x7f2525
+.eqv	ORANGE				0xff8000
 .eqv	CYAN				0x81a0a9 	
 .eqv	GRAY				0x585858
 .eqv	L_GRAY				0xb4b4b4
@@ -66,7 +66,7 @@
 # Stored
 # ----------------------------------------
 .data
-PLAYER_XY:				.word 2, 2 			# x, y where 0 <= x <= 60, 0 <= y <= 47
+PLAYER_XY:				.word 2, 14 			# x, y where 0 <= x <= 60, 0 <= y <= 47
 							   			# This marks top-left unit of 4 by 5 player
 PLAYER_LR_UD:			.word 0, 0			# [0 stationary, 1,left, 2 right] [0 stationary, 1 up (jump), 2 down (falling from jump or ledge)]
 
@@ -84,7 +84,7 @@ STAGE:					.word 1
 
 main:	
 		# Initialize		
-		li $s0, DISP_BASE 	# $s0 stores the base address for display
+		li $s7, DISP_BASE 	# $s7 stores the base address for display
 		# MIGHT NOT NEED TO BE USED
 		
 		li $t0, 0 # iter
@@ -97,7 +97,12 @@ main:
 		
 		jal clear_screen
 		
-loop:	beq $t0, 100, exit # TODO: temporary exit condition
+		
+		li $t1, DISP_BASE
+		
+		jal draw_level
+			
+loop:	beq $t0, 10000, exit # TODO: temporary exit condition
 		addi $t0, $t0, 1		
 		
 		lw $t2, 0($s1) 				# Load player X-coord
@@ -149,13 +154,14 @@ check_keypress:
 		beq $t8, 0x70, restart   	# ASCII code of 'p' is 0x70
 		beq $t8, 0x61, key_left   	# ASCII code of 'a' is 0x61
 		beq $t8, 0x64, key_right   	# ASCII code of 'd' is 0x64
+		beq $t8, 0x77, key_up   	# ASCII code of 'w' is 0x77
 		
-		# Else, player is stationary
-		j set_stationary_lr
+		# Else, keep what was previously
+		j update_ud
 
 # t1: player position, t2: x-coord 
 key_left:	
-		beq $t2, 0, set_stationary_lr  # Do not go left if at left edge of display
+		beq $t2, 0, update_ud  # Do not go left if at left edge of display
 		
 		addi $t1, $t1, -4 			# player position Left 1
 		addi $t2, $t2, -1 			# Update PLAYER_X coord
@@ -167,7 +173,7 @@ key_left:
 		j update_ud
 						
 key_right:		
-		beq $t2, 60, set_stationary_lr  # Do not go right if at right edge of display
+		beq $t2, 60, update_ud  # Do not go right if at right edge of display
 		
 		addi $t1, $t1, 4 			# player position Right 1
 		addi $t2, $t2, 1 			# Update PLAYER_X coord
@@ -178,10 +184,17 @@ key_right:
 		
 		j update_ud
 		
-set_stationary_lr:
-		sw $zero, 0($s2)				# Set PLAYER_LR to 0
+key_up:		
+		# Set state saying want to jump, but must pass collision checks to actually jump		
+		li $t3, 1
+		sw $t3, 4($s2)				# Set PLAYER_UD to 1
 		
 		j update_ud
+		
+#set_stationary_lr:
+#		sw $zero, 0($s2)				# Set PLAYER_LR to 0
+		
+#		j update_ud
 		
 restart:
 		# TODO: go to first stage
@@ -196,68 +209,43 @@ restart:
 		j main
 
 # ----------------------------------------
-# Check top screen edge or platform (below) collision
+# Check Up/Down State
 # ----------------------------------------
 update_ud:
-		lw $t2, 4($s2)				# Load Player_UD state in $t2
-		
-up_collision:
-		bne $t2, 1, down_collision	# Skip if not going upwards (trying to jump)
-		lw $t3, 0($s4)				# Load upwards iteration in $t3
-		
-		bne $t3, PLAYER_JUMP_HEIGHT, ceil_collision # Check ceil collision if not max jump height
-		j set_falling
-		
-ceil_collision:
-		addi $t3, $t3, 1			# + 1 jump iteration in $t3
-		sw $t3, 0($s4)
-		
-		lw $t3, 4($s1)				# Load player y-coord in $t3
-		bgt $t3, 0, platform_bot_collision	# Check platform collision if not at top of screen
-		j set_falling
-		
-platform_bot_collision:
-		# Check the 4 units above player and see if platform
-		subi $t3, $t1, DISP_ROW		# $t3 :: unit of leftmost pixel above player
-		lw $t4, 0($t3)				# Color of 1st unit in $t4
-		beq $t4, L_GRAY, set_falling
-		
-		lw $t4, 4($t3)				# Color of 2nd unit in $t4
-		beq $t4, L_GRAY, set_falling
-
-		lw $t4, 8($t3)				# Color of 3rd unit in $t4
-		beq $t4, L_GRAY, set_falling	
-
-		lw $t4, 12($t3)				# Color of 4th unit in $t4
-		beq $t4, L_GRAY, set_falling
-
-		j down_collision			# $t2 up state, passed all checks, can jump if valid floor
-		
-set_falling:
-		sw $zero, 0($s4)			# Reset upwards iteration
-		li $t2, 2
-		sw $t2, 4($s2)				# Set PLAYER_UD to 2 (falling), $t2 fall state
-		
+		lw $t2, 4($s2)					# $t2 PLAYER_UD state
 # ----------------------------------------
-# Check platform (above) collision
+# Check collision below
 # ----------------------------------------
+# $t5 stores if there is valid floor (0/1)
 down_collision:
 		addi $t3, $t1, PLAYER_BL_OFF 	# $t3 leftmost unit below player
 		
 		# Check 
 		lw $t4, 0($t3)				# Color of 1st unit in $t4
-		beq $t4, L_GRAY, jump_or_stationary
+		beq $t4, L_GRAY, valid_floor
 		
 		lw $t4, 4($t3)				# Color of 2nd unit in $t4
-		beq $t4, L_GRAY, jump_or_stationary
+		beq $t4, L_GRAY, valid_floor
 
 		lw $t4, 8($t3)				# Color of 3rd unit in $t4
-		beq $t4, L_GRAY, jump_or_stationary	
+		beq $t4, L_GRAY, valid_floor
 
 		lw $t4, 12($t3)				# Color of 4th unit in $t4
-		beq $t4, L_GRAY, jump_or_stationary
+		beq $t4, L_GRAY, valid_floor
 		
-		# No valid floor, set fall state & update player 1 unit lower
+		# No floor, check if stationary or mid-air going up
+		li $t5, 0
+		# If going up, check up iteration TODO: PROBLEM HERE IDK WHY
+		lw $t2, 4($s2)				# Load Player_UD state in $t2
+		
+		#bne $t2, 1, set_falling		# If not going up, set to fall
+		# Know player is going up
+		lw $t3, 0($s4)				# Load upwards iteration in $t3
+		bne $t3, 0, check_max_height 	# If up iteration not 0, then it is mid-air and check jump height
+		# Else, up iteration is 0 and is trying to jump mid-air, not allowed and set to fall
+		
+set_falling:
+		# Player fall, set fall state & update player 1 unit lower
 		li $t2, 2
 		sw $t2, 4($s2)				# Set PLAYER_UD to 2 (falling), $t2 fall state
 		
@@ -266,22 +254,51 @@ down_collision:
 		sw $t3, 4($s1)
 		
 		addi $t1, $t1, DISP_ROW 	# Update player position down 1
+		j done_ud					# No need to check above if already going down
 		
-		j done_ud
-		
-jump_or_stationary:
+valid_floor:
 		# Valid floor
-		beq $t2, 1, set_jump	# Check if upward state
-
-set_stationary:
-		# Valid floor & falling becomes stationary
-		li $t2, 0
-		sw $t2, 4($s2)				# Set PLAYER_UD to 0 (stationary)
-		
+		li $t5, 1
+		sw $zero, 0($s4)			# Reset jump iteration
+		beq $t2, 1, up_collision	# If going up, check above up collision (know jump height 0)
+		# Stationary
+		sw $zero, 4($s2)				# Set PLAYER_UD to 0 (stationary)
 		j done_ud
 		
-set_jump:
-		# Valid floor & upward
+# ----------------------------------------
+# Check if at max height
+# ----------------------------------------
+check_max_height:
+		bge $t3, PLAYER_JUMP_HEIGHT, set_falling # Set to fall if at max jump height
+		# Else check collision above
+		
+# ----------------------------------------
+# Check collision above
+# ----------------------------------------
+up_collision:
+		# Know player is trying to go up
+		lw $t3, 4($s1)						# Load player y-coord in $t3
+		bgt $t3, 0, platform_bot_collision	# Check platform collision if not at top of screen
+		j stationary_or_fall				# At top of screen, see if player is standing on platform TODO: currently player repeatedly slams head on edge
+
+platform_bot_collision:
+		# Check the 4 units above player and see if platform
+		# If platform, stay or fall depending on if floor below player
+		subi $t3, $t1, DISP_ROW		# $t3 :: unit of leftmost pixel above player
+		lw $t4, 0($t3)				# Color of 1st unit in $t4
+		beq $t4, L_GRAY, stationary_or_fall
+		
+		lw $t4, 4($t3)				# Color of 2nd unit in $t4
+		beq $t4, L_GRAY, stationary_or_fall
+
+		lw $t4, 8($t3)				# Color of 3rd unit in $t4
+		beq $t4, L_GRAY, stationary_or_fall	
+
+		lw $t4, 12($t3)				# Color of 4th unit in $t4
+		beq $t4, L_GRAY, stationary_or_fall
+		
+set_up:
+		# Pass up collision tests, and know it can go up
 		li $t2, 1
 		sw $t2, 4($s2)				# Set PLAYER_UD to 1 (upward), $t2 up state
 		
@@ -290,9 +307,21 @@ set_jump:
 		sw $t3, 4($s1)
 		
 		subi $t1, $t1, DISP_ROW 	# Update player position up 1
-
-done_ud:
+		
+		lw $t3, 0($s4)				# Update jump iteration
+		addi $t3, $t3, 1
+		sw $t3, 0($s4)
+		
+		j done_ud
 			
+stationary_or_fall:
+		# $t5 stored if valid floor
+		beq $t5, 0, set_falling				# Set to fall if no valid floor
+		# Else stationary
+		sw $zero, 4($s2)					# Set PLAYER_UD to 0 (stationary)
+		
+done_ud:
+		
 # ----------------------------------------
 # Check iteration states & determine which sprite to render
 # ----------------------------------------
@@ -307,6 +336,7 @@ update_player:
 		# $t3 is PLAYER_UD state
 		lw $t2, 0($s2)
 		lw $t3, 4($s2)
+		
 		
 		bne $t2, 0, clear_and_render_player
 		bne $t3, 0, clear_and_render_player
@@ -358,7 +388,7 @@ clear_end:
 
  		
 set_player:
-		li $t6, D_RED
+		li $t6, ORANGE
 		li $t7, RED
 		li $t8, CYAN
 		li $t9, GRAY
@@ -394,14 +424,52 @@ draw_player:
 		sw $t6, 1036($t1)
 		
 		jr $ra
-		
+	
+draw_ui:
+
+draw_empty_heart:
+				
 draw_level_1:
 
 draw_level_2:
 
 draw_level_3:
-		
+
+draw_0:
+
+draw_1:
+
+draw_2:
+
+draw_3:
+
+draw_4:
+
+draw_5:
+	
+draw_6:
+
+draw_7:
+
+draw_8:	
+
+draw_9:
+
+#-----------
 exit:	
 		li $v0, 10 # terminate the program gracefully 
  		syscall
 
+draw_level:
+		li $t9, PLATFORM
+		
+		sw $t9, 5120($s7)
+		sw $t9, 5124($s7)
+		sw $t9, 5128($s7)
+		sw $t9, 5132($s7)
+		sw $t9, 5136($s7)
+		sw $t9, 5140($s7)
+		sw $t9, 5144($s7)
+
+
+jr $ra
