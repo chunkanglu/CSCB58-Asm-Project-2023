@@ -62,16 +62,26 @@
 
 .eqv	PLAYER_JUMP_HEIGHT	8
 
+.eqv	STAGE_1_SPAWN_X		2
+.eqv	STAGE_1_SPAWN_Y		0
+.eqv	STAGE_2_SPAWN_X		2
+.eqv	STAGE_2_SPAWN_Y		14
+.eqv	STAGE_3_SPAWN_X		2
+.eqv	STAGE_3_SPAWN_Y		14
+
 # ----------------------------------------
 # Stored
 # ----------------------------------------
 .data
-PLAYER_XY:				.word 2, 14 			# x, y where 0 <= x <= 60, 0 <= y <= 47
+PLAYER_XY:				.word 0, 0 			# x, y where 0 <= x <= 60, 0 <= y <= 47
 							   			# This marks top-left unit of 4 by 5 player
 PLAYER_LR_UD:			.word 0, 0			# [0 stationary, 1,left, 2 right] [0 stationary, 1 up (jump), 2 down (falling from jump or ledge)]
+PLAYER_SPAWN: 			.word 0, 0
 
 PLAYER_WALK_ANIM_ITER:	.word 0
 PLAYER_UP_ITER:			.word 0
+
+PLAYER_TIME_HEALTH:		.word 0, 3
 
 STAGE:					.word 1
 
@@ -85,26 +95,33 @@ STAGE:					.word 1
 main:	
 		# Initialize		
 		li $s7, DISP_BASE 	# $s7 stores the base address for display
-		# MIGHT NOT NEED TO BE USED
-		
-		li $t0, 0 # iter
-		
 		
 		la $s1, PLAYER_XY
 		la $s2, PLAYER_LR_UD
 		la $s3, PLAYER_WALK_ANIM_ITER
 		la $s4, PLAYER_UP_ITER
 		
-		jal clear_screen
+		la $s5, PLAYER_SPAWN
+		la $s6, PLAYER_TIME_HEALTH
 		
+		# Load stage 1 spawn & set respawn point
+		li $t8, STAGE_1_SPAWN_X
+		sw $t8, 0($s1)
+		sw $t8, 0($s5)
+		li $t8, STAGE_1_SPAWN_Y
+		sw $t8, 4($s1)
+		sw $t8, 4($s5)
 		
 		li $t1, DISP_BASE
+		jal draw_load
+		
+		jal clear_screen
+		
+		jal draw_game_ui
 		
 		jal draw_level
 			
-loop:	beq $t0, 10000, exit # TODO: temporary exit condition
-		addi $t0, $t0, 1		
-		
+loop:	
 		lw $t2, 0($s1) 				# Load player X-coord
 		lw $t3, 4($s1) 				# Load player Y-coord
 		
@@ -127,15 +144,69 @@ loop:	beq $t0, 10000, exit # TODO: temporary exit condition
 # ----------------------------------------
 in_lava:
 		lw $t3, 4($s1) 				# Load player Y-coord
-		blt $t3, 47, check_hearts	# Skip if not in lava
-		# TODO: decrease heart & respawn
-		j restart # TODO: remove this temporary restart when lives implemented
+		blt $t3, 47, keypress_event	# Skip if not in lava
+		
+		# Decrease hearts
+		lw $t3, 4($s6)				# Load hearts
+		addi $t3, $t3, -1			# -1 life
+		sw $t3, 4($s6)				# Update hearts
+		
+		beq $t3, 2, two_hearts
+		beq $t3, 1, one_heart
+		
+		
 # ----------------------------------------
 
 # ----------------------------------------
-# Check heart level & determine if respawn or end
+# Check heart level & determine if continue, respawn or end
 # ----------------------------------------
 check_hearts:
+		# Hearts in $t3
+		beq $t3, 0, zero_hearts		# Game Over if at 0 hearts
+		
+		# TODO: update ui hearts
+		# Remove right heart if 2 lives left
+		#beq $t3, 2
+		
+two_hearts:
+		# Remove right heart from UI
+		li $t8, DISP_BASE			
+		addi $t8, $t8, 14660		# 57 * 256 + 4 = 14596, top left corner of heart
+		jal remove_heart
+		
+		j respawn
+
+one_heart:
+		# Remove middle heart from UI
+		li $t8, DISP_BASE 	
+		addi $t8, $t8, 14628		# 58 * 256 + 4 + 32 = 14884, top left corner of heart
+		jal remove_heart
+		
+		j respawn
+
+zero_hearts:
+		# Remove left heart from UI
+		li $t8, DISP_BASE 	
+		addi $t8, $t8, 14596		# 58 * 256 + 4 + 32 + 32 = 14916, top left corner of heart
+		jal remove_heart
+		
+		j game_over
+
+respawn:
+
+		# Load player new position at current level's spawn point
+		lw $t2, 0($s5) 					# Load respawn position
+		lw $t3, 4($s5)
+		sw $t2, 0($s1)
+		sw $t3, 4($s1)
+		
+		# Calculate spawn point address and store in $t1
+		sll $t2, $t2, 2				# $t2 = $t2 * 4	(Right $t2 units)
+		sll $t3, $t3, 8				# $t3 = $t3 * 64 * 4 (Down $t3 rows)
+		addi $t1, $t2, DISP_BASE	# $t1 = base + x-offset
+		add $t1, $t1, $t3			# $t1 = updated + y-offset
+		
+		j old_new_positions
 
 # ----------------------------------------
 # Check for L, R, U & update state & new position
@@ -231,13 +302,15 @@ key_up:
 		
 restart:
 		# TODO: go to first stage
-		li $t2, 2 					# TODO: replace with start pos
-		li $t3, 2
+		lw $t2, 0($s5) 					# Load respawn position
+		lw $t3, 4($s5)
 		sw $t2, 0($s1)
 		sw $t3, 4($s1)
 		# TODO: clear score & reset health
 		# TODO: reset all iteration variables for tracking cycles (walk anim...)
+		
 		# TODO: reset other player states
+		
 		
 		j main
 
@@ -372,14 +445,17 @@ update_player:
 		lw $t3, 4($s2)
 		
 		
-		bne $t2, 0, clear_and_render_player
-		bne $t3, 0, clear_and_render_player
+		bne $t2, 0, old_new_positions
+		bne $t3, 0, old_new_positions
 		# Stationary, no update
 		j update_timer
 		
-clear_and_render_player:
+old_new_positions:
 		addi $t4, $t1, 0			# Temp store new player location in $t4
 		addi $t1, $s0, 0			# Load previous location to clear
+
+		
+clear_and_render_player:
 		jal clear_player			# Clear player at $t1
 		
 		addi $t1, $t4, 0			# Load new location to draw
@@ -402,6 +478,15 @@ end_of_loop:
 		j loop						# Go to start of game loop
 
 # ---- MAIN LOOP END ----
+
+# ----------------------------------------
+# Game Over
+# ----------------------------------------
+game_over:
+
+exit:	
+		li $v0, 10 # terminate the program gracefully 
+ 		syscall
 
 # ---- CLEAR SCREEN +
 clear_screen:
@@ -458,10 +543,6 @@ draw_player:
 		sw $t6, 1036($t1)
 		
 		jr $ra
-	
-draw_ui:
-
-draw_empty_heart:
 				
 draw_level_1:
 
@@ -490,9 +571,6 @@ draw_8:
 draw_9:
 
 #-----------
-exit:	
-		li $v0, 10 # terminate the program gracefully 
- 		syscall
 
 draw_level:
 		li $t9, PLATFORM
@@ -512,6 +590,6 @@ draw_level:
 		sw $t9, 5136($s7)
 		sw $t9, 5140($s7)
 		sw $t9, 5144($s7)
-
-
-jr $ra
+		
+		jr $ra
+		
