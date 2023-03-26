@@ -60,12 +60,12 @@
 
 .eqv	PLATFORM			0xb4b4b4 			# L_GRAY
 
-.eqv	PLAYER_JUMP_HEIGHT	8
+.eqv	PLAYER_JUMP_HEIGHT	10
 
 .eqv	STAGE_1_SPAWN_X		2
-.eqv	STAGE_1_SPAWN_Y		0
-.eqv	STAGE_2_SPAWN_X		2
-.eqv	STAGE_2_SPAWN_Y		14
+.eqv	STAGE_1_SPAWN_Y		34
+.eqv	STAGE_2_SPAWN_X		8
+.eqv	STAGE_2_SPAWN_Y		24
 .eqv	STAGE_3_SPAWN_X		2
 .eqv	STAGE_3_SPAWN_Y		14
 
@@ -75,15 +75,16 @@
 .data
 PLAYER_XY:				.word 0, 0 			# x, y where 0 <= x <= 60, 0 <= y <= 47
 							   			# This marks top-left unit of 4 by 5 player
-PLAYER_LR_UD:			.word 0, 0			# [0 stationary, 1,left, 2 right] [0 stationary, 1 up (jump), 2 down (falling from jump or ledge)]
+PLAYER_LR_UD:			.word 0, 0			# [0 stationary/ 1,left/ 2 right, 0 stationary/ 1 up (jump)/ 2 down (falling from jump or ledge)]
 PLAYER_SPAWN: 			.word 0, 0
 
-PLAYER_WALK_ANIM_ITER:	.word 0
+PLAYER_ANIM_INFO:		.word 0, 0, 0			# [0~3 walk iteration, 0/1 start of jump, 0~7 previous walk state]
+												# sprite 0 stationary right, 1 left leg right, 2 right leg right, 3 jump right, (4/5/6/7 is the mirror image)
 PLAYER_UP_ITER:			.word 0
 
 PLAYER_TIME_HEALTH:		.word 0, 3
 
-STAGE:					.word 1
+STAGE:					.word 0
 
 # ----------------------------------------
 # Game Start
@@ -98,12 +99,36 @@ main:
 		
 		la $s1, PLAYER_XY
 		la $s2, PLAYER_LR_UD
-		la $s3, PLAYER_WALK_ANIM_ITER
+		la $s3, PLAYER_ANIM_INFO
 		la $s4, PLAYER_UP_ITER
 		
 		la $s5, PLAYER_SPAWN
 		la $s6, PLAYER_TIME_HEALTH
 		
+next_stage:
+		jal draw_load
+		
+		jal clear_screen
+		
+		jal draw_game_ui
+		
+		jal reset_stats
+		
+		# Increment stage number
+		la $t8, STAGE
+		lw $t9, 0($t8)
+		addi $t9, $t9, 1
+		sw $t9, 0($t8)
+		
+		# Check if finish game
+		beq $t9, 4, win
+		
+			# Clear & Update next level & respawn if not finish
+		#beq $t9, 3, stage_3
+		beq $t9, 2, stage_2
+		# Else load stage 1
+			
+stage_1:
 		# Load stage 1 spawn & set respawn point
 		li $t8, STAGE_1_SPAWN_X
 		sw $t8, 0($s1)
@@ -112,14 +137,24 @@ main:
 		sw $t8, 4($s1)
 		sw $t8, 4($s5)
 		
-		li $t1, DISP_BASE
-		jal draw_load
+		jal draw_level_1
 		
-		jal clear_screen
+		j loop
 		
-		jal draw_game_ui
+stage_2:
+		# Load stage 1 spawn & set respawn point
+		li $t8, STAGE_2_SPAWN_X
+		sw $t8, 0($s1)
+		sw $t8, 0($s5)
+		li $t8, STAGE_2_SPAWN_Y
+		sw $t8, 4($s1)
+		sw $t8, 4($s5)
 		
-		jal draw_level
+		jal draw_level_2
+		
+		j loop 
+		
+stage_3:
 			
 loop:	
 		lw $t2, 0($s1) 				# Load player X-coord
@@ -133,11 +168,56 @@ loop:
 		
 		addi $s0, $t1, 0			# Store player location before possible moves in $s0
 		
-		# Check if at the goal & update level state
 		
-			# Check if finish game
-			
-			# Clear & Update next level & respawn if not finish
+		
+# ----------------------------------------
+# Check if at the goal 
+# ----------------------------------------
+at_goal:
+		# Check all units adjacent to player and see if they are touching the goal flagpost
+		# Check the units left of player
+		addi $t3, $t1, -4			# top unit left of player
+		
+		lw $t4, 0($t3)
+		beq $t4, GRAY, next_stage
+		lw $t4, 256($t3)
+		beq $t4, GRAY, next_stage
+		lw $t4, 512($t3)
+		beq $t4, GRAY, next_stage
+		lw $t4, 768($t3)
+		beq $t4, GRAY, next_stage
+		lw $t4, 1024($t3)
+		beq $t4, GRAY, next_stage
+		
+		# Check units right of player
+		addi $t3, $t1, 16			# top unit right of player
+		
+		lw $t4, 0($t3)
+		beq $t4, GRAY, next_stage
+		lw $t4, 256($t3)
+		beq $t4, GRAY, next_stage
+		lw $t4, 512($t3)
+		beq $t4, GRAY, next_stage
+		lw $t4, 768($t3)
+		beq $t4, GRAY, next_stage
+		lw $t4, 1024($t3)
+		beq $t4, GRAY, next_stage
+		
+		# Check units below player
+		addi $t3, $t1, PLAYER_BL_OFF 	# $t3 leftmost unit below player
+		
+		lw $t4, 4($t3)				# Color of 2nd unit in $t4
+		beq $t4, GRAY, next_stage
+		lw $t4, 8($t3)				# Color of 3rd unit in $t4
+		beq $t4, GRAY, next_stage
+		
+		# Check units above player
+		subi $t3, $t1, DISP_ROW		# leftmost unit above player
+		
+		lw $t4, 4($t3)				# Color of 2nd unit in $t4
+		beq $t4, GRAY, next_stage
+		lw $t4, 8($t3)				# Color of 3rd unit in $t4
+		beq $t4, GRAY, next_stage
 		
 # ----------------------------------------
 # Check if at lava & remove heart
@@ -164,10 +244,6 @@ check_hearts:
 		# Hearts in $t3
 		beq $t3, 0, zero_hearts		# Game Over if at 0 hearts
 		
-		# TODO: update ui hearts
-		# Remove right heart if 2 lives left
-		#beq $t3, 2
-		
 two_hearts:
 		# Remove right heart from UI
 		li $t8, DISP_BASE			
@@ -179,7 +255,7 @@ two_hearts:
 one_heart:
 		# Remove middle heart from UI
 		li $t8, DISP_BASE 	
-		addi $t8, $t8, 14628		# 58 * 256 + 4 + 32 = 14884, top left corner of heart
+		addi $t8, $t8, 14628		# 57 * 256 + 4 + 32 = 14628, top left corner of heart
 		jal remove_heart
 		
 		j respawn
@@ -187,7 +263,7 @@ one_heart:
 zero_hearts:
 		# Remove left heart from UI
 		li $t8, DISP_BASE 	
-		addi $t8, $t8, 14596		# 58 * 256 + 4 + 32 + 32 = 14916, top left corner of heart
+		addi $t8, $t8, 14596		# 57* 256 + 4 + 32 + 32 = 14596, top left corner of heart
 		jal remove_heart
 		
 		j game_over
@@ -238,16 +314,19 @@ key_left:
 		addi $t3, $t1, -4			# top unit left of player
 		
 		lw $t4, 0($t3)
-		beq $t4, L_GRAY, update_ud
+		bne $t4, BLACK, update_ud
 		
 		lw $t4, 256($t3)
-		beq $t4, L_GRAY, update_ud
+		bne $t4, BLACK, update_ud
 		
 		lw $t4, 512($t3)
-		beq $t4, L_GRAY, update_ud
+		bne $t4, BLACK, update_ud
 		
 		lw $t4, 768($t3)
-		beq $t4, L_GRAY, update_ud
+		bne $t4, BLACK, update_ud
+		
+		lw $t4, 1024($t3)
+		bne $t4, BLACK, update_ud
 
 		# No wall on the left, can move left
 		addi $t1, $t1, -4 			# player position Left 1
@@ -256,6 +335,8 @@ key_left:
 		
 		li $t2, 1
 		sw $t2, 0($s2)				# Set PLAYER_LR to 1
+		
+		jal update_anim_iter
 		
 		j update_ud
 						
@@ -266,18 +347,21 @@ key_right:
 		addi $t3, $t1, 16			# top unit right of player
 		
 		lw $t4, 0($t3)
-		beq $t4, L_GRAY, update_ud
+		bne $t4, BLACK, update_ud
 		
 		lw $t4, 256($t3)
-		beq $t4, L_GRAY, update_ud
+		bne $t4, BLACK, update_ud
 		
 		lw $t4, 512($t3)
-		beq $t4, L_GRAY, update_ud
+		bne $t4, BLACK, update_ud
 		
 		lw $t4, 768($t3)
-		beq $t4, L_GRAY, update_ud
+		bne $t4, BLACK, update_ud
+		
+		lw $t4, 1024($t3)
+		bne $t4, BLACK, update_ud
 
-		# No wall on the left, can move left
+		# No wall on the right, can move right
 		
 		addi $t1, $t1, 4 			# player position Right 1
 		addi $t2, $t2, 1 			# Update PLAYER_X coord
@@ -286,6 +370,8 @@ key_right:
 		li $t2, 2
 		sw $t2, 0($s2)				# Set PLAYER_LR to 2
 		
+		jal update_anim_iter
+		
 		j update_ud
 		
 key_up:		
@@ -293,26 +379,33 @@ key_up:
 		li $t3, 1
 		sw $t3, 4($s2)				# Set PLAYER_UD to 1
 		
+		sw $t3, 4($s3)				# Set jump anim state to 1
+		
 		j update_ud
 		
-#set_stationary_lr:
-#		sw $zero, 0($s2)				# Set PLAYER_LR to 0
-		
-#		j update_ud
-		
 restart:
-		# TODO: go to first stage
-		lw $t2, 0($s5) 					# Load respawn position
-		lw $t3, 4($s5)
-		sw $t2, 0($s1)
-		sw $t3, 4($s1)
-		# TODO: clear score & reset health
-		# TODO: reset all iteration variables for tracking cycles (walk anim...)
+		# Go to first stage
+		la $t8, STAGE
+		sw $zero, 0($t8)
 		
-		# TODO: reset other player states
-		
+		#lw $t2, 0($s5) 					# Load respawn position
+		#lw $t3, 4($s5)
+		#sw $t2, 0($s1)
+		#sw $t3, 4($s1)
+		jal reset_stats
 		
 		j main
+		
+update_anim_iter:
+		lw $t2, 0($s3)				# Load prev anim iter
+		# Update animation iteration
+		bne $t2, 3, loop_back		# If iter at 3, we want to loop back to 0 instead of +1
+		addi $t2, $t2, 1
+		sw $t2, 0($s3)
+		jr $ra
+loop_back:
+		sw $zero, 0($s3)
+		jr $ra
 
 # ----------------------------------------
 # Check Up/Down State
@@ -328,16 +421,16 @@ down_collision:
 		
 		# Check 
 		lw $t4, 0($t3)				# Color of 1st unit in $t4
-		beq $t4, L_GRAY, valid_floor
+		bne $t4, BLACK, valid_floor
 		
 		lw $t4, 4($t3)				# Color of 2nd unit in $t4
-		beq $t4, L_GRAY, valid_floor
+		bne $t4, BLACK, valid_floor
 
 		lw $t4, 8($t3)				# Color of 3rd unit in $t4
-		beq $t4, L_GRAY, valid_floor
+		bne $t4, BLACK, valid_floor
 
 		lw $t4, 12($t3)				# Color of 4th unit in $t4
-		beq $t4, L_GRAY, valid_floor
+		bne $t4, BLACK, valid_floor
 		
 		# No floor, check if stationary or mid-air going up
 		li $t5, 0
@@ -392,21 +485,22 @@ platform_bot_collision:
 		# If platform, stay or fall depending on if floor below player
 		subi $t3, $t1, DISP_ROW		# $t3 :: unit of leftmost pixel above player
 		lw $t4, 0($t3)				# Color of 1st unit in $t4
-		beq $t4, L_GRAY, stationary_or_fall
+		bne $t4, BLACK, stationary_or_fall
 		
 		lw $t4, 4($t3)				# Color of 2nd unit in $t4
-		beq $t4, L_GRAY, stationary_or_fall
+		bne $t4, BLACK, stationary_or_fall
 
 		lw $t4, 8($t3)				# Color of 3rd unit in $t4
-		beq $t4, L_GRAY, stationary_or_fall	
+		bne $t4, BLACK, stationary_or_fall
 
 		lw $t4, 12($t3)				# Color of 4th unit in $t4
-		beq $t4, L_GRAY, stationary_or_fall
+		bne $t4, BLACK, stationary_or_fall
 		
 set_up:
 		# Pass up collision tests, and know it can go up
 		li $t2, 1
 		sw $t2, 4($s2)				# Set PLAYER_UD to 1 (upward), $t2 up state
+		sw $t2, 4($s3)				# Set ANIM_INFO jump state to 1
 		
 		lw $t3, 4($s1) 				# Load player Y-coord
 		addi $t3, $t3, -1 			# Up 1
@@ -456,14 +550,28 @@ old_new_positions:
 
 		
 clear_and_render_player:
+		lw $t9, 8($s3)				# Load previous animation state
+		# TODO: add logic to determine which & add 8 functions to clear each type
 		jal clear_player			# Clear player at $t1
 		
 		addi $t1, $t4, 0			# Load new location to draw
+		
+		# TODO:
+		# Determine which sprite to draw based on states
+		# Left vs Right facing
+		
+		# Logic to determine which action/iteration
+		
+		# If jump anim, clear 4($s3) to 0 after draw player
+		
+		
 		jal set_player 				# Draws player at $t1
 		
 		# Reset PLAYER_LR_UD
 		sw $zero, 0($s2)				# Set PLAYER_LR to 0
 		sw $zero, 4($s2)				# Set PLAYER_UD to 0
+		
+		# TODO: update previous animation state
 		
 # ----------------------------------------
 # Check if 24 cycles & update timer
@@ -483,6 +591,11 @@ end_of_loop:
 # Game Over
 # ----------------------------------------
 game_over:
+
+# ----------------------------------------
+# Win
+# ----------------------------------------
+win:
 
 exit:	
 		li $v0, 10 # terminate the program gracefully 
@@ -504,6 +617,27 @@ clear_loop:
 clear_end:
 		jr $ra
 # ---- CLEAR SCREEN -
+
+# ---- RESET STATS -
+reset_stats:
+		# Reset hearts to 3
+		li $t9, 3
+		sw $t9, 4($s6)
+		
+		# Reset LR UD state
+		sw $zero, 0($s2)
+		sw $zero, 4($s2)
+		
+		# Reset walk animation state
+		sw $zero, 0($s3)
+		sw $zero, 4($s3)
+		sw $zero, 8($s3)
+		
+		# Reset up iteration state
+		sw $zero, 0($s4)
+		
+		jr $ra
+		
 
  		
 set_player:
@@ -543,12 +677,6 @@ draw_player:
 		sw $t6, 1036($t1)
 		
 		jr $ra
-				
-draw_level_1:
-
-draw_level_2:
-
-draw_level_3:
 
 draw_0:
 
@@ -571,25 +699,4 @@ draw_8:
 draw_9:
 
 #-----------
-
-draw_level:
-		li $t9, PLATFORM
-		
-		sw $t9, 3328($s7)
-		sw $t9, 3332($s7)
-		sw $t9, 3336($s7)
-		sw $t9, 3340($s7)
-		sw $t9, 3344($s7)
-		sw $t9, 3348($s7)
-		sw $t9, 3352($s7)
-		
-		sw $t9, 5120($s7)
-		sw $t9, 5124($s7)
-		sw $t9, 5128($s7)
-		sw $t9, 5132($s7)
-		sw $t9, 5136($s7)
-		sw $t9, 5140($s7)
-		sw $t9, 5144($s7)
-		
-		jr $ra
 		
