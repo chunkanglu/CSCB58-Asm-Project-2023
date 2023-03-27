@@ -64,10 +64,10 @@
 
 .eqv	STAGE_1_SPAWN_X		2
 .eqv	STAGE_1_SPAWN_Y		34
-.eqv	STAGE_2_SPAWN_X		8
-.eqv	STAGE_2_SPAWN_Y		24
-.eqv	STAGE_3_SPAWN_X		2
-.eqv	STAGE_3_SPAWN_Y		14
+.eqv	STAGE_2_SPAWN_X		5
+.eqv	STAGE_2_SPAWN_Y		0
+.eqv	STAGE_3_SPAWN_X		8
+.eqv	STAGE_3_SPAWN_Y		38
 
 # ----------------------------------------
 # Stored
@@ -105,7 +105,23 @@ main:
 		la $s5, PLAYER_SPAWN
 		la $s6, PLAYER_TIME_HEALTH
 		
+title_screen:
+		# jal draw_title
+title_loop:
+#		li $t9, 0xffff0000  
+#		lw $t8, 0($t9) 
+#		bne $t8, 1, title_loop
+#		
+#		lw $t8, 4($t9) 				# this assumes $t9 is set to 0xfff0000 from before 
+#		beq $t8, 0x77, next_stage   # ASCII code of 'w' is 0x77
+#		beq $t8, 0x73, exit			# ASCII code of 's' is 0x73
+#		
+#		j title_loop
+		
+		
 next_stage:
+		jal clear_screen
+
 		jal draw_load
 		
 		jal clear_screen
@@ -124,7 +140,7 @@ next_stage:
 		beq $t9, 4, win
 		
 			# Clear & Update next level & respawn if not finish
-		#beq $t9, 3, stage_3
+		beq $t9, 3, stage_3
 		beq $t9, 2, stage_2
 		# Else load stage 1
 			
@@ -142,7 +158,7 @@ stage_1:
 		j loop
 		
 stage_2:
-		# Load stage 1 spawn & set respawn point
+		# Load stage 2 spawn & set respawn point
 		li $t8, STAGE_2_SPAWN_X
 		sw $t8, 0($s1)
 		sw $t8, 0($s5)
@@ -155,6 +171,15 @@ stage_2:
 		j loop 
 		
 stage_3:
+		# Load stage 3 spawn & set respawn point
+		li $t8, STAGE_3_SPAWN_X
+		sw $t8, 0($s1)
+		sw $t8, 0($s5)
+		li $t8, STAGE_3_SPAWN_Y
+		sw $t8, 4($s1)
+		sw $t8, 4($s5)
+		
+		jal draw_level_3
 			
 loop:	
 		lw $t2, 0($s1) 				# Load player X-coord
@@ -591,11 +616,16 @@ end_of_loop:
 # Game Over
 # ----------------------------------------
 game_over:
+	jal clear_screen
+	jal draw_lose
+	j exit
 
 # ----------------------------------------
 # Win
 # ----------------------------------------
 win:
+	jal clear_screen
+	jal draw_win
 
 exit:	
 		li $v0, 10 # terminate the program gracefully 
