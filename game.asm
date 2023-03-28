@@ -78,7 +78,7 @@ PLAYER_XY:				.word 0, 0 			# x, y where 0 <= x <= 60, 0 <= y <= 47
 PLAYER_LR_UD:			.word 0, 0			# [0 stationary/ 1,left/ 2 right, 0 stationary/ 1 up (jump)/ 2 down (falling from jump or ledge)]
 PLAYER_SPAWN: 			.word 0, 0
 
-PLAYER_ANIM_INFO:		.word 0, 0, 0			# [0~3 walk iteration, 0/1 start of jump, 0~7 previous walk state]
+PLAYER_ANIM_INFO:		.word 0, 0, 0, 0		# [0~3 walk iteration, 0/1 start of jump, 0~7 previous walk state, 0/1 facing right/left]
 												# sprite 0 stationary right, 1 left leg right, 2 right leg right, 3 jump right, (4/5/6/7 is the mirror image)
 PLAYER_UP_ITER:			.word 0
 
@@ -361,6 +361,8 @@ key_left:
 		li $t2, 1
 		sw $t2, 0($s2)				# Set PLAYER_LR to 1
 		
+		sw $t2, 12($s3)				# Set player facing left (1)
+		
 		jal update_anim_iter
 		
 		j update_ud
@@ -395,6 +397,8 @@ key_right:
 		li $t2, 2
 		sw $t2, 0($s2)				# Set PLAYER_LR to 2
 		
+		sw $zero, 12($s3)				# Set player facing right (0)
+		
 		jal update_anim_iter
 		
 		j update_ud
@@ -424,7 +428,7 @@ restart:
 update_anim_iter:
 		lw $t2, 0($s3)				# Load prev anim iter
 		# Update animation iteration
-		bne $t2, 3, loop_back		# If iter at 3, we want to loop back to 0 instead of +1
+		beq $t2, 3, loop_back		# If iter at 3, we want to loop back to 0 instead of +1
 		addi $t2, $t2, 1
 		sw $t2, 0($s3)
 		jr $ra
@@ -575,28 +579,207 @@ old_new_positions:
 
 		
 clear_and_render_player:
-		lw $t9, 8($s3)				# Load previous animation state
+		lw $t5, 8($s3)				# Load previous animation state in $t5
 		# TODO: add logic to determine which & add 8 functions to clear each type
-		jal clear_player			# Clear player at $t1
+		
+		# Load colors for clearing
+		jal load_clear_colors
+		
+		clear_0:
+				bne $t5, 0, clear_1
+				jal draw_right_static
+				j done_clear_player
+		
+		clear_1:
+				bne $t5, 1, clear_2
+				jal draw_right_lleg
+				j done_clear_player
+		
+		clear_2:
+				bne $t5, 2, clear_3
+				jal draw_right_rleg
+				j done_clear_player
+		
+		clear_3:
+				bne $t5, 3, clear_4
+				jal draw_right_jump
+				j done_clear_player
+		
+		clear_4:
+				bne $t5, 4, clear_5
+				jal draw_left_static
+				j done_clear_player
+		
+		clear_5:
+				bne $t5, 5, clear_6
+				jal draw_left_lleg
+				j done_clear_player
+		
+		clear_6:
+				bne $t5, 6, clear_7
+				jal draw_left_rleg
+				j done_clear_player
+		
+		clear_7:
+				jal draw_left_jump
+				#j done_clear_player	# TODO: NOT NEEDED
+		
+		
+		# TODO: del
+		#jal clear_player			# Clear player at $t1
+		
+done_clear_player:
 		
 		addi $t1, $t4, 0			# Load new location to draw
 		
 		# TODO:
 		# Determine which sprite to draw based on states
 		# Left vs Right facing
-		
 		# Logic to determine which action/iteration
-		
 		# If jump anim, clear 4($s3) to 0 after draw player
+		# TODO: update previous animation state
+		lw $t7, 0($s3)				# Load animation iter
+		lw $t8, 4($s3)				# Load start of jump state
+		lw $t5, 12($s3)				# Load player facing direction
+		
+		left_facing:
+				bne $t5, 1, right_facing 	# If going left
+				beq $t3, 0, left_no_jump	# If going up or down
+				# Load jump sprite if start of jump, else load static while mid-air
+				
+				beq $t8, 1, left_jump		# If not start of jump
+				# Mid-air going up or down, load static sprite
+
+				jal load_draw_colors
+				jal draw_left_static
+				
+				li $t6, 4
+				sw $t6, 8($s3)
+				j done_draw_player
+				
+		left_jump:
+				sw $zero, 4($s3)			# Reset start of jump state
+				
+				jal load_draw_colors
+				jal draw_left_jump
+				
+				li $t6, 7
+				sw $t6, 8($s3)
+				j done_draw_player
+				
+		left_no_jump:
+				# Check anim iter & load horizontal movement sprite
+				bne $t7, 0, load_left_1		# If iter 0
+				load_left_0:
+						jal load_draw_colors
+						jal draw_left_static	
+						
+						li $t6, 4
+						sw $t6, 8($s3)
+						j done_draw_player
+				
+				load_left_1:
+				bne $t7, 1, load_left_2		# If iter 1
+						jal load_draw_colors
+						jal draw_left_lleg
+						
+						li $t6, 5
+						sw $t6, 8($s3)
+						j done_draw_player
+				
+				
+				load_left_2:
+				bne $t7, 2, load_left_3		# If iter 2
+						jal load_draw_colors
+						jal draw_left_static
+				
+						li $t6, 4
+						sw $t6, 8($s3)
+						j done_draw_player
+				
+				
+				load_left_3:				# Else iter 3
+						jal load_draw_colors
+						jal draw_left_rleg
+						
+						li $t6, 6
+						sw $t6, 8($s3)
+						j done_draw_player
+				
+		right_facing:
+				beq $t3, 0, right_no_jump	# If going up or down
+				# Load jump sprite if start of jump, else load static while mid-air
+				beq $t8, 1, right_jump		# If not start of jump
+				
+				# Mid-air going up or down, load static sprite
+				
+				jal load_draw_colors
+				jal draw_right_static
+				
+				li $t6, 0
+				sw $t6, 8($s3)
+				j done_draw_player
+				
+		right_jump:
+				sw $zero, 4($s3)			# Reset start of jump state
+				
+				jal load_draw_colors
+				jal draw_right_jump
+				
+				li $t6, 3
+				sw $t6, 8($s3)
+				j done_draw_player
 		
 		
-		jal set_player 				# Draws player at $t1
+		right_no_jump:
+				# Check anim iter & load horizontal movement sprite
+				bne $t7, 0, load_right_1		# If iter 0
+				load_right_0:
+						jal load_draw_colors
+						jal draw_right_static	
+						
+						li $t6, 0
+						sw $t6, 8($s3)
+						j done_draw_player
+				
+				load_right_1:
+				bne $t7, 1, load_right_2		# If iter 1
+						jal load_draw_colors
+						jal draw_right_lleg
+						
+						li $t6, 1
+						sw $t6, 8($s3)
+						j done_draw_player
+				
+				load_right_2:
+				bne $t7, 2, load_right_3		# If iter 2
+						jal load_draw_colors
+						jal draw_right_static
+				
+						li $t6, 0
+						sw $t6, 8($s3)
+						j done_draw_player
+				
+				load_right_3:				# Else iter 3
+						jal load_draw_colors
+						jal draw_right_rleg
+						
+						li $t6, 2
+						sw $t6, 8($s3)
+						#j done_draw_player
+				
 		
+		
+		
+		# TODO: del
+		#jal set_player 				# Draws player at $t1
+
+done_draw_player:		
 		# Reset PLAYER_LR_UD
 		sw $zero, 0($s2)				# Set PLAYER_LR to 0
 		sw $zero, 4($s2)				# Set PLAYER_UD to 0
 		
-		# TODO: update previous animation state
+		
 		
 # ----------------------------------------
 # Check if 24 cycles & update timer
@@ -662,6 +845,7 @@ reset_stats:
 		sw $zero, 0($s3)
 		sw $zero, 4($s3)
 		sw $zero, 8($s3)
+		sw $zero, 12($s3)
 		
 		# Reset up iteration state
 		sw $zero, 0($s4)
