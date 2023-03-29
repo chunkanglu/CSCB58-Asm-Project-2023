@@ -522,7 +522,6 @@ down_collision:
 		# If going up, check up iteration TODO: PROBLEM HERE IDK WHY
 		lw $t2, 4($s2)				# Load Player_UD state in $t2
 		
-		#bne $t2, 1, set_falling		# If not going up, set to fall
 		# Know player is going up
 		lw $t3, 0($s4)				# Load upwards iteration in $t3
 		bne $t3, 0, check_max_height 	# If up iteration not 0, then it is mid-air and check jump height
@@ -636,7 +635,6 @@ old_new_positions:
 		
 clear_and_render_player:
 		lw $t5, 8($s3)				# Load previous animation state in $t5
-		# TODO: add logic to determine which & add 8 functions to clear each type
 		
 		# Load colors for clearing
 		jal load_clear_colors
@@ -687,7 +685,7 @@ done_clear_player:
 		# Left vs Right facing
 		# Logic to determine which action/iteration
 		# If jump anim, clear 4($s3) to 0 after draw player
-		# TODO: update previous animation state
+
 		lw $t7, 0($s3)				# Load animation iter
 		lw $t8, 4($s3)				# Load start of jump state
 		lw $t5, 12($s3)				# Load player facing direction
@@ -887,66 +885,6 @@ reset_stats:
 		sw $zero, 0($s4)
 		
 		jr $ra
-		
-
- 		
-set_player:
-		li $t6, ORANGE
-		li $t7, RED
-		li $t8, CYAN
-		li $t9, GRAY
-		
-		j draw_player
-		
-clear_player:
-		li $t6, BLACK
-		li $t7, BLACK
-		li $t8, BLACK
-		li $t9, BLACK
-		
-		j draw_player
-
-# t1: player position
-draw_player:	
-		sw $t7, 4($t1)
-		sw $t7, 8($t1)
-		sw $t7, 12($t1)
-		sw $t9, 256($t1)			# Next row is 256 offset
-		sw $t7, 260($t1)
-		sw $t8, 264($t1)
-		sw $t8, 268($t1)
-		sw $t9, 512($t1)
-		sw $t7, 516($t1)
-		sw $t7, 520($t1)
-		sw $t7, 524($t1)
-		sw $t9, 768($t1)
-		sw $t7, 772($t1)
-		sw $t7, 776($t1)
-		sw $t7, 780($t1)
-		sw $t6, 1028($t1)
-		sw $t6, 1036($t1)
-		
-		jr $ra
-
-draw_0:
-
-draw_1:
-
-draw_2:
-
-draw_3:
-
-draw_4:
-
-draw_5:
-	
-draw_6:
-
-draw_7:
-
-draw_8:	
-
-draw_9:
 
 #-----------
 		
