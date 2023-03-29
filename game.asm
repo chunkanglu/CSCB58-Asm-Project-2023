@@ -33,6 +33,15 @@
 # - (write here, if any) 
 # 
 ##################################################################### 
+.include "levels.asm"
+.include "loading.asm"
+.include "lose.asm"
+.include "main_quit.asm"
+.include "main_start.asm"
+.include "player.asm"
+.include "title.asm"
+.include "ui.asm"
+.include "win.asm"
 
 # ----------------------------------------
 # Constants
@@ -48,7 +57,7 @@
 .eqv	P_OFF_X				0x00000004 # unused
 .eqv	P_OFF_Y				0x00000005 # unused
 
-.eqv 	SLP_T				40			# Sleep time
+.eqv 	SLP_T				35			# Sleep time
 
 # Colours
 .eqv	RED					0xff0000
@@ -105,18 +114,42 @@ main:
 		la $s5, PLAYER_SPAWN
 		la $s6, PLAYER_TIME_HEALTH
 		
-title_screen:
-		# jal draw_title
+main_menu:
+		jal clear_screen
+
+select_start:
+		li $t7, 0
+		jal draw_main_start
+		j title_loop
+		
+select_quit:
+		li $t7, 1
+		jal draw_main_quit
+		j title_loop
+		
+run_selected:
+		beq $t7, 0, next_stage
+		j exit
+		
 title_loop:
-#		li $t9, 0xffff0000  
-#		lw $t8, 0($t9) 
-#		bne $t8, 1, title_loop
-#		
-#		lw $t8, 4($t9) 				# this assumes $t9 is set to 0xfff0000 from before 
-#		beq $t8, 0x77, next_stage   # ASCII code of 'w' is 0x77
-#		beq $t8, 0x73, exit			# ASCII code of 's' is 0x73
-#		
-#		j title_loop
+		li $t9, 0xffff0000  
+		lw $t8, 0($t9) 
+		bne $t8, 1, title_loop
+		
+		lw $t8, 4($t9) 					# this assumes $t9 is set to 0xfff0000 from before 
+		beq $t8, 0x77, select_start   	# ASCII code of 'w' is 0x77
+		beq $t8, 0x73, select_quit		# ASCII code of 's' is 0x73
+		beq $t8, 0x69, select_start   	# ASCII code of 'i' is 0x69
+		beq $t8, 0x6b, select_quit   	# ASCII code of 'k' is 0x6b
+		beq $t8, 0x66, run_selected		# ASCII code of 'f' is 0x66
+		
+		
+		
+		li $v0, 32 
+		li $a0, SLP_T   			# Wait 40 milliseconds
+		syscall
+		
+		j title_loop
 		
 		
 next_stage:
@@ -256,6 +289,29 @@ in_lava:
 		addi $t3, $t3, -1			# -1 life
 		sw $t3, 4($s6)				# Update hearts
 		
+		# Draw player white
+		lw $t5, 12($s3)				# Load player facing direction
+		jal load_player_white
+		
+lava_left:
+		bne $t5, 1, lava_right 	# If going left
+		jal draw_left_static	
+		li $v0, 32 
+		li $a0, 1000   			# Wait 1000 milliseconds
+		syscall
+		jal load_clear_colors
+		jal draw_left_static
+		j update_hearts
+		
+lava_right:
+		jal draw_right_static	
+		li $v0, 32 
+		li $a0, 1000   			# Wait 1000 milliseconds
+		syscall
+		jal load_clear_colors
+		jal draw_right_static
+		
+update_hearts:
 		beq $t3, 2, two_hearts
 		beq $t3, 1, one_heart
 		
@@ -327,6 +383,10 @@ check_keypress:
 		beq $t8, 0x61, key_left   	# ASCII code of 'a' is 0x61
 		beq $t8, 0x64, key_right   	# ASCII code of 'd' is 0x64
 		beq $t8, 0x77, key_up   	# ASCII code of 'w' is 0x77
+		
+		beq $t8, 0x6a, key_left   	# ASCII code of 'j' is 0x6a
+		beq $t8, 0x6c, key_right   	# ASCII code of 'l' is 0x6c
+		beq $t8, 0x69, key_up   	# ASCII code of 'i' is 0x69
 		
 		# Else, keep what was previously
 		j update_ud
@@ -417,10 +477,6 @@ restart:
 		la $t8, STAGE
 		sw $zero, 0($t8)
 		
-		#lw $t2, 0($s5) 					# Load respawn position
-		#lw $t3, 4($s5)
-		#sw $t2, 0($s1)
-		#sw $t3, 4($s1)
 		jal reset_stats
 		
 		j main
@@ -571,7 +627,7 @@ update_player:
 		bne $t2, 0, old_new_positions
 		bne $t3, 0, old_new_positions
 		# Stationary, no update
-		j update_timer
+		j end_of_loop
 		
 old_new_positions:
 		addi $t4, $t1, 0			# Temp store new player location in $t4
@@ -622,17 +678,11 @@ clear_and_render_player:
 		
 		clear_7:
 				jal draw_left_jump
-				#j done_clear_player	# TODO: NOT NEEDED
-		
-		
-		# TODO: del
-		#jal clear_player			# Clear player at $t1
-		
+
 done_clear_player:
 		
 		addi $t1, $t4, 0			# Load new location to draw
 		
-		# TODO:
 		# Determine which sprite to draw based on states
 		# Left vs Right facing
 		# Logic to determine which action/iteration
@@ -766,25 +816,11 @@ done_clear_player:
 						
 						li $t6, 2
 						sw $t6, 8($s3)
-						#j done_draw_player
-				
-		
-		
-		
-		# TODO: del
-		#jal set_player 				# Draws player at $t1
 
 done_draw_player:		
 		# Reset PLAYER_LR_UD
 		sw $zero, 0($s2)				# Set PLAYER_LR to 0
 		sw $zero, 4($s2)				# Set PLAYER_UD to 0
-		
-		
-		
-# ----------------------------------------
-# Check if 24 cycles & update timer
-# ----------------------------------------
-update_timer:
 
 end_of_loop:				
 		li $v0, 32 
@@ -799,16 +835,16 @@ end_of_loop:
 # Game Over
 # ----------------------------------------
 game_over:
-	jal clear_screen
-	jal draw_lose
-	j exit
+		jal clear_screen
+		jal draw_lose
+		j exit
 
 # ----------------------------------------
 # Win
 # ----------------------------------------
 win:
-	jal clear_screen
-	jal draw_win
+		jal clear_screen
+		jal draw_win
 
 exit:	
 		li $v0, 10 # terminate the program gracefully 

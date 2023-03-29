@@ -5,8 +5,9 @@
 .eqv	GRAY				0x585858
 .eqv	L_GRAY				0xb4b4b4
 .eqv	BLACK				0x000000
+.eqv 	WHITE				0xffffff
 
-.globl load_draw_colors, load_clear_colors, draw_left_static, draw_left_lleg, draw_left_rleg, draw_left_jump, draw_right_static, draw_right_lleg, draw_right_rleg, draw_right_jump
+.globl load_draw_colors, load_clear_colors, load_player_white, draw_left_static, draw_left_lleg, draw_left_rleg, draw_left_jump, draw_right_static, draw_right_lleg, draw_right_rleg, draw_right_jump
 
 load_draw_colors:
 		li $t6, ORANGE
@@ -20,6 +21,13 @@ load_clear_colors:
 		li $t7, BLACK
 		li $t8, BLACK
 		li $t9, BLACK
+		jr $ra
+		
+load_player_white:
+		li $t6, WHITE
+		li $t7, WHITE
+		li $t8, WHITE
+		li $t9, WHITE
 		jr $ra
 
 draw_left_static:
