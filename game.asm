@@ -14,23 +14,33 @@
 # 
 # Which milestones have been reached in this submission? 
 # (See the assignment handout for descriptions of the milestones) 
-# - Milestone 1/2/3 (choose the one the applies) 
+# - Milestone 1,2,3
 # 
 # Which approved features have been implemented for milestone 3? 
 # (See the assignment handout for the list of additional features) 
-# 1. (fill in the feature, if any) 
-# 2. (fill in the feature, if any) 
-# 3. (fill in the feature, if any) 
-# ... (add more if necessary) 
+# 1. Hearts (2)
+# 2. Win Condition (reach flag) (1)
+# 3. Lose Conditioin (no hearts) (1)
+# 4. Main menu screen (1)
+# 5. Different Levels (2)
+# 6. Animated Player (2)
 # 
 # Link to video demonstration for final submission: 
 # - (insert YouTube / MyMedia / other URL here). Make sure we can view it! 
 # 
 # Are you OK with us sharing the video with people outside course staff? 
-# - yes / no / yes, and please share this project github link as well! 
+# - yes, and please share this project github link as well! 
 # 
 # Any additional information that the TA needs to know: 
-# - (write here, if any) 
+# - Entire project is split into multiple files, but you only need to look at
+#   and run this file for game logic while the rest are just for
+#   drawing graphics.
+# - All art are made by me
+# - A lot of the graphics were too large and time consuming to do by hand,
+#   so a script was used to auto-generate the needed code.
+# - Try using both sets of movement keys (ie. d and l) and quickly alternating
+#   between them to get more horizontal distance if you have trouble clearing 
+#   some jumps.
 # 
 ##################################################################### 
 .include "levels.asm"
@@ -47,53 +57,48 @@
 # Constants
 # ----------------------------------------
 
-.eqv  	DISP_BASE  			0x10008000
-.eqv	DISP_SIZE			4096 				# 64 units * 64 units = 4096
-.eqv	DISP_ROW			256
+.eqv  DISP_BASE  			0x10008000
+.eqv	DISP_SIZE			  4096 				# 64 units * 64 units = 4096
+.eqv	DISP_ROW			  256
 .eqv	PLAYER_BL_OFF		1280				# 256 * 5 = 1280 offset for Bottom left unit below player
-.eqv	DISP_W				0x00000080 # unused
-.eqv	DISP_H				0x00000080 # unused
-.eqv	PLAY_BASE			0x10008000 # unused
-.eqv	P_OFF_X				0x00000004 # unused
-.eqv	P_OFF_Y				0x00000005 # unused
 
-.eqv 	SLP_T				35			# Sleep time
+.eqv 	SLP_T				    35			# Sleep time
 
 # Colours
-.eqv	RED					0xff0000
-.eqv	ORANGE				0xff8000
-.eqv	CYAN				0x81a0a9 	
-.eqv	GRAY				0x585858
-.eqv	L_GRAY				0xb4b4b4
-.eqv	BLACK				0x000000	
+.eqv	RED					    0xff0000
+.eqv	ORANGE				  0xff8000
+.eqv	CYAN				    0x81a0a9 	
+.eqv	GRAY				    0x585858
+.eqv	L_GRAY				  0xb4b4b4
+.eqv	BLACK				    0x000000	
 
-.eqv	PLATFORM			0xb4b4b4 			# L_GRAY
+.eqv	PLATFORM			  0xb4b4b4 			# L_GRAY
 
 .eqv	PLAYER_JUMP_HEIGHT	10
 
-.eqv	STAGE_1_SPAWN_X		2
-.eqv	STAGE_1_SPAWN_Y		34
-.eqv	STAGE_2_SPAWN_X		5
-.eqv	STAGE_2_SPAWN_Y		0
-.eqv	STAGE_3_SPAWN_X		8
-.eqv	STAGE_3_SPAWN_Y		38
+.eqv	STAGE_1_SPAWN_X		  2
+.eqv	STAGE_1_SPAWN_Y		  34
+.eqv	STAGE_2_SPAWN_X		  5
+.eqv	STAGE_2_SPAWN_Y		  0
+.eqv	STAGE_3_SPAWN_X		  8
+.eqv	STAGE_3_SPAWN_Y		  38
 
 # ----------------------------------------
 # Stored
 # ----------------------------------------
 .data
-PLAYER_XY:				.word 0, 0 			# x, y where 0 <= x <= 60, 0 <= y <= 47
+PLAYER_XY:				  .word 0, 0 			# x, y where 0 <= x <= 60, 0 <= y <= 47
 							   			# This marks top-left unit of 4 by 5 player
-PLAYER_LR_UD:			.word 0, 0			# [0 stationary/ 1,left/ 2 right, 0 stationary/ 1 up (jump)/ 2 down (falling from jump or ledge)]
+PLAYER_LR_UD:			  .word 0, 0			# [0 stationary/ 1,left/ 2 right, 0 stationary/ 1 up (jump)/ 2 down (falling from jump or ledge)]
 PLAYER_SPAWN: 			.word 0, 0
 
 PLAYER_ANIM_INFO:		.word 0, 0, 0, 0		# [0~3 walk iteration, 0/1 start of jump, 0~7 previous walk state, 0/1 facing right/left]
 												# sprite 0 stationary right, 1 left leg right, 2 right leg right, 3 jump right, (4/5/6/7 is the mirror image)
 PLAYER_UP_ITER:			.word 0
 
-PLAYER_TIME_HEALTH:		.word 0, 3
+PLAYER_TIME_HEALTH:	.word 0, 3
 
-STAGE:					.word 0
+STAGE:					    .word 0
 
 # ----------------------------------------
 # Game Start
@@ -143,8 +148,6 @@ title_loop:
 		beq $t8, 0x6b, select_quit   	# ASCII code of 'k' is 0x6b
 		beq $t8, 0x66, run_selected		# ASCII code of 'f' is 0x66
 		
-		
-		
 		li $v0, 32 
 		li $a0, SLP_T   			# Wait 40 milliseconds
 		syscall
@@ -172,7 +175,7 @@ next_stage:
 		# Check if finish game
 		beq $t9, 4, win
 		
-			# Clear & Update next level & respawn if not finish
+		# Clear & Update next level & respawn if not finish
 		beq $t9, 3, stage_3
 		beq $t9, 2, stage_2
 		# Else load stage 1
@@ -366,7 +369,7 @@ respawn:
 		j old_new_positions
 
 # ----------------------------------------
-# Check for L, R, U & update state & new position
+# Check for movement, update state & new position
 # ----------------------------------------
 keypress_event:
 		li $t9, 0xffff0000  
@@ -519,7 +522,7 @@ down_collision:
 		
 		# No floor, check if stationary or mid-air going up
 		li $t5, 0
-		# If going up, check up iteration TODO: PROBLEM HERE IDK WHY
+		# If going up, check up iteration 
 		lw $t2, 4($s2)				# Load Player_UD state in $t2
 		
 		# Know player is going up
@@ -562,7 +565,7 @@ up_collision:
 		# Know player is trying to go up
 		lw $t3, 4($s1)						# Load player y-coord in $t3
 		bgt $t3, 0, platform_bot_collision	# Check platform collision if not at top of screen
-		j stationary_or_fall				# At top of screen, see if player is standing on platform TODO: currently player repeatedly slams head on edge
+		j stationary_or_fall				# At top of screen, see if player is standing on platform 
 
 platform_bot_collision:
 		# Check the 4 units above player and see if platform
@@ -606,11 +609,6 @@ stationary_or_fall:
 		sw $zero, 4($s2)					# Set PLAYER_UD to 0 (stationary)
 		
 done_ud:
-		
-# ----------------------------------------
-# Check iteration states & determine which sprite to render
-# ----------------------------------------
-
 
 # ----------------------------------------
 # Clear & render player
@@ -678,6 +676,8 @@ clear_and_render_player:
 				jal draw_left_jump
 
 done_clear_player:
+
+draw_new_player:
 		
 		addi $t1, $t4, 0			# Load new location to draw
 		

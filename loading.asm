@@ -1,6625 +1,6625 @@
 .globl draw_load
 draw_load:
 		li $t9 0xfffeff
-sw $t9 1308($s7)
-li $t9 0xffffff
-sw $t9 1312($s7)
-li $t9 0xfffefe
-sw $t9 1344($s7)
-li $t9 0xfffffe
-sw $t9 1348($s7)
-li $t9 0xffffff
-sw $t9 1352($s7)
-li $t9 0xfffeff
-sw $t9 1376($s7)
-li $t9 0xfffffe
-sw $t9 1380($s7)
-sw $t9 1384($s7)
-sw $t9 1404($s7)
-li $t9 0xfffeff
-sw $t9 1408($s7)
-li $t9 0xfefefe
-sw $t9 1412($s7)
-li $t9 0xffffff
-sw $t9 1416($s7)
-li $t9 0xfeffff
-sw $t9 1436($s7)
-sw $t9 1440($s7)
-sw $t9 1444($s7)
-li $t9 0xfffeff
-sw $t9 1448($s7)
-li $t9 0xffffff
-sw $t9 1464($s7)
-li $t9 0xfefeff
-sw $t9 1468($s7)
-sw $t9 1476($s7)
-li $t9 0xfffeff
-sw $t9 1480($s7)
-li $t9 0xfefeff
-sw $t9 1500($s7)
-li $t9 0xfefffe
-sw $t9 1504($s7)
-li $t9 0xfffffe
-sw $t9 1508($s7)
-li $t9 0xfefefe
-sw $t9 1560($s7)
-li $t9 0xfefeff
-sw $t9 1564($s7)
-li $t9 0xfffeff
-sw $t9 1572($s7)
-li $t9 0xfefefe
-sw $t9 1596($s7)
-li $t9 0xfffeff
-sw $t9 1600($s7)
-li $t9 0xfffefe
-sw $t9 1612($s7)
-li $t9 0xfffeff
-sw $t9 1628($s7)
-li $t9 0xfefefe
-sw $t9 1632($s7)
-li $t9 0xfffffe
-sw $t9 1644($s7)
-li $t9 0xfeffff
-sw $t9 1656($s7)
-li $t9 0xfffeff
-sw $t9 1660($s7)
-li $t9 0xfffefe
-sw $t9 1676($s7)
-li $t9 0xffffff
-sw $t9 1688($s7)
-sw $t9 1692($s7)
-li $t9 0xfeffff
-sw $t9 1708($s7)
-li $t9 0xffffff
-sw $t9 1716($s7)
-sw $t9 1720($s7)
-li $t9 0xfeffff
-sw $t9 1728($s7)
-li $t9 0xfffefe
-sw $t9 1732($s7)
-li $t9 0xfffeff
-sw $t9 1740($s7)
-li $t9 0xfffffe
-sw $t9 1752($s7)
-li $t9 0xfffefe
-sw $t9 1756($s7)
-li $t9 0xfffeff
-sw $t9 1768($s7)
-sw $t9 1816($s7)
-li $t9 0xfeffff
-sw $t9 1820($s7)
-li $t9 0xfffffe
-sw $t9 1828($s7)
-li $t9 0xfefefe
-sw $t9 1848($s7)
-li $t9 0xfeffff
-sw $t9 1852($s7)
-li $t9 0xfffffe
-sw $t9 1860($s7)
-li $t9 0xfeffff
-sw $t9 1864($s7)
-li $t9 0xfffeff
-sw $t9 1872($s7)
-li $t9 0xfefeff
-sw $t9 1880($s7)
-li $t9 0xfffefe
-sw $t9 1884($s7)
-sw $t9 1892($s7)
-li $t9 0xfefeff
-sw $t9 1896($s7)
-li $t9 0xfeffff
-sw $t9 1904($s7)
-li $t9 0xfefffe
-sw $t9 1912($s7)
-li $t9 0xfefeff
-sw $t9 1916($s7)
-sw $t9 1924($s7)
-sw $t9 1928($s7)
-li $t9 0xffffff
-sw $t9 1936($s7)
-li $t9 0xfffeff
-sw $t9 1948($s7)
-li $t9 0xfeffff
-sw $t9 1952($s7)
-li $t9 0xfffffe
-sw $t9 1960($s7)
-li $t9 0x00000a
-sw $t9 1964($s7)
-li $t9 0xfefeff
-sw $t9 1972($s7)
-sw $t9 1976($s7)
-li $t9 0xfffefe
-sw $t9 1988($s7)
-li $t9 0xfefffe
-sw $t9 1996($s7)
-sw $t9 2004($s7)
-li $t9 0xfeffff
-sw $t9 2008($s7)
-li $t9 0xfffeff
-sw $t9 2016($s7)
-li $t9 0xfefefe
-sw $t9 2020($s7)
-li $t9 0xfffffe
-sw $t9 2024($s7)
-li $t9 0xfefffe
-sw $t9 2072($s7)
-li $t9 0xfefeff
-sw $t9 2076($s7)
-li $t9 0xfeffff
-sw $t9 2084($s7)
-sw $t9 2104($s7)
-li $t9 0xffffff
-sw $t9 2108($s7)
-li $t9 0xfffeff
-sw $t9 2116($s7)
-sw $t9 2120($s7)
-li $t9 0xfffefe
-sw $t9 2128($s7)
-li $t9 0xfefeff
-sw $t9 2136($s7)
-li $t9 0xfffffe
-sw $t9 2140($s7)
-li $t9 0x00000a
-sw $t9 2148($s7)
-li $t9 0xfefeff
-sw $t9 2160($s7)
-li $t9 0xfefffe
-sw $t9 2168($s7)
-sw $t9 2172($s7)
-li $t9 0xfffffe
-sw $t9 2180($s7)
-li $t9 0xfffefe
-sw $t9 2184($s7)
-li $t9 0xffffff
-sw $t9 2192($s7)
-sw $t9 2204($s7)
-li $t9 0xfeffff
-sw $t9 2208($s7)
-li $t9 0xffffff
-sw $t9 2216($s7)
-li $t9 0xfffffe
-sw $t9 2228($s7)
-sw $t9 2232($s7)
-li $t9 0xfefeff
-sw $t9 2240($s7)
-sw $t9 2252($s7)
-li $t9 0xfffffe
-sw $t9 2260($s7)
-li $t9 0xffffff
-sw $t9 2264($s7)
-li $t9 0xfeffff
-sw $t9 2272($s7)
-li $t9 0xfefefe
-sw $t9 2284($s7)
-sw $t9 2328($s7)
-li $t9 0xfefeff
-sw $t9 2332($s7)
-li $t9 0x100d1e
-sw $t9 2336($s7)
-li $t9 0xfffffe
-sw $t9 2340($s7)
-li $t9 0xfefefe
-sw $t9 2344($s7)
-li $t9 0xfeffff
-sw $t9 2348($s7)
-li $t9 0xfffeff
-sw $t9 2360($s7)
-li $t9 0xfeffff
-sw $t9 2364($s7)
-li $t9 0xfefffe
-sw $t9 2372($s7)
-li $t9 0xfeffff
-sw $t9 2376($s7)
-li $t9 0xfefeff
-sw $t9 2384($s7)
-li $t9 0xffffff
-sw $t9 2392($s7)
-li $t9 0xfefffe
-sw $t9 2396($s7)
-li $t9 0xfeffff
-sw $t9 2404($s7)
-sw $t9 2408($s7)
-li $t9 0xfffffe
-sw $t9 2416($s7)
-li $t9 0xfefefe
-sw $t9 2424($s7)
-li $t9 0xfefeff
-sw $t9 2428($s7)
-li $t9 0xfefffe
-sw $t9 2436($s7)
-sw $t9 2440($s7)
-li $t9 0xfefeff
-sw $t9 2448($s7)
-li $t9 0xffffff
-sw $t9 2460($s7)
-sw $t9 2464($s7)
-li $t9 0xfffefe
-sw $t9 2472($s7)
-sw $t9 2484($s7)
-li $t9 0xffffff
-sw $t9 2488($s7)
-li $t9 0xfefffe
-sw $t9 2496($s7)
-li $t9 0xffffff
-sw $t9 2500($s7)
-li $t9 0xfeffff
-sw $t9 2508($s7)
-li $t9 0xfefeff
-sw $t9 2516($s7)
-li $t9 0xfffefe
-sw $t9 2520($s7)
-li $t9 0xfffeff
-sw $t9 2528($s7)
-li $t9 0xffffff
-sw $t9 2532($s7)
-li $t9 0xfffefe
-sw $t9 2540($s7)
-li $t9 0xfeffff
-sw $t9 2584($s7)
-li $t9 0xfffefe
-sw $t9 2588($s7)
-li $t9 0xfeffff
-sw $t9 2608($s7)
-sw $t9 2620($s7)
-li $t9 0xfffefe
-sw $t9 2624($s7)
-li $t9 0xfeffff
-sw $t9 2636($s7)
-li $t9 0xfefefe
-sw $t9 2648($s7)
-li $t9 0xffffff
-sw $t9 2652($s7)
-li $t9 0x010031
-sw $t9 2656($s7)
-li $t9 0xfeffff
-sw $t9 2660($s7)
-li $t9 0xfefefe
-sw $t9 2664($s7)
-li $t9 0x000016
-sw $t9 2668($s7)
-li $t9 0xffffff
-sw $t9 2672($s7)
-li $t9 0x00000a
-sw $t9 2676($s7)
-li $t9 0xfefeff
-sw $t9 2680($s7)
-li $t9 0xfffefe
-sw $t9 2684($s7)
-li $t9 0x00000a
-sw $t9 2696($s7)
-li $t9 0xfffffe
-sw $t9 2700($s7)
-li $t9 0x00000a
-sw $t9 2704($s7)
-li $t9 0xfffffe
-sw $t9 2712($s7)
-li $t9 0xffffff
-sw $t9 2716($s7)
-li $t9 0xfeffff
-sw $t9 2732($s7)
-li $t9 0xfffeff
-sw $t9 2740($s7)
-li $t9 0xffffff
-sw $t9 2744($s7)
-li $t9 0xfffffe
-sw $t9 2752($s7)
-li $t9 0xfeffff
-sw $t9 2756($s7)
-li $t9 0xfffffe
-sw $t9 2764($s7)
-li $t9 0xfffefe
-sw $t9 2776($s7)
-li $t9 0xfefffe
-sw $t9 2780($s7)
-li $t9 0xfffffe
-sw $t9 2792($s7)
-li $t9 0x000011
-sw $t9 2796($s7)
-li $t9 0x00000e
-sw $t9 2840($s7)
-li $t9 0xfefeff
-sw $t9 2844($s7)
-li $t9 0xfefefe
-sw $t9 2848($s7)
-li $t9 0xfeffff
-sw $t9 2852($s7)
-li $t9 0xffffff
-sw $t9 2856($s7)
-li $t9 0xfffefe
-sw $t9 2860($s7)
-li $t9 0xfefefe
-sw $t9 2880($s7)
-li $t9 0xfefffe
-sw $t9 2884($s7)
-li $t9 0xfffefe
-sw $t9 2888($s7)
-li $t9 0x01000a
-sw $t9 2896($s7)
-li $t9 0x000037
-sw $t9 2904($s7)
-li $t9 0xfffeff
-sw $t9 2908($s7)
-li $t9 0xfffffe
-sw $t9 2912($s7)
-li $t9 0x000863
-sw $t9 2916($s7)
-li $t9 0xfefefe
-sw $t9 2920($s7)
-li $t9 0xfffffe
-sw $t9 2924($s7)
-li $t9 0x00084e
-sw $t9 2928($s7)
-li $t9 0x00000b
-sw $t9 2932($s7)
-li $t9 0xfffffe
-sw $t9 2940($s7)
-li $t9 0xfefeff
-sw $t9 2944($s7)
-sw $t9 2948($s7)
-li $t9 0xfeffff
-sw $t9 2952($s7)
-li $t9 0x00000a
-sw $t9 2956($s7)
-li $t9 0xffffff
-sw $t9 2972($s7)
-sw $t9 2976($s7)
-sw $t9 2980($s7)
-li $t9 0xfffeff
-sw $t9 2984($s7)
-li $t9 0x00000a
-sw $t9 2992($s7)
-li $t9 0x00000b
-sw $t9 2996($s7)
-li $t9 0xffffff
-sw $t9 3000($s7)
-sw $t9 3004($s7)
-li $t9 0xfffefe
-sw $t9 3012($s7)
-li $t9 0xfefefe
-sw $t9 3016($s7)
-li $t9 0x000016
-sw $t9 3032($s7)
-li $t9 0xfffeff
-sw $t9 3036($s7)
-li $t9 0xfefffe
-sw $t9 3040($s7)
-li $t9 0xfefeff
-sw $t9 3044($s7)
-li $t9 0x02001a
-sw $t9 3048($s7)
-li $t9 0x00000d
-sw $t9 3052($s7)
-li $t9 0x0a0000
-sw $t9 3072($s7)
-li $t9 0x000012
-sw $t9 3120($s7)
-li $t9 0x000010
-sw $t9 3132($s7)
-li $t9 0x00000a
-sw $t9 3140($s7)
-sw $t9 3144($s7)
-sw $t9 3152($s7)
-li $t9 0x000118
-sw $t9 3156($s7)
-li $t9 0x000a2e
-sw $t9 3160($s7)
-li $t9 0x091735
-sw $t9 3164($s7)
-li $t9 0x2f4c5d
-sw $t9 3168($s7)
-li $t9 0x1a032c
-sw $t9 3172($s7)
-li $t9 0x00014b
-sw $t9 3176($s7)
-li $t9 0x000b6c
-sw $t9 3180($s7)
-li $t9 0x011379
-sw $t9 3184($s7)
-li $t9 0x000952
-sw $t9 3188($s7)
-li $t9 0x00000e
-sw $t9 3192($s7)
-li $t9 0x000020
-sw $t9 3196($s7)
-li $t9 0x00000a
-sw $t9 3200($s7)
-sw $t9 3216($s7)
-sw $t9 3220($s7)
-sw $t9 3228($s7)
-sw $t9 3232($s7)
-sw $t9 3236($s7)
-li $t9 0x00010a
-sw $t9 3240($s7)
-sw $t9 3244($s7)
-li $t9 0x00000a
-sw $t9 3248($s7)
-li $t9 0x000010
-sw $t9 3252($s7)
-li $t9 0x00000a
-sw $t9 3256($s7)
-sw $t9 3260($s7)
-sw $t9 3268($s7)
-sw $t9 3276($s7)
-li $t9 0x00000b
-sw $t9 3280($s7)
-li $t9 0x0e012a
-sw $t9 3284($s7)
-li $t9 0x34005b
-sw $t9 3288($s7)
-li $t9 0x3b0063
-sw $t9 3292($s7)
-li $t9 0x44016b
-sw $t9 3296($s7)
-li $t9 0x47006e
-sw $t9 3300($s7)
-li $t9 0x45006c
-sw $t9 3304($s7)
-li $t9 0x260046
-sw $t9 3308($s7)
-li $t9 0x212c44
-sw $t9 3312($s7)
-li $t9 0x0e1725
-sw $t9 3316($s7)
-li $t9 0x2a0009
-sw $t9 3328($s7)
-li $t9 0x150000
-sw $t9 3332($s7)
-li $t9 0x00000a
-sw $t9 3360($s7)
-sw $t9 3364($s7)
-sw $t9 3372($s7)
-sw $t9 3388($s7)
-li $t9 0x00000b
-sw $t9 3392($s7)
-li $t9 0x00000a
-sw $t9 3396($s7)
-li $t9 0x00000b
-sw $t9 3404($s7)
-li $t9 0x0e1a24
-sw $t9 3408($s7)
-li $t9 0x3c555e
-sw $t9 3412($s7)
-li $t9 0x75868a
-sw $t9 3416($s7)
-li $t9 0x849191
-sw $t9 3420($s7)
-li $t9 0x1d3b4b
-sw $t9 3424($s7)
-li $t9 0x1c3c4b
-sw $t9 3428($s7)
-li $t9 0x2f4d5c
-sw $t9 3432($s7)
-li $t9 0x00034e
-sw $t9 3436($s7)
-li $t9 0x021279
-sw $t9 3440($s7)
-li $t9 0x03157c
-sw $t9 3444($s7)
-li $t9 0x00052a
-sw $t9 3448($s7)
-li $t9 0x000757
-sw $t9 3452($s7)
-li $t9 0x000228
-sw $t9 3456($s7)
-li $t9 0x050211
-sw $t9 3460($s7)
-li $t9 0x00000a
-sw $t9 3464($s7)
-sw $t9 3468($s7)
-sw $t9 3476($s7)
-sw $t9 3480($s7)
-li $t9 0x00010a
-sw $t9 3484($s7)
-li $t9 0x00000a
-sw $t9 3488($s7)
-sw $t9 3496($s7)
-sw $t9 3500($s7)
-sw $t9 3516($s7)
-li $t9 0x00000b
-sw $t9 3520($s7)
-sw $t9 3524($s7)
-sw $t9 3528($s7)
-sw $t9 3532($s7)
-li $t9 0x070120
-sw $t9 3536($s7)
-li $t9 0x21004a
-sw $t9 3540($s7)
-li $t9 0x21004b
-sw $t9 3544($s7)
-sw $t9 3548($s7)
-li $t9 0x20004a
-sw $t9 3552($s7)
-li $t9 0x2a0053
-sw $t9 3556($s7)
-li $t9 0x3e0065
-sw $t9 3560($s7)
-li $t9 0x47006f
-sw $t9 3564($s7)
-li $t9 0x20003f
-sw $t9 3568($s7)
-li $t9 0x566770
-sw $t9 3572($s7)
-li $t9 0x00000f
-sw $t9 3576($s7)
-li $t9 0x00000a
-sw $t9 3600($s7)
-sw $t9 3604($s7)
-li $t9 0x00000b
-sw $t9 3616($s7)
-sw $t9 3620($s7)
-sw $t9 3624($s7)
-li $t9 0x00000a
-sw $t9 3628($s7)
-sw $t9 3636($s7)
-sw $t9 3640($s7)
-li $t9 0x000010
-sw $t9 3648($s7)
-li $t9 0x00000a
-sw $t9 3652($s7)
-sw $t9 3656($s7)
-li $t9 0x101d26
-sw $t9 3660($s7)
-li $t9 0x55747d
-sw $t9 3664($s7)
-li $t9 0x5b7c84
-sw $t9 3668($s7)
-li $t9 0x72888b
-sw $t9 3672($s7)
-li $t9 0x6f8188
-sw $t9 3676($s7)
-li $t9 0x2f4e5c
-sw $t9 3680($s7)
-li $t9 0x2e4d5c
-sw $t9 3684($s7)
-li $t9 0x314756
-sw $t9 3688($s7)
-li $t9 0x030936
-sw $t9 3692($s7)
-li $t9 0x051072
-sw $t9 3696($s7)
-li $t9 0x06137a
-sw $t9 3700($s7)
-li $t9 0x010b58
-sw $t9 3704($s7)
-li $t9 0x000329
-sw $t9 3708($s7)
-li $t9 0x010854
-sw $t9 3712($s7)
-li $t9 0x000116
-sw $t9 3716($s7)
-li $t9 0x00000b
-sw $t9 3720($s7)
-sw $t9 3724($s7)
-sw $t9 3728($s7)
-sw $t9 3732($s7)
-li $t9 0x00010b
-sw $t9 3736($s7)
-li $t9 0x00000b
-sw $t9 3740($s7)
-sw $t9 3744($s7)
-li $t9 0x090211
-sw $t9 3748($s7)
-li $t9 0x00000b
-sw $t9 3752($s7)
-sw $t9 3756($s7)
-li $t9 0x00000a
-sw $t9 3760($s7)
-li $t9 0x00000b
-sw $t9 3764($s7)
-sw $t9 3768($s7)
-sw $t9 3772($s7)
-li $t9 0x050016
-sw $t9 3776($s7)
-li $t9 0x20003d
-sw $t9 3780($s7)
-li $t9 0x2f004c
-sw $t9 3784($s7)
-sw $t9 3788($s7)
-li $t9 0x290046
-sw $t9 3792($s7)
-li $t9 0x20003b
-sw $t9 3796($s7)
-li $t9 0x160031
-sw $t9 3800($s7)
-li $t9 0x1d003f
-sw $t9 3804($s7)
-li $t9 0x22004c
-sw $t9 3808($s7)
-li $t9 0x22004a
-sw $t9 3812($s7)
-li $t9 0x22004c
-sw $t9 3816($s7)
-li $t9 0x46006d
-sw $t9 3820($s7)
-li $t9 0x3f0065
-sw $t9 3824($s7)
-li $t9 0x1c2644
-sw $t9 3828($s7)
-li $t9 0x081627
-sw $t9 3832($s7)
-li $t9 0x00000b
-sw $t9 3848($s7)
-li $t9 0x00000a
-sw $t9 3852($s7)
-sw $t9 3856($s7)
-li $t9 0x00000b
-sw $t9 3860($s7)
-sw $t9 3864($s7)
-sw $t9 3868($s7)
-sw $t9 3872($s7)
-sw $t9 3876($s7)
-li $t9 0x00000a
-sw $t9 3880($s7)
-li $t9 0x00000b
-sw $t9 3884($s7)
-sw $t9 3888($s7)
-sw $t9 3892($s7)
-li $t9 0x01000b
-sw $t9 3896($s7)
-li $t9 0x01000a
-sw $t9 3904($s7)
-li $t9 0x00000b
-sw $t9 3908($s7)
-li $t9 0x01000e
-sw $t9 3912($s7)
-li $t9 0x3e545c
-sw $t9 3916($s7)
-li $t9 0x5e7c85
-sw $t9 3920($s7)
-li $t9 0x5e7d85
-sw $t9 3924($s7)
-li $t9 0x536e7a
-sw $t9 3928($s7)
-li $t9 0x405e6d
-sw $t9 3932($s7)
-li $t9 0x344e5f
-sw $t9 3936($s7)
-li $t9 0x2e4e5d
-sw $t9 3940($s7)
-li $t9 0x3f535a
-sw $t9 3944($s7)
-li $t9 0x070d35
-sw $t9 3948($s7)
-li $t9 0x030a5c
-sw $t9 3952($s7)
-li $t9 0x020852
-sw $t9 3956($s7)
-li $t9 0x030752
-sw $t9 3960($s7)
-li $t9 0x000626
-sw $t9 3964($s7)
-li $t9 0x01084a
-sw $t9 3968($s7)
-li $t9 0x010747
-sw $t9 3972($s7)
-li $t9 0x010211
-sw $t9 3976($s7)
-li $t9 0x06000e
-sw $t9 3980($s7)
-li $t9 0x05000b
-sw $t9 3984($s7)
-sw $t9 3988($s7)
-li $t9 0x02000b
-sw $t9 3992($s7)
-li $t9 0x03000b
-sw $t9 3996($s7)
-li $t9 0x02000b
-sw $t9 4000($s7)
-li $t9 0x03000b
-sw $t9 4004($s7)
-li $t9 0x01010b
-sw $t9 4008($s7)
-sw $t9 4012($s7)
-li $t9 0x080312
-sw $t9 4016($s7)
-li $t9 0x00000b
-sw $t9 4020($s7)
-sw $t9 4024($s7)
-sw $t9 4028($s7)
-li $t9 0x0d0020
-sw $t9 4032($s7)
-li $t9 0x4d0172
-sw $t9 4036($s7)
-li $t9 0x500173
-sw $t9 4040($s7)
-sw $t9 4044($s7)
-sw $t9 4048($s7)
-li $t9 0x4f0073
-sw $t9 4052($s7)
-li $t9 0x3d0062
-sw $t9 4056($s7)
-li $t9 0x180037
-sw $t9 4060($s7)
-li $t9 0x1c003d
-sw $t9 4064($s7)
-li $t9 0x25004d
-sw $t9 4068($s7)
-li $t9 0x24004e
-sw $t9 4072($s7)
-li $t9 0x44006a
-sw $t9 4076($s7)
-li $t9 0x4c0073
-sw $t9 4080($s7)
-li $t9 0x160e36
-sw $t9 4084($s7)
-li $t9 0x091a2a
-sw $t9 4088($s7)
-li $t9 0x00000a
-sw $t9 4092($s7)
-li $t9 0x000010
-sw $t9 4096($s7)
-li $t9 0x00000b
-sw $t9 4100($s7)
-sw $t9 4104($s7)
-li $t9 0x01000b
-sw $t9 4108($s7)
-li $t9 0x00000b
-sw $t9 4112($s7)
-sw $t9 4116($s7)
-sw $t9 4120($s7)
-sw $t9 4124($s7)
-li $t9 0x0a0101
-sw $t9 4136($s7)
-li $t9 0x0b0003
-sw $t9 4140($s7)
-li $t9 0x01000b
-sw $t9 4148($s7)
-sw $t9 4152($s7)
-li $t9 0x06010e
-sw $t9 4168($s7)
-li $t9 0x2a3f48
-sw $t9 4172($s7)
-li $t9 0x445f6e
-sw $t9 4176($s7)
-li $t9 0x54737a
-sw $t9 4180($s7)
-li $t9 0x365057
-sw $t9 4184($s7)
-li $t9 0x273c44
-sw $t9 4188($s7)
-li $t9 0x1f2e40
-sw $t9 4192($s7)
-li $t9 0x000044
-sw $t9 4196($s7)
-sw $t9 4200($s7)
-li $t9 0x000043
-sw $t9 4204($s7)
-li $t9 0x060b52
-sw $t9 4208($s7)
-sw $t9 4212($s7)
-sw $t9 4216($s7)
-li $t9 0x060a4a
-sw $t9 4220($s7)
-li $t9 0x02092e
-sw $t9 4224($s7)
-li $t9 0x050b52
-sw $t9 4228($s7)
-li $t9 0x060a41
-sw $t9 4232($s7)
-li $t9 0x060511
-sw $t9 4236($s7)
-li $t9 0x0a030e
-sw $t9 4240($s7)
-li $t9 0x0a030d
-sw $t9 4244($s7)
-sw $t9 4248($s7)
-li $t9 0x09020e
-sw $t9 4252($s7)
-li $t9 0x08020e
-sw $t9 4256($s7)
-li $t9 0x07010e
-sw $t9 4260($s7)
-sw $t9 4264($s7)
-li $t9 0x07010d
-sw $t9 4268($s7)
-li $t9 0x06010d
-sw $t9 4272($s7)
-li $t9 0x05000c
-sw $t9 4276($s7)
-li $t9 0x03000d
-sw $t9 4280($s7)
-li $t9 0x060010
-sw $t9 4284($s7)
-li $t9 0x290041
-sw $t9 4288($s7)
-li $t9 0x540673
-sw $t9 4292($s7)
-li $t9 0x540273
-sw $t9 4296($s7)
-li $t9 0x530273
-sw $t9 4300($s7)
-sw $t9 4304($s7)
-li $t9 0x520173
-sw $t9 4308($s7)
-li $t9 0x2e0052
-sw $t9 4312($s7)
-li $t9 0x240047
-sw $t9 4316($s7)
-li $t9 0x170035
-sw $t9 4320($s7)
-li $t9 0x24004a
-sw $t9 4324($s7)
-li $t9 0x260050
-sw $t9 4328($s7)
-li $t9 0x48006d
-sw $t9 4332($s7)
-li $t9 0x4d0075
-sw $t9 4336($s7)
-li $t9 0x220841
-sw $t9 4340($s7)
-li $t9 0x000b1c
-sw $t9 4344($s7)
-li $t9 0x00000b
-sw $t9 4348($s7)
-sw $t9 4352($s7)
-sw $t9 4356($s7)
-sw $t9 4360($s7)
-sw $t9 4364($s7)
-sw $t9 4368($s7)
-li $t9 0x00010b
-sw $t9 4372($s7)
-li $t9 0x00000b
-sw $t9 4376($s7)
-li $t9 0x130100
-sw $t9 4380($s7)
-li $t9 0x3e0700
-sw $t9 4384($s7)
-li $t9 0x581300
-sw $t9 4388($s7)
-li $t9 0x6b2200
-sw $t9 4392($s7)
-li $t9 0x7d3300
-sw $t9 4396($s7)
-li $t9 0x652400
-sw $t9 4400($s7)
-li $t9 0x2a0800
-sw $t9 4404($s7)
-li $t9 0x0d0107
-sw $t9 4408($s7)
-li $t9 0x07010d
-sw $t9 4412($s7)
-li $t9 0x0b0d13
-sw $t9 4428($s7)
-li $t9 0x1a2935
-sw $t9 4432($s7)
-li $t9 0x101c4a
-sw $t9 4436($s7)
-li $t9 0x0f1c63
-sw $t9 4440($s7)
-li $t9 0x0f1c7d
-sw $t9 4444($s7)
-li $t9 0x0e1871
-sw $t9 4448($s7)
-li $t9 0x0a0d56
-sw $t9 4452($s7)
-li $t9 0x130b4f
-sw $t9 4456($s7)
-li $t9 0x0a0d54
-sw $t9 4460($s7)
-sw $t9 4464($s7)
-li $t9 0x0a0e54
-sw $t9 4468($s7)
-li $t9 0x090d54
-sw $t9 4472($s7)
-sw $t9 4476($s7)
-li $t9 0x080b2e
-sw $t9 4480($s7)
-li $t9 0x090d4c
-sw $t9 4484($s7)
-li $t9 0x0b0b4d
-sw $t9 4488($s7)
-li $t9 0x120328
-sw $t9 4492($s7)
-li $t9 0x190007
-sw $t9 4496($s7)
-li $t9 0x1c0002
-sw $t9 4500($s7)
-li $t9 0x180006
-sw $t9 4504($s7)
-li $t9 0x13030b
-sw $t9 4508($s7)
-li $t9 0x0e070f
-sw $t9 4512($s7)
-li $t9 0x0d070f
-sw $t9 4516($s7)
-li $t9 0x0d060f
-sw $t9 4520($s7)
-li $t9 0x0b060f
-sw $t9 4524($s7)
-li $t9 0x0b070f
-sw $t9 4528($s7)
-li $t9 0x0b030d
-sw $t9 4532($s7)
-li $t9 0x0a020d
-sw $t9 4536($s7)
-li $t9 0x0e0019
-sw $t9 4540($s7)
-li $t9 0x440361
-sw $t9 4544($s7)
-li $t9 0x560874
-sw $t9 4548($s7)
-li $t9 0x550874
-sw $t9 4552($s7)
-li $t9 0x550675
-sw $t9 4556($s7)
-li $t9 0x550774
-sw $t9 4560($s7)
-li $t9 0x480169
-sw $t9 4564($s7)
-li $t9 0x260045
-sw $t9 4568($s7)
-li $t9 0x480169
-sw $t9 4572($s7)
-li $t9 0x260047
-sw $t9 4576($s7)
-li $t9 0x220045
-sw $t9 4580($s7)
-li $t9 0x290050
-sw $t9 4584($s7)
-li $t9 0x4b006f
-sw $t9 4588($s7)
-li $t9 0x520174
-sw $t9 4592($s7)
-li $t9 0x24013f
-sw $t9 4596($s7)
-li $t9 0x00000e
-sw $t9 4600($s7)
-li $t9 0x00000b
-sw $t9 4604($s7)
-sw $t9 4608($s7)
-sw $t9 4612($s7)
-sw $t9 4616($s7)
-sw $t9 4620($s7)
-sw $t9 4624($s7)
-li $t9 0x010311
-sw $t9 4628($s7)
-li $t9 0x090a11
-sw $t9 4632($s7)
-li $t9 0x181211
-sw $t9 4636($s7)
-li $t9 0x291813
-sw $t9 4640($s7)
-li $t9 0x3e1d10
-sw $t9 4644($s7)
-li $t9 0x612207
-sw $t9 4648($s7)
-li $t9 0x7d2a01
-sw $t9 4652($s7)
-li $t9 0xa04a00
-sw $t9 4656($s7)
-li $t9 0x9d4a00
-sw $t9 4660($s7)
-li $t9 0x4d1a00
-sw $t9 4664($s7)
-li $t9 0x160508
-sw $t9 4668($s7)
-li $t9 0x0d070f
-sw $t9 4672($s7)
-li $t9 0x0b0f2f
-sw $t9 4688($s7)
-li $t9 0x121e82
-sw $t9 4692($s7)
-li $t9 0x122181
-sw $t9 4696($s7)
-li $t9 0x0f176f
-sw $t9 4700($s7)
-li $t9 0x0d0f55
-sw $t9 4704($s7)
-li $t9 0x0c1056
-sw $t9 4708($s7)
-li $t9 0x0d1055
-sw $t9 4712($s7)
-li $t9 0x0e0f55
-sw $t9 4716($s7)
-li $t9 0x0d1156
-sw $t9 4720($s7)
-li $t9 0x0d1155
-sw $t9 4724($s7)
-li $t9 0x0f1155
-sw $t9 4728($s7)
-li $t9 0x0f1054
-sw $t9 4732($s7)
-li $t9 0x18022d
-sw $t9 4736($s7)
-li $t9 0x250001
-sw $t9 4740($s7)
-li $t9 0x2d0000
-sw $t9 4744($s7)
-li $t9 0x2c0000
-sw $t9 4748($s7)
-li $t9 0x2f0000
-sw $t9 4752($s7)
-li $t9 0x2e0000
-sw $t9 4756($s7)
-li $t9 0x2e0001
-sw $t9 4760($s7)
-li $t9 0x2d0000
-sw $t9 4764($s7)
-li $t9 0x290000
-sw $t9 4768($s7)
-li $t9 0x1c0006
-sw $t9 4772($s7)
-li $t9 0x120911
-sw $t9 4776($s7)
-li $t9 0x100a11
-sw $t9 4780($s7)
-li $t9 0x110a10
-sw $t9 4784($s7)
-li $t9 0x0f0810
-sw $t9 4788($s7)
-li $t9 0x110712
-sw $t9 4792($s7)
-li $t9 0x1f0131
-sw $t9 4796($s7)
-li $t9 0x4c086b
-sw $t9 4800($s7)
-li $t9 0x580976
-sw $t9 4804($s7)
-li $t9 0x590a76
-sw $t9 4808($s7)
-li $t9 0x570a76
-sw $t9 4812($s7)
-li $t9 0x570878
-sw $t9 4816($s7)
-li $t9 0x37015b
-sw $t9 4820($s7)
-li $t9 0x260041
-sw $t9 4824($s7)
-li $t9 0x560676
-sw $t9 4828($s7)
-li $t9 0x290043
-sw $t9 4832($s7)
-li $t9 0x29004c
-sw $t9 4836($s7)
-li $t9 0x2d0052
-sw $t9 4840($s7)
-li $t9 0x500373
-sw $t9 4844($s7)
-li $t9 0x540378
-sw $t9 4848($s7)
-li $t9 0x2a0045
-sw $t9 4852($s7)
-li $t9 0x00000b
-sw $t9 4856($s7)
-sw $t9 4860($s7)
-sw $t9 4864($s7)
-li $t9 0x00010b
-sw $t9 4868($s7)
-li $t9 0x00000e
-sw $t9 4872($s7)
-li $t9 0x01000d
-sw $t9 4876($s7)
-li $t9 0x09131c
-sw $t9 4880($s7)
-li $t9 0x46565b
-sw $t9 4884($s7)
-li $t9 0x81898b
-sw $t9 4888($s7)
-li $t9 0x798c8d
-sw $t9 4892($s7)
-li $t9 0x5e7d84
-sw $t9 4896($s7)
-li $t9 0x4f6a6e
-sw $t9 4900($s7)
-li $t9 0x31474a
-sw $t9 4904($s7)
-li $t9 0x2d2019
-sw $t9 4908($s7)
-li $t9 0x752c05
-sw $t9 4912($s7)
-li $t9 0xaa5200
-sw $t9 4916($s7)
-li $t9 0xa84f00
-sw $t9 4920($s7)
-li $t9 0x4a1800
-sw $t9 4924($s7)
-li $t9 0x170b0d
-sw $t9 4928($s7)
-li $t9 0x160e11
-sw $t9 4932($s7)
-li $t9 0x00023c
-sw $t9 4944($s7)
-li $t9 0x161e76
-sw $t9 4948($s7)
-li $t9 0x151a6c
-sw $t9 4952($s7)
-li $t9 0x111557
-sw $t9 4956($s7)
-li $t9 0x111457
-sw $t9 4960($s7)
-li $t9 0x121358
-sw $t9 4964($s7)
-li $t9 0x111557
-sw $t9 4968($s7)
-sw $t9 4972($s7)
-li $t9 0x121557
-sw $t9 4976($s7)
-li $t9 0x111258
-sw $t9 4980($s7)
-li $t9 0x190838
-sw $t9 4984($s7)
-li $t9 0x290001
-sw $t9 4988($s7)
-li $t9 0x2f0000
-sw $t9 4992($s7)
-li $t9 0x3b0001
-sw $t9 4996($s7)
-li $t9 0x3f0005
-sw $t9 5000($s7)
-li $t9 0x44000b
-sw $t9 5004($s7)
-li $t9 0x45000e
-sw $t9 5008($s7)
-li $t9 0x46000e
-sw $t9 5012($s7)
-sw $t9 5016($s7)
-li $t9 0x44000a
-sw $t9 5020($s7)
-li $t9 0x3b0101
-sw $t9 5024($s7)
-li $t9 0x2e0000
-sw $t9 5028($s7)
-li $t9 0x280000
-sw $t9 5032($s7)
-li $t9 0x190b10
-sw $t9 5036($s7)
-li $t9 0x180e12
-sw $t9 5040($s7)
-li $t9 0x160e12
-sw $t9 5044($s7)
-li $t9 0x160818
-sw $t9 5048($s7)
-li $t9 0x2e0246
-sw $t9 5052($s7)
-li $t9 0x360456
-sw $t9 5056($s7)
-li $t9 0x3e065d
-sw $t9 5060($s7)
-li $t9 0x40085e
-sw $t9 5064($s7)
-li $t9 0x40065f
-sw $t9 5068($s7)
-li $t9 0x3b035c
-sw $t9 5072($s7)
-li $t9 0x330154
-sw $t9 5076($s7)
-li $t9 0x33014b
-sw $t9 5080($s7)
-li $t9 0x580976
-sw $t9 5084($s7)
-li $t9 0x25003b
-sw $t9 5088($s7)
-li $t9 0x2e0052
-sw $t9 5092($s7)
-li $t9 0x2f0053
-sw $t9 5096($s7)
-li $t9 0x540674
-sw $t9 5100($s7)
-li $t9 0x550578
-sw $t9 5104($s7)
-li $t9 0x2c0044
-sw $t9 5108($s7)
-li $t9 0x00000b
-sw $t9 5112($s7)
-sw $t9 5116($s7)
-li $t9 0x01000e
-sw $t9 5120($s7)
-li $t9 0x02000e
-sw $t9 5124($s7)
-li $t9 0x03000e
-sw $t9 5128($s7)
-li $t9 0x091017
-sw $t9 5132($s7)
-li $t9 0x536f75
-sw $t9 5136($s7)
-li $t9 0x929c9a
-sw $t9 5140($s7)
-li $t9 0xb0aba4
-sw $t9 5144($s7)
-li $t9 0x98a09c
-sw $t9 5148($s7)
-li $t9 0x69888c
-sw $t9 5152($s7)
-sw $t9 5156($s7)
-sw $t9 5160($s7)
-li $t9 0x5e797d
-sw $t9 5164($s7)
-li $t9 0x282f2f
-sw $t9 5168($s7)
-li $t9 0x8b4103
-sw $t9 5172($s7)
-li $t9 0xb05400
-sw $t9 5176($s7)
-li $t9 0x9c4c00
-sw $t9 5180($s7)
-li $t9 0x2e0d01
-sw $t9 5184($s7)
-li $t9 0x200f10
-sw $t9 5188($s7)
-li $t9 0x1f1213
-sw $t9 5192($s7)
-li $t9 0x281a11
-sw $t9 5196($s7)
-li $t9 0x00033b
-sw $t9 5200($s7)
-li $t9 0x00023c
-sw $t9 5204($s7)
-li $t9 0x151657
-sw $t9 5208($s7)
-li $t9 0x161658
-sw $t9 5212($s7)
-li $t9 0x161757
-sw $t9 5216($s7)
-li $t9 0x171758
-sw $t9 5220($s7)
-li $t9 0x161758
-sw $t9 5224($s7)
-sw $t9 5228($s7)
-li $t9 0x171655
-sw $t9 5232($s7)
-li $t9 0x25001b
-sw $t9 5236($s7)
-li $t9 0x2e0000
-sw $t9 5240($s7)
-li $t9 0x5e0000
-sw $t9 5244($s7)
-li $t9 0x5c001a
-sw $t9 5248($s7)
-li $t9 0x49000d
-sw $t9 5252($s7)
-li $t9 0x45000d
-sw $t9 5256($s7)
-li $t9 0x45000e
-sw $t9 5260($s7)
-li $t9 0x46000d
-sw $t9 5264($s7)
-sw $t9 5268($s7)
-li $t9 0x45000e
-sw $t9 5272($s7)
-sw $t9 5276($s7)
-li $t9 0x45000d
-sw $t9 5280($s7)
-li $t9 0x44000b
-sw $t9 5284($s7)
-li $t9 0x350000
-sw $t9 5288($s7)
-li $t9 0x2a0000
-sw $t9 5292($s7)
-li $t9 0x1f1213
-sw $t9 5296($s7)
-li $t9 0x1e1215
-sw $t9 5300($s7)
-li $t9 0x200a26
-sw $t9 5304($s7)
-li $t9 0x3c0955
-sw $t9 5308($s7)
-li $t9 0x3b0755
-sw $t9 5312($s7)
-li $t9 0x390857
-sw $t9 5316($s7)
-li $t9 0x380655
-sw $t9 5320($s7)
-li $t9 0x370655
-sw $t9 5324($s7)
-li $t9 0x360556
-sw $t9 5328($s7)
-li $t9 0x350254
-sw $t9 5332($s7)
-li $t9 0x400756
-sw $t9 5336($s7)
-li $t9 0x5c0b7a
-sw $t9 5340($s7)
-li $t9 0x26013e
-sw $t9 5344($s7)
-li $t9 0x330154
-sw $t9 5348($s7)
-li $t9 0x310054
-sw $t9 5352($s7)
-li $t9 0x520873
-sw $t9 5356($s7)
-li $t9 0x560578
-sw $t9 5360($s7)
-li $t9 0x28003e
-sw $t9 5364($s7)
-li $t9 0x03000e
-sw $t9 5368($s7)
-li $t9 0x01000e
-sw $t9 5372($s7)
-li $t9 0x05000e
-sw $t9 5376($s7)
-li $t9 0x08010e
-sw $t9 5380($s7)
-li $t9 0x080210
-sw $t9 5384($s7)
-li $t9 0x213136
-sw $t9 5388($s7)
-li $t9 0x5b7a81
-sw $t9 5392($s7)
-li $t9 0x67868b
-sw $t9 5396($s7)
-li $t9 0x69858a
-sw $t9 5400($s7)
-li $t9 0x637e87
-sw $t9 5404($s7)
-li $t9 0x69888c
-sw $t9 5408($s7)
-li $t9 0x6d8b8f
-sw $t9 5412($s7)
-li $t9 0x6d8b8d
-sw $t9 5416($s7)
-li $t9 0x6b888b
-sw $t9 5420($s7)
-li $t9 0x5e797b
-sw $t9 5424($s7)
-li $t9 0x503112
-sw $t9 5428($s7)
-li $t9 0xb15800
-sw $t9 5432($s7)
-li $t9 0xb25800
-sw $t9 5436($s7)
-li $t9 0x622900
-sw $t9 5440($s7)
-li $t9 0x571f03
-sw $t9 5444($s7)
-li $t9 0x3e1605
-sw $t9 5448($s7)
-li $t9 0x2a1812
-sw $t9 5452($s7)
-li $t9 0x251c16
-sw $t9 5456($s7)
-li $t9 0x00023b
-sw $t9 5460($s7)
-li $t9 0x1a1a5a
-sw $t9 5464($s7)
-li $t9 0x1a1d5a
-sw $t9 5468($s7)
-li $t9 0x1a1c5a
-sw $t9 5472($s7)
-li $t9 0x1d1c5a
-sw $t9 5476($s7)
-sw $t9 5480($s7)
-li $t9 0x1e1752
-sw $t9 5484($s7)
-li $t9 0x930001
-sw $t9 5496($s7)
-li $t9 0x6d001c
-sw $t9 5500($s7)
-li $t9 0x47000e
-sw $t9 5504($s7)
-li $t9 0x3d000f
-sw $t9 5508($s7)
-li $t9 0x2a0117
-sw $t9 5512($s7)
-li $t9 0x1e021c
-sw $t9 5516($s7)
-li $t9 0x19081e
-sw $t9 5520($s7)
-li $t9 0x16091f
-sw $t9 5524($s7)
-li $t9 0x1a051f
-sw $t9 5528($s7)
-li $t9 0x230119
-sw $t9 5532($s7)
-li $t9 0x2e0016
-sw $t9 5536($s7)
-li $t9 0x3f000f
-sw $t9 5540($s7)
-li $t9 0x46000c
-sw $t9 5544($s7)
-li $t9 0x340000
-sw $t9 5548($s7)
-li $t9 0x280105
-sw $t9 5552($s7)
-li $t9 0x241717
-sw $t9 5556($s7)
-li $t9 0x2e0b3c
-sw $t9 5560($s7)
-li $t9 0x3e0d57
-sw $t9 5564($s7)
-li $t9 0x3f0b56
-sw $t9 5568($s7)
-li $t9 0x3d0b55
-sw $t9 5572($s7)
-li $t9 0x3d0a55
-sw $t9 5576($s7)
-li $t9 0x3b0955
-sw $t9 5580($s7)
-li $t9 0x3c0a55
-sw $t9 5584($s7)
-li $t9 0x310545
-sw $t9 5588($s7)
-li $t9 0x570d71
-sw $t9 5592($s7)
-li $t9 0x5d0e74
-sw $t9 5596($s7)
-li $t9 0x26033b
-sw $t9 5600($s7)
-li $t9 0x350356
-sw $t9 5604($s7)
-li $t9 0x350255
-sw $t9 5608($s7)
-li $t9 0x380258
-sw $t9 5612($s7)
-li $t9 0x3f0362
-sw $t9 5616($s7)
-li $t9 0x200133
-sw $t9 5620($s7)
-li $t9 0x08010f
-sw $t9 5624($s7)
-li $t9 0x05000d
-sw $t9 5628($s7)
-li $t9 0x0a030f
-sw $t9 5632($s7)
-li $t9 0x0b0510
-sw $t9 5636($s7)
-li $t9 0x0e080f
-sw $t9 5640($s7)
-li $t9 0x1e2a2e
-sw $t9 5644($s7)
-li $t9 0x4d6b76
-sw $t9 5648($s7)
-li $t9 0x4a6572
-sw $t9 5652($s7)
-li $t9 0x557279
-sw $t9 5656($s7)
-li $t9 0x4d6973
-sw $t9 5660($s7)
-li $t9 0x415b68
-sw $t9 5664($s7)
-li $t9 0x4f6a73
-sw $t9 5668($s7)
-li $t9 0x546e77
-sw $t9 5672($s7)
-li $t9 0x435d69
-sw $t9 5676($s7)
-li $t9 0x526b73
-sw $t9 5680($s7)
-li $t9 0x4b3f2a
-sw $t9 5684($s7)
-li $t9 0xb45c00
-sw $t9 5688($s7)
-sw $t9 5692($s7)
-li $t9 0x924700
-sw $t9 5696($s7)
-li $t9 0x6b2807
-sw $t9 5700($s7)
-li $t9 0x88370d
-sw $t9 5704($s7)
-li $t9 0x783602
-sw $t9 5708($s7)
-li $t9 0x361d0e
-sw $t9 5712($s7)
-li $t9 0x1d1e31
-sw $t9 5716($s7)
-li $t9 0x1e1f5d
-sw $t9 5720($s7)
-li $t9 0x240b37
-sw $t9 5724($s7)
-li $t9 0x2a0002
-sw $t9 5728($s7)
-li $t9 0x280013
-sw $t9 5732($s7)
-li $t9 0x240d36
-sw $t9 5736($s7)
-li $t9 0x2a0005
-sw $t9 5740($s7)
-li $t9 0x1a3b50
-sw $t9 5788($s7)
-li $t9 0x133146
-sw $t9 5792($s7)
-li $t9 0x051d2f
-sw $t9 5796($s7)
-li $t9 0x0f0b21
-sw $t9 5800($s7)
-li $t9 0x260013
-sw $t9 5804($s7)
-li $t9 0x2c0000
-sw $t9 5808($s7)
-li $t9 0x2a1a16
-sw $t9 5812($s7)
-li $t9 0x351239
-sw $t9 5816($s7)
-li $t9 0x551664
-sw $t9 5820($s7)
-li $t9 0x461254
-sw $t9 5824($s7)
-li $t9 0x3e0f4b
-sw $t9 5828($s7)
-li $t9 0x350d46
-sw $t9 5832($s7)
-li $t9 0x350b44
-sw $t9 5836($s7)
-li $t9 0x330b45
-sw $t9 5840($s7)
-li $t9 0x2d093b
-sw $t9 5844($s7)
-li $t9 0x5e1278
-sw $t9 5848($s7)
-li $t9 0x4d0e61
-sw $t9 5852($s7)
-li $t9 0x33074a
-sw $t9 5856($s7)
-li $t9 0x380757
-sw $t9 5860($s7)
-li $t9 0x380657
-sw $t9 5864($s7)
-li $t9 0x370657
-sw $t9 5868($s7)
-li $t9 0x4b086b
-sw $t9 5872($s7)
-li $t9 0x170320
-sw $t9 5876($s7)
-li $t9 0x0b0610
-sw $t9 5880($s7)
-li $t9 0x08030f
-sw $t9 5884($s7)
-li $t9 0x0f0711
-sw $t9 5888($s7)
-li $t9 0x110912
-sw $t9 5892($s7)
-li $t9 0x150b12
-sw $t9 5896($s7)
-li $t9 0x20120f
-sw $t9 5900($s7)
-li $t9 0x35302c
-sw $t9 5904($s7)
-li $t9 0x343431
-sw $t9 5908($s7)
-li $t9 0x303736
-sw $t9 5912($s7)
-li $t9 0x3b4b4b
-sw $t9 5916($s7)
-li $t9 0x4c6163
-sw $t9 5920($s7)
-li $t9 0x556f74
-sw $t9 5924($s7)
-li $t9 0x4f6971
-sw $t9 5928($s7)
-li $t9 0x4e666e
-sw $t9 5932($s7)
-li $t9 0x657e80
-sw $t9 5936($s7)
-li $t9 0x4b3f27
-sw $t9 5940($s7)
-li $t9 0xb75e00
-sw $t9 5944($s7)
-li $t9 0xb95e01
-sw $t9 5948($s7)
-li $t9 0xb35e01
-sw $t9 5952($s7)
-li $t9 0x5e2407
-sw $t9 5956($s7)
-li $t9 0x913d10
-sw $t9 5960($s7)
-li $t9 0xb96103
-sw $t9 5964($s7)
-li $t9 0x50270a
-sw $t9 5968($s7)
-li $t9 0x272525
-sw $t9 5972($s7)
-li $t9 0x27113d
-sw $t9 5976($s7)
-li $t9 0x350000
-sw $t9 5980($s7)
-li $t9 0x353535
-sw $t9 5984($s7)
-sw $t9 5988($s7)
-li $t9 0x2e0000
-sw $t9 5992($s7)
-li $t9 0x7e001c
-sw $t9 6004($s7)
-li $t9 0x550019
-sw $t9 6008($s7)
-li $t9 0x464647
-sw $t9 6024($s7)
-sw $t9 6028($s7)
-li $t9 0xffffff
-sw $t9 6032($s7)
-sw $t9 6036($s7)
-li $t9 0x1a3b56
-sw $t9 6056($s7)
-li $t9 0x0e2a3f
-sw $t9 6060($s7)
-li $t9 0x061222
-sw $t9 6064($s7)
-li $t9 0x221316
-sw $t9 6068($s7)
-li $t9 0x312021
-sw $t9 6072($s7)
-li $t9 0x3f1644
-sw $t9 6076($s7)
-li $t9 0x661c74
-sw $t9 6080($s7)
-li $t9 0x6c1d7d
-sw $t9 6084($s7)
-li $t9 0x6b1a7c
-sw $t9 6088($s7)
-li $t9 0x651775
-sw $t9 6092($s7)
-li $t9 0x5f1670
-sw $t9 6096($s7)
-li $t9 0x531362
-sw $t9 6100($s7)
-li $t9 0x4b0e5e
-sw $t9 6104($s7)
-li $t9 0x370b43
-sw $t9 6108($s7)
-li $t9 0x3d0b58
-sw $t9 6112($s7)
-li $t9 0x3e0958
-sw $t9 6116($s7)
-sw $t9 6120($s7)
-li $t9 0x3b0857
-sw $t9 6124($s7)
-li $t9 0x4d0b66
-sw $t9 6128($s7)
-li $t9 0x160719
-sw $t9 6132($s7)
-li $t9 0x110a12
-sw $t9 6136($s7)
-li $t9 0x100711
-sw $t9 6140($s7)
-li $t9 0x130b12
-sw $t9 6144($s7)
-li $t9 0x170e13
-sw $t9 6148($s7)
-li $t9 0x191015
-sw $t9 6152($s7)
-li $t9 0x521901
-sw $t9 6156($s7)
-li $t9 0x88310b
-sw $t9 6160($s7)
-li $t9 0x883309
-sw $t9 6164($s7)
-li $t9 0x89340b
-sw $t9 6168($s7)
-li $t9 0x7d340e
-sw $t9 6172($s7)
-li $t9 0x613016
-sw $t9 6176($s7)
-li $t9 0x433022
-sw $t9 6180($s7)
-li $t9 0x3f4a45
-sw $t9 6184($s7)
-li $t9 0x4d5e5b
-sw $t9 6188($s7)
-li $t9 0x44504a
-sw $t9 6192($s7)
-li $t9 0x804d11
-sw $t9 6196($s7)
-li $t9 0xbb6202
-sw $t9 6200($s7)
-li $t9 0xbb6302
-sw $t9 6204($s7)
-li $t9 0xbd6403
-sw $t9 6208($s7)
-li $t9 0x692e08
-sw $t9 6212($s7)
-li $t9 0xa24d0e
-sw $t9 6216($s7)
-li $t9 0xbb6508
-sw $t9 6220($s7)
-li $t9 0x4a2912
-sw $t9 6224($s7)
-li $t9 0x36241d
-sw $t9 6228($s7)
-li $t9 0x353535
-sw $t9 6232($s7)
-sw $t9 6236($s7)
-sw $t9 6240($s7)
-sw $t9 6244($s7)
-li $t9 0x500000
-sw $t9 6248($s7)
-li $t9 0x8d001a
-sw $t9 6256($s7)
-li $t9 0x6b0029
-sw $t9 6260($s7)
-li $t9 0x30021e
-sw $t9 6264($s7)
-li $t9 0x474646
-sw $t9 6276($s7)
-sw $t9 6280($s7)
-li $t9 0x464646
-sw $t9 6284($s7)
-li $t9 0x474646
-sw $t9 6288($s7)
-li $t9 0xffffff
-sw $t9 6292($s7)
-li $t9 0xfeffff
-sw $t9 6296($s7)
-li $t9 0x20455e
-sw $t9 6320($s7)
-li $t9 0x092436
-sw $t9 6324($s7)
-li $t9 0x192024
-sw $t9 6328($s7)
-li $t9 0x352422
-sw $t9 6332($s7)
-li $t9 0x361639
-sw $t9 6336($s7)
-li $t9 0x401749
-sw $t9 6340($s7)
-li $t9 0x44164a
-sw $t9 6344($s7)
-li $t9 0x48174d
-sw $t9 6348($s7)
-li $t9 0x4c1654
-sw $t9 6352($s7)
-li $t9 0x4e1657
-sw $t9 6356($s7)
-li $t9 0x3f124a
-sw $t9 6360($s7)
-li $t9 0x361044
-sw $t9 6364($s7)
-li $t9 0x400f5a
-sw $t9 6368($s7)
-li $t9 0x410e5a
-sw $t9 6372($s7)
-li $t9 0x3f0b5b
-sw $t9 6376($s7)
-li $t9 0x450b5e
-sw $t9 6380($s7)
-li $t9 0x450d55
-sw $t9 6384($s7)
-li $t9 0x190e17
-sw $t9 6388($s7)
-li $t9 0x160e13
-sw $t9 6392($s7)
-li $t9 0x150b15
-sw $t9 6396($s7)
-li $t9 0x190f15
-sw $t9 6400($s7)
-li $t9 0x1d1216
-sw $t9 6404($s7)
-li $t9 0x27120e
-sw $t9 6408($s7)
-li $t9 0x712706
-sw $t9 6412($s7)
-li $t9 0x8a350b
-sw $t9 6416($s7)
-li $t9 0x8b350b
-sw $t9 6420($s7)
-li $t9 0x8f360d
-sw $t9 6424($s7)
-li $t9 0xa44b08
-sw $t9 6428($s7)
-li $t9 0xa95305
-sw $t9 6432($s7)
-li $t9 0xaa5407
-sw $t9 6436($s7)
-li $t9 0xa85407
-sw $t9 6440($s7)
-li $t9 0x9a540b
-sw $t9 6444($s7)
-li $t9 0xae5e0a
-sw $t9 6448($s7)
-li $t9 0xbe6505
-sw $t9 6452($s7)
-li $t9 0xbf6606
-sw $t9 6456($s7)
-li $t9 0xbf6708
-sw $t9 6460($s7)
-li $t9 0xc06809
-sw $t9 6464($s7)
-li $t9 0x743c0b
-sw $t9 6468($s7)
-li $t9 0xaf5d11
-sw $t9 6472($s7)
-li $t9 0xaa5e0d
-sw $t9 6476($s7)
-li $t9 0x4e301c
-sw $t9 6480($s7)
-li $t9 0x370103
-sw $t9 6484($s7)
-li $t9 0x343535
-sw $t9 6488($s7)
-li $t9 0x353535
-sw $t9 6492($s7)
-sw $t9 6496($s7)
-li $t9 0x430000
-sw $t9 6500($s7)
-li $t9 0xaf0708
-sw $t9 6504($s7)
-li $t9 0x9d0618
-sw $t9 6508($s7)
-li $t9 0x72012e
-sw $t9 6512($s7)
-li $t9 0x5f0022
-sw $t9 6516($s7)
-li $t9 0x19182a
-sw $t9 6520($s7)
-li $t9 0x464647
-sw $t9 6532($s7)
-li $t9 0x464646
-sw $t9 6536($s7)
-sw $t9 6540($s7)
-li $t9 0x464747
-sw $t9 6544($s7)
-li $t9 0x464746
-sw $t9 6548($s7)
-sw $t9 6552($s7)
-li $t9 0x211d2f
-sw $t9 6588($s7)
-li $t9 0x501e5a
-sw $t9 6592($s7)
-li $t9 0x4f1d5c
-sw $t9 6596($s7)
-li $t9 0x4e1d5d
-sw $t9 6600($s7)
-li $t9 0x4d195d
-sw $t9 6604($s7)
-li $t9 0x4b1758
-sw $t9 6608($s7)
-li $t9 0x461654
-sw $t9 6612($s7)
-li $t9 0x461655
-sw $t9 6616($s7)
-li $t9 0x47155d
-sw $t9 6620($s7)
-li $t9 0x46135c
-sw $t9 6624($s7)
-li $t9 0x46115c
-sw $t9 6628($s7)
-li $t9 0x45105d
-sw $t9 6632($s7)
-li $t9 0x56136e
-sw $t9 6636($s7)
-li $t9 0x300d37
-sw $t9 6640($s7)
-li $t9 0x1f1516
-sw $t9 6644($s7)
-li $t9 0x1d1116
-sw $t9 6648($s7)
-li $t9 0x1a1015
-sw $t9 6652($s7)
-li $t9 0x241819
-sw $t9 6656($s7)
-li $t9 0x241a18
-sw $t9 6660($s7)
-li $t9 0x31160a
-sw $t9 6664($s7)
-li $t9 0x88350b
-sw $t9 6668($s7)
-li $t9 0x8f370f
-sw $t9 6672($s7)
-li $t9 0x8f380e
-sw $t9 6676($s7)
-li $t9 0xa14a0a
-sw $t9 6680($s7)
-li $t9 0xbe6303
-sw $t9 6684($s7)
-li $t9 0xbd6403
-sw $t9 6688($s7)
-li $t9 0xbe6403
-sw $t9 6692($s7)
-li $t9 0xbe6406
-sw $t9 6696($s7)
-li $t9 0xbf6607
-sw $t9 6700($s7)
-li $t9 0xbf6909
-sw $t9 6704($s7)
-li $t9 0xbf690b
-sw $t9 6708($s7)
-li $t9 0xc16a0b
-sw $t9 6712($s7)
-li $t9 0xc06b0e
-sw $t9 6716($s7)
-li $t9 0xc16d0f
-sw $t9 6720($s7)
-li $t9 0x804612
-sw $t9 6724($s7)
-li $t9 0xb96617
-sw $t9 6728($s7)
-li $t9 0x975416
-sw $t9 6732($s7)
-li $t9 0x45160e
-sw $t9 6736($s7)
-li $t9 0x353535
-sw $t9 6740($s7)
-li $t9 0x222222
-sw $t9 6744($s7)
-li $t9 0x353535
-sw $t9 6748($s7)
-li $t9 0x3b0002
-sw $t9 6752($s7)
-li $t9 0x9a090a
-sw $t9 6756($s7)
-li $t9 0xb10e11
-sw $t9 6760($s7)
-li $t9 0x760631
-sw $t9 6764($s7)
-li $t9 0x750534
-sw $t9 6768($s7)
-li $t9 0x570020
-sw $t9 6772($s7)
-li $t9 0x152434
-sw $t9 6776($s7)
-li $t9 0x658c9c
-sw $t9 6780($s7)
-li $t9 0x474646
-sw $t9 6792($s7)
-li $t9 0x464647
-sw $t9 6796($s7)
-sw $t9 6800($s7)
-li $t9 0x464746
-sw $t9 6804($s7)
-li $t9 0x25465f
-sw $t9 6816($s7)
-li $t9 0x244561
-sw $t9 6820($s7)
-li $t9 0x264764
-sw $t9 6824($s7)
-li $t9 0x464646
-sw $t9 6832($s7)
-sw $t9 6836($s7)
-li $t9 0x54215e
-sw $t9 6852($s7)
-li $t9 0x54205e
-sw $t9 6856($s7)
-li $t9 0x531f5d
-sw $t9 6860($s7)
-li $t9 0x4f1d5d
-sw $t9 6864($s7)
-li $t9 0x401a47
-sw $t9 6868($s7)
-li $t9 0x4e195d
-sw $t9 6872($s7)
-li $t9 0x4b185c
-sw $t9 6876($s7)
-li $t9 0x4a185d
-sw $t9 6880($s7)
-li $t9 0x4a165c
-sw $t9 6884($s7)
-li $t9 0x48155d
-sw $t9 6888($s7)
-li $t9 0x5c186d
-sw $t9 6892($s7)
-li $t9 0x261620
-sw $t9 6896($s7)
-li $t9 0x271a17
-sw $t9 6900($s7)
-li $t9 0x221817
-sw $t9 6904($s7)
-li $t9 0x201616
-sw $t9 6908($s7)
-li $t9 0x261d19
-sw $t9 6912($s7)
-li $t9 0x2a1e18
-sw $t9 6916($s7)
-li $t9 0x431d0a
-sw $t9 6920($s7)
-li $t9 0x90390d
-sw $t9 6924($s7)
-li $t9 0x903c0f
-sw $t9 6928($s7)
-sw $t9 6932($s7)
-li $t9 0xb35b08
-sw $t9 6936($s7)
-li $t9 0xbd6506
-sw $t9 6940($s7)
-li $t9 0xc06606
-sw $t9 6944($s7)
-li $t9 0xbf6907
-sw $t9 6948($s7)
-li $t9 0xc0690b
-sw $t9 6952($s7)
-li $t9 0xbf6a0d
-sw $t9 6956($s7)
-li $t9 0xc06c0f
-sw $t9 6960($s7)
-li $t9 0xc16c11
-sw $t9 6964($s7)
-li $t9 0xc26f13
-sw $t9 6968($s7)
-li $t9 0xc27116
-sw $t9 6972($s7)
-li $t9 0xc37217
-sw $t9 6976($s7)
-li $t9 0x884f17
-sw $t9 6980($s7)
-li $t9 0xa35724
-sw $t9 6984($s7)
-li $t9 0x733517
-sw $t9 6988($s7)
-li $t9 0x222121
-sw $t9 6992($s7)
-li $t9 0x222222
-sw $t9 6996($s7)
-sw $t9 7000($s7)
-sw $t9 7004($s7)
-li $t9 0x780a0b
-sw $t9 7008($s7)
-li $t9 0xbd1212
-sw $t9 7012($s7)
-li $t9 0x890b2d
-sw $t9 7016($s7)
-li $t9 0x760936
-sw $t9 7020($s7)
-li $t9 0x740a35
-sw $t9 7024($s7)
-li $t9 0x560320
-sw $t9 7028($s7)
-li $t9 0x1d2735
-sw $t9 7032($s7)
-li $t9 0x7198a7
-sw $t9 7036($s7)
-li $t9 0x8ba2ae
-sw $t9 7040($s7)
-li $t9 0x464646
-sw $t9 7056($s7)
-li $t9 0x294a62
-sw $t9 7072($s7)
-li $t9 0x294762
-sw $t9 7076($s7)
-li $t9 0x284861
-sw $t9 7080($s7)
-li $t9 0x464746
-sw $t9 7088($s7)
-li $t9 0x474646
-sw $t9 7092($s7)
-li $t9 0xfffeff
-sw $t9 7096($s7)
-li $t9 0xffffff
-sw $t9 7100($s7)
-li $t9 0x5a295e
-sw $t9 7112($s7)
-li $t9 0x5d2762
-sw $t9 7116($s7)
-li $t9 0x6d2873
-sw $t9 7120($s7)
-li $t9 0x482047
-sw $t9 7124($s7)
-li $t9 0x521e5d
-sw $t9 7128($s7)
-li $t9 0x501d5d
-sw $t9 7132($s7)
-li $t9 0x4d1d5c
-sw $t9 7136($s7)
-li $t9 0x4b1a5d
-sw $t9 7140($s7)
-li $t9 0x571967
-sw $t9 7144($s7)
-li $t9 0x46184a
-sw $t9 7148($s7)
-li $t9 0x2f201c
-sw $t9 7152($s7)
-li $t9 0x2c201a
-sw $t9 7156($s7)
-li $t9 0x291e19
-sw $t9 7160($s7)
-li $t9 0x261a18
-sw $t9 7164($s7)
-li $t9 0x2c201a
-sw $t9 7168($s7)
-li $t9 0x372820
-sw $t9 7172($s7)
-li $t9 0x532209
-sw $t9 7176($s7)
-li $t9 0x903d10
-sw $t9 7180($s7)
-li $t9 0x923d11
-sw $t9 7184($s7)
-li $t9 0x974112
-sw $t9 7188($s7)
-li $t9 0xbf6707
-sw $t9 7192($s7)
-li $t9 0xbf6909
-sw $t9 7196($s7)
-li $t9 0xbf6b0b
-sw $t9 7200($s7)
-li $t9 0xc06c0d
-sw $t9 7204($s7)
-li $t9 0xc16d11
-sw $t9 7208($s7)
-li $t9 0xc16e13
-sw $t9 7212($s7)
-li $t9 0xc27116
-sw $t9 7216($s7)
-li $t9 0xc37317
-sw $t9 7220($s7)
-li $t9 0xc3731a
-sw $t9 7224($s7)
-li $t9 0xc5751c
-sw $t9 7228($s7)
-li $t9 0xc6761e
-sw $t9 7232($s7)
-li $t9 0x915820
-sw $t9 7236($s7)
-li $t9 0x955026
-sw $t9 7240($s7)
-li $t9 0x222121
-sw $t9 7244($s7)
-li $t9 0x222222
-sw $t9 7248($s7)
-sw $t9 7252($s7)
-li $t9 0x818282
-sw $t9 7256($s7)
-li $t9 0x55090e
-sw $t9 7260($s7)
-li $t9 0xbb1616
-sw $t9 7264($s7)
-li $t9 0xa91620
-sw $t9 7268($s7)
-li $t9 0x7c0f3b
-sw $t9 7272($s7)
-li $t9 0x7c103c
-sw $t9 7276($s7)
-li $t9 0x721035
-sw $t9 7280($s7)
-li $t9 0x5b0925
-sw $t9 7284($s7)
-li $t9 0x342235
-sw $t9 7288($s7)
-li $t9 0x618391
-sw $t9 7292($s7)
-li $t9 0xa4b6ba
-sw $t9 7296($s7)
-li $t9 0xabb3b8
-sw $t9 7300($s7)
-li $t9 0x38556f
-sw $t9 7320($s7)
-li $t9 0x35546c
-sw $t9 7324($s7)
-li $t9 0x34536a
-sw $t9 7328($s7)
-li $t9 0x314f69
-sw $t9 7332($s7)
-li $t9 0x2e4d67
-sw $t9 7336($s7)
-li $t9 0x464647
-sw $t9 7344($s7)
-li $t9 0x464646
-sw $t9 7348($s7)
-li $t9 0x464647
-sw $t9 7352($s7)
-li $t9 0xffffff
-sw $t9 7356($s7)
-li $t9 0x653164
-sw $t9 7368($s7)
-li $t9 0x7b3579
-sw $t9 7372($s7)
-li $t9 0x542c48
-sw $t9 7376($s7)
-li $t9 0x4d264a
-sw $t9 7380($s7)
-li $t9 0x57255e
-sw $t9 7384($s7)
-li $t9 0x54225d
-sw $t9 7388($s7)
-li $t9 0x52205d
-sw $t9 7392($s7)
-li $t9 0x501f5c
-sw $t9 7396($s7)
-li $t9 0x64206d
-sw $t9 7400($s7)
-li $t9 0x352028
-sw $t9 7404($s7)
-li $t9 0x35281e
-sw $t9 7408($s7)
-li $t9 0x33251d
-sw $t9 7412($s7)
-li $t9 0x2f221d
-sw $t9 7416($s7)
-li $t9 0x2d201a
-sw $t9 7420($s7)
-li $t9 0x33251c
-sw $t9 7424($s7)
-li $t9 0x3d2e20
-sw $t9 7428($s7)
-li $t9 0x5f280b
-sw $t9 7432($s7)
-li $t9 0x923f15
-sw $t9 7436($s7)
-li $t9 0x924015
-sw $t9 7440($s7)
-li $t9 0xa24e15
-sw $t9 7444($s7)
-li $t9 0xc16b0e
-sw $t9 7448($s7)
-li $t9 0xc06c0f
-sw $t9 7452($s7)
-li $t9 0xc26f12
-sw $t9 7456($s7)
-li $t9 0xc26e16
-sw $t9 7460($s7)
-li $t9 0xc37217
-sw $t9 7464($s7)
-li $t9 0xc37319
-sw $t9 7468($s7)
-li $t9 0xc3751c
-sw $t9 7472($s7)
-li $t9 0xc6761e
-sw $t9 7476($s7)
-li $t9 0xc67920
-sw $t9 7480($s7)
-li $t9 0xc67923
-sw $t9 7484($s7)
-li $t9 0xc77c26
-sw $t9 7488($s7)
-li $t9 0x955e26
-sw $t9 7492($s7)
-li $t9 0x222122
-sw $t9 7496($s7)
-sw $t9 7500($s7)
-li $t9 0x828282
-sw $t9 7504($s7)
-li $t9 0x818282
-sw $t9 7508($s7)
-li $t9 0x480b12
-sw $t9 7512($s7)
-li $t9 0xa11918
-sw $t9 7516($s7)
-li $t9 0xc01d1d
-sw $t9 7520($s7)
-li $t9 0x861639
-sw $t9 7524($s7)
-li $t9 0x7d163f
-sw $t9 7528($s7)
-sw $t9 7532($s7)
-li $t9 0x6e1335
-sw $t9 7536($s7)
-li $t9 0x5e0e2a
-sw $t9 7540($s7)
-li $t9 0x58132d
-sw $t9 7544($s7)
-li $t9 0x2d3847
-sw $t9 7548($s7)
-li $t9 0x7593a2
-sw $t9 7552($s7)
-li $t9 0xb6bfc3
-sw $t9 7556($s7)
-li $t9 0xbabbc0
-sw $t9 7560($s7)
-li $t9 0x97a7ae
-sw $t9 7564($s7)
-li $t9 0x698b99
-sw $t9 7568($s7)
-li $t9 0x638592
-sw $t9 7572($s7)
-li $t9 0x587a89
-sw $t9 7576($s7)
-li $t9 0x4f6e81
-sw $t9 7580($s7)
-li $t9 0x48677b
-sw $t9 7584($s7)
-li $t9 0x436278
-sw $t9 7588($s7)
-li $t9 0x3f5e74
-sw $t9 7592($s7)
-li $t9 0x464646
-sw $t9 7600($s7)
-sw $t9 7604($s7)
-li $t9 0x464747
-sw $t9 7608($s7)
-li $t9 0x464646
-sw $t9 7612($s7)
-li $t9 0x673c58
-sw $t9 7620($s7)
-li $t9 0x7e3f78
-sw $t9 7624($s7)
-li $t9 0x69395a
-sw $t9 7628($s7)
-li $t9 0x533836
-sw $t9 7632($s7)
-li $t9 0x5b304f
-sw $t9 7636($s7)
-li $t9 0x632f5c
-sw $t9 7640($s7)
-li $t9 0x582a53
-sw $t9 7644($s7)
-li $t9 0x552658
-sw $t9 7648($s7)
-li $t9 0x5b245f
-sw $t9 7652($s7)
-li $t9 0x552154
-sw $t9 7656($s7)
-li $t9 0x3f2f21
-sw $t9 7660($s7)
-li $t9 0x3d2c20
-sw $t9 7664($s7)
-li $t9 0x382a1e
-sw $t9 7668($s7)
-li $t9 0x35281f
-sw $t9 7672($s7)
-li $t9 0x33241c
-sw $t9 7676($s7)
-li $t9 0x382a1f
-sw $t9 7680($s7)
-li $t9 0x3e2d20
-sw $t9 7684($s7)
-li $t9 0x672d0d
-sw $t9 7688($s7)
-li $t9 0x944416
-sw $t9 7692($s7)
-li $t9 0x954719
-sw $t9 7696($s7)
-li $t9 0xaa5b16
-sw $t9 7700($s7)
-li $t9 0xc16e13
-sw $t9 7704($s7)
-li $t9 0xc17016
-sw $t9 7708($s7)
-li $t9 0xc57319
-sw $t9 7712($s7)
-li $t9 0xc5751d
-sw $t9 7716($s7)
-li $t9 0xc6781f
-sw $t9 7720($s7)
-li $t9 0xc67920
-sw $t9 7724($s7)
-li $t9 0xc67921
-sw $t9 7728($s7)
-li $t9 0xc87c26
-sw $t9 7732($s7)
-li $t9 0xc87d29
-sw $t9 7736($s7)
-li $t9 0xca7e2a
-sw $t9 7740($s7)
-li $t9 0xca812c
-sw $t9 7744($s7)
-li $t9 0x222122
-sw $t9 7748($s7)
-sw $t9 7752($s7)
-li $t9 0x818281
-sw $t9 7756($s7)
-li $t9 0x838282
-sw $t9 7760($s7)
-li $t9 0x828282
-sw $t9 7764($s7)
-li $t9 0x731618
-sw $t9 7768($s7)
-li $t9 0xc2201f
-sw $t9 7772($s7)
-li $t9 0xa61e2f
-sw $t9 7776($s7)
-li $t9 0x801a40
-sw $t9 7780($s7)
-li $t9 0x811c40
-sw $t9 7784($s7)
-li $t9 0x811c43
-sw $t9 7788($s7)
-li $t9 0x6f1736
-sw $t9 7792($s7)
-li $t9 0x62162e
-sw $t9 7796($s7)
-sw $t9 7800($s7)
-li $t9 0x561e33
-sw $t9 7804($s7)
-li $t9 0x303d4a
-sw $t9 7808($s7)
-li $t9 0x6a8894
-sw $t9 7812($s7)
-li $t9 0xa9bbc1
-sw $t9 7816($s7)
-li $t9 0xb9bfc3
-sw $t9 7820($s7)
-li $t9 0x7e9faa
-sw $t9 7824($s7)
-li $t9 0x7e9ba6
-sw $t9 7828($s7)
-li $t9 0x73929d
-sw $t9 7832($s7)
-li $t9 0x6b8a98
-sw $t9 7836($s7)
-li $t9 0x668894
-sw $t9 7840($s7)
-li $t9 0x658692
-sw $t9 7844($s7)
-li $t9 0x628492
-sw $t9 7848($s7)
-li $t9 0x464646
-sw $t9 7860($s7)
-sw $t9 7864($s7)
-li $t9 0x834773
-sw $t9 7876($s7)
-li $t9 0x7d466c
-sw $t9 7880($s7)
-li $t9 0x624b3d
-sw $t9 7884($s7)
-li $t9 0x614344
-sw $t9 7888($s7)
-li $t9 0x883f7d
-sw $t9 7892($s7)
-li $t9 0x853d80
-sw $t9 7896($s7)
-li $t9 0x843880
-sw $t9 7900($s7)
-li $t9 0x622f5d
-sw $t9 7904($s7)
-li $t9 0x6a2e6d
-sw $t9 7908($s7)
-li $t9 0x472c34
-sw $t9 7912($s7)
-li $t9 0x483721
-sw $t9 7916($s7)
-li $t9 0x443420
-sw $t9 7920($s7)
-li $t9 0x3f3020
-sw $t9 7924($s7)
-li $t9 0x402f16
-sw $t9 7928($s7)
-li $t9 0x432e0e
-sw $t9 7932($s7)
-li $t9 0x3f3020
-sw $t9 7936($s7)
-li $t9 0x463422
-sw $t9 7940($s7)
-li $t9 0x6e3411
-sw $t9 7944($s7)
-li $t9 0x984a1d
-sw $t9 7948($s7)
-li $t9 0x9a4b1e
-sw $t9 7952($s7)
-li $t9 0xb2631c
-sw $t9 7956($s7)
-li $t9 0xc57318
-sw $t9 7960($s7)
-li $t9 0xc5751c
-sw $t9 7964($s7)
-li $t9 0xc7781f
-sw $t9 7968($s7)
-li $t9 0xc67a21
-sw $t9 7972($s7)
-li $t9 0xc87b25
-sw $t9 7976($s7)
-li $t9 0xc87d29
-sw $t9 7980($s7)
-li $t9 0xc9802b
-sw $t9 7984($s7)
-li $t9 0xca812c
-sw $t9 7988($s7)
-li $t9 0xcb842e
-sw $t9 7992($s7)
-li $t9 0xcd8431
-sw $t9 7996($s7)
-li $t9 0x222122
-sw $t9 8000($s7)
-li $t9 0x222222
-sw $t9 8004($s7)
-li $t9 0x828182
-sw $t9 8008($s7)
-li $t9 0x818280
-sw $t9 8012($s7)
-li $t9 0x828282
-sw $t9 8016($s7)
-li $t9 0x53161a
-sw $t9 8020($s7)
-li $t9 0xb72422
-sw $t9 8024($s7)
-li $t9 0xc02727
-sw $t9 8028($s7)
-li $t9 0x892043
-sw $t9 8032($s7)
-li $t9 0x842046
-sw $t9 8036($s7)
-li $t9 0x832045
-sw $t9 8040($s7)
-li $t9 0x832047
-sw $t9 8044($s7)
-li $t9 0x711d39
-sw $t9 8048($s7)
-li $t9 0x671933
-sw $t9 8052($s7)
-li $t9 0x661a33
-sw $t9 8056($s7)
-li $t9 0x661a34
-sw $t9 8060($s7)
-li $t9 0x612036
-sw $t9 8064($s7)
-li $t9 0x3c3543
-sw $t9 8068($s7)
-li $t9 0x455a66
-sw $t9 8072($s7)
-li $t9 0x72909c
-sw $t9 8076($s7)
-li $t9 0x86aab8
-sw $t9 8080($s7)
-li $t9 0xa7b8be
-sw $t9 8084($s7)
-li $t9 0xb7bdc0
-sw $t9 8088($s7)
-li $t9 0x7c9ca9
-sw $t9 8092($s7)
-li $t9 0x7699a6
-sw $t9 8096($s7)
-li $t9 0x7395a2
-sw $t9 8100($s7)
-li $t9 0x7394a1
-sw $t9 8104($s7)
-li $t9 0x7393a1
-sw $t9 8108($s7)
-li $t9 0x7c5657
-sw $t9 8128($s7)
-li $t9 0x885371
-sw $t9 8132($s7)
-li $t9 0x6e4f4d
-sw $t9 8136($s7)
-li $t9 0x745e3f
-sw $t9 8140($s7)
-li $t9 0x6b543f
-sw $t9 8144($s7)
-li $t9 0x7d456e
-sw $t9 8148($s7)
-li $t9 0x894480
-sw $t9 8152($s7)
-li $t9 0x883f7e
-sw $t9 8156($s7)
-li $t9 0x783b6c
-sw $t9 8160($s7)
-li $t9 0x694136
-sw $t9 8164($s7)
-li $t9 0x6c4d18
-sw $t9 8168($s7)
-li $t9 0x795619
-sw $t9 8172($s7)
-li $t9 0x624411
-sw $t9 8176($s7)
-li $t9 0x624a15
-sw $t9 8180($s7)
-li $t9 0x917121
-sw $t9 8184($s7)
-li $t9 0xa47d24
-sw $t9 8188($s7)
-li $t9 0x483725
-sw $t9 8192($s7)
-li $t9 0x4d3e29
-sw $t9 8196($s7)
-li $t9 0x733b18
-sw $t9 8200($s7)
-li $t9 0x9c5021
-sw $t9 8204($s7)
-li $t9 0x9f5224
-sw $t9 8208($s7)
-li $t9 0xb86b20
-sw $t9 8212($s7)
-li $t9 0xc67820
-sw $t9 8216($s7)
-li $t9 0xc67921
-sw $t9 8220($s7)
-li $t9 0xc77c27
-sw $t9 8224($s7)
-li $t9 0xc77d29
-sw $t9 8228($s7)
-li $t9 0xc9812c
-sw $t9 8232($s7)
-li $t9 0xca832e
-sw $t9 8236($s7)
-li $t9 0xcb8431
-sw $t9 8240($s7)
-li $t9 0xcd8535
-sw $t9 8244($s7)
-li $t9 0xcf8837
-sw $t9 8248($s7)
-li $t9 0x222222
-sw $t9 8252($s7)
-li $t9 0x222122
-sw $t9 8256($s7)
-li $t9 0x828282
-sw $t9 8260($s7)
-sw $t9 8264($s7)
-li $t9 0x999999
-sw $t9 8268($s7)
-li $t9 0x561a22
-sw $t9 8272($s7)
-li $t9 0x882222
-sw $t9 8276($s7)
-li $t9 0xc32a28
-sw $t9 8280($s7)
-li $t9 0xa0263b
-sw $t9 8284($s7)
-li $t9 0x85244a
-sw $t9 8288($s7)
-li $t9 0x88254a
-sw $t9 8292($s7)
-li $t9 0x88274c
-sw $t9 8296($s7)
-li $t9 0x88264c
-sw $t9 8300($s7)
-li $t9 0x73213d
-sw $t9 8304($s7)
-li $t9 0x6b2038
-sw $t9 8308($s7)
-li $t9 0x6b2039
-sw $t9 8312($s7)
-li $t9 0x6b2038
-sw $t9 8316($s7)
-li $t9 0x6a2038
-sw $t9 8320($s7)
-sw $t9 8324($s7)
-li $t9 0x5a2a3e
-sw $t9 8328($s7)
-li $t9 0x403847
-sw $t9 8332($s7)
-li $t9 0x3d4d58
-sw $t9 8336($s7)
-li $t9 0x576e7c
-sw $t9 8340($s7)
-li $t9 0x6d8a95
-sw $t9 8344($s7)
-li $t9 0x7d9ca8
-sw $t9 8348($s7)
-li $t9 0x85a8b6
-sw $t9 8352($s7)
-li $t9 0x84a7b3
-sw $t9 8356($s7)
-li $t9 0x82a6b1
-sw $t9 8360($s7)
-li $t9 0x7497a2
-sw $t9 8364($s7)
-li $t9 0x5b7683
-sw $t9 8368($s7)
-li $t9 0x334552
-sw $t9 8372($s7)
-li $t9 0x3d2937
-sw $t9 8376($s7)
-li $t9 0x4b1517
-sw $t9 8380($s7)
-li $t9 0x886e4b
-sw $t9 8384($s7)
-li $t9 0x81664c
-sw $t9 8388($s7)
-li $t9 0x7e694a
-sw $t9 8392($s7)
-li $t9 0x806946
-sw $t9 8396($s7)
-li $t9 0x7c6543
-sw $t9 8400($s7)
-li $t9 0x6f5348
-sw $t9 8404($s7)
-li $t9 0x834a71
-sw $t9 8408($s7)
-li $t9 0x8b4a79
-sw $t9 8412($s7)
-li $t9 0x7b5439
-sw $t9 8416($s7)
-li $t9 0xa0782a
-sw $t9 8420($s7)
-li $t9 0x886322
-sw $t9 8424($s7)
-li $t9 0x7b5a1f
-sw $t9 8428($s7)
-li $t9 0x8c752a
-sw $t9 8432($s7)
-li $t9 0xc1aa40
-sw $t9 8436($s7)
-li $t9 0xc2ac40
-sw $t9 8440($s7)
-li $t9 0xc2ab3f
-sw $t9 8444($s7)
-li $t9 0x523f2a
-sw $t9 8448($s7)
-li $t9 0x58452e
-sw $t9 8452($s7)
-li $t9 0x75401f
-sw $t9 8456($s7)
-li $t9 0xa15526
-sw $t9 8460($s7)
-li $t9 0xa25929
-sw $t9 8464($s7)
-li $t9 0xb96e27
-sw $t9 8468($s7)
-li $t9 0xc77c27
-sw $t9 8472($s7)
-li $t9 0xc87f29
-sw $t9 8476($s7)
-li $t9 0xc9812c
-sw $t9 8480($s7)
-li $t9 0xcd832e
-sw $t9 8484($s7)
-li $t9 0xcb8633
-sw $t9 8488($s7)
-li $t9 0xcf8835
-sw $t9 8492($s7)
-li $t9 0xcf8936
-sw $t9 8496($s7)
-li $t9 0xd08b3b
-sw $t9 8500($s7)
-li $t9 0xd08f3e
-sw $t9 8504($s7)
-li $t9 0x222122
-sw $t9 8508($s7)
-li $t9 0x999999
-sw $t9 8512($s7)
-li $t9 0x999899
-sw $t9 8516($s7)
-li $t9 0x999999
-sw $t9 8520($s7)
-sw $t9 8524($s7)
-li $t9 0x5c2025
-sw $t9 8528($s7)
-li $t9 0xbd2d2a
-sw $t9 8532($s7)
-li $t9 0xbe2f30
-sw $t9 8536($s7)
-li $t9 0x8a294b
-sw $t9 8540($s7)
-li $t9 0x892b4e
-sw $t9 8544($s7)
-li $t9 0x892a4e
-sw $t9 8548($s7)
-li $t9 0x892a4d
-sw $t9 8552($s7)
-li $t9 0x8a2d50
-sw $t9 8556($s7)
-li $t9 0x762840
-sw $t9 8560($s7)
-li $t9 0x6f273d
-sw $t9 8564($s7)
-li $t9 0x6f263e
-sw $t9 8568($s7)
-li $t9 0x6f273d
-sw $t9 8572($s7)
-li $t9 0x6f263d
-sw $t9 8576($s7)
-li $t9 0x6e263d
-sw $t9 8580($s7)
-li $t9 0x6f273c
-sw $t9 8584($s7)
-sw $t9 8588($s7)
-li $t9 0x68293d
-sw $t9 8592($s7)
-li $t9 0x573143
-sw $t9 8596($s7)
-li $t9 0x4c3747
-sw $t9 8600($s7)
-li $t9 0x413e4a
-sw $t9 8604($s7)
-li $t9 0x393f4c
-sw $t9 8608($s7)
-li $t9 0x384652
-sw $t9 8612($s7)
-li $t9 0x35414d
-sw $t9 8616($s7)
-li $t9 0x383847
-sw $t9 8620($s7)
-li $t9 0x462f40
-sw $t9 8624($s7)
-li $t9 0x5c2037
-sw $t9 8628($s7)
-li $t9 0x6d1a35
-sw $t9 8632($s7)
-li $t9 0x53161d
-sw $t9 8636($s7)
-li $t9 0x86694a
-sw $t9 8640($s7)
-li $t9 0x917652
-sw $t9 8644($s7)
-li $t9 0x8c744e
-sw $t9 8648($s7)
-li $t9 0x89724c
-sw $t9 8652($s7)
-li $t9 0x866d4a
-sw $t9 8656($s7)
-li $t9 0x816b46
-sw $t9 8660($s7)
-li $t9 0x765c44
-sw $t9 8664($s7)
-li $t9 0x7e5e35
-sw $t9 8668($s7)
-li $t9 0xac8437
-sw $t9 8672($s7)
-li $t9 0xab8134
-sw $t9 8676($s7)
-li $t9 0x7d5e25
-sw $t9 8680($s7)
-li $t9 0xa48c39
-sw $t9 8684($s7)
-li $t9 0xc6af47
-sw $t9 8688($s7)
-li $t9 0xc6ad46
-sw $t9 8692($s7)
-li $t9 0xc3ae43
-sw $t9 8696($s7)
-li $t9 0xc3ac41
-sw $t9 8700($s7)
-li $t9 0x5a472f
-sw $t9 8704($s7)
-li $t9 0x614d34
-sw $t9 8708($s7)
-li $t9 0x754725
-sw $t9 8712($s7)
-li $t9 0xa35d2d
-sw $t9 8716($s7)
-li $t9 0xa65f31
-sw $t9 8720($s7)
-li $t9 0xbd742d
-sw $t9 8724($s7)
-li $t9 0xca812c
-sw $t9 8728($s7)
-li $t9 0xca8331
-sw $t9 8732($s7)
-li $t9 0xcd8634
-sw $t9 8736($s7)
-li $t9 0xcf8835
-sw $t9 8740($s7)
-li $t9 0xd08938
-sw $t9 8744($s7)
-li $t9 0xd08c3c
-sw $t9 8748($s7)
-li $t9 0xd18d3f
-sw $t9 8752($s7)
-li $t9 0xd29141
-sw $t9 8756($s7)
-li $t9 0x222122
-sw $t9 8760($s7)
-li $t9 0x222123
-sw $t9 8764($s7)
-li $t9 0x999999
-sw $t9 8768($s7)
-sw $t9 8772($s7)
-sw $t9 8776($s7)
-li $t9 0x5e242a
-sw $t9 8780($s7)
-li $t9 0x8f2a2a
-sw $t9 8784($s7)
-li $t9 0xc63431
-sw $t9 8788($s7)
-li $t9 0xa33046
-sw $t9 8792($s7)
-li $t9 0x8b2f53
-sw $t9 8796($s7)
-li $t9 0x8b3153
-sw $t9 8800($s7)
-li $t9 0x8d3053
-sw $t9 8804($s7)
-li $t9 0x8f3154
-sw $t9 8808($s7)
-li $t9 0x8d3454
-sw $t9 8812($s7)
-li $t9 0x7b2e47
-sw $t9 8816($s7)
-li $t9 0x732c40
-sw $t9 8820($s7)
-sw $t9 8824($s7)
-li $t9 0x732d40
-sw $t9 8828($s7)
-li $t9 0x732c40
-sw $t9 8832($s7)
-li $t9 0x732c41
-sw $t9 8836($s7)
-sw $t9 8840($s7)
-li $t9 0x732a40
-sw $t9 8844($s7)
-li $t9 0x732b41
-sw $t9 8848($s7)
-li $t9 0x712a3f
-sw $t9 8852($s7)
-li $t9 0x72293f
-sw $t9 8856($s7)
-li $t9 0x72293d
-sw $t9 8860($s7)
-li $t9 0x6f263d
-sw $t9 8864($s7)
-li $t9 0x6e263d
-sw $t9 8868($s7)
-li $t9 0x6e253b
-sw $t9 8872($s7)
-li $t9 0x6c2138
-sw $t9 8876($s7)
-li $t9 0x6c2038
-sw $t9 8880($s7)
-li $t9 0x6a2036
-sw $t9 8884($s7)
-li $t9 0x7b2041
-sw $t9 8888($s7)
-li $t9 0x5d1d27
-sw $t9 8892($s7)
-li $t9 0x815e44
-sw $t9 8896($s7)
-li $t9 0x9a7e55
-sw $t9 8900($s7)
-li $t9 0x977d54
-sw $t9 8904($s7)
-li $t9 0x927a52
-sw $t9 8908($s7)
-li $t9 0x8d7450
-sw $t9 8912($s7)
-li $t9 0x8a714c
-sw $t9 8916($s7)
-li $t9 0x896c3e
-sw $t9 8920($s7)
-li $t9 0xbea04c
-sw $t9 8924($s7)
-li $t9 0xcab152
-sw $t9 8928($s7)
-li $t9 0x916d31
-sw $t9 8932($s7)
-li $t9 0xa78c3f
-sw $t9 8936($s7)
-li $t9 0xc9b14d
-sw $t9 8940($s7)
-li $t9 0xc7af4c
-sw $t9 8944($s7)
-li $t9 0xc7b04a
-sw $t9 8948($s7)
-li $t9 0xc6ae47
-sw $t9 8952($s7)
-li $t9 0xa28a38
-sw $t9 8956($s7)
-li $t9 0x645034
-sw $t9 8960($s7)
-li $t9 0x695437
-sw $t9 8964($s7)
-li $t9 0x744b2a
-sw $t9 8968($s7)
-li $t9 0xa75f30
-sw $t9 8972($s7)
-li $t9 0xaa6535
-sw $t9 8976($s7)
-li $t9 0xc07933
-sw $t9 8980($s7)
-li $t9 0xcb8533
-sw $t9 8984($s7)
-li $t9 0xcf8835
-sw $t9 8988($s7)
-li $t9 0xd08c38
-sw $t9 8992($s7)
-li $t9 0xd08d3d
-sw $t9 8996($s7)
-li $t9 0xd1903f
-sw $t9 9000($s7)
-li $t9 0xd19244
-sw $t9 9004($s7)
-li $t9 0xd59346
-sw $t9 9008($s7)
-li $t9 0xc88c4c
-sw $t9 9012($s7)
-li $t9 0x222122
-sw $t9 9016($s7)
-li $t9 0x828282
-sw $t9 9020($s7)
-li $t9 0x999999
-sw $t9 9024($s7)
-sw $t9 9028($s7)
-sw $t9 9032($s7)
-li $t9 0x61282d
-sw $t9 9036($s7)
-li $t9 0xbd3635
-sw $t9 9040($s7)
-li $t9 0xc53937
-sw $t9 9044($s7)
-li $t9 0x913354
-sw $t9 9048($s7)
-li $t9 0x903555
-sw $t9 9052($s7)
-sw $t9 9056($s7)
-sw $t9 9060($s7)
-li $t9 0x913757
-sw $t9 9064($s7)
-li $t9 0x923658
-sw $t9 9068($s7)
-li $t9 0x81344e
-sw $t9 9072($s7)
-li $t9 0x783347
-sw $t9 9076($s7)
-sw $t9 9080($s7)
-sw $t9 9084($s7)
-li $t9 0x763348
-sw $t9 9088($s7)
-li $t9 0x783145
-sw $t9 9092($s7)
-li $t9 0x763146
-sw $t9 9096($s7)
-sw $t9 9100($s7)
-li $t9 0x753044
-sw $t9 9104($s7)
-li $t9 0x742e44
-sw $t9 9108($s7)
-li $t9 0x752e44
-sw $t9 9112($s7)
-li $t9 0x752d43
-sw $t9 9116($s7)
-li $t9 0x732c41
-sw $t9 9120($s7)
-li $t9 0x732a40
-sw $t9 9124($s7)
-li $t9 0x712a3f
-sw $t9 9128($s7)
-li $t9 0x72293e
-sw $t9 9132($s7)
-li $t9 0x6f273e
-sw $t9 9136($s7)
-li $t9 0x6e253b
-sw $t9 9140($s7)
-li $t9 0x88284b
-sw $t9 9144($s7)
-li $t9 0x692333
-sw $t9 9148($s7)
-li $t9 0x7e5544
-sw $t9 9152($s7)
-li $t9 0xa68961
-sw $t9 9156($s7)
-li $t9 0xa0855a
-sw $t9 9160($s7)
-li $t9 0x9c8157
-sw $t9 9164($s7)
-li $t9 0x987e56
-sw $t9 9168($s7)
-li $t9 0x927548
-sw $t9 9172($s7)
-li $t9 0xc2a755
-sw $t9 9176($s7)
-li $t9 0xd0b75a
-sw $t9 9180($s7)
-li $t9 0xb7984a
-sw $t9 9184($s7)
-li $t9 0x9c813f
-sw $t9 9188($s7)
-li $t9 0xcdb254
-sw $t9 9192($s7)
-li $t9 0xcab152
-sw $t9 9196($s7)
-li $t9 0xcab14f
-sw $t9 9200($s7)
-li $t9 0xc7b14d
-sw $t9 9204($s7)
-li $t9 0x847641
-sw $t9 9208($s7)
-li $t9 0x747d6d
-sw $t9 9212($s7)
-li $t9 0x6c5738
-sw $t9 9216($s7)
-li $t9 0x735c3d
-sw $t9 9220($s7)
-li $t9 0x745433
-sw $t9 9224($s7)
-li $t9 0xa86737
-sw $t9 9228($s7)
-li $t9 0xb06b3b
-sw $t9 9232($s7)
-li $t9 0xc27d38
-sw $t9 9236($s7)
-li $t9 0xce8a38
-sw $t9 9240($s7)
-li $t9 0xd08d3e
-sw $t9 9244($s7)
-li $t9 0xd1913f
-sw $t9 9248($s7)
-li $t9 0xd59243
-sw $t9 9252($s7)
-li $t9 0xd59345
-sw $t9 9256($s7)
-li $t9 0xd6954a
-sw $t9 9260($s7)
-li $t9 0xca8d50
-sw $t9 9264($s7)
-li $t9 0x212122
-sw $t9 9268($s7)
-li $t9 0x222122
-sw $t9 9272($s7)
-li $t9 0x999999
-sw $t9 9276($s7)
-li $t9 0x999899
-sw $t9 9280($s7)
-li $t9 0x999999
-sw $t9 9284($s7)
-li $t9 0x662c35
-sw $t9 9288($s7)
-li $t9 0x883333
-sw $t9 9292($s7)
-li $t9 0xc93b39
-sw $t9 9296($s7)
-li $t9 0xb43b46
-sw $t9 9300($s7)
-li $t9 0x923857
-sw $t9 9304($s7)
-li $t9 0x92395b
-sw $t9 9308($s7)
-li $t9 0x943b5b
-sw $t9 9312($s7)
-li $t9 0x923c5c
-sw $t9 9316($s7)
-li $t9 0x933e5c
-sw $t9 9320($s7)
-li $t9 0x943e5d
-sw $t9 9324($s7)
-li $t9 0x883c54
-sw $t9 9328($s7)
-li $t9 0x7b374c
-sw $t9 9332($s7)
-li $t9 0x7b394c
-sw $t9 9336($s7)
-sw $t9 9340($s7)
-li $t9 0x7c374b
-sw $t9 9344($s7)
-sw $t9 9348($s7)
-li $t9 0x7b364b
-sw $t9 9352($s7)
-li $t9 0x7c374b
-sw $t9 9356($s7)
-li $t9 0x79364a
-sw $t9 9360($s7)
-li $t9 0x79354a
-sw $t9 9364($s7)
-li $t9 0x7a354a
-sw $t9 9368($s7)
-li $t9 0x783448
-sw $t9 9372($s7)
-li $t9 0x763046
-sw $t9 9376($s7)
-sw $t9 9380($s7)
-li $t9 0x742f44
-sw $t9 9384($s7)
-li $t9 0x752d43
-sw $t9 9388($s7)
-li $t9 0x732d40
-sw $t9 9392($s7)
-li $t9 0x7b2c48
-sw $t9 9396($s7)
-li $t9 0x8b2e52
-sw $t9 9400($s7)
-li $t9 0x73283e
-sw $t9 9404($s7)
-li $t9 0x74483d
-sw $t9 9408($s7)
-li $t9 0xac9264
-sw $t9 9412($s7)
-li $t9 0xa98f61
-sw $t9 9416($s7)
-li $t9 0xa6895e
-sw $t9 9420($s7)
-li $t9 0x9d8254
-sw $t9 9424($s7)
-li $t9 0xbba157
-sw $t9 9428($s7)
-li $t9 0xd5ba61
-sw $t9 9432($s7)
-li $t9 0xcfb35e
-sw $t9 9436($s7)
-li $t9 0x997c40
-sw $t9 9440($s7)
-li $t9 0xceb25a
-sw $t9 9444($s7)
-li $t9 0xd0b657
-sw $t9 9448($s7)
-li $t9 0xceb656
-sw $t9 9452($s7)
-li $t9 0xcdb352
-sw $t9 9456($s7)
-li $t9 0xc3ac4f
-sw $t9 9460($s7)
-li $t9 0x6f6e5b
-sw $t9 9464($s7)
-li $t9 0x859181
-sw $t9 9468($s7)
-li $t9 0x745e3f
-sw $t9 9472($s7)
-li $t9 0x7b6441
-sw $t9 9476($s7)
-li $t9 0x7d5e3c
-sw $t9 9480($s7)
-li $t9 0xa4673b
-sw $t9 9484($s7)
-li $t9 0xb3723f
-sw $t9 9488($s7)
-li $t9 0xc3813f
-sw $t9 9492($s7)
-li $t9 0xd28f3e
-sw $t9 9496($s7)
-li $t9 0xd59241
-sw $t9 9500($s7)
-li $t9 0xd59446
-sw $t9 9504($s7)
-li $t9 0xb9864a
-sw $t9 9508($s7)
-li $t9 0xa88050
-sw $t9 9512($s7)
-li $t9 0xba8a50
-sw $t9 9516($s7)
-li $t9 0xd19556
-sw $t9 9520($s7)
-li $t9 0x222122
-sw $t9 9524($s7)
-li $t9 0x999999
-sw $t9 9528($s7)
-sw $t9 9532($s7)
-li $t9 0x989999
-sw $t9 9536($s7)
-li $t9 0xa6a7a7
-sw $t9 9540($s7)
-li $t9 0x673335
-sw $t9 9544($s7)
-li $t9 0xb43e3c
-sw $t9 9548($s7)
-li $t9 0xca413f
-sw $t9 9552($s7)
-li $t9 0xa63f54
-sw $t9 9556($s7)
-li $t9 0x943d5f
-sw $t9 9560($s7)
-li $t9 0x953f5e
-sw $t9 9564($s7)
-li $t9 0x95405f
-sw $t9 9568($s7)
-li $t9 0x954061
-sw $t9 9572($s7)
-li $t9 0x974061
-sw $t9 9576($s7)
-li $t9 0x994361
-sw $t9 9580($s7)
-li $t9 0x90415c
-sw $t9 9584($s7)
-li $t9 0x7e3e52
-sw $t9 9588($s7)
-li $t9 0x803f53
-sw $t9 9592($s7)
-li $t9 0x803f52
-sw $t9 9596($s7)
-li $t9 0x7e3f52
-sw $t9 9600($s7)
-li $t9 0x803e53
-sw $t9 9604($s7)
-li $t9 0x7e3e4f
-sw $t9 9608($s7)
-li $t9 0x803d50
-sw $t9 9612($s7)
-li $t9 0x7d3e50
-sw $t9 9616($s7)
-li $t9 0x7d3c4e
-sw $t9 9620($s7)
-li $t9 0x7d3b4d
-sw $t9 9624($s7)
-li $t9 0x7c394c
-sw $t9 9628($s7)
-li $t9 0x7b364b
-sw $t9 9632($s7)
-li $t9 0x7c364a
-sw $t9 9636($s7)
-li $t9 0x79354b
-sw $t9 9640($s7)
-li $t9 0x783347
-sw $t9 9644($s7)
-li $t9 0x763045
-sw $t9 9648($s7)
-li $t9 0x893453
-sw $t9 9652($s7)
-li $t9 0x8d3455
-sw $t9 9656($s7)
-li $t9 0x823145
-sw $t9 9660($s7)
-li $t9 0x6d3b36
-sw $t9 9664($s7)
-li $t9 0xb49969
-sw $t9 9668($s7)
-li $t9 0xb19366
-sw $t9 9672($s7)
-li $t9 0xaa9163
-sw $t9 9676($s7)
-li $t9 0xb19757
-sw $t9 9680($s7)
-li $t9 0xd9bd69
-sw $t9 9684($s7)
-li $t9 0xd6bb64
-sw $t9 9688($s7)
-li $t9 0xb09453
-sw $t9 9692($s7)
-li $t9 0xc2a757
-sw $t9 9696($s7)
-li $t9 0xd1b75e
-sw $t9 9700($s7)
-li $t9 0xd1b75d
-sw $t9 9704($s7)
-li $t9 0xd0b658
-sw $t9 9708($s7)
-li $t9 0xcfb455
-sw $t9 9712($s7)
-li $t9 0xc6ac53
-sw $t9 9716($s7)
-li $t9 0x73735d
-sw $t9 9720($s7)
-li $t9 0x7d8678
-sw $t9 9724($s7)
-li $t9 0x7d6644
-sw $t9 9728($s7)
-li $t9 0x836b48
-sw $t9 9732($s7)
-li $t9 0x856945
-sw $t9 9736($s7)
-li $t9 0xa0693e
-sw $t9 9740($s7)
-li $t9 0xb67645
-sw $t9 9744($s7)
-li $t9 0xc58647
-sw $t9 9748($s7)
-li $t9 0xd59446
-sw $t9 9752($s7)
-li $t9 0xd6954a
-sw $t9 9756($s7)
-li $t9 0xd8994b
-sw $t9 9760($s7)
-li $t9 0xaa8454
-sw $t9 9764($s7)
-li $t9 0xb09367
-sw $t9 9768($s7)
-li $t9 0xae8c61
-sw $t9 9772($s7)
-li $t9 0xcc9a5a
-sw $t9 9776($s7)
-li $t9 0x222122
-sw $t9 9780($s7)
-li $t9 0x999999
-sw $t9 9784($s7)
-sw $t9 9788($s7)
-li $t9 0xa7a7a7
-sw $t9 9792($s7)
-li $t9 0x723441
-sw $t9 9796($s7)
-li $t9 0x7d383c
-sw $t9 9800($s7)
-li $t9 0xcd4544
-sw $t9 9804($s7)
-li $t9 0xc94745
-sw $t9 9808($s7)
-li $t9 0x99435f
-sw $t9 9812($s7)
-li $t9 0x984462
-sw $t9 9816($s7)
-li $t9 0x984563
-sw $t9 9820($s7)
-li $t9 0x984662
-sw $t9 9824($s7)
-li $t9 0x9b4764
-sw $t9 9828($s7)
-li $t9 0x9a4864
-sw $t9 9832($s7)
-li $t9 0x9a4865
-sw $t9 9836($s7)
-li $t9 0x974863
-sw $t9 9840($s7)
-li $t9 0x834456
-sw $t9 9844($s7)
-li $t9 0x844355
-sw $t9 9848($s7)
-li $t9 0x834455
-sw $t9 9852($s7)
-li $t9 0x844455
-sw $t9 9856($s7)
-li $t9 0x834456
-sw $t9 9860($s7)
-li $t9 0x844357
-sw $t9 9864($s7)
-li $t9 0x834354
-sw $t9 9868($s7)
-li $t9 0x814054
-sw $t9 9872($s7)
-li $t9 0x824054
-sw $t9 9876($s7)
-li $t9 0x813f52
-sw $t9 9880($s7)
-li $t9 0x7e3f53
-sw $t9 9884($s7)
-li $t9 0x803d50
-sw $t9 9888($s7)
-li $t9 0x7d3b4e
-sw $t9 9892($s7)
-li $t9 0x7d3b4d
-sw $t9 9896($s7)
-li $t9 0x7c394b
-sw $t9 9900($s7)
-li $t9 0x80384d
-sw $t9 9904($s7)
-li $t9 0x923b5b
-sw $t9 9908($s7)
-li $t9 0x923858
-sw $t9 9912($s7)
-li $t9 0x92364c
-sw $t9 9916($s7)
-li $t9 0x643133
-sw $t9 9920($s7)
-li $t9 0xba9c6f
-sw $t9 9924($s7)
-li $t9 0xba9c6c
-sw $t9 9928($s7)
-li $t9 0xb1935e
-sw $t9 9932($s7)
-li $t9 0xd9be6c
-sw $t9 9936($s7)
-li $t9 0xdac06c
-sw $t9 9940($s7)
-li $t9 0xd5b767
-sw $t9 9944($s7)
-li $t9 0xb19254
-sw $t9 9948($s7)
-li $t9 0xd7bb65
-sw $t9 9952($s7)
-li $t9 0xd6bb62
-sw $t9 9956($s7)
-li $t9 0xd4bb61
-sw $t9 9960($s7)
-li $t9 0xd1b75c
-sw $t9 9964($s7)
-li $t9 0xd0b85b
-sw $t9 9968($s7)
-li $t9 0xd0b457
-sw $t9 9972($s7)
-li $t9 0x8a764a
-sw $t9 9976($s7)
-li $t9 0x848672
-sw $t9 9980($s7)
-li $t9 0x856c48
-sw $t9 9984($s7)
-li $t9 0x89714b
-sw $t9 9988($s7)
-li $t9 0x907450
-sw $t9 9992($s7)
-li $t9 0x9b6a40
-sw $t9 9996($s7)
-li $t9 0xb97d4a
-sw $t9 10000($s7)
-li $t9 0xc6864c
-sw $t9 10004($s7)
-li $t9 0xd6984d
-sw $t9 10008($s7)
-li $t9 0xd89a4e
-sw $t9 10012($s7)
-li $t9 0xda9f53
-sw $t9 10016($s7)
-li $t9 0xb68b57
-sw $t9 10020($s7)
-li $t9 0xbb9d6f
-sw $t9 10024($s7)
-li $t9 0xbb9e6f
-sw $t9 10028($s7)
-li $t9 0xb49163
-sw $t9 10032($s7)
-li $t9 0x733f38
-sw $t9 10036($s7)
-li $t9 0x999999
-sw $t9 10040($s7)
-li $t9 0xa7a7a7
-sw $t9 10044($s7)
-sw $t9 10048($s7)
-li $t9 0x6f3b3f
-sw $t9 10052($s7)
-li $t9 0xa64443
-sw $t9 10056($s7)
-li $t9 0xcb4b48
-sw $t9 10060($s7)
-li $t9 0xbe4a50
-sw $t9 10064($s7)
-li $t9 0x9b4864
-sw $t9 10068($s7)
-li $t9 0x9a4a64
-sw $t9 10072($s7)
-li $t9 0x9c4a66
-sw $t9 10076($s7)
-li $t9 0x9d4b67
-sw $t9 10080($s7)
-li $t9 0x9c4d68
-sw $t9 10084($s7)
-li $t9 0x9f4e69
-sw $t9 10088($s7)
-li $t9 0x9f4d6a
-sw $t9 10092($s7)
-li $t9 0x9f4e6a
-sw $t9 10096($s7)
-li $t9 0x894a5d
-sw $t9 10100($s7)
-li $t9 0x884a5b
-sw $t9 10104($s7)
-li $t9 0x884a5a
-sw $t9 10108($s7)
-sw $t9 10112($s7)
-li $t9 0x884a5b
-sw $t9 10116($s7)
-li $t9 0x884a5a
-sw $t9 10120($s7)
-sw $t9 10124($s7)
-li $t9 0x854858
-sw $t9 10128($s7)
-li $t9 0x864758
-sw $t9 10132($s7)
-li $t9 0x854658
-sw $t9 10136($s7)
-li $t9 0x844555
-sw $t9 10140($s7)
-li $t9 0x844354
-sw $t9 10144($s7)
-li $t9 0x824054
-sw $t9 10148($s7)
-li $t9 0x813e53
-sw $t9 10152($s7)
-li $t9 0x803f53
-sw $t9 10156($s7)
-li $t9 0x913f5b
-sw $t9 10160($s7)
-li $t9 0x973f5e
-sw $t9 10164($s7)
-li $t9 0x943d5c
-sw $t9 10168($s7)
-li $t9 0xa03d52
-sw $t9 10172($s7)
-li $t9 0x663437
-sw $t9 10176($s7)
-li $t9 0xb3926a
-sw $t9 10180($s7)
-li $t9 0xbb9f6e
-sw $t9 10184($s7)
-li $t9 0xc8aa6b
-sw $t9 10188($s7)
-li $t9 0xe0c373
-sw $t9 10192($s7)
-li $t9 0xdec272
-sw $t9 10196($s7)
-li $t9 0xbb9d5e
-sw $t9 10200($s7)
-li $t9 0xd2b769
-sw $t9 10204($s7)
-li $t9 0xd8bd69
-sw $t9 10208($s7)
-li $t9 0xd8bd67
-sw $t9 10212($s7)
-li $t9 0xd6bb63
-sw $t9 10216($s7)
-li $t9 0xd5b95f
-sw $t9 10220($s7)
-li $t9 0xd1b75e
-sw $t9 10224($s7)
-li $t9 0xd2b75a
-sw $t9 10228($s7)
-li $t9 0xc9ab53
-sw $t9 10232($s7)
-li $t9 0x8d7443
-sw $t9 10236($s7)
-li $t9 0x8b734d
-sw $t9 10240($s7)
-li $t9 0x927952
-sw $t9 10244($s7)
-li $t9 0x997d55
-sw $t9 10248($s7)
-li $t9 0x9a7247
-sw $t9 10252($s7)
-li $t9 0xbe8150
-sw $t9 10256($s7)
-li $t9 0xc58953
-sw $t9 10260($s7)
-li $t9 0xda9c50
-sw $t9 10264($s7)
-li $t9 0xdaa154
-sw $t9 10268($s7)
-li $t9 0xdca256
-sw $t9 10272($s7)
-li $t9 0xc1935d
-sw $t9 10276($s7)
-li $t9 0xbda071
-sw $t9 10280($s7)
-li $t9 0xbda373
-sw $t9 10284($s7)
-li $t9 0xb79972
-sw $t9 10288($s7)
-li $t9 0x693739
-sw $t9 10292($s7)
-li $t9 0xa7a7a7
-sw $t9 10296($s7)
-sw $t9 10300($s7)
-li $t9 0x924355
-sw $t9 10304($s7)
-li $t9 0x734141
-sw $t9 10308($s7)
-li $t9 0xc74e4a
-sw $t9 10312($s7)
-li $t9 0xce4f4c
-sw $t9 10316($s7)
-li $t9 0xb14d5d
-sw $t9 10320($s7)
-li $t9 0x9c4e69
-sw $t9 10324($s7)
-li $t9 0x9d4d6a
-sw $t9 10328($s7)
-li $t9 0x9d506b
-sw $t9 10332($s7)
-li $t9 0xa0526c
-sw $t9 10336($s7)
-li $t9 0xa1526c
-sw $t9 10340($s7)
-li $t9 0xa1546f
-sw $t9 10344($s7)
-li $t9 0xa1546e
-sw $t9 10348($s7)
-li $t9 0xa1546f
-sw $t9 10352($s7)
-li $t9 0x935366
-sw $t9 10356($s7)
-li $t9 0x8c4f5f
-sw $t9 10360($s7)
-li $t9 0x8b505f
-sw $t9 10364($s7)
-li $t9 0x8b4f61
-sw $t9 10368($s7)
-li $t9 0x8c505f
-sw $t9 10372($s7)
-li $t9 0x8d4f5f
-sw $t9 10376($s7)
-li $t9 0x8c4e5e
-sw $t9 10380($s7)
-li $t9 0x894d5e
-sw $t9 10384($s7)
-li $t9 0x894c5e
-sw $t9 10388($s7)
-li $t9 0x894b5d
-sw $t9 10392($s7)
-li $t9 0x884a5c
-sw $t9 10396($s7)
-li $t9 0x884a5b
-sw $t9 10400($s7)
-li $t9 0x854858
-sw $t9 10404($s7)
-li $t9 0x864556
-sw $t9 10408($s7)
-li $t9 0x884558
-sw $t9 10412($s7)
-li $t9 0x9a4864
-sw $t9 10416($s7)
-li $t9 0x994663
-sw $t9 10420($s7)
-li $t9 0x994361
-sw $t9 10424($s7)
-li $t9 0xa74057
-sw $t9 10428($s7)
-li $t9 0x71383c
-sw $t9 10432($s7)
-li $t9 0xa98869
-sw $t9 10436($s7)
-li $t9 0xbfa377
-sw $t9 10440($s7)
-li $t9 0xbea169
-sw $t9 10444($s7)
-li $t9 0xe2c676
-sw $t9 10448($s7)
-li $t9 0xd6b971
-sw $t9 10452($s7)
-li $t9 0xc3a664
-sw $t9 10456($s7)
-li $t9 0xdec16f
-sw $t9 10460($s7)
-li $t9 0xdcc06c
-sw $t9 10464($s7)
-li $t9 0xdabd6a
-sw $t9 10468($s7)
-li $t9 0xd8be67
-sw $t9 10472($s7)
-li $t9 0xd7bb65
-sw $t9 10476($s7)
-li $t9 0xd7ba5f
-sw $t9 10480($s7)
-li $t9 0xd4b95e
-sw $t9 10484($s7)
-li $t9 0xd0b75c
-sw $t9 10488($s7)
-li $t9 0xcbaf54
-sw $t9 10492($s7)
-li $t9 0x867554
-sw $t9 10496($s7)
-li $t9 0x988056
-sw $t9 10500($s7)
-li $t9 0x9d855a
-sw $t9 10504($s7)
-li $t9 0x9c7a53
-sw $t9 10508($s7)
-li $t9 0xbf8554
-sw $t9 10512($s7)
-li $t9 0xc68b58
-sw $t9 10516($s7)
-li $t9 0xd89f56
-sw $t9 10520($s7)
-li $t9 0xdea45b
-sw $t9 10524($s7)
-li $t9 0xdfa75e
-sw $t9 10528($s7)
-li $t9 0xc2945e
-sw $t9 10532($s7)
-li $t9 0xbea174
-sw $t9 10536($s7)
-li $t9 0xc3a479
-sw $t9 10540($s7)
-li $t9 0xbda279
-sw $t9 10544($s7)
-li $t9 0x6f3d3f
-sw $t9 10548($s7)
-li $t9 0xa7a7a7
-sw $t9 10552($s7)
-sw $t9 10556($s7)
-li $t9 0x9b4848
-sw $t9 10560($s7)
-li $t9 0x904a4a
-sw $t9 10564($s7)
-li $t9 0xce544f
-sw $t9 10568($s7)
-li $t9 0xcf5453
-sw $t9 10572($s7)
-li $t9 0xa75369
-sw $t9 10576($s7)
-li $t9 0xa0536d
-sw $t9 10580($s7)
-li $t9 0xa1546f
-sw $t9 10584($s7)
-li $t9 0xa25671
-sw $t9 10588($s7)
-li $t9 0xa25571
-sw $t9 10592($s7)
-li $t9 0xa25772
-sw $t9 10596($s7)
-li $t9 0xa35873
-sw $t9 10600($s7)
-li $t9 0xa65a73
-sw $t9 10604($s7)
-li $t9 0xa45a73
-sw $t9 10608($s7)
-li $t9 0xa15b71
-sw $t9 10612($s7)
-li $t9 0x905666
-sw $t9 10616($s7)
-sw $t9 10620($s7)
-li $t9 0x915666
-sw $t9 10624($s7)
-li $t9 0x905567
-sw $t9 10628($s7)
-li $t9 0x905465
-sw $t9 10632($s7)
-li $t9 0x8f5465
-sw $t9 10636($s7)
-li $t9 0x8d5465
-sw $t9 10640($s7)
-li $t9 0x8d5262
-sw $t9 10644($s7)
-li $t9 0x8c5262
-sw $t9 10648($s7)
-li $t9 0x8b4f5f
-sw $t9 10652($s7)
-li $t9 0x8b4d5e
-sw $t9 10656($s7)
-li $t9 0x8a4b5e
-sw $t9 10660($s7)
-li $t9 0x884a5c
-sw $t9 10664($s7)
-li $t9 0x974b64
-sw $t9 10668($s7)
-li $t9 0x9d4b69
-sw $t9 10672($s7)
-li $t9 0x9b4a66
-sw $t9 10676($s7)
-li $t9 0x9a4765
-sw $t9 10680($s7)
-li $t9 0xa7485d
-sw $t9 10684($s7)
-li $t9 0x803f41
-sw $t9 10688($s7)
-li $t9 0xa17d64
-sw $t9 10692($s7)
-li $t9 0xc1a77b
-sw $t9 10696($s7)
-li $t9 0xb99c71
-sw $t9 10700($s7)
-li $t9 0xd6b974
-sw $t9 10704($s7)
-li $t9 0xbda067
-sw $t9 10708($s7)
-li $t9 0xdfc375
-sw $t9 10712($s7)
-li $t9 0xe1c373
-sw $t9 10716($s7)
-li $t9 0xdfc271
-sw $t9 10720($s7)
-li $t9 0xdcc06d
-sw $t9 10724($s7)
-li $t9 0xdabf6b
-sw $t9 10728($s7)
-li $t9 0xdabd67
-sw $t9 10732($s7)
-li $t9 0xd8bb64
-sw $t9 10736($s7)
-li $t9 0xd7bb63
-sw $t9 10740($s7)
-li $t9 0xd5b95e
-sw $t9 10744($s7)
-li $t9 0xd1b75d
-sw $t9 10748($s7)
-li $t9 0x887b57
-sw $t9 10752($s7)
-li $t9 0xa1865b
-sw $t9 10756($s7)
-li $t9 0xa78a5e
-sw $t9 10760($s7)
-li $t9 0xa7885d
-sw $t9 10764($s7)
-li $t9 0xbb8857
-sw $t9 10768($s7)
-li $t9 0xcb925c
-sw $t9 10772($s7)
-li $t9 0xdca25d
-sw $t9 10776($s7)
-li $t9 0xdaa25e
-sw $t9 10780($s7)
-li $t9 0xbe925f
-sw $t9 10784($s7)
-li $t9 0xbb9d75
-sw $t9 10788($s7)
-li $t9 0xc2a77c
-sw $t9 10792($s7)
-li $t9 0xc5a87d
-sw $t9 10796($s7)
-li $t9 0xc3aa81
-sw $t9 10800($s7)
-li $t9 0x90675a
-sw $t9 10804($s7)
-li $t9 0x353535
-sw $t9 10808($s7)
-li $t9 0x353534
-sw $t9 10812($s7)
-li $t9 0x834a4b
-sw $t9 10816($s7)
-li $t9 0xae5350
-sw $t9 10820($s7)
-li $t9 0xd05654
-sw $t9 10824($s7)
-li $t9 0xcd5a57
-sw $t9 10828($s7)
-li $t9 0xa25671
-sw $t9 10832($s7)
-li $t9 0xa25872
-sw $t9 10836($s7)
-li $t9 0xa45a73
-sw $t9 10840($s7)
-li $t9 0xa65b74
-sw $t9 10844($s7)
-li $t9 0xa65c74
-sw $t9 10848($s7)
-li $t9 0xa75e76
-sw $t9 10852($s7)
-li $t9 0xa75f78
-sw $t9 10856($s7)
-li $t9 0xa75e79
-sw $t9 10860($s7)
-li $t9 0xa7617a
-sw $t9 10864($s7)
-li $t9 0xa75e7a
-sw $t9 10868($s7)
-li $t9 0x9a5e6e
-sw $t9 10872($s7)
-li $t9 0x935d6b
-sw $t9 10876($s7)
-li $t9 0x945d6b
-sw $t9 10880($s7)
-li $t9 0x945c6b
-sw $t9 10884($s7)
-li $t9 0x945b6a
-sw $t9 10888($s7)
-li $t9 0x925b6a
-sw $t9 10892($s7)
-li $t9 0x925b69
-sw $t9 10896($s7)
-li $t9 0x925869
-sw $t9 10900($s7)
-li $t9 0x915567
-sw $t9 10904($s7)
-li $t9 0x905566
-sw $t9 10908($s7)
-li $t9 0x8f5465
-sw $t9 10912($s7)
-li $t9 0x8f5363
-sw $t9 10916($s7)
-li $t9 0x925364
-sw $t9 10920($s7)
-li $t9 0xa0546e
-sw $t9 10924($s7)
-li $t9 0x9d526c
-sw $t9 10928($s7)
-li $t9 0x9d4f6a
-sw $t9 10932($s7)
-li $t9 0x9c4e69
-sw $t9 10936($s7)
-li $t9 0xa74b61
-sw $t9 10940($s7)
-li $t9 0x904646
-sw $t9 10944($s7)
-li $t9 0x99735f
-sw $t9 10948($s7)
-li $t9 0xc6ab80
-sw $t9 10952($s7)
-li $t9 0xc5a97d
-sw $t9 10956($s7)
-li $t9 0xb2976b
-sw $t9 10960($s7)
-li $t9 0xd1b874
-sw $t9 10964($s7)
-li $t9 0xe4c879
-sw $t9 10968($s7)
-li $t9 0xe2c676
-sw $t9 10972($s7)
-li $t9 0xe1c574
-sw $t9 10976($s7)
-li $t9 0xe1c571
-sw $t9 10980($s7)
-li $t9 0xdec26e
-sw $t9 10984($s7)
-li $t9 0xddc06d
-sw $t9 10988($s7)
-li $t9 0xdabe69
-sw $t9 10992($s7)
-li $t9 0xd9bd65
-sw $t9 10996($s7)
-li $t9 0xd7bb62
-sw $t9 11000($s7)
-li $t9 0xd4b95e
-sw $t9 11004($s7)
-li $t9 0x8a9454
-sw $t9 11008($s7)
-li $t9 0x908553
-sw $t9 11012($s7)
-li $t9 0xab9163
-sw $t9 11016($s7)
-li $t9 0xb19465
-sw $t9 11020($s7)
-li $t9 0xb3885a
-sw $t9 11024($s7)
-li $t9 0xc9985d
-sw $t9 11028($s7)
-li $t9 0xbe925e
-sw $t9 11032($s7)
-li $t9 0xb29167
-sw $t9 11036($s7)
-li $t9 0xbea175
-sw $t9 11040($s7)
-li $t9 0xc1a77d
-sw $t9 11044($s7)
-li $t9 0xc5a87e
-sw $t9 11048($s7)
-li $t9 0xc6ac84
-sw $t9 11052($s7)
-li $t9 0xc7af85
-sw $t9 11056($s7)
-li $t9 0xc1a781
-sw $t9 11060($s7)
-li $t9 0x815553
-sw $t9 11064($s7)
-li $t9 0x353535
-sw $t9 11068($s7)
-li $t9 0x7b4d50
-sw $t9 11072($s7)
-li $t9 0xc85a57
-sw $t9 11076($s7)
-li $t9 0xd05d5b
-sw $t9 11080($s7)
-li $t9 0xc55d63
-sw $t9 11084($s7)
-li $t9 0xa45d75
-sw $t9 11088($s7)
-li $t9 0xa75e78
-sw $t9 11092($s7)
-li $t9 0xa75e76
-sw $t9 11096($s7)
-li $t9 0xa85f7a
-sw $t9 11100($s7)
-li $t9 0xa8627a
-sw $t9 11104($s7)
-li $t9 0xa9627a
-sw $t9 11108($s7)
-li $t9 0xaa647c
-sw $t9 11112($s7)
-li $t9 0xab647c
-sw $t9 11116($s7)
-li $t9 0xab657d
-sw $t9 11120($s7)
-li $t9 0xaa677d
-sw $t9 11124($s7)
-li $t9 0xa8667c
-sw $t9 11128($s7)
-li $t9 0x996271
-sw $t9 11132($s7)
-li $t9 0x986371
-sw $t9 11136($s7)
-li $t9 0x986272
-sw $t9 11140($s7)
-li $t9 0x975f6e
-sw $t9 11144($s7)
-li $t9 0x97616e
-sw $t9 11148($s7)
-li $t9 0x975e6e
-sw $t9 11152($s7)
-li $t9 0x945e6d
-sw $t9 11156($s7)
-li $t9 0x935c6d
-sw $t9 11160($s7)
-li $t9 0x935d6b
-sw $t9 11164($s7)
-li $t9 0x925b69
-sw $t9 11168($s7)
-li $t9 0x925869
-sw $t9 11172($s7)
-li $t9 0xa35a73
-sw $t9 11176($s7)
-li $t9 0xa25873
-sw $t9 11180($s7)
-li $t9 0xa25671
-sw $t9 11184($s7)
-li $t9 0xa0546f
-sw $t9 11188($s7)
-li $t9 0xa0526c
-sw $t9 11192($s7)
-li $t9 0xa75066
-sw $t9 11196($s7)
-li $t9 0x9c4a4c
-sw $t9 11200($s7)
-li $t9 0x92695c
-sw $t9 11204($s7)
-li $t9 0xc8b086
-sw $t9 11208($s7)
-li $t9 0xc5aa7e
-sw $t9 11212($s7)
-li $t9 0xbfa673
-sw $t9 11216($s7)
-li $t9 0xe5cd81
-sw $t9 11220($s7)
-li $t9 0xe5c97d
-sw $t9 11224($s7)
-li $t9 0xe2c87c
-sw $t9 11228($s7)
-li $t9 0xe2c676
-sw $t9 11232($s7)
-li $t9 0xe2c675
-sw $t9 11236($s7)
-li $t9 0xe0c373
-sw $t9 11240($s7)
-li $t9 0xdec36f
-sw $t9 11244($s7)
-li $t9 0xdcbf6d
-sw $t9 11248($s7)
-li $t9 0xdabd69
-sw $t9 11252($s7)
-li $t9 0xd8be64
-sw $t9 11256($s7)
-li $t9 0xd7bb62
-sw $t9 11260($s7)
-li $t9 0x9fbe5e
-sw $t9 11264($s7)
-li $t9 0x9db45e
-sw $t9 11268($s7)
-li $t9 0x9b975a
-sw $t9 11272($s7)
-li $t9 0xb29b69
-sw $t9 11276($s7)
-li $t9 0xba9a6b
-sw $t9 11280($s7)
-li $t9 0xbb9a6e
-sw $t9 11284($s7)
-li $t9 0xbfa375
-sw $t9 11288($s7)
-li $t9 0xc5a87e
-sw $t9 11292($s7)
-li $t9 0xc3a97d
-sw $t9 11296($s7)
-li $t9 0xc6aa81
-sw $t9 11300($s7)
-li $t9 0xc8ae82
-sw $t9 11304($s7)
-li $t9 0xc9b088
-sw $t9 11308($s7)
-li $t9 0xcbb18a
-sw $t9 11312($s7)
-li $t9 0xcdb38d
-sw $t9 11316($s7)
-li $t9 0xc5a788
-sw $t9 11320($s7)
-li $t9 0x89615c
-sw $t9 11324($s7)
-li $t9 0x8f5456
-sw $t9 11328($s7)
-li $t9 0xd15f5c
-sw $t9 11332($s7)
-li $t9 0xd1635e
-sw $t9 11336($s7)
-li $t9 0xbb5f6c
-sw $t9 11340($s7)
-li $t9 0xa95f78
-sw $t9 11344($s7)
-li $t9 0xa8627a
-sw $t9 11348($s7)
-li $t9 0xab647c
-sw $t9 11352($s7)
-li $t9 0xab677d
-sw $t9 11356($s7)
-li $t9 0xae677e
-sw $t9 11360($s7)
-li $t9 0xaf6980
-sw $t9 11364($s7)
-li $t9 0xae6a81
-sw $t9 11368($s7)
-li $t9 0xae6b81
-sw $t9 11372($s7)
-sw $t9 11376($s7)
-li $t9 0xaf6c81
-sw $t9 11380($s7)
-li $t9 0xaf6d82
-sw $t9 11384($s7)
-li $t9 0xa86b80
-sw $t9 11388($s7)
-li $t9 0x9c6974
-sw $t9 11392($s7)
-li $t9 0x9c6975
-sw $t9 11396($s7)
-li $t9 0x9a6774
-sw $t9 11400($s7)
-li $t9 0x9b6773
-sw $t9 11404($s7)
-li $t9 0x9b6573
-sw $t9 11408($s7)
-li $t9 0x9a6473
-sw $t9 11412($s7)
-li $t9 0x986372
-sw $t9 11416($s7)
-li $t9 0x95616e
-sw $t9 11420($s7)
-li $t9 0x945e6e
-sw $t9 11424($s7)
-li $t9 0xa35f76
-sw $t9 11428($s7)
-li $t9 0xa75f79
-sw $t9 11432($s7)
-li $t9 0xa75f78
-sw $t9 11436($s7)
-li $t9 0xa45d74
-sw $t9 11440($s7)
-li $t9 0xa35773
-sw $t9 11444($s7)
-li $t9 0xa35572
-sw $t9 11448($s7)
-li $t9 0xa7546a
-sw $t9 11452($s7)
-li $t9 0xa95350
-sw $t9 11456($s7)
-li $t9 0x895f57
-sw $t9 11460($s7)
-li $t9 0xcbb189
-sw $t9 11464($s7)
-li $t9 0xb9a078
-sw $t9 11468($s7)
-li $t9 0xe1c784
-sw $t9 11472($s7)
-li $t9 0xe7ce85
-sw $t9 11476($s7)
-li $t9 0xe5cd81
-sw $t9 11480($s7)
-li $t9 0xe5ca7e
-sw $t9 11484($s7)
-li $t9 0xe1c276
-sw $t9 11488($s7)
-li $t9 0xe0c776
-sw $t9 11492($s7)
-li $t9 0xe2c674
-sw $t9 11496($s7)
-li $t9 0xe0c373
-sw $t9 11500($s7)
-li $t9 0xdfc26e
-sw $t9 11504($s7)
-li $t9 0xdcbf6c
-sw $t9 11508($s7)
-li $t9 0xdabd69
-sw $t9 11512($s7)
-li $t9 0xd9bd65
-sw $t9 11516($s7)
-li $t9 0xa4c161
-sw $t9 11520($s7)
-li $t9 0xa9c264
-sw $t9 11524($s7)
-li $t9 0xacc269
-sw $t9 11528($s7)
-li $t9 0xa3a263
-sw $t9 11532($s7)
-li $t9 0xb49d6e
-sw $t9 11536($s7)
-li $t9 0xc0a478
-sw $t9 11540($s7)
-li $t9 0xc2a77b
-sw $t9 11544($s7)
-li $t9 0xc3a97e
-sw $t9 11548($s7)
-li $t9 0xc6ac81
-sw $t9 11552($s7)
-li $t9 0xc7af85
-sw $t9 11556($s7)
-li $t9 0xcab188
-sw $t9 11560($s7)
-li $t9 0xcdb28c
-sw $t9 11564($s7)
-li $t9 0xceb68f
-sw $t9 11568($s7)
-li $t9 0xd0b892
-sw $t9 11572($s7)
-li $t9 0xd1ba95
-sw $t9 11576($s7)
-li $t9 0x9c766d
-sw $t9 11580($s7)
-li $t9 0xa65c5c
-sw $t9 11584($s7)
-li $t9 0xd1645f
-sw $t9 11588($s7)
-li $t9 0xd46763
-sw $t9 11592($s7)
-li $t9 0xb46475
-sw $t9 11596($s7)
-li $t9 0xab667d
-sw $t9 11600($s7)
-li $t9 0xae697e
-sw $t9 11604($s7)
-li $t9 0xac6a80
-sw $t9 11608($s7)
-li $t9 0xae6a81
-sw $t9 11612($s7)
-li $t9 0xaf6d83
-sw $t9 11616($s7)
-li $t9 0xaf6e83
-sw $t9 11620($s7)
-li $t9 0xb17186
-sw $t9 11624($s7)
-li $t9 0xb17285
-sw $t9 11628($s7)
-li $t9 0xb17188
-sw $t9 11632($s7)
-li $t9 0xb17388
-sw $t9 11636($s7)
-sw $t9 11640($s7)
-sw $t9 11644($s7)
-li $t9 0xac7285
-sw $t9 11648($s7)
-li $t9 0xa36f7d
-sw $t9 11652($s7)
-li $t9 0x9f6d7c
-sw $t9 11656($s7)
-li $t9 0x9f6d79
-sw $t9 11660($s7)
-li $t9 0x9f6b79
-sw $t9 11664($s7)
-li $t9 0x9c6b78
-sw $t9 11668($s7)
-li $t9 0x9c6974
-sw $t9 11672($s7)
-li $t9 0xa06878
-sw $t9 11676($s7)
-li $t9 0xa8697d
-sw $t9 11680($s7)
-li $t9 0xab677d
-sw $t9 11684($s7)
-li $t9 0xab647c
-sw $t9 11688($s7)
-li $t9 0xa96379
-sw $t9 11692($s7)
-li $t9 0xa76179
-sw $t9 11696($s7)
-li $t9 0xa75e76
-sw $t9 11700($s7)
-li $t9 0xa45b74
-sw $t9 11704($s7)
-li $t9 0xa7586e
-sw $t9 11708($s7)
-li $t9 0xb45756
-sw $t9 11712($s7)
-li $t9 0x835755
-sw $t9 11716($s7)
-li $t9 0xc6ac88
-sw $t9 11720($s7)
-li $t9 0xcbb680
-sw $t9 11724($s7)
-li $t9 0xe9d18a
-sw $t9 11728($s7)
-li $t9 0xe8d088
-sw $t9 11732($s7)
-li $t9 0xe6ce85
-sw $t9 11736($s7)
-li $t9 0xe7ce81
-sw $t9 11740($s7)
-li $t9 0xe5c97e
-sw $t9 11744($s7)
-li $t9 0xd9b772
-sw $t9 11748($s7)
-li $t9 0xe4c87a
-sw $t9 11752($s7)
-li $t9 0xe2c674
-sw $t9 11756($s7)
-li $t9 0xe1c373
-sw $t9 11760($s7)
-li $t9 0xdec26e
-sw $t9 11764($s7)
-li $t9 0xddc06d
-sw $t9 11768($s7)
-li $t9 0xdbbe69
-sw $t9 11772($s7)
-li $t9 0xa8c164
-sw $t9 11776($s7)
-li $t9 0xacc369
-sw $t9 11780($s7)
-li $t9 0xb1c66b
-sw $t9 11784($s7)
-li $t9 0xb1c66e
-sw $t9 11788($s7)
-li $t9 0xa3a369
-sw $t9 11792($s7)
-li $t9 0xc0a77a
-sw $t9 11796($s7)
-li $t9 0xc5a87e
-sw $t9 11800($s7)
-li $t9 0xc6ae82
-sw $t9 11804($s7)
-li $t9 0xc8b085
-sw $t9 11808($s7)
-li $t9 0xcab189
-sw $t9 11812($s7)
-li $t9 0xcbb38b
-sw $t9 11816($s7)
-li $t9 0xcfb490
-sw $t9 11820($s7)
-li $t9 0xd0b894
-sw $t9 11824($s7)
-li $t9 0xd2ba97
-sw $t9 11828($s7)
-li $t9 0xd2bb9a
-sw $t9 11832($s7)
-li $t9 0x8f6563
-sw $t9 11836($s7)
-li $t9 0xbd6360
-sw $t9 11840($s7)
-li $t9 0xd56964
-sw $t9 11844($s7)
-li $t9 0xd46b69
-sw $t9 11848($s7)
-li $t9 0xb0697d
-sw $t9 11852($s7)
-li $t9 0xae6b82
-sw $t9 11856($s7)
-li $t9 0xb06d83
-sw $t9 11860($s7)
-li $t9 0xb06f86
-sw $t9 11864($s7)
-li $t9 0xb17185
-sw $t9 11868($s7)
-li $t9 0xb17288
-sw $t9 11872($s7)
-li $t9 0xb27489
-sw $t9 11876($s7)
-li $t9 0xb37589
-sw $t9 11880($s7)
-li $t9 0xb3768a
-sw $t9 11884($s7)
-li $t9 0xb3788b
-sw $t9 11888($s7)
-li $t9 0xb47a8b
-sw $t9 11892($s7)
-li $t9 0xb5798c
-sw $t9 11896($s7)
-li $t9 0xb47a8b
-sw $t9 11900($s7)
-li $t9 0xb47a8c
-sw $t9 11904($s7)
-li $t9 0xb27a8b
-sw $t9 11908($s7)
-li $t9 0xb17688
-sw $t9 11912($s7)
-li $t9 0xaf7486
-sw $t9 11916($s7)
-li $t9 0xae7385
-sw $t9 11920($s7)
-li $t9 0xac7385
-sw $t9 11924($s7)
-li $t9 0xaf7385
-sw $t9 11928($s7)
-li $t9 0xb17185
-sw $t9 11932($s7)
-li $t9 0xb06f84
-sw $t9 11936($s7)
-li $t9 0xaf6c81
-sw $t9 11940($s7)
-li $t9 0xae6b81
-sw $t9 11944($s7)
-li $t9 0xab667e
-sw $t9 11948($s7)
-li $t9 0xaa647c
-sw $t9 11952($s7)
-li $t9 0xa96379
-sw $t9 11956($s7)
-li $t9 0xa75f76
-sw $t9 11960($s7)
-li $t9 0xa75d74
-sw $t9 11964($s7)
-li $t9 0xbf5c5b
-sw $t9 11968($s7)
-li $t9 0x805254
-sw $t9 11972($s7)
-li $t9 0xbba47d
-sw $t9 11976($s7)
-li $t9 0xe9d190
-sw $t9 11980($s7)
-li $t9 0xe8d18d
-sw $t9 11984($s7)
-li $t9 0xe9d28c
-sw $t9 11988($s7)
-li $t9 0xe9d188
-sw $t9 11992($s7)
-li $t9 0xe7d085
-sw $t9 11996($s7)
-li $t9 0xe7cf82
-sw $t9 12000($s7)
-li $t9 0xddc07a
-sw $t9 12004($s7)
-li $t9 0xe2c77c
-sw $t9 12008($s7)
-li $t9 0xe2c87a
-sw $t9 12012($s7)
-li $t9 0xe2c674
-sw $t9 12016($s7)
-li $t9 0xe0c372
-sw $t9 12020($s7)
-li $t9 0xdec26f
-sw $t9 12024($s7)
-li $t9 0xdcc06b
-sw $t9 12028($s7)
-li $t9 0xacc366
-sw $t9 12032($s7)
-li $t9 0xb1c66a
-sw $t9 12036($s7)
-li $t9 0xb1c86e
-sw $t9 12040($s7)
-li $t9 0xb1c972
-sw $t9 12044($s7)
-li $t9 0xabbb71
-sw $t9 12048($s7)
-li $t9 0xb2a274
-sw $t9 12052($s7)
-li $t9 0xc6ae81
-sw $t9 12056($s7)
-li $t9 0xc7af85
-sw $t9 12060($s7)
-li $t9 0xcbb189
-sw $t9 12064($s7)
-li $t9 0xceb38d
-sw $t9 12068($s7)
-li $t9 0xd0b791
-sw $t9 12072($s7)
-li $t9 0xd2b994
-sw $t9 12076($s7)
-li $t9 0xd1bb99
-sw $t9 12080($s7)
-li $t9 0xd4be9a
-sw $t9 12084($s7)
-li $t9 0xceb698
-sw $t9 12088($s7)
-li $t9 0x885e5e
-sw $t9 12092($s7)
-li $t9 0xd06a67
-sw $t9 12096($s7)
-li $t9 0xd46d6a
-sw $t9 12100($s7)
-li $t9 0xd26f6e
-sw $t9 12104($s7)
-li $t9 0xb06d84
-sw $t9 12108($s7)
-li $t9 0xb07185
-sw $t9 12112($s7)
-li $t9 0xb17388
-sw $t9 12116($s7)
-li $t9 0xb27489
-sw $t9 12120($s7)
-li $t9 0xb27889
-sw $t9 12124($s7)
-li $t9 0xb4798b
-sw $t9 12128($s7)
-li $t9 0xb47b8f
-sw $t9 12132($s7)
-li $t9 0xb77c8f
-sw $t9 12136($s7)
-li $t9 0xb77b90
-sw $t9 12140($s7)
-li $t9 0xb87d90
-sw $t9 12144($s7)
-li $t9 0xb87d91
-sw $t9 12148($s7)
-li $t9 0xb77d91
-sw $t9 12152($s7)
-li $t9 0xb87d90
-sw $t9 12156($s7)
-sw $t9 12160($s7)
-li $t9 0xb77d91
-sw $t9 12164($s7)
-li $t9 0xb87d90
-sw $t9 12168($s7)
-li $t9 0xb87c91
-sw $t9 12172($s7)
-li $t9 0xb47b8f
-sw $t9 12176($s7)
-li $t9 0xb67a8c
-sw $t9 12180($s7)
-li $t9 0xb5798b
-sw $t9 12184($s7)
-li $t9 0xb37889
-sw $t9 12188($s7)
-li $t9 0xb17388
-sw $t9 12192($s7)
-li $t9 0xb17286
-sw $t9 12196($s7)
-li $t9 0xb06e84
-sw $t9 12200($s7)
-li $t9 0xb06c81
-sw $t9 12204($s7)
-li $t9 0xac6980
-sw $t9 12208($s7)
-li $t9 0xaa677d
-sw $t9 12212($s7)
-li $t9 0xab647c
-sw $t9 12216($s7)
-li $t9 0xa85e79
-sw $t9 12220($s7)
-li $t9 0xc9625f
-sw $t9 12224($s7)
-li $t9 0x825557
-sw $t9 12228($s7)
-li $t9 0xd5bd8a
-sw $t9 12232($s7)
-li $t9 0xebd692
-sw $t9 12236($s7)
-li $t9 0xebd491
-sw $t9 12240($s7)
-li $t9 0xebd48f
-sw $t9 12244($s7)
-li $t9 0xe8d38c
-sw $t9 12248($s7)
-li $t9 0xe9d088
-sw $t9 12252($s7)
-li $t9 0xe6d086
-sw $t9 12256($s7)
-li $t9 0xe7ce82
-sw $t9 12260($s7)
-li $t9 0xe5cd81
-sw $t9 12264($s7)
-li $t9 0xe5c97c
-sw $t9 12268($s7)
-li $t9 0xe4c77a
-sw $t9 12272($s7)
-li $t9 0xe2c675
-sw $t9 12276($s7)
-li $t9 0xe1c372
-sw $t9 12280($s7)
-li $t9 0xdec26c
-sw $t9 12284($s7)
-li $t9 0xa9be6b
-sw $t9 12288($s7)
-li $t9 0xa7ba6e
-sw $t9 12292($s7)
-li $t9 0xa7b86f
-sw $t9 12296($s7)
-li $t9 0xafc874
-sw $t9 12300($s7)
-li $t9 0xb1cd78
-sw $t9 12304($s7)
-li $t9 0xa7a072
-sw $t9 12308($s7)
-li $t9 0xc7af86
-sw $t9 12312($s7)
-li $t9 0xcdb18a
-sw $t9 12316($s7)
-li $t9 0xceb38d
-sw $t9 12320($s7)
-li $t9 0xd0b790
-sw $t9 12324($s7)
-li $t9 0xd1ba94
-sw $t9 12328($s7)
-li $t9 0xd2bb98
-sw $t9 12332($s7)
-li $t9 0xd5bd9c
-sw $t9 12336($s7)
-li $t9 0xd6c0a0
-sw $t9 12340($s7)
-li $t9 0xbfa690
-sw $t9 12344($s7)
-li $t9 0x996465
-sw $t9 12348($s7)
-li $t9 0xd76f6b
-sw $t9 12352($s7)
-li $t9 0xd6716e
-sw $t9 12356($s7)
-li $t9 0xcb7376
-sw $t9 12360($s7)
-li $t9 0xb17388
-sw $t9 12364($s7)
-li $t9 0xb3758a
-sw $t9 12368($s7)
-li $t9 0xb6798b
-sw $t9 12372($s7)
-li $t9 0xb47c8d
-sw $t9 12376($s7)
-li $t9 0xb87c91
-sw $t9 12380($s7)
-li $t9 0xb87d91
-sw $t9 12384($s7)
-li $t9 0xb98092
-sw $t9 12388($s7)
-li $t9 0xba8293
-sw $t9 12392($s7)
-li $t9 0xba8393
-sw $t9 12396($s7)
-li $t9 0xbb8497
-sw $t9 12400($s7)
-li $t9 0xbb8697
-sw $t9 12404($s7)
-li $t9 0xbb8595
-sw $t9 12408($s7)
-li $t9 0xbb8697
-sw $t9 12412($s7)
-li $t9 0xbb8695
-sw $t9 12416($s7)
-li $t9 0xbb8595
-sw $t9 12420($s7)
-li $t9 0xbb8394
-sw $t9 12424($s7)
-li $t9 0xb98294
-sw $t9 12428($s7)
-li $t9 0xba8192
-sw $t9 12432($s7)
-li $t9 0xb97e92
-sw $t9 12436($s7)
-li $t9 0xb77d90
-sw $t9 12440($s7)
-li $t9 0xb77b8f
-sw $t9 12444($s7)
-li $t9 0xb47a8b
-sw $t9 12448($s7)
-li $t9 0xb3768a
-sw $t9 12452($s7)
-li $t9 0xb27488
-sw $t9 12456($s7)
-li $t9 0xb17286
-sw $t9 12460($s7)
-li $t9 0xae6e84
-sw $t9 12464($s7)
-li $t9 0xac6b81
-sw $t9 12468($s7)
-li $t9 0xae6980
-sw $t9 12472($s7)
-li $t9 0xab657d
-sw $t9 12476($s7)
-li $t9 0xd06764
-sw $t9 12480($s7)
-li $t9 0x855a5c
-sw $t9 12484($s7)
-li $t9 0xd6bb89
-sw $t9 12488($s7)
-li $t9 0xecd795
-sw $t9 12492($s7)
-li $t9 0xecd693
-sw $t9 12496($s7)
-li $t9 0xebd591
-sw $t9 12500($s7)
-li $t9 0xebd48d
-sw $t9 12504($s7)
-li $t9 0xe8d28b
-sw $t9 12508($s7)
-li $t9 0xe8d088
-sw $t9 12512($s7)
-li $t9 0xd0b77c
-sw $t9 12516($s7)
-li $t9 0xbfa571
-sw $t9 12520($s7)
-li $t9 0xbfa46f
-sw $t9 12524($s7)
-li $t9 0xc7aa6d
-sw $t9 12528($s7)
-li $t9 0xddc074
-sw $t9 12532($s7)
-li $t9 0xe2c673
-sw $t9 12536($s7)
-li $t9 0xe0c371
-sw $t9 12540($s7)
-li $t9 0x9fab6b
-sw $t9 12544($s7)
-li $t9 0x9ca76b
-sw $t9 12548($s7)
-li $t9 0xa9c174
-sw $t9 12552($s7)
-li $t9 0xb0ce76
-sw $t9 12556($s7)
-li $t9 0xb1d07c
-sw $t9 12560($s7)
-li $t9 0xa3a973
-sw $t9 12564($s7)
-li $t9 0xcbb18a
-sw $t9 12568($s7)
-li $t9 0xceb28b
-sw $t9 12572($s7)
-li $t9 0xd0b790
-sw $t9 12576($s7)
-li $t9 0xd2b993
-sw $t9 12580($s7)
-li $t9 0xd2bb99
-sw $t9 12584($s7)
-li $t9 0xd5be9c
-sw $t9 12588($s7)
-li $t9 0xd6c2a1
-sw $t9 12592($s7)
-li $t9 0xd6c2a6
-sw $t9 12596($s7)
-li $t9 0xb29486
-sw $t9 12600($s7)
-li $t9 0xab6b69
-sw $t9 12604($s7)
-li $t9 0xd7736f
-sw $t9 12608($s7)
-li $t9 0xd77573
-sw $t9 12612($s7)
-li $t9 0xc8767d
-sw $t9 12616($s7)
-li $t9 0xb2768c
-sw $t9 12620($s7)
-li $t9 0xb67a8d
-sw $t9 12624($s7)
-li $t9 0xb77d91
-sw $t9 12628($s7)
-li $t9 0xba8092
-sw $t9 12632($s7)
-li $t9 0xb98293
-sw $t9 12636($s7)
-li $t9 0xbb8595
-sw $t9 12640($s7)
-li $t9 0xbb8698
-sw $t9 12644($s7)
-li $t9 0xbb8898
-sw $t9 12648($s7)
-li $t9 0xbe889a
-sw $t9 12652($s7)
-li $t9 0xbe899b
-sw $t9 12656($s7)
-li $t9 0xbe8a9b
-sw $t9 12660($s7)
-li $t9 0xbe8c9b
-sw $t9 12664($s7)
-li $t9 0xc18b9a
-sw $t9 12668($s7)
-li $t9 0xc88b95
-sw $t9 12672($s7)
-li $t9 0xcf8c92
-sw $t9 12676($s7)
-li $t9 0xd08c90
-sw $t9 12680($s7)
-li $t9 0xd08a90
-sw $t9 12684($s7)
-li $t9 0xcd8a90
-sw $t9 12688($s7)
-li $t9 0xc68891
-sw $t9 12692($s7)
-li $t9 0xbd8494
-sw $t9 12696($s7)
-li $t9 0xb98192
-sw $t9 12700($s7)
-li $t9 0xb87d91
-sw $t9 12704($s7)
-li $t9 0xb77c8f
-sw $t9 12708($s7)
-li $t9 0xb4798b
-sw $t9 12712($s7)
-li $t9 0xb27689
-sw $t9 12716($s7)
-li $t9 0xb17388
-sw $t9 12720($s7)
-li $t9 0xb17285
-sw $t9 12724($s7)
-li $t9 0xaf6c83
-sw $t9 12728($s7)
-li $t9 0xac697e
-sw $t9 12732($s7)
-li $t9 0xd26b69
-sw $t9 12736($s7)
-li $t9 0x8d5e5e
-sw $t9 12740($s7)
-li $t9 0xcdb188
-sw $t9 12744($s7)
-li $t9 0xedd899
-sw $t9 12748($s7)
-li $t9 0xebd797
-sw $t9 12752($s7)
-li $t9 0xecd792
-sw $t9 12756($s7)
-li $t9 0xebd591
-sw $t9 12760($s7)
-li $t9 0xe9d28d
-sw $t9 12764($s7)
-li $t9 0xc3ac7a
-sw $t9 12768($s7)
-li $t9 0xbfa47b
-sw $t9 12772($s7)
-li $t9 0xc6ab81
-sw $t9 12776($s7)
-li $t9 0xc5a97d
-sw $t9 12780($s7)
-li $t9 0xbda378
-sw $t9 12784($s7)
-li $t9 0xb49966
-sw $t9 12788($s7)
-li $t9 0xddbf73
-sw $t9 12792($s7)
-li $t9 0xe1c373
-sw $t9 12796($s7)
-li $t9 0x9ca266
-sw $t9 12800($s7)
-li $t9 0xa2b974
-sw $t9 12804($s7)
-li $t9 0xb1cd76
-sw $t9 12808($s7)
-li $t9 0xb1cf7a
-sw $t9 12812($s7)
-li $t9 0xb1d07d
-sw $t9 12816($s7)
-li $t9 0xa6b174
-sw $t9 12820($s7)
-li $t9 0xcab389
-sw $t9 12824($s7)
-li $t9 0xd0b691
-sw $t9 12828($s7)
-li $t9 0xd1b994
-sw $t9 12832($s7)
-li $t9 0xd2bb98
-sw $t9 12836($s7)
-li $t9 0xd5be9c
-sw $t9 12840($s7)
-li $t9 0xd6c1a0
-sw $t9 12844($s7)
-li $t9 0xd8c5a4
-sw $t9 12848($s7)
-li $t9 0xd9c6a9
-sw $t9 12852($s7)
-li $t9 0xa7867d
-sw $t9 12856($s7)
-li $t9 0xb96e6f
-sw $t9 12860($s7)
-li $t9 0xd87873
-sw $t9 12864($s7)
-li $t9 0xd87a76
-sw $t9 12868($s7)
-li $t9 0xc67b83
-sw $t9 12872($s7)
-li $t9 0xb87b90
-sw $t9 12876($s7)
-li $t9 0xba7e92
-sw $t9 12880($s7)
-li $t9 0xba8293
-sw $t9 12884($s7)
-li $t9 0xbb8595
-sw $t9 12888($s7)
-li $t9 0xbb8898
-sw $t9 12892($s7)
-li $t9 0xbd8a9b
-sw $t9 12896($s7)
-li $t9 0xc08c9c
-sw $t9 12900($s7)
-li $t9 0xc08d9f
-sw $t9 12904($s7)
-li $t9 0xbf919f
-sw $t9 12908($s7)
-li $t9 0xbf909f
-sw $t9 12912($s7)
-li $t9 0xc1919d
-sw $t9 12916($s7)
-li $t9 0xd59395
-sw $t9 12920($s7)
-li $t9 0xde9492
-sw $t9 12924($s7)
-li $t9 0xd79491
-sw $t9 12928($s7)
-li $t9 0xcd9290
-sw $t9 12932($s7)
-li $t9 0xc6918d
-sw $t9 12936($s7)
-li $t9 0xc28d8d
-sw $t9 12940($s7)
-li $t9 0xc58d8b
-sw $t9 12944($s7)
-li $t9 0xce8b8a
-sw $t9 12948($s7)
-li $t9 0xda8c89
-sw $t9 12952($s7)
-li $t9 0xc78892
-sw $t9 12956($s7)
-li $t9 0xbb8497
-sw $t9 12960($s7)
-li $t9 0xb98192
-sw $t9 12964($s7)
-li $t9 0xb77d90
-sw $t9 12968($s7)
-li $t9 0xb47b8f
-sw $t9 12972($s7)
-li $t9 0xb3788a
-sw $t9 12976($s7)
-li $t9 0xb37588
-sw $t9 12980($s7)
-li $t9 0xb17186
-sw $t9 12984($s7)
-li $t9 0xb06c83
-sw $t9 12988($s7)
-li $t9 0xd06e6e
-sw $t9 12992($s7)
-li $t9 0x996364
-sw $t9 12996($s7)
-li $t9 0xc3a983
-sw $t9 13000($s7)
-li $t9 0xeeda9a
-sw $t9 13004($s7)
-li $t9 0xedd898
-sw $t9 13008($s7)
-li $t9 0xebd795
-sw $t9 13012($s7)
-li $t9 0xe8d492
-sw $t9 13016($s7)
-li $t9 0xc2a97d
-sw $t9 13020($s7)
-li $t9 0xc6ae86
-sw $t9 13024($s7)
-li $t9 0xcbb188
-sw $t9 13028($s7)
-li $t9 0xc7af85
-sw $t9 13032($s7)
-li $t9 0xc7b38d
-sw $t9 13036($s7)
-li $t9 0xc5a97d
-sw $t9 13040($s7)
-li $t9 0xbfa479
-sw $t9 13044($s7)
-li $t9 0xb99c67
-sw $t9 13048($s7)
-li $t9 0xe1c674
-sw $t9 13052($s7)
-li $t9 0x9ca66b
-sw $t9 13056($s7)
-li $t9 0xa6be76
-sw $t9 13060($s7)
-li $t9 0xb1ce7b
-sw $t9 13064($s7)
-li $t9 0xb1d07c
-sw $t9 13068($s7)
-li $t9 0xb2d17e
-sw $t9 13072($s7)
-li $t9 0xa7b47a
-sw $t9 13076($s7)
-li $t9 0xc8b18b
-sw $t9 13080($s7)
-li $t9 0xd2b993
-sw $t9 13084($s7)
-li $t9 0xd5bb99
-sw $t9 13088($s7)
-li $t9 0xd4be9c
-sw $t9 13092($s7)
-li $t9 0xd7bfa0
-sw $t9 13096($s7)
-li $t9 0xd6c3a6
-sw $t9 13100($s7)
-li $t9 0xd9c6a8
-sw $t9 13104($s7)
-li $t9 0xdac7ac
-sw $t9 13108($s7)
-li $t9 0x9c7a76
-sw $t9 13112($s7)
-li $t9 0xc27473
-sw $t9 13116($s7)
-li $t9 0xd87b78
-sw $t9 13120($s7)
-li $t9 0xd97e7b
-sw $t9 13124($s7)
-li $t9 0xc17d89
-sw $t9 13128($s7)
-li $t9 0xba8292
-sw $t9 13132($s7)
-li $t9 0xbb8597
-sw $t9 13136($s7)
-li $t9 0xbb8899
-sw $t9 13140($s7)
-li $t9 0xbd899b
-sw $t9 13144($s7)
-li $t9 0xbf8f9c
-sw $t9 13148($s7)
-li $t9 0xbf919f
-sw $t9 13152($s7)
-li $t9 0xc192a1
-sw $t9 13156($s7)
-li $t9 0xc294a3
-sw $t9 13160($s7)
-li $t9 0xc394a2
-sw $t9 13164($s7)
-li $t9 0xc695a6
-sw $t9 13168($s7)
-li $t9 0xda989b
-sw $t9 13172($s7)
-li $t9 0xdd9a98
-sw $t9 13176($s7)
-li $t9 0xbb9795
-sw $t9 13180($s7)
-li $t9 0xb29999
-sw $t9 13184($s7)
-li $t9 0xc0a9a7
-sw $t9 13188($s7)
-li $t9 0xc1aca8
-sw $t9 13192($s7)
-li $t9 0xc2aba9
-sw $t9 13196($s7)
-li $t9 0xbaa19c
-sw $t9 13200($s7)
-li $t9 0xab8f8d
-sw $t9 13204($s7)
-li $t9 0xaf8c8b
-sw $t9 13208($s7)
-li $t9 0xcb8d8b
-sw $t9 13212($s7)
-li $t9 0xc88a94
-sw $t9 13216($s7)
-li $t9 0xbb8598
-sw $t9 13220($s7)
-li $t9 0xba8394
-sw $t9 13224($s7)
-li $t9 0xb98092
-sw $t9 13228($s7)
-li $t9 0xb77c90
-sw $t9 13232($s7)
-li $t9 0xb6798a
-sw $t9 13236($s7)
-li $t9 0xb37489
-sw $t9 13240($s7)
-li $t9 0xb17185
-sw $t9 13244($s7)
-li $t9 0xd07173
-sw $t9 13248($s7)
-li $t9 0xa06969
-sw $t9 13252($s7)
-li $t9 0xbd9d81
-sw $t9 13256($s7)
-li $t9 0xedda9c
-sw $t9 13260($s7)
-li $t9 0xeeda9b
-sw $t9 13264($s7)
-li $t9 0xebd797
-sw $t9 13268($s7)
-li $t9 0xc1ab82
-sw $t9 13272($s7)
-li $t9 0xcbb18f
-sw $t9 13276($s7)
-li $t9 0xd0b790
-sw $t9 13280($s7)
-li $t9 0xceb38c
-sw $t9 13284($s7)
-li $t9 0xc9b188
-sw $t9 13288($s7)
-li $t9 0xc7ad84
-sw $t9 13292($s7)
-li $t9 0xc5aa7e
-sw $t9 13296($s7)
-li $t9 0xc1a77b
-sw $t9 13300($s7)
-li $t9 0xbb9d72
-sw $t9 13304($s7)
-li $t9 0xc2a769
-sw $t9 13308($s7)
-li $t9 0x9ca46b
-sw $t9 13312($s7)
-li $t9 0xa4be7a
-sw $t9 13316($s7)
-li $t9 0xb1d07b
-sw $t9 13320($s7)
-li $t9 0xb1d27d
-sw $t9 13324($s7)
-li $t9 0xb2d17e
-sw $t9 13328($s7)
-li $t9 0xa7b47b
-sw $t9 13332($s7)
-li $t9 0xcbb690
-sw $t9 13336($s7)
-li $t9 0xd5be9c
-sw $t9 13340($s7)
-li $t9 0xd8c3a6
-sw $t9 13344($s7)
-li $t9 0xd6bfa0
-sw $t9 13348($s7)
-li $t9 0xd7c2a4
-sw $t9 13352($s7)
-li $t9 0xd9c6a8
-sw $t9 13356($s7)
-li $t9 0xdac8ac
-sw $t9 13360($s7)
-li $t9 0xdac8b0
-sw $t9 13364($s7)
-li $t9 0x977172
-sw $t9 13368($s7)
-li $t9 0xcf7976
-sw $t9 13372($s7)
-li $t9 0xd87e7c
-sw $t9 13376($s7)
-li $t9 0xda817e
-sw $t9 13380($s7)
-li $t9 0xc08491
-sw $t9 13384($s7)
-li $t9 0xbb8697
-sw $t9 13388($s7)
-li $t9 0xbd889a
-sw $t9 13392($s7)
-li $t9 0xbf8c9c
-sw $t9 13396($s7)
-li $t9 0xbf909f
-sw $t9 13400($s7)
-li $t9 0xc192a1
-sw $t9 13404($s7)
-li $t9 0xc394a3
-sw $t9 13408($s7)
-li $t9 0xc395a4
-sw $t9 13412($s7)
-li $t9 0xc698a7
-sw $t9 13416($s7)
-li $t9 0xc69ba8
-sw $t9 13420($s7)
-li $t9 0xda9da0
-sw $t9 13424($s7)
-li $t9 0xdfa19c
-sw $t9 13428($s7)
-li $t9 0xbd9c9c
-sw $t9 13432($s7)
-li $t9 0xcab9b4
-sw $t9 13436($s7)
-li $t9 0xe9dfd7
-sw $t9 13440($s7)
-li $t9 0xede2d9
-sw $t9 13444($s7)
-li $t9 0xece2d8
-sw $t9 13448($s7)
-li $t9 0xebe1d6
-sw $t9 13452($s7)
-li $t9 0xece0d7
-sw $t9 13456($s7)
-li $t9 0xe4d7ce
-sw $t9 13460($s7)
-li $t9 0xc2aea9
-sw $t9 13464($s7)
-li $t9 0xab8d8f
-sw $t9 13468($s7)
-li $t9 0xcd918f
-sw $t9 13472($s7)
-li $t9 0xc18b99
-sw $t9 13476($s7)
-li $t9 0xbb8998
-sw $t9 13480($s7)
-li $t9 0xbb8395
-sw $t9 13484($s7)
-li $t9 0xb98092
-sw $t9 13488($s7)
-li $t9 0xb87b91
-sw $t9 13492($s7)
-li $t9 0xb4798c
-sw $t9 13496($s7)
-li $t9 0xb2748a
-sw $t9 13500($s7)
-li $t9 0xd07476
-sw $t9 13504($s7)
-li $t9 0xa96c6a
-sw $t9 13508($s7)
-li $t9 0xb5977e
-sw $t9 13512($s7)
-li $t9 0xefdd9d
-sw $t9 13516($s7)
-li $t9 0xedda9c
-sw $t9 13520($s7)
-li $t9 0xc6b188
-sw $t9 13524($s7)
-li $t9 0xcbb694
-sw $t9 13528($s7)
-li $t9 0xd1bb98
-sw $t9 13532($s7)
-li $t9 0xd0b992
-sw $t9 13536($s7)
-li $t9 0xcfb68f
-sw $t9 13540($s7)
-li $t9 0xcbb28a
-sw $t9 13544($s7)
-li $t9 0xcaaf85
-sw $t9 13548($s7)
-li $t9 0xc6ab81
-sw $t9 13552($s7)
-li $t9 0xc5a97d
-sw $t9 13556($s7)
-li $t9 0xc1a479
-sw $t9 13560($s7)
-li $t9 0xb6986a
-sw $t9 13564($s7)
-li $t9 0x9ca76c
-sw $t9 13568($s7)
-li $t9 0xa1ba7c
-sw $t9 13572($s7)
-li $t9 0xb1cf7d
-sw $t9 13576($s7)
-li $t9 0xb1d17e
-sw $t9 13580($s7)
-li $t9 0xb3d582
-sw $t9 13584($s7)
-li $t9 0xa4b27c
-sw $t9 13588($s7)
-li $t9 0xd0ba93
-sw $t9 13592($s7)
-li $t9 0xd4ba9b
-sw $t9 13596($s7)
-li $t9 0xd6bf9f
-sw $t9 13600($s7)
-li $t9 0xd7c2a2
-sw $t9 13604($s7)
-li $t9 0xd8c4a7
-sw $t9 13608($s7)
-li $t9 0xdac7ae
-sw $t9 13612($s7)
-li $t9 0xdacab1
-sw $t9 13616($s7)
-li $t9 0xd4c1aa
-sw $t9 13620($s7)
-li $t9 0x957373
-sw $t9 13624($s7)
-li $t9 0xd67e7b
-sw $t9 13628($s7)
-li $t9 0xda827e
-sw $t9 13632($s7)
-li $t9 0xda8583
-sw $t9 13636($s7)
-li $t9 0xbf8697
-sw $t9 13640($s7)
-li $t9 0xbd8a9b
-sw $t9 13644($s7)
-li $t9 0xc08d9c
-sw $t9 13648($s7)
-li $t9 0xc190a1
-sw $t9 13652($s7)
-li $t9 0xc394a3
-sw $t9 13656($s7)
-li $t9 0xc697a6
-sw $t9 13660($s7)
-li $t9 0xc699a8
-sw $t9 13664($s7)
-li $t9 0xc79caa
-sw $t9 13668($s7)
-li $t9 0xc79fab
-sw $t9 13672($s7)
-li $t9 0xd9a2a4
-sw $t9 13676($s7)
-li $t9 0xe4a6a2
-sw $t9 13680($s7)
-li $t9 0xcda2a3
-sw $t9 13684($s7)
-li $t9 0xcbbab6
-sw $t9 13688($s7)
-li $t9 0xede4dc
-sw $t9 13692($s7)
-li $t9 0xeee5dd
-sw $t9 13696($s7)
-li $t9 0xeee5dc
-sw $t9 13700($s7)
-li $t9 0xede5dd
-sw $t9 13704($s7)
-li $t9 0xeee5db
-sw $t9 13708($s7)
-li $t9 0xebe2da
-sw $t9 13712($s7)
-li $t9 0xece4d8
-sw $t9 13716($s7)
-li $t9 0xece1d6
-sw $t9 13720($s7)
-li $t9 0xc3aeaa
-sw $t9 13724($s7)
-li $t9 0xb09191
-sw $t9 13728($s7)
-li $t9 0xd59293
-sw $t9 13732($s7)
-li $t9 0xbf8c9c
-sw $t9 13736($s7)
-li $t9 0xbd8899
-sw $t9 13740($s7)
-li $t9 0xbb8597
-sw $t9 13744($s7)
-li $t9 0xb97e92
-sw $t9 13748($s7)
-li $t9 0xb87b91
-sw $t9 13752($s7)
-li $t9 0xb6798c
-sw $t9 13756($s7)
-li $t9 0xd07679
-sw $t9 13760($s7)
-li $t9 0xb1716e
-sw $t9 13764($s7)
-li $t9 0xb0907b
-sw $t9 13768($s7)
-li $t9 0xefdca0
-sw $t9 13772($s7)
-li $t9 0xd5c392
-sw $t9 13776($s7)
-li $t9 0xc8b395
-sw $t9 13780($s7)
-li $t9 0xd7bf9d
-sw $t9 13784($s7)
-li $t9 0xd4be9b
-sw $t9 13788($s7)
-li $t9 0xd1b995
-sw $t9 13792($s7)
-li $t9 0xd0b791
-sw $t9 13796($s7)
-li $t9 0xceb48c
-sw $t9 13800($s7)
-li $t9 0xcbb188
-sw $t9 13804($s7)
-li $t9 0xc8ae84
-sw $t9 13808($s7)
-li $t9 0xc6ab80
-sw $t9 13812($s7)
-li $t9 0xc2a77b
-sw $t9 13816($s7)
-li $t9 0xbfa276
-sw $t9 13820($s7)
-li $t9 0x9ca76e
-sw $t9 13824($s7)
-li $t9 0x9dba7d
-sw $t9 13828($s7)
-li $t9 0xa3bf7e
-sw $t9 13832($s7)
-li $t9 0xaecb83
-sw $t9 13836($s7)
-li $t9 0xb3d484
-sw $t9 13840($s7)
-li $t9 0xa6b17b
-sw $t9 13844($s7)
-li $t9 0xd2bb97
-sw $t9 13848($s7)
-li $t9 0xd5bd9c
-sw $t9 13852($s7)
-li $t9 0xd7c2a1
-sw $t9 13856($s7)
-li $t9 0xd8c3a7
-sw $t9 13860($s7)
-li $t9 0xd9c6aa
-sw $t9 13864($s7)
-li $t9 0xdac7b0
-sw $t9 13868($s7)
-li $t9 0xdccbb3
-sw $t9 13872($s7)
-li $t9 0xceb8a7
-sw $t9 13876($s7)
-li $t9 0x9d7676
-sw $t9 13880($s7)
-li $t9 0xda8180
-sw $t9 13884($s7)
-li $t9 0xda8582
-sw $t9 13888($s7)
-li $t9 0xdd8a88
-sw $t9 13892($s7)
-li $t9 0xbe899b
-sw $t9 13896($s7)
-li $t9 0xc08d9f
-sw $t9 13900($s7)
-li $t9 0xc292a0
-sw $t9 13904($s7)
-li $t9 0xc595a6
-sw $t9 13908($s7)
-li $t9 0xc699a7
-sw $t9 13912($s7)
-li $t9 0xc89ca9
-sw $t9 13916($s7)
-li $t9 0xc89dac
-sw $t9 13920($s7)
-li $t9 0xcaa2af
-sw $t9 13924($s7)
-li $t9 0xd4a4ab
-sw $t9 13928($s7)
-li $t9 0xe2a9a7
-sw $t9 13932($s7)
-li $t9 0xdea8a8
-sw $t9 13936($s7)
-li $t9 0xc1abaa
-sw $t9 13940($s7)
-li $t9 0xece2de
-sw $t9 13944($s7)
-li $t9 0xefe9e2
-sw $t9 13948($s7)
-sw $t9 13952($s7)
-li $t9 0xefe9e0
-sw $t9 13956($s7)
-li $t9 0xefe6e1
-sw $t9 13960($s7)
-li $t9 0xede7de
-sw $t9 13964($s7)
-li $t9 0xeee7de
-sw $t9 13968($s7)
-li $t9 0xede5dc
-sw $t9 13972($s7)
-li $t9 0xeee5da
-sw $t9 13976($s7)
-li $t9 0xe6ddd4
-sw $t9 13980($s7)
-li $t9 0xb29999
-sw $t9 13984($s7)
-li $t9 0xce9492
-sw $t9 13988($s7)
-li $t9 0xc7909c
-sw $t9 13992($s7)
-li $t9 0xc18b9c
-sw $t9 13996($s7)
-li $t9 0xbd8899
-sw $t9 14000($s7)
-li $t9 0xbb8395
-sw $t9 14004($s7)
-li $t9 0xb98092
-sw $t9 14008($s7)
-li $t9 0xb77b8d
-sw $t9 14012($s7)
-li $t9 0xcf7b7d
-sw $t9 14016($s7)
-li $t9 0xb87373
-sw $t9 14020($s7)
-li $t9 0x9c7b75
-sw $t9 14024($s7)
-li $t9 0xc1af8f
-sw $t9 14028($s7)
-li $t9 0xbfaa91
-sw $t9 14032($s7)
-li $t9 0xd9c5a7
-sw $t9 14036($s7)
-li $t9 0xd7c2a2
-sw $t9 14040($s7)
-li $t9 0xd5be9c
-sw $t9 14044($s7)
-li $t9 0xd1bb98
-sw $t9 14048($s7)
-li $t9 0xd0ba93
-sw $t9 14052($s7)
-li $t9 0xd0b78f
-sw $t9 14056($s7)
-li $t9 0xcdb289
-sw $t9 14060($s7)
-li $t9 0xcaaf86
-sw $t9 14064($s7)
-li $t9 0xc8aa82
-sw $t9 14068($s7)
-li $t9 0xc3a97c
-sw $t9 14072($s7)
-li $t9 0xc1a47a
-sw $t9 14076($s7)
-li $t9 0x9ca873
-sw $t9 14080($s7)
-li $t9 0x9db67c
-sw $t9 14084($s7)
-li $t9 0x9fb079
-sw $t9 14088($s7)
-li $t9 0xa2b87d
-sw $t9 14092($s7)
-li $t9 0xa6c084
-sw $t9 14096($s7)
-li $t9 0xa7ae80
-sw $t9 14100($s7)
-li $t9 0xd4ba9a
-sw $t9 14104($s7)
-li $t9 0xd7bf9f
-sw $t9 14108($s7)
-li $t9 0xd7c1a5
-sw $t9 14112($s7)
-li $t9 0xd9c6a8
-sw $t9 14116($s7)
-li $t9 0xdac7ae
-sw $t9 14120($s7)
-li $t9 0xdccab1
-sw $t9 14124($s7)
-li $t9 0xdecdb6
-sw $t9 14128($s7)
-li $t9 0xc7b2a2
-sw $t9 14132($s7)
-li $t9 0xa7797a
-sw $t9 14136($s7)
-li $t9 0xda8481
-sw $t9 14140($s7)
-li $t9 0xdc8a86
-sw $t9 14144($s7)
-li $t9 0xda8c8a
-sw $t9 14148($s7)
-li $t9 0xbf8f9c
-sw $t9 14152($s7)
-li $t9 0xc192a1
-sw $t9 14156($s7)
-li $t9 0xc395a4
-sw $t9 14160($s7)
-li $t9 0xc699a7
-sw $t9 14164($s7)
-li $t9 0xc89cab
-sw $t9 14168($s7)
-li $t9 0xcaa1ac
-sw $t9 14172($s7)
-li $t9 0xc9a3b0
-sw $t9 14176($s7)
-li $t9 0xd0a7b1
-sw $t9 14180($s7)
-li $t9 0xe2acaa
-sw $t9 14184($s7)
-li $t9 0xe4b0ac
-sw $t9 14188($s7)
-li $t9 0xceacac
-sw $t9 14192($s7)
-li $t9 0xdacecd
-sw $t9 14196($s7)
-li $t9 0xf0ece7
-sw $t9 14200($s7)
-li $t9 0xf0ece6
-sw $t9 14204($s7)
-li $t9 0xf0ebe6
-sw $t9 14208($s7)
-sw $t9 14212($s7)
-li $t9 0xf0ebe5
-sw $t9 14216($s7)
-li $t9 0xefe9e5
-sw $t9 14220($s7)
-li $t9 0xefe9e2
-sw $t9 14224($s7)
-li $t9 0xefe7e1
-sw $t9 14228($s7)
-li $t9 0xede7de
-sw $t9 14232($s7)
-li $t9 0xede5dd
-sw $t9 14236($s7)
-li $t9 0xcab7b2
-sw $t9 14240($s7)
-li $t9 0xbe9797
-sw $t9 14244($s7)
-li $t9 0xd99598
-sw $t9 14248($s7)
-li $t9 0xc0909f
-sw $t9 14252($s7)
-li $t9 0xbd8b9c
-sw $t9 14256($s7)
-li $t9 0xbb8898
-sw $t9 14260($s7)
-li $t9 0xba8493
-sw $t9 14264($s7)
-li $t9 0xb77d90
-sw $t9 14268($s7)
-li $t9 0xce7d7e
-sw $t9 14272($s7)
-li $t9 0xbb7675
-sw $t9 14276($s7)
-li $t9 0xa17e7c
-sw $t9 14280($s7)
-li $t9 0xdacbb1
-sw $t9 14284($s7)
-li $t9 0xd9c6ae
-sw $t9 14288($s7)
-li $t9 0xd8c7a8
-sw $t9 14292($s7)
-li $t9 0xd7c3a6
-sw $t9 14296($s7)
-li $t9 0xd6c0a0
-sw $t9 14300($s7)
-li $t9 0xd4bf9f
-sw $t9 14304($s7)
-li $t9 0xd2ba97
-sw $t9 14308($s7)
-li $t9 0xd1b791
-sw $t9 14312($s7)
-li $t9 0xcfb68b
-sw $t9 14316($s7)
-li $t9 0xcdb188
-sw $t9 14320($s7)
-li $t9 0xc8ac83
-sw $t9 14324($s7)
-li $t9 0xc6aa80
-sw $t9 14328($s7)
-li $t9 0xc2a77a
-sw $t9 14332($s7)
-li $t9 0x9caa73
-sw $t9 14336($s7)
-li $t9 0xa8bf78
-sw $t9 14340($s7)
-li $t9 0xb1d27e
-sw $t9 14344($s7)
-li $t9 0xb3d583
-sw $t9 14348($s7)
-li $t9 0xabc381
-sw $t9 14352($s7)
-li $t9 0xbaaf88
-sw $t9 14356($s7)
-li $t9 0xd4bd9c
-sw $t9 14360($s7)
-li $t9 0xd7c2a1
-sw $t9 14364($s7)
-li $t9 0xd8c3a7
-sw $t9 14368($s7)
-li $t9 0xdac6ab
-sw $t9 14372($s7)
-li $t9 0xdacab0
-sw $t9 14376($s7)
-li $t9 0xddcbb6
-sw $t9 14380($s7)
-li $t9 0xdfceb9
-sw $t9 14384($s7)
-li $t9 0xc3aca1
-sw $t9 14388($s7)
-li $t9 0xb07c7c
-sw $t9 14392($s7)
-li $t9 0xda8883
-sw $t9 14396($s7)
-li $t9 0xdc8b88
-sw $t9 14400($s7)
-li $t9 0xd9918e
-sw $t9 14404($s7)
-li $t9 0xc2909f
-sw $t9 14408($s7)
-li $t9 0xc393a3
-sw $t9 14412($s7)
-li $t9 0xc699a7
-sw $t9 14416($s7)
-li $t9 0xc89caa
-sw $t9 14420($s7)
-li $t9 0xc9a1ac
-sw $t9 14424($s7)
-li $t9 0xcda4b1
-sw $t9 14428($s7)
-li $t9 0xcea9b3
-sw $t9 14432($s7)
-li $t9 0xdeafaf
-sw $t9 14436($s7)
-li $t9 0xe4b1af
-sw $t9 14440($s7)
-li $t9 0xe1b3b1
-sw $t9 14444($s7)
-li $t9 0xc9b8b8
-sw $t9 14448($s7)
-li $t9 0xf0ebe7
-sw $t9 14452($s7)
-li $t9 0xf1edec
-sw $t9 14456($s7)
-li $t9 0xf1edeb
-sw $t9 14460($s7)
-li $t9 0xf1edec
-sw $t9 14464($s7)
-li $t9 0xf1eee8
-sw $t9 14468($s7)
-sw $t9 14472($s7)
-li $t9 0xf0ede6
-sw $t9 14476($s7)
-li $t9 0xf1ebe6
-sw $t9 14480($s7)
-li $t9 0xefebe5
-sw $t9 14484($s7)
-li $t9 0xefe9e4
-sw $t9 14488($s7)
-li $t9 0xefe7e0
-sw $t9 14492($s7)
-li $t9 0xded2ce
-sw $t9 14496($s7)
-li $t9 0xb29899
-sw $t9 14500($s7)
-li $t9 0xdd9a99
-sw $t9 14504($s7)
-li $t9 0xca939d
-sw $t9 14508($s7)
-li $t9 0xc08f9d
-sw $t9 14512($s7)
-li $t9 0xbe899a
-sw $t9 14516($s7)
-li $t9 0xbb8697
-sw $t9 14520($s7)
-li $t9 0xba7e92
-sw $t9 14524($s7)
-li $t9 0xcf8083
-sw $t9 14528($s7)
-li $t9 0xc07a78
-sw $t9 14532($s7)
-li $t9 0x9d7c7b
-sw $t9 14536($s7)
-li $t9 0xdccdb4
-sw $t9 14540($s7)
-li $t9 0xdacab1
-sw $t9 14544($s7)
-li $t9 0xdac8ac
-sw $t9 14548($s7)
-li $t9 0xd9c3a7
-sw $t9 14552($s7)
-li $t9 0xd7c2a2
-sw $t9 14556($s7)
-li $t9 0xd5bd9f
-sw $t9 14560($s7)
-li $t9 0xd2bb99
-sw $t9 14564($s7)
-li $t9 0xd0b792
-sw $t9 14568($s7)
-li $t9 0xcfb68d
-sw $t9 14572($s7)
-li $t9 0xcdb389
-sw $t9 14576($s7)
-li $t9 0xcab085
-sw $t9 14580($s7)
-li $t9 0xc6ab82
-sw $t9 14584($s7)
-li $t9 0xb29b73
-sw $t9 14588($s7)
-li $t9 0xa3b372
-sw $t9 14592($s7)
-li $t9 0xacc57a
-sw $t9 14596($s7)
-li $t9 0xa9be79
-sw $t9 14600($s7)
-li $t9 0xa6b078
-sw $t9 14604($s7)
-li $t9 0xbaae88
-sw $t9 14608($s7)
-li $t9 0xd1bb98
-sw $t9 14612($s7)
-li $t9 0xd5bf9d
-sw $t9 14616($s7)
-li $t9 0xd6c1a3
-sw $t9 14620($s7)
-li $t9 0xd8c5a8
-sw $t9 14624($s7)
-li $t9 0xdac7ad
-sw $t9 14628($s7)
-li $t9 0xddc9b1
-sw $t9 14632($s7)
-li $t9 0xdecbb6
-sw $t9 14636($s7)
-li $t9 0xe0d0ba
-sw $t9 14640($s7)
-li $t9 0xc1a99d
-sw $t9 14644($s7)
-li $t9 0xb37e7d
-sw $t9 14648($s7)
-li $t9 0xdd8a85
-sw $t9 14652($s7)
-li $t9 0xdc8d8a
-sw $t9 14656($s7)
-li $t9 0xd89292
-sw $t9 14660($s7)
-li $t9 0xc292a1
-sw $t9 14664($s7)
-li $t9 0xc695a7
-sw $t9 14668($s7)
-li $t9 0xc79aa9
-sw $t9 14672($s7)
-li $t9 0xc9a0ac
-sw $t9 14676($s7)
-li $t9 0xcba4b0
-sw $t9 14680($s7)
-li $t9 0xcea8b4
-sw $t9 14684($s7)
-li $t9 0xd6acb3
-sw $t9 14688($s7)
-li $t9 0xe5b3b1
-sw $t9 14692($s7)
-li $t9 0xe6b6b6
-sw $t9 14696($s7)
-li $t9 0xd5b7b4
-sw $t9 14700($s7)
-li $t9 0xdfd5d4
-sw $t9 14704($s7)
-li $t9 0xf4efed
-sw $t9 14708($s7)
-li $t9 0xf3efee
-sw $t9 14712($s7)
-li $t9 0xf4efed
-sw $t9 14716($s7)
-li $t9 0xf4efee
-sw $t9 14720($s7)
-sw $t9 14724($s7)
-li $t9 0xf4efed
-sw $t9 14728($s7)
-li $t9 0xf3efeb
-sw $t9 14732($s7)
-li $t9 0xf0ede9
-sw $t9 14736($s7)
-li $t9 0xf0ece7
-sw $t9 14740($s7)
-li $t9 0xf0ede5
-sw $t9 14744($s7)
-li $t9 0xefe9e4
-sw $t9 14748($s7)
-li $t9 0xede7de
-sw $t9 14752($s7)
-li $t9 0xbaa1a1
-sw $t9 14756($s7)
-li $t9 0xd09a99
-sw $t9 14760($s7)
-li $t9 0xd8989a
-sw $t9 14764($s7)
-li $t9 0xc191a0
-sw $t9 14768($s7)
-li $t9 0xbf8c9c
-sw $t9 14772($s7)
-li $t9 0xbb8899
-sw $t9 14776($s7)
-li $t9 0xb98494
-sw $t9 14780($s7)
-li $t9 0xce8086
-sw $t9 14784($s7)
-li $t9 0xc37c79
-sw $t9 14788($s7)
-li $t9 0x9b7678
-sw $t9 14792($s7)
-li $t9 0xdeceb7
-sw $t9 14796($s7)
-li $t9 0xdcc9b2
-sw $t9 14800($s7)
-li $t9 0xdac8b0
-sw $t9 14804($s7)
-li $t9 0xd9c6a9
-sw $t9 14808($s7)
-li $t9 0xd6c2a4
-sw $t9 14812($s7)
-li $t9 0xd4c09d
-sw $t9 14816($s7)
-li $t9 0xd5bb9b
-sw $t9 14820($s7)
-li $t9 0xd1b994
-sw $t9 14824($s7)
-li $t9 0xd1b791
-sw $t9 14828($s7)
-li $t9 0xcfb28a
-sw $t9 14832($s7)
-li $t9 0xcab186
-sw $t9 14836($s7)
-li $t9 0xc7ac82
-sw $t9 14840($s7)
-li $t9 0xa79471
-sw $t9 14844($s7)
-li $t9 0xbea97e
-sw $t9 14848($s7)
-li $t9 0xb9a97d
-sw $t9 14852($s7)
-li $t9 0xbfae84
-sw $t9 14856($s7)
-li $t9 0xcfb691
-sw $t9 14860($s7)
-li $t9 0xd2ba95
-sw $t9 14864($s7)
-li $t9 0xd5ba9b
-sw $t9 14868($s7)
-li $t9 0xd6c0a0
-sw $t9 14872($s7)
-li $t9 0xd9c2a4
-sw $t9 14876($s7)
-li $t9 0xd8c7a8
-sw $t9 14880($s7)
-li $t9 0xdac8b0
-sw $t9 14884($s7)
-li $t9 0xddcbb3
-sw $t9 14888($s7)
-li $t9 0xdfcfb8
-sw $t9 14892($s7)
-li $t9 0xe1d1bb
-sw $t9 14896($s7)
-li $t9 0xc0a79c
-sw $t9 14900($s7)
-li $t9 0xb88280
-sw $t9 14904($s7)
-li $t9 0xdd8a88
-sw $t9 14908($s7)
-li $t9 0xdd918b
-sw $t9 14912($s7)
-li $t9 0xd99292
-sw $t9 14916($s7)
-li $t9 0xc594a3
-sw $t9 14920($s7)
-li $t9 0xc698a7
-sw $t9 14924($s7)
-li $t9 0xc89dab
-sw $t9 14928($s7)
-li $t9 0xc9a3af
-sw $t9 14932($s7)
-li $t9 0xcba7b2
-sw $t9 14936($s7)
-li $t9 0xd0acb7
-sw $t9 14940($s7)
-li $t9 0xe2b2b1
-sw $t9 14944($s7)
-li $t9 0xe7b7b6
-sw $t9 14948($s7)
-li $t9 0xe5baba
-sw $t9 14952($s7)
-li $t9 0xcfbbbe
-sw $t9 14956($s7)
-li $t9 0xf0edec
-sw $t9 14960($s7)
-li $t9 0xf4f0ef
-sw $t9 14964($s7)
-li $t9 0xf3f0ef
-sw $t9 14968($s7)
-li $t9 0xf4f0ef
-sw $t9 14972($s7)
-li $t9 0xf3f0ef
-sw $t9 14976($s7)
-sw $t9 14980($s7)
-li $t9 0xf4f0ef
-sw $t9 14984($s7)
-li $t9 0xf4efef
-sw $t9 14988($s7)
-li $t9 0xf4efee
-sw $t9 14992($s7)
-li $t9 0xf4eeec
-sw $t9 14996($s7)
-li $t9 0xf1ede8
-sw $t9 15000($s7)
-li $t9 0xf0ebe6
-sw $t9 15004($s7)
-li $t9 0xefe8e2
-sw $t9 15008($s7)
-li $t9 0xcab8b6
-sw $t9 15012($s7)
-li $t9 0xc69b9a
-sw $t9 15016($s7)
-li $t9 0xe19b99
-sw $t9 15020($s7)
-li $t9 0xc7949d
-sw $t9 15024($s7)
-li $t9 0xc08f9f
-sw $t9 15028($s7)
-li $t9 0xbe899b
-sw $t9 15032($s7)
-li $t9 0xbb8596
-sw $t9 15036($s7)
-li $t9 0xce8186
-sw $t9 15040($s7)
-li $t9 0xc87d7a
-sw $t9 15044($s7)
-li $t9 0x997575
-sw $t9 15048($s7)
-li $t9 0xdfceb7
-sw $t9 15052($s7)
-li $t9 0xddcdb3
-sw $t9 15056($s7)
-li $t9 0xdac9b0
-sw $t9 15060($s7)
-li $t9 0xd8c6aa
-sw $t9 15064($s7)
-li $t9 0xd8c5a7
-sw $t9 15068($s7)
-li $t9 0xd7bfa0
-sw $t9 15072($s7)
-li $t9 0xd5bd9c
-sw $t9 15076($s7)
-li $t9 0xd1bb97
-sw $t9 15080($s7)
-li $t9 0xd0b891
-sw $t9 15084($s7)
-li $t9 0xcfb58c
-sw $t9 15088($s7)
-li $t9 0xcbb188
-sw $t9 15092($s7)
-li $t9 0xc9af84
-sw $t9 15096($s7)
-li $t9 0xa89573
-sw $t9 15100($s7)
-li $t9 0xc7b085
-sw $t9 15104($s7)
-li $t9 0xcdb188
-sw $t9 15108($s7)
-li $t9 0xcfb48b
-sw $t9 15112($s7)
-li $t9 0xd0b791
-sw $t9 15116($s7)
-li $t9 0xd1bb95
-sw $t9 15120($s7)
-li $t9 0xd4bd9c
-sw $t9 15124($s7)
-li $t9 0xd6bfa1
-sw $t9 15128($s7)
-li $t9 0xd8c3a4
-sw $t9 15132($s7)
-li $t9 0xdac6ab
-sw $t9 15136($s7)
-li $t9 0xdcc9b1
-sw $t9 15140($s7)
-li $t9 0xddcdb4
-sw $t9 15144($s7)
-li $t9 0xdfcfba
-sw $t9 15148($s7)
-li $t9 0xe1d1bd
-sw $t9 15152($s7)
-li $t9 0xbea49c
-sw $t9 15156($s7)
-li $t9 0xb98482
-sw $t9 15160($s7)
-li $t9 0xdc8b8a
-sw $t9 15164($s7)
-li $t9 0xdd908f
-sw $t9 15168($s7)
-li $t9 0xd89394
-sw $t9 15172($s7)
-li $t9 0xc595a6
-sw $t9 15176($s7)
-li $t9 0xc69aa8
-sw $t9 15180($s7)
-li $t9 0xc9a1ae
-sw $t9 15184($s7)
-li $t9 0xcba4b1
-sw $t9 15188($s7)
-li $t9 0xcfa9b6
-sw $t9 15192($s7)
-li $t9 0xdab0b3
-sw $t9 15196($s7)
-li $t9 0xe5b4b2
-sw $t9 15200($s7)
-li $t9 0xe6b9b7
-sw $t9 15204($s7)
-li $t9 0xddbbba
-sw $t9 15208($s7)
-li $t9 0xdad0d0
-sw $t9 15212($s7)
-li $t9 0xf4f1ef
-sw $t9 15216($s7)
-sw $t9 15220($s7)
-li $t9 0xf3f1ef
-sw $t9 15224($s7)
-li $t9 0xf4f1f1
-sw $t9 15228($s7)
-li $t9 0xf3f1ef
-sw $t9 15232($s7)
-li $t9 0xf4f0ef
-sw $t9 15236($s7)
-li $t9 0xf3f0ef
-sw $t9 15240($s7)
-li $t9 0xf5f0ef
-sw $t9 15244($s7)
-li $t9 0xf4f0ee
-sw $t9 15248($s7)
-li $t9 0xf4efed
-sw $t9 15252($s7)
-li $t9 0xf1eded
-sw $t9 15256($s7)
-li $t9 0xf1eee6
-sw $t9 15260($s7)
-li $t9 0xf1ece5
-sw $t9 15264($s7)
-li $t9 0xdacfc9
-sw $t9 15268($s7)
-li $t9 0xbe9c9c
-sw $t9 15272($s7)
-li $t9 0xe19c9a
-sw $t9 15276($s7)
-li $t9 0xd4979a
-sw $t9 15280($s7)
-li $t9 0xc0919d
-sw $t9 15284($s7)
-li $t9 0xbd8a9a
-sw $t9 15288($s7)
-li $t9 0xbb8598
-sw $t9 15292($s7)
-li $t9 0xcf8388
-sw $t9 15296($s7)
-li $t9 0xcb7d7d
-sw $t9 15300($s7)
-li $t9 0x987575
-sw $t9 15304($s7)
-li $t9 0xdfcdb8
-sw $t9 15308($s7)
-li $t9 0xdecdb4
-sw $t9 15312($s7)
-li $t9 0xddcab1
-sw $t9 15316($s7)
-li $t9 0xdac7ae
-sw $t9 15320($s7)
-li $t9 0xd9c3a7
-sw $t9 15324($s7)
-li $t9 0xd7c1a3
-sw $t9 15328($s7)
-li $t9 0xd4bd9c
-sw $t9 15332($s7)
-li $t9 0xd2bb95
-sw $t9 15336($s7)
-li $t9 0xd0b892
-sw $t9 15340($s7)
-li $t9 0xceb68c
-sw $t9 15344($s7)
-li $t9 0xcbb188
-sw $t9 15348($s7)
-li $t9 0xcaae83
-sw $t9 15352($s7)
-li $t9 0xb19a74
-sw $t9 15356($s7)
-li $t9 0xc7b084
-sw $t9 15360($s7)
-li $t9 0xcdb188
-sw $t9 15364($s7)
-li $t9 0xcfb68b
-sw $t9 15368($s7)
-li $t9 0xd1b792
-sw $t9 15372($s7)
-li $t9 0xd1bb95
-sw $t9 15376($s7)
-li $t9 0xd5bd9c
-sw $t9 15380($s7)
-li $t9 0xd7c2a2
-sw $t9 15384($s7)
-li $t9 0xd9c5a7
-sw $t9 15388($s7)
-li $t9 0xdac8ab
-sw $t9 15392($s7)
-li $t9 0xddcab1
-sw $t9 15396($s7)
-li $t9 0xdecdb4
-sw $t9 15400($s7)
-li $t9 0xe0d0ba
-sw $t9 15404($s7)
-li $t9 0xe1d2be
-sw $t9 15408($s7)
-li $t9 0xbda49d
-sw $t9 15412($s7)
-li $t9 0xbb8384
-sw $t9 15416($s7)
-li $t9 0xdc8c89
-sw $t9 15420($s7)
-li $t9 0xde928d
-sw $t9 15424($s7)
-li $t9 0xda9594
-sw $t9 15428($s7)
-li $t9 0xc697a7
-sw $t9 15432($s7)
-li $t9 0xc79caa
-sw $t9 15436($s7)
-li $t9 0xcaa1af
-sw $t9 15440($s7)
-li $t9 0xcba4b1
-sw $t9 15444($s7)
-li $t9 0xd0abb6
-sw $t9 15448($s7)
-li $t9 0xe4b2b1
-sw $t9 15452($s7)
-li $t9 0xe7b7b6
-sw $t9 15456($s7)
-li $t9 0xe6bbbb
-sw $t9 15460($s7)
-li $t9 0xd4bdbe
-sw $t9 15464($s7)
-li $t9 0xe8e2e1
-sw $t9 15468($s7)
-li $t9 0xf4f0ef
-sw $t9 15472($s7)
-li $t9 0xf4f0f0
-sw $t9 15476($s7)
-li $t9 0xf3f3f1
-sw $t9 15480($s7)
-li $t9 0xf4f3f1
-sw $t9 15484($s7)
-li $t9 0xf4f4f1
-sw $t9 15488($s7)
-li $t9 0xf4f1ee
-sw $t9 15492($s7)
-li $t9 0xf4f1ef
-sw $t9 15496($s7)
-sw $t9 15500($s7)
-li $t9 0xf3f0ef
-sw $t9 15504($s7)
-li $t9 0xf4f0ef
-sw $t9 15508($s7)
-li $t9 0xf3efec
-sw $t9 15512($s7)
-li $t9 0xf0ede9
-sw $t9 15516($s7)
-li $t9 0xf0ebe6
-sw $t9 15520($s7)
-li $t9 0xe8e1da
-sw $t9 15524($s7)
-li $t9 0xb79c9c
-sw $t9 15528($s7)
-li $t9 0xe09c9a
-sw $t9 15532($s7)
-li $t9 0xde9997
-sw $t9 15536($s7)
-li $t9 0xc3919d
-sw $t9 15540($s7)
-li $t9 0xbd8c9c
-sw $t9 15544($s7)
-li $t9 0xbb8898
-sw $t9 15548($s7)
-li $t9 0xd08488
-sw $t9 15552($s7)
-li $t9 0xd07e7d
-sw $t9 15556($s7)
-li $t9 0x997474
-sw $t9 15560($s7)
-li $t9 0xddcab7
-sw $t9 15564($s7)
-li $t9 0xdeceb6
-sw $t9 15568($s7)
-li $t9 0xdcc9b1
-sw $t9 15572($s7)
-li $t9 0xdac7ae
-sw $t9 15576($s7)
-li $t9 0xd8c5a9
-sw $t9 15580($s7)
-li $t9 0xd6c1a2
-sw $t9 15584($s7)
-li $t9 0xd5bd9c
-sw $t9 15588($s7)
-li $t9 0xd2bb99
-sw $t9 15592($s7)
-li $t9 0xd0b992
-sw $t9 15596($s7)
-li $t9 0xd0b68d
-sw $t9 15600($s7)
-li $t9 0xceb68b
-sw $t9 15604($s7)
-li $t9 0xcdb38a
-sw $t9 15608($s7)
-li $t9 0xc6ab80
-sw $t9 15612($s7)
-li $t9 0xc9b188
-sw $t9 15616($s7)
-li $t9 0xcdb388
-sw $t9 15620($s7)
-li $t9 0xceb48f
-sw $t9 15624($s7)
-li $t9 0xd1b892
-sw $t9 15628($s7)
-li $t9 0xd1bb98
-sw $t9 15632($s7)
-li $t9 0xd4bd9c
-sw $t9 15636($s7)
-li $t9 0xd7c1a2
-sw $t9 15640($s7)
-li $t9 0xd8c5a7
-sw $t9 15644($s7)
-li $t9 0xdac7ae
-sw $t9 15648($s7)
-li $t9 0xdcc9b1
-sw $t9 15652($s7)
-li $t9 0xdecfb6
-sw $t9 15656($s7)
-li $t9 0xe1d0ba
-sw $t9 15660($s7)
-li $t9 0xe1d1c0
-sw $t9 15664($s7)
-li $t9 0xbea49d
-sw $t9 15668($s7)
-li $t9 0xbb8583
-sw $t9 15672($s7)
-li $t9 0xdd8d8a
-sw $t9 15676($s7)
-li $t9 0xde928f
-sw $t9 15680($s7)
-li $t9 0xdc9594
-sw $t9 15684($s7)
-li $t9 0xc698a7
-sw $t9 15688($s7)
-li $t9 0xc89daa
-sw $t9 15692($s7)
-li $t9 0xcaa2b0
-sw $t9 15696($s7)
-li $t9 0xcda7b3
-sw $t9 15700($s7)
-li $t9 0xdaaeb1
-sw $t9 15704($s7)
-li $t9 0xe5b2b1
-sw $t9 15708($s7)
-li $t9 0xe6b7b6
-sw $t9 15712($s7)
-li $t9 0xe5bbbb
-sw $t9 15716($s7)
-li $t9 0xd0c0c0
-sw $t9 15720($s7)
-li $t9 0xf3efef
-sw $t9 15724($s7)
-li $t9 0xf2f1ef
-sw $t9 15728($s7)
-li $t9 0xf3f4f0
-sw $t9 15732($s7)
-li $t9 0xf4f3f1
-sw $t9 15736($s7)
-li $t9 0xf3f3f0
-sw $t9 15740($s7)
-li $t9 0xf2f3f0
-sw $t9 15744($s7)
-li $t9 0xf3f1f0
-sw $t9 15748($s7)
-li $t9 0xf3f1ef
-sw $t9 15752($s7)
-li $t9 0xf4f0ef
-sw $t9 15756($s7)
-li $t9 0xf3f1ef
-sw $t9 15760($s7)
-li $t9 0xf4f1ef
-sw $t9 15764($s7)
-li $t9 0xf4f0ed
-sw $t9 15768($s7)
-li $t9 0xf3efeb
-sw $t9 15772($s7)
-li $t9 0xf1ece7
-sw $t9 15776($s7)
-li $t9 0xefe9e5
-sw $t9 15780($s7)
-li $t9 0xbda7a6
-sw $t9 15784($s7)
-li $t9 0xda9c9b
-sw $t9 15788($s7)
-li $t9 0xde9997
-sw $t9 15792($s7)
-li $t9 0xd09298
-sw $t9 15796($s7)
-li $t9 0xbf8b9c
-sw $t9 15800($s7)
-li $t9 0xbb8898
-sw $t9 15804($s7)
-li $t9 0xd08588
-sw $t9 15808($s7)
-li $t9 0xd57e7d
-sw $t9 15812($s7)
-li $t9 0x987474
-sw $t9 15816($s7)
-li $t9 0xd9c8b7
-sw $t9 15820($s7)
-li $t9 0xdecfb7
-sw $t9 15824($s7)
-li $t9 0xddcdb1
-sw $t9 15828($s7)
-li $t9 0xdac7ac
-sw $t9 15832($s7)
-li $t9 0xd9c6a9
-sw $t9 15836($s7)
-li $t9 0xd7c2a2
-sw $t9 15840($s7)
-li $t9 0xd4bf9f
-sw $t9 15844($s7)
-li $t9 0xd4ba99
-sw $t9 15848($s7)
-li $t9 0xd0ba92
-sw $t9 15852($s7)
-li $t9 0xd0b48f
-sw $t9 15856($s7)
-li $t9 0xcbb28a
-sw $t9 15860($s7)
-li $t9 0xcab084
-sw $t9 15864($s7)
-li $t9 0xc6aa7e
-sw $t9 15868($s7)
-li $t9 0xc7b084
-sw $t9 15872($s7)
-li $t9 0xcbb188
-sw $t9 15876($s7)
-li $t9 0xcfb68d
-sw $t9 15880($s7)
-li $t9 0xd2b792
-sw $t9 15884($s7)
-li $t9 0xd1bb98
-sw $t9 15888($s7)
-li $t9 0xd4be9c
-sw $t9 15892($s7)
-li $t9 0xd7c1a2
-sw $t9 15896($s7)
-li $t9 0xd9c5a7
-sw $t9 15900($s7)
-li $t9 0xdac7ae
-sw $t9 15904($s7)
-li $t9 0xdccab1
-sw $t9 15908($s7)
-li $t9 0xdeceb6
-sw $t9 15912($s7)
-li $t9 0xe0d0bb
-sw $t9 15916($s7)
-li $t9 0xe2d2c0
-sw $t9 15920($s7)
-li $t9 0xc0a79d
-sw $t9 15924($s7)
-li $t9 0xbb8483
-sw $t9 15928($s7)
-li $t9 0xdc8c8a
-sw $t9 15932($s7)
-li $t9 0xdf928f
-sw $t9 15936($s7)
-li $t9 0xde9593
-sw $t9 15940($s7)
-li $t9 0xc698a7
-sw $t9 15944($s7)
-li $t9 0xc89caa
-sw $t9 15948($s7)
-li $t9 0xcaa2b0
-sw $t9 15952($s7)
-li $t9 0xcfa7b1
-sw $t9 15956($s7)
-li $t9 0xe2b0ac
-sw $t9 15960($s7)
-li $t9 0xe5b2b1
-sw $t9 15964($s7)
-li $t9 0xe7b7b6
-sw $t9 15968($s7)
-li $t9 0xddbbbb
-sw $t9 15972($s7)
-li $t9 0xd9cdcb
-sw $t9 15976($s7)
-li $t9 0xf4f0ef
-sw $t9 15980($s7)
-li $t9 0xf3f1ef
-sw $t9 15984($s7)
-li $t9 0xf3f1f1
-sw $t9 15988($s7)
-li $t9 0xf3f4f1
-sw $t9 15992($s7)
-li $t9 0xf4f3f0
-sw $t9 15996($s7)
-li $t9 0xf3f4f1
-sw $t9 16000($s7)
-li $t9 0xf3f1f0
-sw $t9 16004($s7)
-li $t9 0xf3f0ef
-sw $t9 16008($s7)
-sw $t9 16012($s7)
-sw $t9 16016($s7)
-li $t9 0xf4f0ef
-sw $t9 16020($s7)
-li $t9 0xf4f0ec
-sw $t9 16024($s7)
-li $t9 0xf3efec
-sw $t9 16028($s7)
-li $t9 0xf0ede8
-sw $t9 16032($s7)
-li $t9 0xf1ebe5
-sw $t9 16036($s7)
-li $t9 0xcab8b6
-sw $t9 16040($s7)
-li $t9 0xd09b9b
-sw $t9 16044($s7)
-li $t9 0xdf9997
-sw $t9 16048($s7)
-li $t9 0xda9292
-sw $t9 16052($s7)
-li $t9 0xc08c9d
-sw $t9 16056($s7)
-li $t9 0xba8898
-sw $t9 16060($s7)
-li $t9 0xd08488
-sw $t9 16064($s7)
-li $t9 0xd5807d
-sw $t9 16068($s7)
-li $t9 0x987574
-sw $t9 16072($s7)
-li $t9 0xd6c6b2
-sw $t9 16076($s7)
-li $t9 0xdfceb7
-sw $t9 16080($s7)
-li $t9 0xddcbb3
-sw $t9 16084($s7)
-li $t9 0xdac8ac
-sw $t9 16088($s7)
-li $t9 0xd9c6a9
-sw $t9 16092($s7)
-li $t9 0xd6c1a2
-sw $t9 16096($s7)
-li $t9 0xd5bf9f
-sw $t9 16100($s7)
-li $t9 0xd5bb99
-sw $t9 16104($s7)
-li $t9 0xd0b992
-sw $t9 16108($s7)
-li $t9 0xd0b68f
-sw $t9 16112($s7)
-li $t9 0xcdb28a
-sw $t9 16116($s7)
-li $t9 0xc9b085
-sw $t9 16120($s7)
-li $t9 0xc6ab80
-sw $t9 16124($s7)
-li $t9 0xc7af84
-sw $t9 16128($s7)
-li $t9 0xcbb188
-sw $t9 16132($s7)
-li $t9 0xcfb48b
-sw $t9 16136($s7)
-li $t9 0xd1b892
-sw $t9 16140($s7)
-li $t9 0xd1bb97
-sw $t9 16144($s7)
-li $t9 0xd5bd9c
-sw $t9 16148($s7)
-li $t9 0xd6c2a2
-sw $t9 16152($s7)
-li $t9 0xd9c5a7
-sw $t9 16156($s7)
-li $t9 0xdac8ac
-sw $t9 16160($s7)
-li $t9 0xdcc9b1
-sw $t9 16164($s7)
-li $t9 0xdeceb6
-sw $t9 16168($s7)
-li $t9 0xe1d0bb
-sw $t9 16172($s7)
-li $t9 0xe4d1c0
-sw $t9 16176($s7)
-li $t9 0xc1aba0
-sw $t9 16180($s7)
-li $t9 0xaa8281
-sw $t9 16184($s7)
-li $t9 0xb98888
-sw $t9 16188($s7)
-li $t9 0xbd8d8c
-sw $t9 16192($s7)
-li $t9 0xbf9291
-sw $t9 16196($s7)
-li $t9 0xba979a
-sw $t9 16200($s7)
-li $t9 0xbb9aa0
-sw $t9 16204($s7)
-li $t9 0xbda1a6
-sw $t9 16208($s7)
-li $t9 0xc3a6a7
-sw $t9 16212($s7)
-li $t9 0xcfaaa9
-sw $t9 16216($s7)
-li $t9 0xd0afaf
-sw $t9 16220($s7)
-li $t9 0xd1b6b2
-sw $t9 16224($s7)
-li $t9 0xcfb7b8
-sw $t9 16228($s7)
-li $t9 0xe4dada
-sw $t9 16232($s7)
-li $t9 0xf4f1ef
-sw $t9 16236($s7)
-li $t9 0xf3f1ef
-sw $t9 16240($s7)
-li $t9 0xf4f1ef
-sw $t9 16244($s7)
-li $t9 0xf4f1f1
-sw $t9 16248($s7)
-li $t9 0xf3f0f1
-sw $t9 16252($s7)
-sw $t9 16256($s7)
-li $t9 0xf3f0ef
-sw $t9 16260($s7)
-li $t9 0xf3f1ef
-sw $t9 16264($s7)
-li $t9 0xf4f0ef
-sw $t9 16268($s7)
-li $t9 0xf4f1ef
-sw $t9 16272($s7)
-li $t9 0xf3f1ef
-sw $t9 16276($s7)
-li $t9 0xf4efed
-sw $t9 16280($s7)
-li $t9 0xf3efec
-sw $t9 16284($s7)
-li $t9 0xf0ede7
-sw $t9 16288($s7)
-li $t9 0xf0ebe5
-sw $t9 16292($s7)
-li $t9 0xd2c3c0
-sw $t9 16296($s7)
-li $t9 0xb99899
-sw $t9 16300($s7)
-li $t9 0xbf9394
-sw $t9 16304($s7)
-li $t9 0xbe918f
-sw $t9 16308($s7)
-li $t9 0xb18990
-sw $t9 16312($s7)
-li $t9 0xae838c
-sw $t9 16316($s7)
-li $t9 0xb68281
-sw $t9 16320($s7)
-li $t9 0xb77b7b
-sw $t9 16324($s7)
-li $t9 0x987474
-sw $t9 16328($s7)
-li $t9 0xd7c1b1
-sw $t9 16332($s7)
-li $t9 0xdfceb8
-sw $t9 16336($s7)
-li $t9 0xddc9b1
-sw $t9 16340($s7)
-li $t9 0xdac7ae
-sw $t9 16344($s7)
-li $t9 0xd8c6a8
-sw $t9 16348($s7)
-li $t9 0xd7c2a3
-sw $t9 16352($s7)
-li $t9 0xd4bf9d
-sw $t9 16356($s7)
-li $t9 0xd4bb99
-sw $t9 16360($s7)
-li $t9 0xd0bb92
-sw $t9 16364($s7)
-li $t9 0xd1b891
-sw $t9 16368($s7)
-li $t9 0xcdb28a
-sw $t9 16372($s7)
-li $t9 0xcab084
-sw $t9 16376($s7)
-li $t9 0xc6ab80
-sw $t9 16380($s7)
+    sw $t9 1308($s7)
+    li $t9 0xffffff
+    sw $t9 1312($s7)
+    li $t9 0xfffefe
+    sw $t9 1344($s7)
+    li $t9 0xfffffe
+    sw $t9 1348($s7)
+    li $t9 0xffffff
+    sw $t9 1352($s7)
+    li $t9 0xfffeff
+    sw $t9 1376($s7)
+    li $t9 0xfffffe
+    sw $t9 1380($s7)
+    sw $t9 1384($s7)
+    sw $t9 1404($s7)
+    li $t9 0xfffeff
+    sw $t9 1408($s7)
+    li $t9 0xfefefe
+    sw $t9 1412($s7)
+    li $t9 0xffffff
+    sw $t9 1416($s7)
+    li $t9 0xfeffff
+    sw $t9 1436($s7)
+    sw $t9 1440($s7)
+    sw $t9 1444($s7)
+    li $t9 0xfffeff
+    sw $t9 1448($s7)
+    li $t9 0xffffff
+    sw $t9 1464($s7)
+    li $t9 0xfefeff
+    sw $t9 1468($s7)
+    sw $t9 1476($s7)
+    li $t9 0xfffeff
+    sw $t9 1480($s7)
+    li $t9 0xfefeff
+    sw $t9 1500($s7)
+    li $t9 0xfefffe
+    sw $t9 1504($s7)
+    li $t9 0xfffffe
+    sw $t9 1508($s7)
+    li $t9 0xfefefe
+    sw $t9 1560($s7)
+    li $t9 0xfefeff
+    sw $t9 1564($s7)
+    li $t9 0xfffeff
+    sw $t9 1572($s7)
+    li $t9 0xfefefe
+    sw $t9 1596($s7)
+    li $t9 0xfffeff
+    sw $t9 1600($s7)
+    li $t9 0xfffefe
+    sw $t9 1612($s7)
+    li $t9 0xfffeff
+    sw $t9 1628($s7)
+    li $t9 0xfefefe
+    sw $t9 1632($s7)
+    li $t9 0xfffffe
+    sw $t9 1644($s7)
+    li $t9 0xfeffff
+    sw $t9 1656($s7)
+    li $t9 0xfffeff
+    sw $t9 1660($s7)
+    li $t9 0xfffefe
+    sw $t9 1676($s7)
+    li $t9 0xffffff
+    sw $t9 1688($s7)
+    sw $t9 1692($s7)
+    li $t9 0xfeffff
+    sw $t9 1708($s7)
+    li $t9 0xffffff
+    sw $t9 1716($s7)
+    sw $t9 1720($s7)
+    li $t9 0xfeffff
+    sw $t9 1728($s7)
+    li $t9 0xfffefe
+    sw $t9 1732($s7)
+    li $t9 0xfffeff
+    sw $t9 1740($s7)
+    li $t9 0xfffffe
+    sw $t9 1752($s7)
+    li $t9 0xfffefe
+    sw $t9 1756($s7)
+    li $t9 0xfffeff
+    sw $t9 1768($s7)
+    sw $t9 1816($s7)
+    li $t9 0xfeffff
+    sw $t9 1820($s7)
+    li $t9 0xfffffe
+    sw $t9 1828($s7)
+    li $t9 0xfefefe
+    sw $t9 1848($s7)
+    li $t9 0xfeffff
+    sw $t9 1852($s7)
+    li $t9 0xfffffe
+    sw $t9 1860($s7)
+    li $t9 0xfeffff
+    sw $t9 1864($s7)
+    li $t9 0xfffeff
+    sw $t9 1872($s7)
+    li $t9 0xfefeff
+    sw $t9 1880($s7)
+    li $t9 0xfffefe
+    sw $t9 1884($s7)
+    sw $t9 1892($s7)
+    li $t9 0xfefeff
+    sw $t9 1896($s7)
+    li $t9 0xfeffff
+    sw $t9 1904($s7)
+    li $t9 0xfefffe
+    sw $t9 1912($s7)
+    li $t9 0xfefeff
+    sw $t9 1916($s7)
+    sw $t9 1924($s7)
+    sw $t9 1928($s7)
+    li $t9 0xffffff
+    sw $t9 1936($s7)
+    li $t9 0xfffeff
+    sw $t9 1948($s7)
+    li $t9 0xfeffff
+    sw $t9 1952($s7)
+    li $t9 0xfffffe
+    sw $t9 1960($s7)
+    li $t9 0x00000a
+    sw $t9 1964($s7)
+    li $t9 0xfefeff
+    sw $t9 1972($s7)
+    sw $t9 1976($s7)
+    li $t9 0xfffefe
+    sw $t9 1988($s7)
+    li $t9 0xfefffe
+    sw $t9 1996($s7)
+    sw $t9 2004($s7)
+    li $t9 0xfeffff
+    sw $t9 2008($s7)
+    li $t9 0xfffeff
+    sw $t9 2016($s7)
+    li $t9 0xfefefe
+    sw $t9 2020($s7)
+    li $t9 0xfffffe
+    sw $t9 2024($s7)
+    li $t9 0xfefffe
+    sw $t9 2072($s7)
+    li $t9 0xfefeff
+    sw $t9 2076($s7)
+    li $t9 0xfeffff
+    sw $t9 2084($s7)
+    sw $t9 2104($s7)
+    li $t9 0xffffff
+    sw $t9 2108($s7)
+    li $t9 0xfffeff
+    sw $t9 2116($s7)
+    sw $t9 2120($s7)
+    li $t9 0xfffefe
+    sw $t9 2128($s7)
+    li $t9 0xfefeff
+    sw $t9 2136($s7)
+    li $t9 0xfffffe
+    sw $t9 2140($s7)
+    li $t9 0x00000a
+    sw $t9 2148($s7)
+    li $t9 0xfefeff
+    sw $t9 2160($s7)
+    li $t9 0xfefffe
+    sw $t9 2168($s7)
+    sw $t9 2172($s7)
+    li $t9 0xfffffe
+    sw $t9 2180($s7)
+    li $t9 0xfffefe
+    sw $t9 2184($s7)
+    li $t9 0xffffff
+    sw $t9 2192($s7)
+    sw $t9 2204($s7)
+    li $t9 0xfeffff
+    sw $t9 2208($s7)
+    li $t9 0xffffff
+    sw $t9 2216($s7)
+    li $t9 0xfffffe
+    sw $t9 2228($s7)
+    sw $t9 2232($s7)
+    li $t9 0xfefeff
+    sw $t9 2240($s7)
+    sw $t9 2252($s7)
+    li $t9 0xfffffe
+    sw $t9 2260($s7)
+    li $t9 0xffffff
+    sw $t9 2264($s7)
+    li $t9 0xfeffff
+    sw $t9 2272($s7)
+    li $t9 0xfefefe
+    sw $t9 2284($s7)
+    sw $t9 2328($s7)
+    li $t9 0xfefeff
+    sw $t9 2332($s7)
+    li $t9 0x100d1e
+    sw $t9 2336($s7)
+    li $t9 0xfffffe
+    sw $t9 2340($s7)
+    li $t9 0xfefefe
+    sw $t9 2344($s7)
+    li $t9 0xfeffff
+    sw $t9 2348($s7)
+    li $t9 0xfffeff
+    sw $t9 2360($s7)
+    li $t9 0xfeffff
+    sw $t9 2364($s7)
+    li $t9 0xfefffe
+    sw $t9 2372($s7)
+    li $t9 0xfeffff
+    sw $t9 2376($s7)
+    li $t9 0xfefeff
+    sw $t9 2384($s7)
+    li $t9 0xffffff
+    sw $t9 2392($s7)
+    li $t9 0xfefffe
+    sw $t9 2396($s7)
+    li $t9 0xfeffff
+    sw $t9 2404($s7)
+    sw $t9 2408($s7)
+    li $t9 0xfffffe
+    sw $t9 2416($s7)
+    li $t9 0xfefefe
+    sw $t9 2424($s7)
+    li $t9 0xfefeff
+    sw $t9 2428($s7)
+    li $t9 0xfefffe
+    sw $t9 2436($s7)
+    sw $t9 2440($s7)
+    li $t9 0xfefeff
+    sw $t9 2448($s7)
+    li $t9 0xffffff
+    sw $t9 2460($s7)
+    sw $t9 2464($s7)
+    li $t9 0xfffefe
+    sw $t9 2472($s7)
+    sw $t9 2484($s7)
+    li $t9 0xffffff
+    sw $t9 2488($s7)
+    li $t9 0xfefffe
+    sw $t9 2496($s7)
+    li $t9 0xffffff
+    sw $t9 2500($s7)
+    li $t9 0xfeffff
+    sw $t9 2508($s7)
+    li $t9 0xfefeff
+    sw $t9 2516($s7)
+    li $t9 0xfffefe
+    sw $t9 2520($s7)
+    li $t9 0xfffeff
+    sw $t9 2528($s7)
+    li $t9 0xffffff
+    sw $t9 2532($s7)
+    li $t9 0xfffefe
+    sw $t9 2540($s7)
+    li $t9 0xfeffff
+    sw $t9 2584($s7)
+    li $t9 0xfffefe
+    sw $t9 2588($s7)
+    li $t9 0xfeffff
+    sw $t9 2608($s7)
+    sw $t9 2620($s7)
+    li $t9 0xfffefe
+    sw $t9 2624($s7)
+    li $t9 0xfeffff
+    sw $t9 2636($s7)
+    li $t9 0xfefefe
+    sw $t9 2648($s7)
+    li $t9 0xffffff
+    sw $t9 2652($s7)
+    li $t9 0x010031
+    sw $t9 2656($s7)
+    li $t9 0xfeffff
+    sw $t9 2660($s7)
+    li $t9 0xfefefe
+    sw $t9 2664($s7)
+    li $t9 0x000016
+    sw $t9 2668($s7)
+    li $t9 0xffffff
+    sw $t9 2672($s7)
+    li $t9 0x00000a
+    sw $t9 2676($s7)
+    li $t9 0xfefeff
+    sw $t9 2680($s7)
+    li $t9 0xfffefe
+    sw $t9 2684($s7)
+    li $t9 0x00000a
+    sw $t9 2696($s7)
+    li $t9 0xfffffe
+    sw $t9 2700($s7)
+    li $t9 0x00000a
+    sw $t9 2704($s7)
+    li $t9 0xfffffe
+    sw $t9 2712($s7)
+    li $t9 0xffffff
+    sw $t9 2716($s7)
+    li $t9 0xfeffff
+    sw $t9 2732($s7)
+    li $t9 0xfffeff
+    sw $t9 2740($s7)
+    li $t9 0xffffff
+    sw $t9 2744($s7)
+    li $t9 0xfffffe
+    sw $t9 2752($s7)
+    li $t9 0xfeffff
+    sw $t9 2756($s7)
+    li $t9 0xfffffe
+    sw $t9 2764($s7)
+    li $t9 0xfffefe
+    sw $t9 2776($s7)
+    li $t9 0xfefffe
+    sw $t9 2780($s7)
+    li $t9 0xfffffe
+    sw $t9 2792($s7)
+    li $t9 0x000011
+    sw $t9 2796($s7)
+    li $t9 0x00000e
+    sw $t9 2840($s7)
+    li $t9 0xfefeff
+    sw $t9 2844($s7)
+    li $t9 0xfefefe
+    sw $t9 2848($s7)
+    li $t9 0xfeffff
+    sw $t9 2852($s7)
+    li $t9 0xffffff
+    sw $t9 2856($s7)
+    li $t9 0xfffefe
+    sw $t9 2860($s7)
+    li $t9 0xfefefe
+    sw $t9 2880($s7)
+    li $t9 0xfefffe
+    sw $t9 2884($s7)
+    li $t9 0xfffefe
+    sw $t9 2888($s7)
+    li $t9 0x01000a
+    sw $t9 2896($s7)
+    li $t9 0x000037
+    sw $t9 2904($s7)
+    li $t9 0xfffeff
+    sw $t9 2908($s7)
+    li $t9 0xfffffe
+    sw $t9 2912($s7)
+    li $t9 0x000863
+    sw $t9 2916($s7)
+    li $t9 0xfefefe
+    sw $t9 2920($s7)
+    li $t9 0xfffffe
+    sw $t9 2924($s7)
+    li $t9 0x00084e
+    sw $t9 2928($s7)
+    li $t9 0x00000b
+    sw $t9 2932($s7)
+    li $t9 0xfffffe
+    sw $t9 2940($s7)
+    li $t9 0xfefeff
+    sw $t9 2944($s7)
+    sw $t9 2948($s7)
+    li $t9 0xfeffff
+    sw $t9 2952($s7)
+    li $t9 0x00000a
+    sw $t9 2956($s7)
+    li $t9 0xffffff
+    sw $t9 2972($s7)
+    sw $t9 2976($s7)
+    sw $t9 2980($s7)
+    li $t9 0xfffeff
+    sw $t9 2984($s7)
+    li $t9 0x00000a
+    sw $t9 2992($s7)
+    li $t9 0x00000b
+    sw $t9 2996($s7)
+    li $t9 0xffffff
+    sw $t9 3000($s7)
+    sw $t9 3004($s7)
+    li $t9 0xfffefe
+    sw $t9 3012($s7)
+    li $t9 0xfefefe
+    sw $t9 3016($s7)
+    li $t9 0x000016
+    sw $t9 3032($s7)
+    li $t9 0xfffeff
+    sw $t9 3036($s7)
+    li $t9 0xfefffe
+    sw $t9 3040($s7)
+    li $t9 0xfefeff
+    sw $t9 3044($s7)
+    li $t9 0x02001a
+    sw $t9 3048($s7)
+    li $t9 0x00000d
+    sw $t9 3052($s7)
+    li $t9 0x0a0000
+    sw $t9 3072($s7)
+    li $t9 0x000012
+    sw $t9 3120($s7)
+    li $t9 0x000010
+    sw $t9 3132($s7)
+    li $t9 0x00000a
+    sw $t9 3140($s7)
+    sw $t9 3144($s7)
+    sw $t9 3152($s7)
+    li $t9 0x000118
+    sw $t9 3156($s7)
+    li $t9 0x000a2e
+    sw $t9 3160($s7)
+    li $t9 0x091735
+    sw $t9 3164($s7)
+    li $t9 0x2f4c5d
+    sw $t9 3168($s7)
+    li $t9 0x1a032c
+    sw $t9 3172($s7)
+    li $t9 0x00014b
+    sw $t9 3176($s7)
+    li $t9 0x000b6c
+    sw $t9 3180($s7)
+    li $t9 0x011379
+    sw $t9 3184($s7)
+    li $t9 0x000952
+    sw $t9 3188($s7)
+    li $t9 0x00000e
+    sw $t9 3192($s7)
+    li $t9 0x000020
+    sw $t9 3196($s7)
+    li $t9 0x00000a
+    sw $t9 3200($s7)
+    sw $t9 3216($s7)
+    sw $t9 3220($s7)
+    sw $t9 3228($s7)
+    sw $t9 3232($s7)
+    sw $t9 3236($s7)
+    li $t9 0x00010a
+    sw $t9 3240($s7)
+    sw $t9 3244($s7)
+    li $t9 0x00000a
+    sw $t9 3248($s7)
+    li $t9 0x000010
+    sw $t9 3252($s7)
+    li $t9 0x00000a
+    sw $t9 3256($s7)
+    sw $t9 3260($s7)
+    sw $t9 3268($s7)
+    sw $t9 3276($s7)
+    li $t9 0x00000b
+    sw $t9 3280($s7)
+    li $t9 0x0e012a
+    sw $t9 3284($s7)
+    li $t9 0x34005b
+    sw $t9 3288($s7)
+    li $t9 0x3b0063
+    sw $t9 3292($s7)
+    li $t9 0x44016b
+    sw $t9 3296($s7)
+    li $t9 0x47006e
+    sw $t9 3300($s7)
+    li $t9 0x45006c
+    sw $t9 3304($s7)
+    li $t9 0x260046
+    sw $t9 3308($s7)
+    li $t9 0x212c44
+    sw $t9 3312($s7)
+    li $t9 0x0e1725
+    sw $t9 3316($s7)
+    li $t9 0x2a0009
+    sw $t9 3328($s7)
+    li $t9 0x150000
+    sw $t9 3332($s7)
+    li $t9 0x00000a
+    sw $t9 3360($s7)
+    sw $t9 3364($s7)
+    sw $t9 3372($s7)
+    sw $t9 3388($s7)
+    li $t9 0x00000b
+    sw $t9 3392($s7)
+    li $t9 0x00000a
+    sw $t9 3396($s7)
+    li $t9 0x00000b
+    sw $t9 3404($s7)
+    li $t9 0x0e1a24
+    sw $t9 3408($s7)
+    li $t9 0x3c555e
+    sw $t9 3412($s7)
+    li $t9 0x75868a
+    sw $t9 3416($s7)
+    li $t9 0x849191
+    sw $t9 3420($s7)
+    li $t9 0x1d3b4b
+    sw $t9 3424($s7)
+    li $t9 0x1c3c4b
+    sw $t9 3428($s7)
+    li $t9 0x2f4d5c
+    sw $t9 3432($s7)
+    li $t9 0x00034e
+    sw $t9 3436($s7)
+    li $t9 0x021279
+    sw $t9 3440($s7)
+    li $t9 0x03157c
+    sw $t9 3444($s7)
+    li $t9 0x00052a
+    sw $t9 3448($s7)
+    li $t9 0x000757
+    sw $t9 3452($s7)
+    li $t9 0x000228
+    sw $t9 3456($s7)
+    li $t9 0x050211
+    sw $t9 3460($s7)
+    li $t9 0x00000a
+    sw $t9 3464($s7)
+    sw $t9 3468($s7)
+    sw $t9 3476($s7)
+    sw $t9 3480($s7)
+    li $t9 0x00010a
+    sw $t9 3484($s7)
+    li $t9 0x00000a
+    sw $t9 3488($s7)
+    sw $t9 3496($s7)
+    sw $t9 3500($s7)
+    sw $t9 3516($s7)
+    li $t9 0x00000b
+    sw $t9 3520($s7)
+    sw $t9 3524($s7)
+    sw $t9 3528($s7)
+    sw $t9 3532($s7)
+    li $t9 0x070120
+    sw $t9 3536($s7)
+    li $t9 0x21004a
+    sw $t9 3540($s7)
+    li $t9 0x21004b
+    sw $t9 3544($s7)
+    sw $t9 3548($s7)
+    li $t9 0x20004a
+    sw $t9 3552($s7)
+    li $t9 0x2a0053
+    sw $t9 3556($s7)
+    li $t9 0x3e0065
+    sw $t9 3560($s7)
+    li $t9 0x47006f
+    sw $t9 3564($s7)
+    li $t9 0x20003f
+    sw $t9 3568($s7)
+    li $t9 0x566770
+    sw $t9 3572($s7)
+    li $t9 0x00000f
+    sw $t9 3576($s7)
+    li $t9 0x00000a
+    sw $t9 3600($s7)
+    sw $t9 3604($s7)
+    li $t9 0x00000b
+    sw $t9 3616($s7)
+    sw $t9 3620($s7)
+    sw $t9 3624($s7)
+    li $t9 0x00000a
+    sw $t9 3628($s7)
+    sw $t9 3636($s7)
+    sw $t9 3640($s7)
+    li $t9 0x000010
+    sw $t9 3648($s7)
+    li $t9 0x00000a
+    sw $t9 3652($s7)
+    sw $t9 3656($s7)
+    li $t9 0x101d26
+    sw $t9 3660($s7)
+    li $t9 0x55747d
+    sw $t9 3664($s7)
+    li $t9 0x5b7c84
+    sw $t9 3668($s7)
+    li $t9 0x72888b
+    sw $t9 3672($s7)
+    li $t9 0x6f8188
+    sw $t9 3676($s7)
+    li $t9 0x2f4e5c
+    sw $t9 3680($s7)
+    li $t9 0x2e4d5c
+    sw $t9 3684($s7)
+    li $t9 0x314756
+    sw $t9 3688($s7)
+    li $t9 0x030936
+    sw $t9 3692($s7)
+    li $t9 0x051072
+    sw $t9 3696($s7)
+    li $t9 0x06137a
+    sw $t9 3700($s7)
+    li $t9 0x010b58
+    sw $t9 3704($s7)
+    li $t9 0x000329
+    sw $t9 3708($s7)
+    li $t9 0x010854
+    sw $t9 3712($s7)
+    li $t9 0x000116
+    sw $t9 3716($s7)
+    li $t9 0x00000b
+    sw $t9 3720($s7)
+    sw $t9 3724($s7)
+    sw $t9 3728($s7)
+    sw $t9 3732($s7)
+    li $t9 0x00010b
+    sw $t9 3736($s7)
+    li $t9 0x00000b
+    sw $t9 3740($s7)
+    sw $t9 3744($s7)
+    li $t9 0x090211
+    sw $t9 3748($s7)
+    li $t9 0x00000b
+    sw $t9 3752($s7)
+    sw $t9 3756($s7)
+    li $t9 0x00000a
+    sw $t9 3760($s7)
+    li $t9 0x00000b
+    sw $t9 3764($s7)
+    sw $t9 3768($s7)
+    sw $t9 3772($s7)
+    li $t9 0x050016
+    sw $t9 3776($s7)
+    li $t9 0x20003d
+    sw $t9 3780($s7)
+    li $t9 0x2f004c
+    sw $t9 3784($s7)
+    sw $t9 3788($s7)
+    li $t9 0x290046
+    sw $t9 3792($s7)
+    li $t9 0x20003b
+    sw $t9 3796($s7)
+    li $t9 0x160031
+    sw $t9 3800($s7)
+    li $t9 0x1d003f
+    sw $t9 3804($s7)
+    li $t9 0x22004c
+    sw $t9 3808($s7)
+    li $t9 0x22004a
+    sw $t9 3812($s7)
+    li $t9 0x22004c
+    sw $t9 3816($s7)
+    li $t9 0x46006d
+    sw $t9 3820($s7)
+    li $t9 0x3f0065
+    sw $t9 3824($s7)
+    li $t9 0x1c2644
+    sw $t9 3828($s7)
+    li $t9 0x081627
+    sw $t9 3832($s7)
+    li $t9 0x00000b
+    sw $t9 3848($s7)
+    li $t9 0x00000a
+    sw $t9 3852($s7)
+    sw $t9 3856($s7)
+    li $t9 0x00000b
+    sw $t9 3860($s7)
+    sw $t9 3864($s7)
+    sw $t9 3868($s7)
+    sw $t9 3872($s7)
+    sw $t9 3876($s7)
+    li $t9 0x00000a
+    sw $t9 3880($s7)
+    li $t9 0x00000b
+    sw $t9 3884($s7)
+    sw $t9 3888($s7)
+    sw $t9 3892($s7)
+    li $t9 0x01000b
+    sw $t9 3896($s7)
+    li $t9 0x01000a
+    sw $t9 3904($s7)
+    li $t9 0x00000b
+    sw $t9 3908($s7)
+    li $t9 0x01000e
+    sw $t9 3912($s7)
+    li $t9 0x3e545c
+    sw $t9 3916($s7)
+    li $t9 0x5e7c85
+    sw $t9 3920($s7)
+    li $t9 0x5e7d85
+    sw $t9 3924($s7)
+    li $t9 0x536e7a
+    sw $t9 3928($s7)
+    li $t9 0x405e6d
+    sw $t9 3932($s7)
+    li $t9 0x344e5f
+    sw $t9 3936($s7)
+    li $t9 0x2e4e5d
+    sw $t9 3940($s7)
+    li $t9 0x3f535a
+    sw $t9 3944($s7)
+    li $t9 0x070d35
+    sw $t9 3948($s7)
+    li $t9 0x030a5c
+    sw $t9 3952($s7)
+    li $t9 0x020852
+    sw $t9 3956($s7)
+    li $t9 0x030752
+    sw $t9 3960($s7)
+    li $t9 0x000626
+    sw $t9 3964($s7)
+    li $t9 0x01084a
+    sw $t9 3968($s7)
+    li $t9 0x010747
+    sw $t9 3972($s7)
+    li $t9 0x010211
+    sw $t9 3976($s7)
+    li $t9 0x06000e
+    sw $t9 3980($s7)
+    li $t9 0x05000b
+    sw $t9 3984($s7)
+    sw $t9 3988($s7)
+    li $t9 0x02000b
+    sw $t9 3992($s7)
+    li $t9 0x03000b
+    sw $t9 3996($s7)
+    li $t9 0x02000b
+    sw $t9 4000($s7)
+    li $t9 0x03000b
+    sw $t9 4004($s7)
+    li $t9 0x01010b
+    sw $t9 4008($s7)
+    sw $t9 4012($s7)
+    li $t9 0x080312
+    sw $t9 4016($s7)
+    li $t9 0x00000b
+    sw $t9 4020($s7)
+    sw $t9 4024($s7)
+    sw $t9 4028($s7)
+    li $t9 0x0d0020
+    sw $t9 4032($s7)
+    li $t9 0x4d0172
+    sw $t9 4036($s7)
+    li $t9 0x500173
+    sw $t9 4040($s7)
+    sw $t9 4044($s7)
+    sw $t9 4048($s7)
+    li $t9 0x4f0073
+    sw $t9 4052($s7)
+    li $t9 0x3d0062
+    sw $t9 4056($s7)
+    li $t9 0x180037
+    sw $t9 4060($s7)
+    li $t9 0x1c003d
+    sw $t9 4064($s7)
+    li $t9 0x25004d
+    sw $t9 4068($s7)
+    li $t9 0x24004e
+    sw $t9 4072($s7)
+    li $t9 0x44006a
+    sw $t9 4076($s7)
+    li $t9 0x4c0073
+    sw $t9 4080($s7)
+    li $t9 0x160e36
+    sw $t9 4084($s7)
+    li $t9 0x091a2a
+    sw $t9 4088($s7)
+    li $t9 0x00000a
+    sw $t9 4092($s7)
+    li $t9 0x000010
+    sw $t9 4096($s7)
+    li $t9 0x00000b
+    sw $t9 4100($s7)
+    sw $t9 4104($s7)
+    li $t9 0x01000b
+    sw $t9 4108($s7)
+    li $t9 0x00000b
+    sw $t9 4112($s7)
+    sw $t9 4116($s7)
+    sw $t9 4120($s7)
+    sw $t9 4124($s7)
+    li $t9 0x0a0101
+    sw $t9 4136($s7)
+    li $t9 0x0b0003
+    sw $t9 4140($s7)
+    li $t9 0x01000b
+    sw $t9 4148($s7)
+    sw $t9 4152($s7)
+    li $t9 0x06010e
+    sw $t9 4168($s7)
+    li $t9 0x2a3f48
+    sw $t9 4172($s7)
+    li $t9 0x445f6e
+    sw $t9 4176($s7)
+    li $t9 0x54737a
+    sw $t9 4180($s7)
+    li $t9 0x365057
+    sw $t9 4184($s7)
+    li $t9 0x273c44
+    sw $t9 4188($s7)
+    li $t9 0x1f2e40
+    sw $t9 4192($s7)
+    li $t9 0x000044
+    sw $t9 4196($s7)
+    sw $t9 4200($s7)
+    li $t9 0x000043
+    sw $t9 4204($s7)
+    li $t9 0x060b52
+    sw $t9 4208($s7)
+    sw $t9 4212($s7)
+    sw $t9 4216($s7)
+    li $t9 0x060a4a
+    sw $t9 4220($s7)
+    li $t9 0x02092e
+    sw $t9 4224($s7)
+    li $t9 0x050b52
+    sw $t9 4228($s7)
+    li $t9 0x060a41
+    sw $t9 4232($s7)
+    li $t9 0x060511
+    sw $t9 4236($s7)
+    li $t9 0x0a030e
+    sw $t9 4240($s7)
+    li $t9 0x0a030d
+    sw $t9 4244($s7)
+    sw $t9 4248($s7)
+    li $t9 0x09020e
+    sw $t9 4252($s7)
+    li $t9 0x08020e
+    sw $t9 4256($s7)
+    li $t9 0x07010e
+    sw $t9 4260($s7)
+    sw $t9 4264($s7)
+    li $t9 0x07010d
+    sw $t9 4268($s7)
+    li $t9 0x06010d
+    sw $t9 4272($s7)
+    li $t9 0x05000c
+    sw $t9 4276($s7)
+    li $t9 0x03000d
+    sw $t9 4280($s7)
+    li $t9 0x060010
+    sw $t9 4284($s7)
+    li $t9 0x290041
+    sw $t9 4288($s7)
+    li $t9 0x540673
+    sw $t9 4292($s7)
+    li $t9 0x540273
+    sw $t9 4296($s7)
+    li $t9 0x530273
+    sw $t9 4300($s7)
+    sw $t9 4304($s7)
+    li $t9 0x520173
+    sw $t9 4308($s7)
+    li $t9 0x2e0052
+    sw $t9 4312($s7)
+    li $t9 0x240047
+    sw $t9 4316($s7)
+    li $t9 0x170035
+    sw $t9 4320($s7)
+    li $t9 0x24004a
+    sw $t9 4324($s7)
+    li $t9 0x260050
+    sw $t9 4328($s7)
+    li $t9 0x48006d
+    sw $t9 4332($s7)
+    li $t9 0x4d0075
+    sw $t9 4336($s7)
+    li $t9 0x220841
+    sw $t9 4340($s7)
+    li $t9 0x000b1c
+    sw $t9 4344($s7)
+    li $t9 0x00000b
+    sw $t9 4348($s7)
+    sw $t9 4352($s7)
+    sw $t9 4356($s7)
+    sw $t9 4360($s7)
+    sw $t9 4364($s7)
+    sw $t9 4368($s7)
+    li $t9 0x00010b
+    sw $t9 4372($s7)
+    li $t9 0x00000b
+    sw $t9 4376($s7)
+    li $t9 0x130100
+    sw $t9 4380($s7)
+    li $t9 0x3e0700
+    sw $t9 4384($s7)
+    li $t9 0x581300
+    sw $t9 4388($s7)
+    li $t9 0x6b2200
+    sw $t9 4392($s7)
+    li $t9 0x7d3300
+    sw $t9 4396($s7)
+    li $t9 0x652400
+    sw $t9 4400($s7)
+    li $t9 0x2a0800
+    sw $t9 4404($s7)
+    li $t9 0x0d0107
+    sw $t9 4408($s7)
+    li $t9 0x07010d
+    sw $t9 4412($s7)
+    li $t9 0x0b0d13
+    sw $t9 4428($s7)
+    li $t9 0x1a2935
+    sw $t9 4432($s7)
+    li $t9 0x101c4a
+    sw $t9 4436($s7)
+    li $t9 0x0f1c63
+    sw $t9 4440($s7)
+    li $t9 0x0f1c7d
+    sw $t9 4444($s7)
+    li $t9 0x0e1871
+    sw $t9 4448($s7)
+    li $t9 0x0a0d56
+    sw $t9 4452($s7)
+    li $t9 0x130b4f
+    sw $t9 4456($s7)
+    li $t9 0x0a0d54
+    sw $t9 4460($s7)
+    sw $t9 4464($s7)
+    li $t9 0x0a0e54
+    sw $t9 4468($s7)
+    li $t9 0x090d54
+    sw $t9 4472($s7)
+    sw $t9 4476($s7)
+    li $t9 0x080b2e
+    sw $t9 4480($s7)
+    li $t9 0x090d4c
+    sw $t9 4484($s7)
+    li $t9 0x0b0b4d
+    sw $t9 4488($s7)
+    li $t9 0x120328
+    sw $t9 4492($s7)
+    li $t9 0x190007
+    sw $t9 4496($s7)
+    li $t9 0x1c0002
+    sw $t9 4500($s7)
+    li $t9 0x180006
+    sw $t9 4504($s7)
+    li $t9 0x13030b
+    sw $t9 4508($s7)
+    li $t9 0x0e070f
+    sw $t9 4512($s7)
+    li $t9 0x0d070f
+    sw $t9 4516($s7)
+    li $t9 0x0d060f
+    sw $t9 4520($s7)
+    li $t9 0x0b060f
+    sw $t9 4524($s7)
+    li $t9 0x0b070f
+    sw $t9 4528($s7)
+    li $t9 0x0b030d
+    sw $t9 4532($s7)
+    li $t9 0x0a020d
+    sw $t9 4536($s7)
+    li $t9 0x0e0019
+    sw $t9 4540($s7)
+    li $t9 0x440361
+    sw $t9 4544($s7)
+    li $t9 0x560874
+    sw $t9 4548($s7)
+    li $t9 0x550874
+    sw $t9 4552($s7)
+    li $t9 0x550675
+    sw $t9 4556($s7)
+    li $t9 0x550774
+    sw $t9 4560($s7)
+    li $t9 0x480169
+    sw $t9 4564($s7)
+    li $t9 0x260045
+    sw $t9 4568($s7)
+    li $t9 0x480169
+    sw $t9 4572($s7)
+    li $t9 0x260047
+    sw $t9 4576($s7)
+    li $t9 0x220045
+    sw $t9 4580($s7)
+    li $t9 0x290050
+    sw $t9 4584($s7)
+    li $t9 0x4b006f
+    sw $t9 4588($s7)
+    li $t9 0x520174
+    sw $t9 4592($s7)
+    li $t9 0x24013f
+    sw $t9 4596($s7)
+    li $t9 0x00000e
+    sw $t9 4600($s7)
+    li $t9 0x00000b
+    sw $t9 4604($s7)
+    sw $t9 4608($s7)
+    sw $t9 4612($s7)
+    sw $t9 4616($s7)
+    sw $t9 4620($s7)
+    sw $t9 4624($s7)
+    li $t9 0x010311
+    sw $t9 4628($s7)
+    li $t9 0x090a11
+    sw $t9 4632($s7)
+    li $t9 0x181211
+    sw $t9 4636($s7)
+    li $t9 0x291813
+    sw $t9 4640($s7)
+    li $t9 0x3e1d10
+    sw $t9 4644($s7)
+    li $t9 0x612207
+    sw $t9 4648($s7)
+    li $t9 0x7d2a01
+    sw $t9 4652($s7)
+    li $t9 0xa04a00
+    sw $t9 4656($s7)
+    li $t9 0x9d4a00
+    sw $t9 4660($s7)
+    li $t9 0x4d1a00
+    sw $t9 4664($s7)
+    li $t9 0x160508
+    sw $t9 4668($s7)
+    li $t9 0x0d070f
+    sw $t9 4672($s7)
+    li $t9 0x0b0f2f
+    sw $t9 4688($s7)
+    li $t9 0x121e82
+    sw $t9 4692($s7)
+    li $t9 0x122181
+    sw $t9 4696($s7)
+    li $t9 0x0f176f
+    sw $t9 4700($s7)
+    li $t9 0x0d0f55
+    sw $t9 4704($s7)
+    li $t9 0x0c1056
+    sw $t9 4708($s7)
+    li $t9 0x0d1055
+    sw $t9 4712($s7)
+    li $t9 0x0e0f55
+    sw $t9 4716($s7)
+    li $t9 0x0d1156
+    sw $t9 4720($s7)
+    li $t9 0x0d1155
+    sw $t9 4724($s7)
+    li $t9 0x0f1155
+    sw $t9 4728($s7)
+    li $t9 0x0f1054
+    sw $t9 4732($s7)
+    li $t9 0x18022d
+    sw $t9 4736($s7)
+    li $t9 0x250001
+    sw $t9 4740($s7)
+    li $t9 0x2d0000
+    sw $t9 4744($s7)
+    li $t9 0x2c0000
+    sw $t9 4748($s7)
+    li $t9 0x2f0000
+    sw $t9 4752($s7)
+    li $t9 0x2e0000
+    sw $t9 4756($s7)
+    li $t9 0x2e0001
+    sw $t9 4760($s7)
+    li $t9 0x2d0000
+    sw $t9 4764($s7)
+    li $t9 0x290000
+    sw $t9 4768($s7)
+    li $t9 0x1c0006
+    sw $t9 4772($s7)
+    li $t9 0x120911
+    sw $t9 4776($s7)
+    li $t9 0x100a11
+    sw $t9 4780($s7)
+    li $t9 0x110a10
+    sw $t9 4784($s7)
+    li $t9 0x0f0810
+    sw $t9 4788($s7)
+    li $t9 0x110712
+    sw $t9 4792($s7)
+    li $t9 0x1f0131
+    sw $t9 4796($s7)
+    li $t9 0x4c086b
+    sw $t9 4800($s7)
+    li $t9 0x580976
+    sw $t9 4804($s7)
+    li $t9 0x590a76
+    sw $t9 4808($s7)
+    li $t9 0x570a76
+    sw $t9 4812($s7)
+    li $t9 0x570878
+    sw $t9 4816($s7)
+    li $t9 0x37015b
+    sw $t9 4820($s7)
+    li $t9 0x260041
+    sw $t9 4824($s7)
+    li $t9 0x560676
+    sw $t9 4828($s7)
+    li $t9 0x290043
+    sw $t9 4832($s7)
+    li $t9 0x29004c
+    sw $t9 4836($s7)
+    li $t9 0x2d0052
+    sw $t9 4840($s7)
+    li $t9 0x500373
+    sw $t9 4844($s7)
+    li $t9 0x540378
+    sw $t9 4848($s7)
+    li $t9 0x2a0045
+    sw $t9 4852($s7)
+    li $t9 0x00000b
+    sw $t9 4856($s7)
+    sw $t9 4860($s7)
+    sw $t9 4864($s7)
+    li $t9 0x00010b
+    sw $t9 4868($s7)
+    li $t9 0x00000e
+    sw $t9 4872($s7)
+    li $t9 0x01000d
+    sw $t9 4876($s7)
+    li $t9 0x09131c
+    sw $t9 4880($s7)
+    li $t9 0x46565b
+    sw $t9 4884($s7)
+    li $t9 0x81898b
+    sw $t9 4888($s7)
+    li $t9 0x798c8d
+    sw $t9 4892($s7)
+    li $t9 0x5e7d84
+    sw $t9 4896($s7)
+    li $t9 0x4f6a6e
+    sw $t9 4900($s7)
+    li $t9 0x31474a
+    sw $t9 4904($s7)
+    li $t9 0x2d2019
+    sw $t9 4908($s7)
+    li $t9 0x752c05
+    sw $t9 4912($s7)
+    li $t9 0xaa5200
+    sw $t9 4916($s7)
+    li $t9 0xa84f00
+    sw $t9 4920($s7)
+    li $t9 0x4a1800
+    sw $t9 4924($s7)
+    li $t9 0x170b0d
+    sw $t9 4928($s7)
+    li $t9 0x160e11
+    sw $t9 4932($s7)
+    li $t9 0x00023c
+    sw $t9 4944($s7)
+    li $t9 0x161e76
+    sw $t9 4948($s7)
+    li $t9 0x151a6c
+    sw $t9 4952($s7)
+    li $t9 0x111557
+    sw $t9 4956($s7)
+    li $t9 0x111457
+    sw $t9 4960($s7)
+    li $t9 0x121358
+    sw $t9 4964($s7)
+    li $t9 0x111557
+    sw $t9 4968($s7)
+    sw $t9 4972($s7)
+    li $t9 0x121557
+    sw $t9 4976($s7)
+    li $t9 0x111258
+    sw $t9 4980($s7)
+    li $t9 0x190838
+    sw $t9 4984($s7)
+    li $t9 0x290001
+    sw $t9 4988($s7)
+    li $t9 0x2f0000
+    sw $t9 4992($s7)
+    li $t9 0x3b0001
+    sw $t9 4996($s7)
+    li $t9 0x3f0005
+    sw $t9 5000($s7)
+    li $t9 0x44000b
+    sw $t9 5004($s7)
+    li $t9 0x45000e
+    sw $t9 5008($s7)
+    li $t9 0x46000e
+    sw $t9 5012($s7)
+    sw $t9 5016($s7)
+    li $t9 0x44000a
+    sw $t9 5020($s7)
+    li $t9 0x3b0101
+    sw $t9 5024($s7)
+    li $t9 0x2e0000
+    sw $t9 5028($s7)
+    li $t9 0x280000
+    sw $t9 5032($s7)
+    li $t9 0x190b10
+    sw $t9 5036($s7)
+    li $t9 0x180e12
+    sw $t9 5040($s7)
+    li $t9 0x160e12
+    sw $t9 5044($s7)
+    li $t9 0x160818
+    sw $t9 5048($s7)
+    li $t9 0x2e0246
+    sw $t9 5052($s7)
+    li $t9 0x360456
+    sw $t9 5056($s7)
+    li $t9 0x3e065d
+    sw $t9 5060($s7)
+    li $t9 0x40085e
+    sw $t9 5064($s7)
+    li $t9 0x40065f
+    sw $t9 5068($s7)
+    li $t9 0x3b035c
+    sw $t9 5072($s7)
+    li $t9 0x330154
+    sw $t9 5076($s7)
+    li $t9 0x33014b
+    sw $t9 5080($s7)
+    li $t9 0x580976
+    sw $t9 5084($s7)
+    li $t9 0x25003b
+    sw $t9 5088($s7)
+    li $t9 0x2e0052
+    sw $t9 5092($s7)
+    li $t9 0x2f0053
+    sw $t9 5096($s7)
+    li $t9 0x540674
+    sw $t9 5100($s7)
+    li $t9 0x550578
+    sw $t9 5104($s7)
+    li $t9 0x2c0044
+    sw $t9 5108($s7)
+    li $t9 0x00000b
+    sw $t9 5112($s7)
+    sw $t9 5116($s7)
+    li $t9 0x01000e
+    sw $t9 5120($s7)
+    li $t9 0x02000e
+    sw $t9 5124($s7)
+    li $t9 0x03000e
+    sw $t9 5128($s7)
+    li $t9 0x091017
+    sw $t9 5132($s7)
+    li $t9 0x536f75
+    sw $t9 5136($s7)
+    li $t9 0x929c9a
+    sw $t9 5140($s7)
+    li $t9 0xb0aba4
+    sw $t9 5144($s7)
+    li $t9 0x98a09c
+    sw $t9 5148($s7)
+    li $t9 0x69888c
+    sw $t9 5152($s7)
+    sw $t9 5156($s7)
+    sw $t9 5160($s7)
+    li $t9 0x5e797d
+    sw $t9 5164($s7)
+    li $t9 0x282f2f
+    sw $t9 5168($s7)
+    li $t9 0x8b4103
+    sw $t9 5172($s7)
+    li $t9 0xb05400
+    sw $t9 5176($s7)
+    li $t9 0x9c4c00
+    sw $t9 5180($s7)
+    li $t9 0x2e0d01
+    sw $t9 5184($s7)
+    li $t9 0x200f10
+    sw $t9 5188($s7)
+    li $t9 0x1f1213
+    sw $t9 5192($s7)
+    li $t9 0x281a11
+    sw $t9 5196($s7)
+    li $t9 0x00033b
+    sw $t9 5200($s7)
+    li $t9 0x00023c
+    sw $t9 5204($s7)
+    li $t9 0x151657
+    sw $t9 5208($s7)
+    li $t9 0x161658
+    sw $t9 5212($s7)
+    li $t9 0x161757
+    sw $t9 5216($s7)
+    li $t9 0x171758
+    sw $t9 5220($s7)
+    li $t9 0x161758
+    sw $t9 5224($s7)
+    sw $t9 5228($s7)
+    li $t9 0x171655
+    sw $t9 5232($s7)
+    li $t9 0x25001b
+    sw $t9 5236($s7)
+    li $t9 0x2e0000
+    sw $t9 5240($s7)
+    li $t9 0x5e0000
+    sw $t9 5244($s7)
+    li $t9 0x5c001a
+    sw $t9 5248($s7)
+    li $t9 0x49000d
+    sw $t9 5252($s7)
+    li $t9 0x45000d
+    sw $t9 5256($s7)
+    li $t9 0x45000e
+    sw $t9 5260($s7)
+    li $t9 0x46000d
+    sw $t9 5264($s7)
+    sw $t9 5268($s7)
+    li $t9 0x45000e
+    sw $t9 5272($s7)
+    sw $t9 5276($s7)
+    li $t9 0x45000d
+    sw $t9 5280($s7)
+    li $t9 0x44000b
+    sw $t9 5284($s7)
+    li $t9 0x350000
+    sw $t9 5288($s7)
+    li $t9 0x2a0000
+    sw $t9 5292($s7)
+    li $t9 0x1f1213
+    sw $t9 5296($s7)
+    li $t9 0x1e1215
+    sw $t9 5300($s7)
+    li $t9 0x200a26
+    sw $t9 5304($s7)
+    li $t9 0x3c0955
+    sw $t9 5308($s7)
+    li $t9 0x3b0755
+    sw $t9 5312($s7)
+    li $t9 0x390857
+    sw $t9 5316($s7)
+    li $t9 0x380655
+    sw $t9 5320($s7)
+    li $t9 0x370655
+    sw $t9 5324($s7)
+    li $t9 0x360556
+    sw $t9 5328($s7)
+    li $t9 0x350254
+    sw $t9 5332($s7)
+    li $t9 0x400756
+    sw $t9 5336($s7)
+    li $t9 0x5c0b7a
+    sw $t9 5340($s7)
+    li $t9 0x26013e
+    sw $t9 5344($s7)
+    li $t9 0x330154
+    sw $t9 5348($s7)
+    li $t9 0x310054
+    sw $t9 5352($s7)
+    li $t9 0x520873
+    sw $t9 5356($s7)
+    li $t9 0x560578
+    sw $t9 5360($s7)
+    li $t9 0x28003e
+    sw $t9 5364($s7)
+    li $t9 0x03000e
+    sw $t9 5368($s7)
+    li $t9 0x01000e
+    sw $t9 5372($s7)
+    li $t9 0x05000e
+    sw $t9 5376($s7)
+    li $t9 0x08010e
+    sw $t9 5380($s7)
+    li $t9 0x080210
+    sw $t9 5384($s7)
+    li $t9 0x213136
+    sw $t9 5388($s7)
+    li $t9 0x5b7a81
+    sw $t9 5392($s7)
+    li $t9 0x67868b
+    sw $t9 5396($s7)
+    li $t9 0x69858a
+    sw $t9 5400($s7)
+    li $t9 0x637e87
+    sw $t9 5404($s7)
+    li $t9 0x69888c
+    sw $t9 5408($s7)
+    li $t9 0x6d8b8f
+    sw $t9 5412($s7)
+    li $t9 0x6d8b8d
+    sw $t9 5416($s7)
+    li $t9 0x6b888b
+    sw $t9 5420($s7)
+    li $t9 0x5e797b
+    sw $t9 5424($s7)
+    li $t9 0x503112
+    sw $t9 5428($s7)
+    li $t9 0xb15800
+    sw $t9 5432($s7)
+    li $t9 0xb25800
+    sw $t9 5436($s7)
+    li $t9 0x622900
+    sw $t9 5440($s7)
+    li $t9 0x571f03
+    sw $t9 5444($s7)
+    li $t9 0x3e1605
+    sw $t9 5448($s7)
+    li $t9 0x2a1812
+    sw $t9 5452($s7)
+    li $t9 0x251c16
+    sw $t9 5456($s7)
+    li $t9 0x00023b
+    sw $t9 5460($s7)
+    li $t9 0x1a1a5a
+    sw $t9 5464($s7)
+    li $t9 0x1a1d5a
+    sw $t9 5468($s7)
+    li $t9 0x1a1c5a
+    sw $t9 5472($s7)
+    li $t9 0x1d1c5a
+    sw $t9 5476($s7)
+    sw $t9 5480($s7)
+    li $t9 0x1e1752
+    sw $t9 5484($s7)
+    li $t9 0x930001
+    sw $t9 5496($s7)
+    li $t9 0x6d001c
+    sw $t9 5500($s7)
+    li $t9 0x47000e
+    sw $t9 5504($s7)
+    li $t9 0x3d000f
+    sw $t9 5508($s7)
+    li $t9 0x2a0117
+    sw $t9 5512($s7)
+    li $t9 0x1e021c
+    sw $t9 5516($s7)
+    li $t9 0x19081e
+    sw $t9 5520($s7)
+    li $t9 0x16091f
+    sw $t9 5524($s7)
+    li $t9 0x1a051f
+    sw $t9 5528($s7)
+    li $t9 0x230119
+    sw $t9 5532($s7)
+    li $t9 0x2e0016
+    sw $t9 5536($s7)
+    li $t9 0x3f000f
+    sw $t9 5540($s7)
+    li $t9 0x46000c
+    sw $t9 5544($s7)
+    li $t9 0x340000
+    sw $t9 5548($s7)
+    li $t9 0x280105
+    sw $t9 5552($s7)
+    li $t9 0x241717
+    sw $t9 5556($s7)
+    li $t9 0x2e0b3c
+    sw $t9 5560($s7)
+    li $t9 0x3e0d57
+    sw $t9 5564($s7)
+    li $t9 0x3f0b56
+    sw $t9 5568($s7)
+    li $t9 0x3d0b55
+    sw $t9 5572($s7)
+    li $t9 0x3d0a55
+    sw $t9 5576($s7)
+    li $t9 0x3b0955
+    sw $t9 5580($s7)
+    li $t9 0x3c0a55
+    sw $t9 5584($s7)
+    li $t9 0x310545
+    sw $t9 5588($s7)
+    li $t9 0x570d71
+    sw $t9 5592($s7)
+    li $t9 0x5d0e74
+    sw $t9 5596($s7)
+    li $t9 0x26033b
+    sw $t9 5600($s7)
+    li $t9 0x350356
+    sw $t9 5604($s7)
+    li $t9 0x350255
+    sw $t9 5608($s7)
+    li $t9 0x380258
+    sw $t9 5612($s7)
+    li $t9 0x3f0362
+    sw $t9 5616($s7)
+    li $t9 0x200133
+    sw $t9 5620($s7)
+    li $t9 0x08010f
+    sw $t9 5624($s7)
+    li $t9 0x05000d
+    sw $t9 5628($s7)
+    li $t9 0x0a030f
+    sw $t9 5632($s7)
+    li $t9 0x0b0510
+    sw $t9 5636($s7)
+    li $t9 0x0e080f
+    sw $t9 5640($s7)
+    li $t9 0x1e2a2e
+    sw $t9 5644($s7)
+    li $t9 0x4d6b76
+    sw $t9 5648($s7)
+    li $t9 0x4a6572
+    sw $t9 5652($s7)
+    li $t9 0x557279
+    sw $t9 5656($s7)
+    li $t9 0x4d6973
+    sw $t9 5660($s7)
+    li $t9 0x415b68
+    sw $t9 5664($s7)
+    li $t9 0x4f6a73
+    sw $t9 5668($s7)
+    li $t9 0x546e77
+    sw $t9 5672($s7)
+    li $t9 0x435d69
+    sw $t9 5676($s7)
+    li $t9 0x526b73
+    sw $t9 5680($s7)
+    li $t9 0x4b3f2a
+    sw $t9 5684($s7)
+    li $t9 0xb45c00
+    sw $t9 5688($s7)
+    sw $t9 5692($s7)
+    li $t9 0x924700
+    sw $t9 5696($s7)
+    li $t9 0x6b2807
+    sw $t9 5700($s7)
+    li $t9 0x88370d
+    sw $t9 5704($s7)
+    li $t9 0x783602
+    sw $t9 5708($s7)
+    li $t9 0x361d0e
+    sw $t9 5712($s7)
+    li $t9 0x1d1e31
+    sw $t9 5716($s7)
+    li $t9 0x1e1f5d
+    sw $t9 5720($s7)
+    li $t9 0x240b37
+    sw $t9 5724($s7)
+    li $t9 0x2a0002
+    sw $t9 5728($s7)
+    li $t9 0x280013
+    sw $t9 5732($s7)
+    li $t9 0x240d36
+    sw $t9 5736($s7)
+    li $t9 0x2a0005
+    sw $t9 5740($s7)
+    li $t9 0x1a3b50
+    sw $t9 5788($s7)
+    li $t9 0x133146
+    sw $t9 5792($s7)
+    li $t9 0x051d2f
+    sw $t9 5796($s7)
+    li $t9 0x0f0b21
+    sw $t9 5800($s7)
+    li $t9 0x260013
+    sw $t9 5804($s7)
+    li $t9 0x2c0000
+    sw $t9 5808($s7)
+    li $t9 0x2a1a16
+    sw $t9 5812($s7)
+    li $t9 0x351239
+    sw $t9 5816($s7)
+    li $t9 0x551664
+    sw $t9 5820($s7)
+    li $t9 0x461254
+    sw $t9 5824($s7)
+    li $t9 0x3e0f4b
+    sw $t9 5828($s7)
+    li $t9 0x350d46
+    sw $t9 5832($s7)
+    li $t9 0x350b44
+    sw $t9 5836($s7)
+    li $t9 0x330b45
+    sw $t9 5840($s7)
+    li $t9 0x2d093b
+    sw $t9 5844($s7)
+    li $t9 0x5e1278
+    sw $t9 5848($s7)
+    li $t9 0x4d0e61
+    sw $t9 5852($s7)
+    li $t9 0x33074a
+    sw $t9 5856($s7)
+    li $t9 0x380757
+    sw $t9 5860($s7)
+    li $t9 0x380657
+    sw $t9 5864($s7)
+    li $t9 0x370657
+    sw $t9 5868($s7)
+    li $t9 0x4b086b
+    sw $t9 5872($s7)
+    li $t9 0x170320
+    sw $t9 5876($s7)
+    li $t9 0x0b0610
+    sw $t9 5880($s7)
+    li $t9 0x08030f
+    sw $t9 5884($s7)
+    li $t9 0x0f0711
+    sw $t9 5888($s7)
+    li $t9 0x110912
+    sw $t9 5892($s7)
+    li $t9 0x150b12
+    sw $t9 5896($s7)
+    li $t9 0x20120f
+    sw $t9 5900($s7)
+    li $t9 0x35302c
+    sw $t9 5904($s7)
+    li $t9 0x343431
+    sw $t9 5908($s7)
+    li $t9 0x303736
+    sw $t9 5912($s7)
+    li $t9 0x3b4b4b
+    sw $t9 5916($s7)
+    li $t9 0x4c6163
+    sw $t9 5920($s7)
+    li $t9 0x556f74
+    sw $t9 5924($s7)
+    li $t9 0x4f6971
+    sw $t9 5928($s7)
+    li $t9 0x4e666e
+    sw $t9 5932($s7)
+    li $t9 0x657e80
+    sw $t9 5936($s7)
+    li $t9 0x4b3f27
+    sw $t9 5940($s7)
+    li $t9 0xb75e00
+    sw $t9 5944($s7)
+    li $t9 0xb95e01
+    sw $t9 5948($s7)
+    li $t9 0xb35e01
+    sw $t9 5952($s7)
+    li $t9 0x5e2407
+    sw $t9 5956($s7)
+    li $t9 0x913d10
+    sw $t9 5960($s7)
+    li $t9 0xb96103
+    sw $t9 5964($s7)
+    li $t9 0x50270a
+    sw $t9 5968($s7)
+    li $t9 0x272525
+    sw $t9 5972($s7)
+    li $t9 0x27113d
+    sw $t9 5976($s7)
+    li $t9 0x350000
+    sw $t9 5980($s7)
+    li $t9 0x353535
+    sw $t9 5984($s7)
+    sw $t9 5988($s7)
+    li $t9 0x2e0000
+    sw $t9 5992($s7)
+    li $t9 0x7e001c
+    sw $t9 6004($s7)
+    li $t9 0x550019
+    sw $t9 6008($s7)
+    li $t9 0x464647
+    sw $t9 6024($s7)
+    sw $t9 6028($s7)
+    li $t9 0xffffff
+    sw $t9 6032($s7)
+    sw $t9 6036($s7)
+    li $t9 0x1a3b56
+    sw $t9 6056($s7)
+    li $t9 0x0e2a3f
+    sw $t9 6060($s7)
+    li $t9 0x061222
+    sw $t9 6064($s7)
+    li $t9 0x221316
+    sw $t9 6068($s7)
+    li $t9 0x312021
+    sw $t9 6072($s7)
+    li $t9 0x3f1644
+    sw $t9 6076($s7)
+    li $t9 0x661c74
+    sw $t9 6080($s7)
+    li $t9 0x6c1d7d
+    sw $t9 6084($s7)
+    li $t9 0x6b1a7c
+    sw $t9 6088($s7)
+    li $t9 0x651775
+    sw $t9 6092($s7)
+    li $t9 0x5f1670
+    sw $t9 6096($s7)
+    li $t9 0x531362
+    sw $t9 6100($s7)
+    li $t9 0x4b0e5e
+    sw $t9 6104($s7)
+    li $t9 0x370b43
+    sw $t9 6108($s7)
+    li $t9 0x3d0b58
+    sw $t9 6112($s7)
+    li $t9 0x3e0958
+    sw $t9 6116($s7)
+    sw $t9 6120($s7)
+    li $t9 0x3b0857
+    sw $t9 6124($s7)
+    li $t9 0x4d0b66
+    sw $t9 6128($s7)
+    li $t9 0x160719
+    sw $t9 6132($s7)
+    li $t9 0x110a12
+    sw $t9 6136($s7)
+    li $t9 0x100711
+    sw $t9 6140($s7)
+    li $t9 0x130b12
+    sw $t9 6144($s7)
+    li $t9 0x170e13
+    sw $t9 6148($s7)
+    li $t9 0x191015
+    sw $t9 6152($s7)
+    li $t9 0x521901
+    sw $t9 6156($s7)
+    li $t9 0x88310b
+    sw $t9 6160($s7)
+    li $t9 0x883309
+    sw $t9 6164($s7)
+    li $t9 0x89340b
+    sw $t9 6168($s7)
+    li $t9 0x7d340e
+    sw $t9 6172($s7)
+    li $t9 0x613016
+    sw $t9 6176($s7)
+    li $t9 0x433022
+    sw $t9 6180($s7)
+    li $t9 0x3f4a45
+    sw $t9 6184($s7)
+    li $t9 0x4d5e5b
+    sw $t9 6188($s7)
+    li $t9 0x44504a
+    sw $t9 6192($s7)
+    li $t9 0x804d11
+    sw $t9 6196($s7)
+    li $t9 0xbb6202
+    sw $t9 6200($s7)
+    li $t9 0xbb6302
+    sw $t9 6204($s7)
+    li $t9 0xbd6403
+    sw $t9 6208($s7)
+    li $t9 0x692e08
+    sw $t9 6212($s7)
+    li $t9 0xa24d0e
+    sw $t9 6216($s7)
+    li $t9 0xbb6508
+    sw $t9 6220($s7)
+    li $t9 0x4a2912
+    sw $t9 6224($s7)
+    li $t9 0x36241d
+    sw $t9 6228($s7)
+    li $t9 0x353535
+    sw $t9 6232($s7)
+    sw $t9 6236($s7)
+    sw $t9 6240($s7)
+    sw $t9 6244($s7)
+    li $t9 0x500000
+    sw $t9 6248($s7)
+    li $t9 0x8d001a
+    sw $t9 6256($s7)
+    li $t9 0x6b0029
+    sw $t9 6260($s7)
+    li $t9 0x30021e
+    sw $t9 6264($s7)
+    li $t9 0x474646
+    sw $t9 6276($s7)
+    sw $t9 6280($s7)
+    li $t9 0x464646
+    sw $t9 6284($s7)
+    li $t9 0x474646
+    sw $t9 6288($s7)
+    li $t9 0xffffff
+    sw $t9 6292($s7)
+    li $t9 0xfeffff
+    sw $t9 6296($s7)
+    li $t9 0x20455e
+    sw $t9 6320($s7)
+    li $t9 0x092436
+    sw $t9 6324($s7)
+    li $t9 0x192024
+    sw $t9 6328($s7)
+    li $t9 0x352422
+    sw $t9 6332($s7)
+    li $t9 0x361639
+    sw $t9 6336($s7)
+    li $t9 0x401749
+    sw $t9 6340($s7)
+    li $t9 0x44164a
+    sw $t9 6344($s7)
+    li $t9 0x48174d
+    sw $t9 6348($s7)
+    li $t9 0x4c1654
+    sw $t9 6352($s7)
+    li $t9 0x4e1657
+    sw $t9 6356($s7)
+    li $t9 0x3f124a
+    sw $t9 6360($s7)
+    li $t9 0x361044
+    sw $t9 6364($s7)
+    li $t9 0x400f5a
+    sw $t9 6368($s7)
+    li $t9 0x410e5a
+    sw $t9 6372($s7)
+    li $t9 0x3f0b5b
+    sw $t9 6376($s7)
+    li $t9 0x450b5e
+    sw $t9 6380($s7)
+    li $t9 0x450d55
+    sw $t9 6384($s7)
+    li $t9 0x190e17
+    sw $t9 6388($s7)
+    li $t9 0x160e13
+    sw $t9 6392($s7)
+    li $t9 0x150b15
+    sw $t9 6396($s7)
+    li $t9 0x190f15
+    sw $t9 6400($s7)
+    li $t9 0x1d1216
+    sw $t9 6404($s7)
+    li $t9 0x27120e
+    sw $t9 6408($s7)
+    li $t9 0x712706
+    sw $t9 6412($s7)
+    li $t9 0x8a350b
+    sw $t9 6416($s7)
+    li $t9 0x8b350b
+    sw $t9 6420($s7)
+    li $t9 0x8f360d
+    sw $t9 6424($s7)
+    li $t9 0xa44b08
+    sw $t9 6428($s7)
+    li $t9 0xa95305
+    sw $t9 6432($s7)
+    li $t9 0xaa5407
+    sw $t9 6436($s7)
+    li $t9 0xa85407
+    sw $t9 6440($s7)
+    li $t9 0x9a540b
+    sw $t9 6444($s7)
+    li $t9 0xae5e0a
+    sw $t9 6448($s7)
+    li $t9 0xbe6505
+    sw $t9 6452($s7)
+    li $t9 0xbf6606
+    sw $t9 6456($s7)
+    li $t9 0xbf6708
+    sw $t9 6460($s7)
+    li $t9 0xc06809
+    sw $t9 6464($s7)
+    li $t9 0x743c0b
+    sw $t9 6468($s7)
+    li $t9 0xaf5d11
+    sw $t9 6472($s7)
+    li $t9 0xaa5e0d
+    sw $t9 6476($s7)
+    li $t9 0x4e301c
+    sw $t9 6480($s7)
+    li $t9 0x370103
+    sw $t9 6484($s7)
+    li $t9 0x343535
+    sw $t9 6488($s7)
+    li $t9 0x353535
+    sw $t9 6492($s7)
+    sw $t9 6496($s7)
+    li $t9 0x430000
+    sw $t9 6500($s7)
+    li $t9 0xaf0708
+    sw $t9 6504($s7)
+    li $t9 0x9d0618
+    sw $t9 6508($s7)
+    li $t9 0x72012e
+    sw $t9 6512($s7)
+    li $t9 0x5f0022
+    sw $t9 6516($s7)
+    li $t9 0x19182a
+    sw $t9 6520($s7)
+    li $t9 0x464647
+    sw $t9 6532($s7)
+    li $t9 0x464646
+    sw $t9 6536($s7)
+    sw $t9 6540($s7)
+    li $t9 0x464747
+    sw $t9 6544($s7)
+    li $t9 0x464746
+    sw $t9 6548($s7)
+    sw $t9 6552($s7)
+    li $t9 0x211d2f
+    sw $t9 6588($s7)
+    li $t9 0x501e5a
+    sw $t9 6592($s7)
+    li $t9 0x4f1d5c
+    sw $t9 6596($s7)
+    li $t9 0x4e1d5d
+    sw $t9 6600($s7)
+    li $t9 0x4d195d
+    sw $t9 6604($s7)
+    li $t9 0x4b1758
+    sw $t9 6608($s7)
+    li $t9 0x461654
+    sw $t9 6612($s7)
+    li $t9 0x461655
+    sw $t9 6616($s7)
+    li $t9 0x47155d
+    sw $t9 6620($s7)
+    li $t9 0x46135c
+    sw $t9 6624($s7)
+    li $t9 0x46115c
+    sw $t9 6628($s7)
+    li $t9 0x45105d
+    sw $t9 6632($s7)
+    li $t9 0x56136e
+    sw $t9 6636($s7)
+    li $t9 0x300d37
+    sw $t9 6640($s7)
+    li $t9 0x1f1516
+    sw $t9 6644($s7)
+    li $t9 0x1d1116
+    sw $t9 6648($s7)
+    li $t9 0x1a1015
+    sw $t9 6652($s7)
+    li $t9 0x241819
+    sw $t9 6656($s7)
+    li $t9 0x241a18
+    sw $t9 6660($s7)
+    li $t9 0x31160a
+    sw $t9 6664($s7)
+    li $t9 0x88350b
+    sw $t9 6668($s7)
+    li $t9 0x8f370f
+    sw $t9 6672($s7)
+    li $t9 0x8f380e
+    sw $t9 6676($s7)
+    li $t9 0xa14a0a
+    sw $t9 6680($s7)
+    li $t9 0xbe6303
+    sw $t9 6684($s7)
+    li $t9 0xbd6403
+    sw $t9 6688($s7)
+    li $t9 0xbe6403
+    sw $t9 6692($s7)
+    li $t9 0xbe6406
+    sw $t9 6696($s7)
+    li $t9 0xbf6607
+    sw $t9 6700($s7)
+    li $t9 0xbf6909
+    sw $t9 6704($s7)
+    li $t9 0xbf690b
+    sw $t9 6708($s7)
+    li $t9 0xc16a0b
+    sw $t9 6712($s7)
+    li $t9 0xc06b0e
+    sw $t9 6716($s7)
+    li $t9 0xc16d0f
+    sw $t9 6720($s7)
+    li $t9 0x804612
+    sw $t9 6724($s7)
+    li $t9 0xb96617
+    sw $t9 6728($s7)
+    li $t9 0x975416
+    sw $t9 6732($s7)
+    li $t9 0x45160e
+    sw $t9 6736($s7)
+    li $t9 0x353535
+    sw $t9 6740($s7)
+    li $t9 0x222222
+    sw $t9 6744($s7)
+    li $t9 0x353535
+    sw $t9 6748($s7)
+    li $t9 0x3b0002
+    sw $t9 6752($s7)
+    li $t9 0x9a090a
+    sw $t9 6756($s7)
+    li $t9 0xb10e11
+    sw $t9 6760($s7)
+    li $t9 0x760631
+    sw $t9 6764($s7)
+    li $t9 0x750534
+    sw $t9 6768($s7)
+    li $t9 0x570020
+    sw $t9 6772($s7)
+    li $t9 0x152434
+    sw $t9 6776($s7)
+    li $t9 0x658c9c
+    sw $t9 6780($s7)
+    li $t9 0x474646
+    sw $t9 6792($s7)
+    li $t9 0x464647
+    sw $t9 6796($s7)
+    sw $t9 6800($s7)
+    li $t9 0x464746
+    sw $t9 6804($s7)
+    li $t9 0x25465f
+    sw $t9 6816($s7)
+    li $t9 0x244561
+    sw $t9 6820($s7)
+    li $t9 0x264764
+    sw $t9 6824($s7)
+    li $t9 0x464646
+    sw $t9 6832($s7)
+    sw $t9 6836($s7)
+    li $t9 0x54215e
+    sw $t9 6852($s7)
+    li $t9 0x54205e
+    sw $t9 6856($s7)
+    li $t9 0x531f5d
+    sw $t9 6860($s7)
+    li $t9 0x4f1d5d
+    sw $t9 6864($s7)
+    li $t9 0x401a47
+    sw $t9 6868($s7)
+    li $t9 0x4e195d
+    sw $t9 6872($s7)
+    li $t9 0x4b185c
+    sw $t9 6876($s7)
+    li $t9 0x4a185d
+    sw $t9 6880($s7)
+    li $t9 0x4a165c
+    sw $t9 6884($s7)
+    li $t9 0x48155d
+    sw $t9 6888($s7)
+    li $t9 0x5c186d
+    sw $t9 6892($s7)
+    li $t9 0x261620
+    sw $t9 6896($s7)
+    li $t9 0x271a17
+    sw $t9 6900($s7)
+    li $t9 0x221817
+    sw $t9 6904($s7)
+    li $t9 0x201616
+    sw $t9 6908($s7)
+    li $t9 0x261d19
+    sw $t9 6912($s7)
+    li $t9 0x2a1e18
+    sw $t9 6916($s7)
+    li $t9 0x431d0a
+    sw $t9 6920($s7)
+    li $t9 0x90390d
+    sw $t9 6924($s7)
+    li $t9 0x903c0f
+    sw $t9 6928($s7)
+    sw $t9 6932($s7)
+    li $t9 0xb35b08
+    sw $t9 6936($s7)
+    li $t9 0xbd6506
+    sw $t9 6940($s7)
+    li $t9 0xc06606
+    sw $t9 6944($s7)
+    li $t9 0xbf6907
+    sw $t9 6948($s7)
+    li $t9 0xc0690b
+    sw $t9 6952($s7)
+    li $t9 0xbf6a0d
+    sw $t9 6956($s7)
+    li $t9 0xc06c0f
+    sw $t9 6960($s7)
+    li $t9 0xc16c11
+    sw $t9 6964($s7)
+    li $t9 0xc26f13
+    sw $t9 6968($s7)
+    li $t9 0xc27116
+    sw $t9 6972($s7)
+    li $t9 0xc37217
+    sw $t9 6976($s7)
+    li $t9 0x884f17
+    sw $t9 6980($s7)
+    li $t9 0xa35724
+    sw $t9 6984($s7)
+    li $t9 0x733517
+    sw $t9 6988($s7)
+    li $t9 0x222121
+    sw $t9 6992($s7)
+    li $t9 0x222222
+    sw $t9 6996($s7)
+    sw $t9 7000($s7)
+    sw $t9 7004($s7)
+    li $t9 0x780a0b
+    sw $t9 7008($s7)
+    li $t9 0xbd1212
+    sw $t9 7012($s7)
+    li $t9 0x890b2d
+    sw $t9 7016($s7)
+    li $t9 0x760936
+    sw $t9 7020($s7)
+    li $t9 0x740a35
+    sw $t9 7024($s7)
+    li $t9 0x560320
+    sw $t9 7028($s7)
+    li $t9 0x1d2735
+    sw $t9 7032($s7)
+    li $t9 0x7198a7
+    sw $t9 7036($s7)
+    li $t9 0x8ba2ae
+    sw $t9 7040($s7)
+    li $t9 0x464646
+    sw $t9 7056($s7)
+    li $t9 0x294a62
+    sw $t9 7072($s7)
+    li $t9 0x294762
+    sw $t9 7076($s7)
+    li $t9 0x284861
+    sw $t9 7080($s7)
+    li $t9 0x464746
+    sw $t9 7088($s7)
+    li $t9 0x474646
+    sw $t9 7092($s7)
+    li $t9 0xfffeff
+    sw $t9 7096($s7)
+    li $t9 0xffffff
+    sw $t9 7100($s7)
+    li $t9 0x5a295e
+    sw $t9 7112($s7)
+    li $t9 0x5d2762
+    sw $t9 7116($s7)
+    li $t9 0x6d2873
+    sw $t9 7120($s7)
+    li $t9 0x482047
+    sw $t9 7124($s7)
+    li $t9 0x521e5d
+    sw $t9 7128($s7)
+    li $t9 0x501d5d
+    sw $t9 7132($s7)
+    li $t9 0x4d1d5c
+    sw $t9 7136($s7)
+    li $t9 0x4b1a5d
+    sw $t9 7140($s7)
+    li $t9 0x571967
+    sw $t9 7144($s7)
+    li $t9 0x46184a
+    sw $t9 7148($s7)
+    li $t9 0x2f201c
+    sw $t9 7152($s7)
+    li $t9 0x2c201a
+    sw $t9 7156($s7)
+    li $t9 0x291e19
+    sw $t9 7160($s7)
+    li $t9 0x261a18
+    sw $t9 7164($s7)
+    li $t9 0x2c201a
+    sw $t9 7168($s7)
+    li $t9 0x372820
+    sw $t9 7172($s7)
+    li $t9 0x532209
+    sw $t9 7176($s7)
+    li $t9 0x903d10
+    sw $t9 7180($s7)
+    li $t9 0x923d11
+    sw $t9 7184($s7)
+    li $t9 0x974112
+    sw $t9 7188($s7)
+    li $t9 0xbf6707
+    sw $t9 7192($s7)
+    li $t9 0xbf6909
+    sw $t9 7196($s7)
+    li $t9 0xbf6b0b
+    sw $t9 7200($s7)
+    li $t9 0xc06c0d
+    sw $t9 7204($s7)
+    li $t9 0xc16d11
+    sw $t9 7208($s7)
+    li $t9 0xc16e13
+    sw $t9 7212($s7)
+    li $t9 0xc27116
+    sw $t9 7216($s7)
+    li $t9 0xc37317
+    sw $t9 7220($s7)
+    li $t9 0xc3731a
+    sw $t9 7224($s7)
+    li $t9 0xc5751c
+    sw $t9 7228($s7)
+    li $t9 0xc6761e
+    sw $t9 7232($s7)
+    li $t9 0x915820
+    sw $t9 7236($s7)
+    li $t9 0x955026
+    sw $t9 7240($s7)
+    li $t9 0x222121
+    sw $t9 7244($s7)
+    li $t9 0x222222
+    sw $t9 7248($s7)
+    sw $t9 7252($s7)
+    li $t9 0x818282
+    sw $t9 7256($s7)
+    li $t9 0x55090e
+    sw $t9 7260($s7)
+    li $t9 0xbb1616
+    sw $t9 7264($s7)
+    li $t9 0xa91620
+    sw $t9 7268($s7)
+    li $t9 0x7c0f3b
+    sw $t9 7272($s7)
+    li $t9 0x7c103c
+    sw $t9 7276($s7)
+    li $t9 0x721035
+    sw $t9 7280($s7)
+    li $t9 0x5b0925
+    sw $t9 7284($s7)
+    li $t9 0x342235
+    sw $t9 7288($s7)
+    li $t9 0x618391
+    sw $t9 7292($s7)
+    li $t9 0xa4b6ba
+    sw $t9 7296($s7)
+    li $t9 0xabb3b8
+    sw $t9 7300($s7)
+    li $t9 0x38556f
+    sw $t9 7320($s7)
+    li $t9 0x35546c
+    sw $t9 7324($s7)
+    li $t9 0x34536a
+    sw $t9 7328($s7)
+    li $t9 0x314f69
+    sw $t9 7332($s7)
+    li $t9 0x2e4d67
+    sw $t9 7336($s7)
+    li $t9 0x464647
+    sw $t9 7344($s7)
+    li $t9 0x464646
+    sw $t9 7348($s7)
+    li $t9 0x464647
+    sw $t9 7352($s7)
+    li $t9 0xffffff
+    sw $t9 7356($s7)
+    li $t9 0x653164
+    sw $t9 7368($s7)
+    li $t9 0x7b3579
+    sw $t9 7372($s7)
+    li $t9 0x542c48
+    sw $t9 7376($s7)
+    li $t9 0x4d264a
+    sw $t9 7380($s7)
+    li $t9 0x57255e
+    sw $t9 7384($s7)
+    li $t9 0x54225d
+    sw $t9 7388($s7)
+    li $t9 0x52205d
+    sw $t9 7392($s7)
+    li $t9 0x501f5c
+    sw $t9 7396($s7)
+    li $t9 0x64206d
+    sw $t9 7400($s7)
+    li $t9 0x352028
+    sw $t9 7404($s7)
+    li $t9 0x35281e
+    sw $t9 7408($s7)
+    li $t9 0x33251d
+    sw $t9 7412($s7)
+    li $t9 0x2f221d
+    sw $t9 7416($s7)
+    li $t9 0x2d201a
+    sw $t9 7420($s7)
+    li $t9 0x33251c
+    sw $t9 7424($s7)
+    li $t9 0x3d2e20
+    sw $t9 7428($s7)
+    li $t9 0x5f280b
+    sw $t9 7432($s7)
+    li $t9 0x923f15
+    sw $t9 7436($s7)
+    li $t9 0x924015
+    sw $t9 7440($s7)
+    li $t9 0xa24e15
+    sw $t9 7444($s7)
+    li $t9 0xc16b0e
+    sw $t9 7448($s7)
+    li $t9 0xc06c0f
+    sw $t9 7452($s7)
+    li $t9 0xc26f12
+    sw $t9 7456($s7)
+    li $t9 0xc26e16
+    sw $t9 7460($s7)
+    li $t9 0xc37217
+    sw $t9 7464($s7)
+    li $t9 0xc37319
+    sw $t9 7468($s7)
+    li $t9 0xc3751c
+    sw $t9 7472($s7)
+    li $t9 0xc6761e
+    sw $t9 7476($s7)
+    li $t9 0xc67920
+    sw $t9 7480($s7)
+    li $t9 0xc67923
+    sw $t9 7484($s7)
+    li $t9 0xc77c26
+    sw $t9 7488($s7)
+    li $t9 0x955e26
+    sw $t9 7492($s7)
+    li $t9 0x222122
+    sw $t9 7496($s7)
+    sw $t9 7500($s7)
+    li $t9 0x828282
+    sw $t9 7504($s7)
+    li $t9 0x818282
+    sw $t9 7508($s7)
+    li $t9 0x480b12
+    sw $t9 7512($s7)
+    li $t9 0xa11918
+    sw $t9 7516($s7)
+    li $t9 0xc01d1d
+    sw $t9 7520($s7)
+    li $t9 0x861639
+    sw $t9 7524($s7)
+    li $t9 0x7d163f
+    sw $t9 7528($s7)
+    sw $t9 7532($s7)
+    li $t9 0x6e1335
+    sw $t9 7536($s7)
+    li $t9 0x5e0e2a
+    sw $t9 7540($s7)
+    li $t9 0x58132d
+    sw $t9 7544($s7)
+    li $t9 0x2d3847
+    sw $t9 7548($s7)
+    li $t9 0x7593a2
+    sw $t9 7552($s7)
+    li $t9 0xb6bfc3
+    sw $t9 7556($s7)
+    li $t9 0xbabbc0
+    sw $t9 7560($s7)
+    li $t9 0x97a7ae
+    sw $t9 7564($s7)
+    li $t9 0x698b99
+    sw $t9 7568($s7)
+    li $t9 0x638592
+    sw $t9 7572($s7)
+    li $t9 0x587a89
+    sw $t9 7576($s7)
+    li $t9 0x4f6e81
+    sw $t9 7580($s7)
+    li $t9 0x48677b
+    sw $t9 7584($s7)
+    li $t9 0x436278
+    sw $t9 7588($s7)
+    li $t9 0x3f5e74
+    sw $t9 7592($s7)
+    li $t9 0x464646
+    sw $t9 7600($s7)
+    sw $t9 7604($s7)
+    li $t9 0x464747
+    sw $t9 7608($s7)
+    li $t9 0x464646
+    sw $t9 7612($s7)
+    li $t9 0x673c58
+    sw $t9 7620($s7)
+    li $t9 0x7e3f78
+    sw $t9 7624($s7)
+    li $t9 0x69395a
+    sw $t9 7628($s7)
+    li $t9 0x533836
+    sw $t9 7632($s7)
+    li $t9 0x5b304f
+    sw $t9 7636($s7)
+    li $t9 0x632f5c
+    sw $t9 7640($s7)
+    li $t9 0x582a53
+    sw $t9 7644($s7)
+    li $t9 0x552658
+    sw $t9 7648($s7)
+    li $t9 0x5b245f
+    sw $t9 7652($s7)
+    li $t9 0x552154
+    sw $t9 7656($s7)
+    li $t9 0x3f2f21
+    sw $t9 7660($s7)
+    li $t9 0x3d2c20
+    sw $t9 7664($s7)
+    li $t9 0x382a1e
+    sw $t9 7668($s7)
+    li $t9 0x35281f
+    sw $t9 7672($s7)
+    li $t9 0x33241c
+    sw $t9 7676($s7)
+    li $t9 0x382a1f
+    sw $t9 7680($s7)
+    li $t9 0x3e2d20
+    sw $t9 7684($s7)
+    li $t9 0x672d0d
+    sw $t9 7688($s7)
+    li $t9 0x944416
+    sw $t9 7692($s7)
+    li $t9 0x954719
+    sw $t9 7696($s7)
+    li $t9 0xaa5b16
+    sw $t9 7700($s7)
+    li $t9 0xc16e13
+    sw $t9 7704($s7)
+    li $t9 0xc17016
+    sw $t9 7708($s7)
+    li $t9 0xc57319
+    sw $t9 7712($s7)
+    li $t9 0xc5751d
+    sw $t9 7716($s7)
+    li $t9 0xc6781f
+    sw $t9 7720($s7)
+    li $t9 0xc67920
+    sw $t9 7724($s7)
+    li $t9 0xc67921
+    sw $t9 7728($s7)
+    li $t9 0xc87c26
+    sw $t9 7732($s7)
+    li $t9 0xc87d29
+    sw $t9 7736($s7)
+    li $t9 0xca7e2a
+    sw $t9 7740($s7)
+    li $t9 0xca812c
+    sw $t9 7744($s7)
+    li $t9 0x222122
+    sw $t9 7748($s7)
+    sw $t9 7752($s7)
+    li $t9 0x818281
+    sw $t9 7756($s7)
+    li $t9 0x838282
+    sw $t9 7760($s7)
+    li $t9 0x828282
+    sw $t9 7764($s7)
+    li $t9 0x731618
+    sw $t9 7768($s7)
+    li $t9 0xc2201f
+    sw $t9 7772($s7)
+    li $t9 0xa61e2f
+    sw $t9 7776($s7)
+    li $t9 0x801a40
+    sw $t9 7780($s7)
+    li $t9 0x811c40
+    sw $t9 7784($s7)
+    li $t9 0x811c43
+    sw $t9 7788($s7)
+    li $t9 0x6f1736
+    sw $t9 7792($s7)
+    li $t9 0x62162e
+    sw $t9 7796($s7)
+    sw $t9 7800($s7)
+    li $t9 0x561e33
+    sw $t9 7804($s7)
+    li $t9 0x303d4a
+    sw $t9 7808($s7)
+    li $t9 0x6a8894
+    sw $t9 7812($s7)
+    li $t9 0xa9bbc1
+    sw $t9 7816($s7)
+    li $t9 0xb9bfc3
+    sw $t9 7820($s7)
+    li $t9 0x7e9faa
+    sw $t9 7824($s7)
+    li $t9 0x7e9ba6
+    sw $t9 7828($s7)
+    li $t9 0x73929d
+    sw $t9 7832($s7)
+    li $t9 0x6b8a98
+    sw $t9 7836($s7)
+    li $t9 0x668894
+    sw $t9 7840($s7)
+    li $t9 0x658692
+    sw $t9 7844($s7)
+    li $t9 0x628492
+    sw $t9 7848($s7)
+    li $t9 0x464646
+    sw $t9 7860($s7)
+    sw $t9 7864($s7)
+    li $t9 0x834773
+    sw $t9 7876($s7)
+    li $t9 0x7d466c
+    sw $t9 7880($s7)
+    li $t9 0x624b3d
+    sw $t9 7884($s7)
+    li $t9 0x614344
+    sw $t9 7888($s7)
+    li $t9 0x883f7d
+    sw $t9 7892($s7)
+    li $t9 0x853d80
+    sw $t9 7896($s7)
+    li $t9 0x843880
+    sw $t9 7900($s7)
+    li $t9 0x622f5d
+    sw $t9 7904($s7)
+    li $t9 0x6a2e6d
+    sw $t9 7908($s7)
+    li $t9 0x472c34
+    sw $t9 7912($s7)
+    li $t9 0x483721
+    sw $t9 7916($s7)
+    li $t9 0x443420
+    sw $t9 7920($s7)
+    li $t9 0x3f3020
+    sw $t9 7924($s7)
+    li $t9 0x402f16
+    sw $t9 7928($s7)
+    li $t9 0x432e0e
+    sw $t9 7932($s7)
+    li $t9 0x3f3020
+    sw $t9 7936($s7)
+    li $t9 0x463422
+    sw $t9 7940($s7)
+    li $t9 0x6e3411
+    sw $t9 7944($s7)
+    li $t9 0x984a1d
+    sw $t9 7948($s7)
+    li $t9 0x9a4b1e
+    sw $t9 7952($s7)
+    li $t9 0xb2631c
+    sw $t9 7956($s7)
+    li $t9 0xc57318
+    sw $t9 7960($s7)
+    li $t9 0xc5751c
+    sw $t9 7964($s7)
+    li $t9 0xc7781f
+    sw $t9 7968($s7)
+    li $t9 0xc67a21
+    sw $t9 7972($s7)
+    li $t9 0xc87b25
+    sw $t9 7976($s7)
+    li $t9 0xc87d29
+    sw $t9 7980($s7)
+    li $t9 0xc9802b
+    sw $t9 7984($s7)
+    li $t9 0xca812c
+    sw $t9 7988($s7)
+    li $t9 0xcb842e
+    sw $t9 7992($s7)
+    li $t9 0xcd8431
+    sw $t9 7996($s7)
+    li $t9 0x222122
+    sw $t9 8000($s7)
+    li $t9 0x222222
+    sw $t9 8004($s7)
+    li $t9 0x828182
+    sw $t9 8008($s7)
+    li $t9 0x818280
+    sw $t9 8012($s7)
+    li $t9 0x828282
+    sw $t9 8016($s7)
+    li $t9 0x53161a
+    sw $t9 8020($s7)
+    li $t9 0xb72422
+    sw $t9 8024($s7)
+    li $t9 0xc02727
+    sw $t9 8028($s7)
+    li $t9 0x892043
+    sw $t9 8032($s7)
+    li $t9 0x842046
+    sw $t9 8036($s7)
+    li $t9 0x832045
+    sw $t9 8040($s7)
+    li $t9 0x832047
+    sw $t9 8044($s7)
+    li $t9 0x711d39
+    sw $t9 8048($s7)
+    li $t9 0x671933
+    sw $t9 8052($s7)
+    li $t9 0x661a33
+    sw $t9 8056($s7)
+    li $t9 0x661a34
+    sw $t9 8060($s7)
+    li $t9 0x612036
+    sw $t9 8064($s7)
+    li $t9 0x3c3543
+    sw $t9 8068($s7)
+    li $t9 0x455a66
+    sw $t9 8072($s7)
+    li $t9 0x72909c
+    sw $t9 8076($s7)
+    li $t9 0x86aab8
+    sw $t9 8080($s7)
+    li $t9 0xa7b8be
+    sw $t9 8084($s7)
+    li $t9 0xb7bdc0
+    sw $t9 8088($s7)
+    li $t9 0x7c9ca9
+    sw $t9 8092($s7)
+    li $t9 0x7699a6
+    sw $t9 8096($s7)
+    li $t9 0x7395a2
+    sw $t9 8100($s7)
+    li $t9 0x7394a1
+    sw $t9 8104($s7)
+    li $t9 0x7393a1
+    sw $t9 8108($s7)
+    li $t9 0x7c5657
+    sw $t9 8128($s7)
+    li $t9 0x885371
+    sw $t9 8132($s7)
+    li $t9 0x6e4f4d
+    sw $t9 8136($s7)
+    li $t9 0x745e3f
+    sw $t9 8140($s7)
+    li $t9 0x6b543f
+    sw $t9 8144($s7)
+    li $t9 0x7d456e
+    sw $t9 8148($s7)
+    li $t9 0x894480
+    sw $t9 8152($s7)
+    li $t9 0x883f7e
+    sw $t9 8156($s7)
+    li $t9 0x783b6c
+    sw $t9 8160($s7)
+    li $t9 0x694136
+    sw $t9 8164($s7)
+    li $t9 0x6c4d18
+    sw $t9 8168($s7)
+    li $t9 0x795619
+    sw $t9 8172($s7)
+    li $t9 0x624411
+    sw $t9 8176($s7)
+    li $t9 0x624a15
+    sw $t9 8180($s7)
+    li $t9 0x917121
+    sw $t9 8184($s7)
+    li $t9 0xa47d24
+    sw $t9 8188($s7)
+    li $t9 0x483725
+    sw $t9 8192($s7)
+    li $t9 0x4d3e29
+    sw $t9 8196($s7)
+    li $t9 0x733b18
+    sw $t9 8200($s7)
+    li $t9 0x9c5021
+    sw $t9 8204($s7)
+    li $t9 0x9f5224
+    sw $t9 8208($s7)
+    li $t9 0xb86b20
+    sw $t9 8212($s7)
+    li $t9 0xc67820
+    sw $t9 8216($s7)
+    li $t9 0xc67921
+    sw $t9 8220($s7)
+    li $t9 0xc77c27
+    sw $t9 8224($s7)
+    li $t9 0xc77d29
+    sw $t9 8228($s7)
+    li $t9 0xc9812c
+    sw $t9 8232($s7)
+    li $t9 0xca832e
+    sw $t9 8236($s7)
+    li $t9 0xcb8431
+    sw $t9 8240($s7)
+    li $t9 0xcd8535
+    sw $t9 8244($s7)
+    li $t9 0xcf8837
+    sw $t9 8248($s7)
+    li $t9 0x222222
+    sw $t9 8252($s7)
+    li $t9 0x222122
+    sw $t9 8256($s7)
+    li $t9 0x828282
+    sw $t9 8260($s7)
+    sw $t9 8264($s7)
+    li $t9 0x999999
+    sw $t9 8268($s7)
+    li $t9 0x561a22
+    sw $t9 8272($s7)
+    li $t9 0x882222
+    sw $t9 8276($s7)
+    li $t9 0xc32a28
+    sw $t9 8280($s7)
+    li $t9 0xa0263b
+    sw $t9 8284($s7)
+    li $t9 0x85244a
+    sw $t9 8288($s7)
+    li $t9 0x88254a
+    sw $t9 8292($s7)
+    li $t9 0x88274c
+    sw $t9 8296($s7)
+    li $t9 0x88264c
+    sw $t9 8300($s7)
+    li $t9 0x73213d
+    sw $t9 8304($s7)
+    li $t9 0x6b2038
+    sw $t9 8308($s7)
+    li $t9 0x6b2039
+    sw $t9 8312($s7)
+    li $t9 0x6b2038
+    sw $t9 8316($s7)
+    li $t9 0x6a2038
+    sw $t9 8320($s7)
+    sw $t9 8324($s7)
+    li $t9 0x5a2a3e
+    sw $t9 8328($s7)
+    li $t9 0x403847
+    sw $t9 8332($s7)
+    li $t9 0x3d4d58
+    sw $t9 8336($s7)
+    li $t9 0x576e7c
+    sw $t9 8340($s7)
+    li $t9 0x6d8a95
+    sw $t9 8344($s7)
+    li $t9 0x7d9ca8
+    sw $t9 8348($s7)
+    li $t9 0x85a8b6
+    sw $t9 8352($s7)
+    li $t9 0x84a7b3
+    sw $t9 8356($s7)
+    li $t9 0x82a6b1
+    sw $t9 8360($s7)
+    li $t9 0x7497a2
+    sw $t9 8364($s7)
+    li $t9 0x5b7683
+    sw $t9 8368($s7)
+    li $t9 0x334552
+    sw $t9 8372($s7)
+    li $t9 0x3d2937
+    sw $t9 8376($s7)
+    li $t9 0x4b1517
+    sw $t9 8380($s7)
+    li $t9 0x886e4b
+    sw $t9 8384($s7)
+    li $t9 0x81664c
+    sw $t9 8388($s7)
+    li $t9 0x7e694a
+    sw $t9 8392($s7)
+    li $t9 0x806946
+    sw $t9 8396($s7)
+    li $t9 0x7c6543
+    sw $t9 8400($s7)
+    li $t9 0x6f5348
+    sw $t9 8404($s7)
+    li $t9 0x834a71
+    sw $t9 8408($s7)
+    li $t9 0x8b4a79
+    sw $t9 8412($s7)
+    li $t9 0x7b5439
+    sw $t9 8416($s7)
+    li $t9 0xa0782a
+    sw $t9 8420($s7)
+    li $t9 0x886322
+    sw $t9 8424($s7)
+    li $t9 0x7b5a1f
+    sw $t9 8428($s7)
+    li $t9 0x8c752a
+    sw $t9 8432($s7)
+    li $t9 0xc1aa40
+    sw $t9 8436($s7)
+    li $t9 0xc2ac40
+    sw $t9 8440($s7)
+    li $t9 0xc2ab3f
+    sw $t9 8444($s7)
+    li $t9 0x523f2a
+    sw $t9 8448($s7)
+    li $t9 0x58452e
+    sw $t9 8452($s7)
+    li $t9 0x75401f
+    sw $t9 8456($s7)
+    li $t9 0xa15526
+    sw $t9 8460($s7)
+    li $t9 0xa25929
+    sw $t9 8464($s7)
+    li $t9 0xb96e27
+    sw $t9 8468($s7)
+    li $t9 0xc77c27
+    sw $t9 8472($s7)
+    li $t9 0xc87f29
+    sw $t9 8476($s7)
+    li $t9 0xc9812c
+    sw $t9 8480($s7)
+    li $t9 0xcd832e
+    sw $t9 8484($s7)
+    li $t9 0xcb8633
+    sw $t9 8488($s7)
+    li $t9 0xcf8835
+    sw $t9 8492($s7)
+    li $t9 0xcf8936
+    sw $t9 8496($s7)
+    li $t9 0xd08b3b
+    sw $t9 8500($s7)
+    li $t9 0xd08f3e
+    sw $t9 8504($s7)
+    li $t9 0x222122
+    sw $t9 8508($s7)
+    li $t9 0x999999
+    sw $t9 8512($s7)
+    li $t9 0x999899
+    sw $t9 8516($s7)
+    li $t9 0x999999
+    sw $t9 8520($s7)
+    sw $t9 8524($s7)
+    li $t9 0x5c2025
+    sw $t9 8528($s7)
+    li $t9 0xbd2d2a
+    sw $t9 8532($s7)
+    li $t9 0xbe2f30
+    sw $t9 8536($s7)
+    li $t9 0x8a294b
+    sw $t9 8540($s7)
+    li $t9 0x892b4e
+    sw $t9 8544($s7)
+    li $t9 0x892a4e
+    sw $t9 8548($s7)
+    li $t9 0x892a4d
+    sw $t9 8552($s7)
+    li $t9 0x8a2d50
+    sw $t9 8556($s7)
+    li $t9 0x762840
+    sw $t9 8560($s7)
+    li $t9 0x6f273d
+    sw $t9 8564($s7)
+    li $t9 0x6f263e
+    sw $t9 8568($s7)
+    li $t9 0x6f273d
+    sw $t9 8572($s7)
+    li $t9 0x6f263d
+    sw $t9 8576($s7)
+    li $t9 0x6e263d
+    sw $t9 8580($s7)
+    li $t9 0x6f273c
+    sw $t9 8584($s7)
+    sw $t9 8588($s7)
+    li $t9 0x68293d
+    sw $t9 8592($s7)
+    li $t9 0x573143
+    sw $t9 8596($s7)
+    li $t9 0x4c3747
+    sw $t9 8600($s7)
+    li $t9 0x413e4a
+    sw $t9 8604($s7)
+    li $t9 0x393f4c
+    sw $t9 8608($s7)
+    li $t9 0x384652
+    sw $t9 8612($s7)
+    li $t9 0x35414d
+    sw $t9 8616($s7)
+    li $t9 0x383847
+    sw $t9 8620($s7)
+    li $t9 0x462f40
+    sw $t9 8624($s7)
+    li $t9 0x5c2037
+    sw $t9 8628($s7)
+    li $t9 0x6d1a35
+    sw $t9 8632($s7)
+    li $t9 0x53161d
+    sw $t9 8636($s7)
+    li $t9 0x86694a
+    sw $t9 8640($s7)
+    li $t9 0x917652
+    sw $t9 8644($s7)
+    li $t9 0x8c744e
+    sw $t9 8648($s7)
+    li $t9 0x89724c
+    sw $t9 8652($s7)
+    li $t9 0x866d4a
+    sw $t9 8656($s7)
+    li $t9 0x816b46
+    sw $t9 8660($s7)
+    li $t9 0x765c44
+    sw $t9 8664($s7)
+    li $t9 0x7e5e35
+    sw $t9 8668($s7)
+    li $t9 0xac8437
+    sw $t9 8672($s7)
+    li $t9 0xab8134
+    sw $t9 8676($s7)
+    li $t9 0x7d5e25
+    sw $t9 8680($s7)
+    li $t9 0xa48c39
+    sw $t9 8684($s7)
+    li $t9 0xc6af47
+    sw $t9 8688($s7)
+    li $t9 0xc6ad46
+    sw $t9 8692($s7)
+    li $t9 0xc3ae43
+    sw $t9 8696($s7)
+    li $t9 0xc3ac41
+    sw $t9 8700($s7)
+    li $t9 0x5a472f
+    sw $t9 8704($s7)
+    li $t9 0x614d34
+    sw $t9 8708($s7)
+    li $t9 0x754725
+    sw $t9 8712($s7)
+    li $t9 0xa35d2d
+    sw $t9 8716($s7)
+    li $t9 0xa65f31
+    sw $t9 8720($s7)
+    li $t9 0xbd742d
+    sw $t9 8724($s7)
+    li $t9 0xca812c
+    sw $t9 8728($s7)
+    li $t9 0xca8331
+    sw $t9 8732($s7)
+    li $t9 0xcd8634
+    sw $t9 8736($s7)
+    li $t9 0xcf8835
+    sw $t9 8740($s7)
+    li $t9 0xd08938
+    sw $t9 8744($s7)
+    li $t9 0xd08c3c
+    sw $t9 8748($s7)
+    li $t9 0xd18d3f
+    sw $t9 8752($s7)
+    li $t9 0xd29141
+    sw $t9 8756($s7)
+    li $t9 0x222122
+    sw $t9 8760($s7)
+    li $t9 0x222123
+    sw $t9 8764($s7)
+    li $t9 0x999999
+    sw $t9 8768($s7)
+    sw $t9 8772($s7)
+    sw $t9 8776($s7)
+    li $t9 0x5e242a
+    sw $t9 8780($s7)
+    li $t9 0x8f2a2a
+    sw $t9 8784($s7)
+    li $t9 0xc63431
+    sw $t9 8788($s7)
+    li $t9 0xa33046
+    sw $t9 8792($s7)
+    li $t9 0x8b2f53
+    sw $t9 8796($s7)
+    li $t9 0x8b3153
+    sw $t9 8800($s7)
+    li $t9 0x8d3053
+    sw $t9 8804($s7)
+    li $t9 0x8f3154
+    sw $t9 8808($s7)
+    li $t9 0x8d3454
+    sw $t9 8812($s7)
+    li $t9 0x7b2e47
+    sw $t9 8816($s7)
+    li $t9 0x732c40
+    sw $t9 8820($s7)
+    sw $t9 8824($s7)
+    li $t9 0x732d40
+    sw $t9 8828($s7)
+    li $t9 0x732c40
+    sw $t9 8832($s7)
+    li $t9 0x732c41
+    sw $t9 8836($s7)
+    sw $t9 8840($s7)
+    li $t9 0x732a40
+    sw $t9 8844($s7)
+    li $t9 0x732b41
+    sw $t9 8848($s7)
+    li $t9 0x712a3f
+    sw $t9 8852($s7)
+    li $t9 0x72293f
+    sw $t9 8856($s7)
+    li $t9 0x72293d
+    sw $t9 8860($s7)
+    li $t9 0x6f263d
+    sw $t9 8864($s7)
+    li $t9 0x6e263d
+    sw $t9 8868($s7)
+    li $t9 0x6e253b
+    sw $t9 8872($s7)
+    li $t9 0x6c2138
+    sw $t9 8876($s7)
+    li $t9 0x6c2038
+    sw $t9 8880($s7)
+    li $t9 0x6a2036
+    sw $t9 8884($s7)
+    li $t9 0x7b2041
+    sw $t9 8888($s7)
+    li $t9 0x5d1d27
+    sw $t9 8892($s7)
+    li $t9 0x815e44
+    sw $t9 8896($s7)
+    li $t9 0x9a7e55
+    sw $t9 8900($s7)
+    li $t9 0x977d54
+    sw $t9 8904($s7)
+    li $t9 0x927a52
+    sw $t9 8908($s7)
+    li $t9 0x8d7450
+    sw $t9 8912($s7)
+    li $t9 0x8a714c
+    sw $t9 8916($s7)
+    li $t9 0x896c3e
+    sw $t9 8920($s7)
+    li $t9 0xbea04c
+    sw $t9 8924($s7)
+    li $t9 0xcab152
+    sw $t9 8928($s7)
+    li $t9 0x916d31
+    sw $t9 8932($s7)
+    li $t9 0xa78c3f
+    sw $t9 8936($s7)
+    li $t9 0xc9b14d
+    sw $t9 8940($s7)
+    li $t9 0xc7af4c
+    sw $t9 8944($s7)
+    li $t9 0xc7b04a
+    sw $t9 8948($s7)
+    li $t9 0xc6ae47
+    sw $t9 8952($s7)
+    li $t9 0xa28a38
+    sw $t9 8956($s7)
+    li $t9 0x645034
+    sw $t9 8960($s7)
+    li $t9 0x695437
+    sw $t9 8964($s7)
+    li $t9 0x744b2a
+    sw $t9 8968($s7)
+    li $t9 0xa75f30
+    sw $t9 8972($s7)
+    li $t9 0xaa6535
+    sw $t9 8976($s7)
+    li $t9 0xc07933
+    sw $t9 8980($s7)
+    li $t9 0xcb8533
+    sw $t9 8984($s7)
+    li $t9 0xcf8835
+    sw $t9 8988($s7)
+    li $t9 0xd08c38
+    sw $t9 8992($s7)
+    li $t9 0xd08d3d
+    sw $t9 8996($s7)
+    li $t9 0xd1903f
+    sw $t9 9000($s7)
+    li $t9 0xd19244
+    sw $t9 9004($s7)
+    li $t9 0xd59346
+    sw $t9 9008($s7)
+    li $t9 0xc88c4c
+    sw $t9 9012($s7)
+    li $t9 0x222122
+    sw $t9 9016($s7)
+    li $t9 0x828282
+    sw $t9 9020($s7)
+    li $t9 0x999999
+    sw $t9 9024($s7)
+    sw $t9 9028($s7)
+    sw $t9 9032($s7)
+    li $t9 0x61282d
+    sw $t9 9036($s7)
+    li $t9 0xbd3635
+    sw $t9 9040($s7)
+    li $t9 0xc53937
+    sw $t9 9044($s7)
+    li $t9 0x913354
+    sw $t9 9048($s7)
+    li $t9 0x903555
+    sw $t9 9052($s7)
+    sw $t9 9056($s7)
+    sw $t9 9060($s7)
+    li $t9 0x913757
+    sw $t9 9064($s7)
+    li $t9 0x923658
+    sw $t9 9068($s7)
+    li $t9 0x81344e
+    sw $t9 9072($s7)
+    li $t9 0x783347
+    sw $t9 9076($s7)
+    sw $t9 9080($s7)
+    sw $t9 9084($s7)
+    li $t9 0x763348
+    sw $t9 9088($s7)
+    li $t9 0x783145
+    sw $t9 9092($s7)
+    li $t9 0x763146
+    sw $t9 9096($s7)
+    sw $t9 9100($s7)
+    li $t9 0x753044
+    sw $t9 9104($s7)
+    li $t9 0x742e44
+    sw $t9 9108($s7)
+    li $t9 0x752e44
+    sw $t9 9112($s7)
+    li $t9 0x752d43
+    sw $t9 9116($s7)
+    li $t9 0x732c41
+    sw $t9 9120($s7)
+    li $t9 0x732a40
+    sw $t9 9124($s7)
+    li $t9 0x712a3f
+    sw $t9 9128($s7)
+    li $t9 0x72293e
+    sw $t9 9132($s7)
+    li $t9 0x6f273e
+    sw $t9 9136($s7)
+    li $t9 0x6e253b
+    sw $t9 9140($s7)
+    li $t9 0x88284b
+    sw $t9 9144($s7)
+    li $t9 0x692333
+    sw $t9 9148($s7)
+    li $t9 0x7e5544
+    sw $t9 9152($s7)
+    li $t9 0xa68961
+    sw $t9 9156($s7)
+    li $t9 0xa0855a
+    sw $t9 9160($s7)
+    li $t9 0x9c8157
+    sw $t9 9164($s7)
+    li $t9 0x987e56
+    sw $t9 9168($s7)
+    li $t9 0x927548
+    sw $t9 9172($s7)
+    li $t9 0xc2a755
+    sw $t9 9176($s7)
+    li $t9 0xd0b75a
+    sw $t9 9180($s7)
+    li $t9 0xb7984a
+    sw $t9 9184($s7)
+    li $t9 0x9c813f
+    sw $t9 9188($s7)
+    li $t9 0xcdb254
+    sw $t9 9192($s7)
+    li $t9 0xcab152
+    sw $t9 9196($s7)
+    li $t9 0xcab14f
+    sw $t9 9200($s7)
+    li $t9 0xc7b14d
+    sw $t9 9204($s7)
+    li $t9 0x847641
+    sw $t9 9208($s7)
+    li $t9 0x747d6d
+    sw $t9 9212($s7)
+    li $t9 0x6c5738
+    sw $t9 9216($s7)
+    li $t9 0x735c3d
+    sw $t9 9220($s7)
+    li $t9 0x745433
+    sw $t9 9224($s7)
+    li $t9 0xa86737
+    sw $t9 9228($s7)
+    li $t9 0xb06b3b
+    sw $t9 9232($s7)
+    li $t9 0xc27d38
+    sw $t9 9236($s7)
+    li $t9 0xce8a38
+    sw $t9 9240($s7)
+    li $t9 0xd08d3e
+    sw $t9 9244($s7)
+    li $t9 0xd1913f
+    sw $t9 9248($s7)
+    li $t9 0xd59243
+    sw $t9 9252($s7)
+    li $t9 0xd59345
+    sw $t9 9256($s7)
+    li $t9 0xd6954a
+    sw $t9 9260($s7)
+    li $t9 0xca8d50
+    sw $t9 9264($s7)
+    li $t9 0x212122
+    sw $t9 9268($s7)
+    li $t9 0x222122
+    sw $t9 9272($s7)
+    li $t9 0x999999
+    sw $t9 9276($s7)
+    li $t9 0x999899
+    sw $t9 9280($s7)
+    li $t9 0x999999
+    sw $t9 9284($s7)
+    li $t9 0x662c35
+    sw $t9 9288($s7)
+    li $t9 0x883333
+    sw $t9 9292($s7)
+    li $t9 0xc93b39
+    sw $t9 9296($s7)
+    li $t9 0xb43b46
+    sw $t9 9300($s7)
+    li $t9 0x923857
+    sw $t9 9304($s7)
+    li $t9 0x92395b
+    sw $t9 9308($s7)
+    li $t9 0x943b5b
+    sw $t9 9312($s7)
+    li $t9 0x923c5c
+    sw $t9 9316($s7)
+    li $t9 0x933e5c
+    sw $t9 9320($s7)
+    li $t9 0x943e5d
+    sw $t9 9324($s7)
+    li $t9 0x883c54
+    sw $t9 9328($s7)
+    li $t9 0x7b374c
+    sw $t9 9332($s7)
+    li $t9 0x7b394c
+    sw $t9 9336($s7)
+    sw $t9 9340($s7)
+    li $t9 0x7c374b
+    sw $t9 9344($s7)
+    sw $t9 9348($s7)
+    li $t9 0x7b364b
+    sw $t9 9352($s7)
+    li $t9 0x7c374b
+    sw $t9 9356($s7)
+    li $t9 0x79364a
+    sw $t9 9360($s7)
+    li $t9 0x79354a
+    sw $t9 9364($s7)
+    li $t9 0x7a354a
+    sw $t9 9368($s7)
+    li $t9 0x783448
+    sw $t9 9372($s7)
+    li $t9 0x763046
+    sw $t9 9376($s7)
+    sw $t9 9380($s7)
+    li $t9 0x742f44
+    sw $t9 9384($s7)
+    li $t9 0x752d43
+    sw $t9 9388($s7)
+    li $t9 0x732d40
+    sw $t9 9392($s7)
+    li $t9 0x7b2c48
+    sw $t9 9396($s7)
+    li $t9 0x8b2e52
+    sw $t9 9400($s7)
+    li $t9 0x73283e
+    sw $t9 9404($s7)
+    li $t9 0x74483d
+    sw $t9 9408($s7)
+    li $t9 0xac9264
+    sw $t9 9412($s7)
+    li $t9 0xa98f61
+    sw $t9 9416($s7)
+    li $t9 0xa6895e
+    sw $t9 9420($s7)
+    li $t9 0x9d8254
+    sw $t9 9424($s7)
+    li $t9 0xbba157
+    sw $t9 9428($s7)
+    li $t9 0xd5ba61
+    sw $t9 9432($s7)
+    li $t9 0xcfb35e
+    sw $t9 9436($s7)
+    li $t9 0x997c40
+    sw $t9 9440($s7)
+    li $t9 0xceb25a
+    sw $t9 9444($s7)
+    li $t9 0xd0b657
+    sw $t9 9448($s7)
+    li $t9 0xceb656
+    sw $t9 9452($s7)
+    li $t9 0xcdb352
+    sw $t9 9456($s7)
+    li $t9 0xc3ac4f
+    sw $t9 9460($s7)
+    li $t9 0x6f6e5b
+    sw $t9 9464($s7)
+    li $t9 0x859181
+    sw $t9 9468($s7)
+    li $t9 0x745e3f
+    sw $t9 9472($s7)
+    li $t9 0x7b6441
+    sw $t9 9476($s7)
+    li $t9 0x7d5e3c
+    sw $t9 9480($s7)
+    li $t9 0xa4673b
+    sw $t9 9484($s7)
+    li $t9 0xb3723f
+    sw $t9 9488($s7)
+    li $t9 0xc3813f
+    sw $t9 9492($s7)
+    li $t9 0xd28f3e
+    sw $t9 9496($s7)
+    li $t9 0xd59241
+    sw $t9 9500($s7)
+    li $t9 0xd59446
+    sw $t9 9504($s7)
+    li $t9 0xb9864a
+    sw $t9 9508($s7)
+    li $t9 0xa88050
+    sw $t9 9512($s7)
+    li $t9 0xba8a50
+    sw $t9 9516($s7)
+    li $t9 0xd19556
+    sw $t9 9520($s7)
+    li $t9 0x222122
+    sw $t9 9524($s7)
+    li $t9 0x999999
+    sw $t9 9528($s7)
+    sw $t9 9532($s7)
+    li $t9 0x989999
+    sw $t9 9536($s7)
+    li $t9 0xa6a7a7
+    sw $t9 9540($s7)
+    li $t9 0x673335
+    sw $t9 9544($s7)
+    li $t9 0xb43e3c
+    sw $t9 9548($s7)
+    li $t9 0xca413f
+    sw $t9 9552($s7)
+    li $t9 0xa63f54
+    sw $t9 9556($s7)
+    li $t9 0x943d5f
+    sw $t9 9560($s7)
+    li $t9 0x953f5e
+    sw $t9 9564($s7)
+    li $t9 0x95405f
+    sw $t9 9568($s7)
+    li $t9 0x954061
+    sw $t9 9572($s7)
+    li $t9 0x974061
+    sw $t9 9576($s7)
+    li $t9 0x994361
+    sw $t9 9580($s7)
+    li $t9 0x90415c
+    sw $t9 9584($s7)
+    li $t9 0x7e3e52
+    sw $t9 9588($s7)
+    li $t9 0x803f53
+    sw $t9 9592($s7)
+    li $t9 0x803f52
+    sw $t9 9596($s7)
+    li $t9 0x7e3f52
+    sw $t9 9600($s7)
+    li $t9 0x803e53
+    sw $t9 9604($s7)
+    li $t9 0x7e3e4f
+    sw $t9 9608($s7)
+    li $t9 0x803d50
+    sw $t9 9612($s7)
+    li $t9 0x7d3e50
+    sw $t9 9616($s7)
+    li $t9 0x7d3c4e
+    sw $t9 9620($s7)
+    li $t9 0x7d3b4d
+    sw $t9 9624($s7)
+    li $t9 0x7c394c
+    sw $t9 9628($s7)
+    li $t9 0x7b364b
+    sw $t9 9632($s7)
+    li $t9 0x7c364a
+    sw $t9 9636($s7)
+    li $t9 0x79354b
+    sw $t9 9640($s7)
+    li $t9 0x783347
+    sw $t9 9644($s7)
+    li $t9 0x763045
+    sw $t9 9648($s7)
+    li $t9 0x893453
+    sw $t9 9652($s7)
+    li $t9 0x8d3455
+    sw $t9 9656($s7)
+    li $t9 0x823145
+    sw $t9 9660($s7)
+    li $t9 0x6d3b36
+    sw $t9 9664($s7)
+    li $t9 0xb49969
+    sw $t9 9668($s7)
+    li $t9 0xb19366
+    sw $t9 9672($s7)
+    li $t9 0xaa9163
+    sw $t9 9676($s7)
+    li $t9 0xb19757
+    sw $t9 9680($s7)
+    li $t9 0xd9bd69
+    sw $t9 9684($s7)
+    li $t9 0xd6bb64
+    sw $t9 9688($s7)
+    li $t9 0xb09453
+    sw $t9 9692($s7)
+    li $t9 0xc2a757
+    sw $t9 9696($s7)
+    li $t9 0xd1b75e
+    sw $t9 9700($s7)
+    li $t9 0xd1b75d
+    sw $t9 9704($s7)
+    li $t9 0xd0b658
+    sw $t9 9708($s7)
+    li $t9 0xcfb455
+    sw $t9 9712($s7)
+    li $t9 0xc6ac53
+    sw $t9 9716($s7)
+    li $t9 0x73735d
+    sw $t9 9720($s7)
+    li $t9 0x7d8678
+    sw $t9 9724($s7)
+    li $t9 0x7d6644
+    sw $t9 9728($s7)
+    li $t9 0x836b48
+    sw $t9 9732($s7)
+    li $t9 0x856945
+    sw $t9 9736($s7)
+    li $t9 0xa0693e
+    sw $t9 9740($s7)
+    li $t9 0xb67645
+    sw $t9 9744($s7)
+    li $t9 0xc58647
+    sw $t9 9748($s7)
+    li $t9 0xd59446
+    sw $t9 9752($s7)
+    li $t9 0xd6954a
+    sw $t9 9756($s7)
+    li $t9 0xd8994b
+    sw $t9 9760($s7)
+    li $t9 0xaa8454
+    sw $t9 9764($s7)
+    li $t9 0xb09367
+    sw $t9 9768($s7)
+    li $t9 0xae8c61
+    sw $t9 9772($s7)
+    li $t9 0xcc9a5a
+    sw $t9 9776($s7)
+    li $t9 0x222122
+    sw $t9 9780($s7)
+    li $t9 0x999999
+    sw $t9 9784($s7)
+    sw $t9 9788($s7)
+    li $t9 0xa7a7a7
+    sw $t9 9792($s7)
+    li $t9 0x723441
+    sw $t9 9796($s7)
+    li $t9 0x7d383c
+    sw $t9 9800($s7)
+    li $t9 0xcd4544
+    sw $t9 9804($s7)
+    li $t9 0xc94745
+    sw $t9 9808($s7)
+    li $t9 0x99435f
+    sw $t9 9812($s7)
+    li $t9 0x984462
+    sw $t9 9816($s7)
+    li $t9 0x984563
+    sw $t9 9820($s7)
+    li $t9 0x984662
+    sw $t9 9824($s7)
+    li $t9 0x9b4764
+    sw $t9 9828($s7)
+    li $t9 0x9a4864
+    sw $t9 9832($s7)
+    li $t9 0x9a4865
+    sw $t9 9836($s7)
+    li $t9 0x974863
+    sw $t9 9840($s7)
+    li $t9 0x834456
+    sw $t9 9844($s7)
+    li $t9 0x844355
+    sw $t9 9848($s7)
+    li $t9 0x834455
+    sw $t9 9852($s7)
+    li $t9 0x844455
+    sw $t9 9856($s7)
+    li $t9 0x834456
+    sw $t9 9860($s7)
+    li $t9 0x844357
+    sw $t9 9864($s7)
+    li $t9 0x834354
+    sw $t9 9868($s7)
+    li $t9 0x814054
+    sw $t9 9872($s7)
+    li $t9 0x824054
+    sw $t9 9876($s7)
+    li $t9 0x813f52
+    sw $t9 9880($s7)
+    li $t9 0x7e3f53
+    sw $t9 9884($s7)
+    li $t9 0x803d50
+    sw $t9 9888($s7)
+    li $t9 0x7d3b4e
+    sw $t9 9892($s7)
+    li $t9 0x7d3b4d
+    sw $t9 9896($s7)
+    li $t9 0x7c394b
+    sw $t9 9900($s7)
+    li $t9 0x80384d
+    sw $t9 9904($s7)
+    li $t9 0x923b5b
+    sw $t9 9908($s7)
+    li $t9 0x923858
+    sw $t9 9912($s7)
+    li $t9 0x92364c
+    sw $t9 9916($s7)
+    li $t9 0x643133
+    sw $t9 9920($s7)
+    li $t9 0xba9c6f
+    sw $t9 9924($s7)
+    li $t9 0xba9c6c
+    sw $t9 9928($s7)
+    li $t9 0xb1935e
+    sw $t9 9932($s7)
+    li $t9 0xd9be6c
+    sw $t9 9936($s7)
+    li $t9 0xdac06c
+    sw $t9 9940($s7)
+    li $t9 0xd5b767
+    sw $t9 9944($s7)
+    li $t9 0xb19254
+    sw $t9 9948($s7)
+    li $t9 0xd7bb65
+    sw $t9 9952($s7)
+    li $t9 0xd6bb62
+    sw $t9 9956($s7)
+    li $t9 0xd4bb61
+    sw $t9 9960($s7)
+    li $t9 0xd1b75c
+    sw $t9 9964($s7)
+    li $t9 0xd0b85b
+    sw $t9 9968($s7)
+    li $t9 0xd0b457
+    sw $t9 9972($s7)
+    li $t9 0x8a764a
+    sw $t9 9976($s7)
+    li $t9 0x848672
+    sw $t9 9980($s7)
+    li $t9 0x856c48
+    sw $t9 9984($s7)
+    li $t9 0x89714b
+    sw $t9 9988($s7)
+    li $t9 0x907450
+    sw $t9 9992($s7)
+    li $t9 0x9b6a40
+    sw $t9 9996($s7)
+    li $t9 0xb97d4a
+    sw $t9 10000($s7)
+    li $t9 0xc6864c
+    sw $t9 10004($s7)
+    li $t9 0xd6984d
+    sw $t9 10008($s7)
+    li $t9 0xd89a4e
+    sw $t9 10012($s7)
+    li $t9 0xda9f53
+    sw $t9 10016($s7)
+    li $t9 0xb68b57
+    sw $t9 10020($s7)
+    li $t9 0xbb9d6f
+    sw $t9 10024($s7)
+    li $t9 0xbb9e6f
+    sw $t9 10028($s7)
+    li $t9 0xb49163
+    sw $t9 10032($s7)
+    li $t9 0x733f38
+    sw $t9 10036($s7)
+    li $t9 0x999999
+    sw $t9 10040($s7)
+    li $t9 0xa7a7a7
+    sw $t9 10044($s7)
+    sw $t9 10048($s7)
+    li $t9 0x6f3b3f
+    sw $t9 10052($s7)
+    li $t9 0xa64443
+    sw $t9 10056($s7)
+    li $t9 0xcb4b48
+    sw $t9 10060($s7)
+    li $t9 0xbe4a50
+    sw $t9 10064($s7)
+    li $t9 0x9b4864
+    sw $t9 10068($s7)
+    li $t9 0x9a4a64
+    sw $t9 10072($s7)
+    li $t9 0x9c4a66
+    sw $t9 10076($s7)
+    li $t9 0x9d4b67
+    sw $t9 10080($s7)
+    li $t9 0x9c4d68
+    sw $t9 10084($s7)
+    li $t9 0x9f4e69
+    sw $t9 10088($s7)
+    li $t9 0x9f4d6a
+    sw $t9 10092($s7)
+    li $t9 0x9f4e6a
+    sw $t9 10096($s7)
+    li $t9 0x894a5d
+    sw $t9 10100($s7)
+    li $t9 0x884a5b
+    sw $t9 10104($s7)
+    li $t9 0x884a5a
+    sw $t9 10108($s7)
+    sw $t9 10112($s7)
+    li $t9 0x884a5b
+    sw $t9 10116($s7)
+    li $t9 0x884a5a
+    sw $t9 10120($s7)
+    sw $t9 10124($s7)
+    li $t9 0x854858
+    sw $t9 10128($s7)
+    li $t9 0x864758
+    sw $t9 10132($s7)
+    li $t9 0x854658
+    sw $t9 10136($s7)
+    li $t9 0x844555
+    sw $t9 10140($s7)
+    li $t9 0x844354
+    sw $t9 10144($s7)
+    li $t9 0x824054
+    sw $t9 10148($s7)
+    li $t9 0x813e53
+    sw $t9 10152($s7)
+    li $t9 0x803f53
+    sw $t9 10156($s7)
+    li $t9 0x913f5b
+    sw $t9 10160($s7)
+    li $t9 0x973f5e
+    sw $t9 10164($s7)
+    li $t9 0x943d5c
+    sw $t9 10168($s7)
+    li $t9 0xa03d52
+    sw $t9 10172($s7)
+    li $t9 0x663437
+    sw $t9 10176($s7)
+    li $t9 0xb3926a
+    sw $t9 10180($s7)
+    li $t9 0xbb9f6e
+    sw $t9 10184($s7)
+    li $t9 0xc8aa6b
+    sw $t9 10188($s7)
+    li $t9 0xe0c373
+    sw $t9 10192($s7)
+    li $t9 0xdec272
+    sw $t9 10196($s7)
+    li $t9 0xbb9d5e
+    sw $t9 10200($s7)
+    li $t9 0xd2b769
+    sw $t9 10204($s7)
+    li $t9 0xd8bd69
+    sw $t9 10208($s7)
+    li $t9 0xd8bd67
+    sw $t9 10212($s7)
+    li $t9 0xd6bb63
+    sw $t9 10216($s7)
+    li $t9 0xd5b95f
+    sw $t9 10220($s7)
+    li $t9 0xd1b75e
+    sw $t9 10224($s7)
+    li $t9 0xd2b75a
+    sw $t9 10228($s7)
+    li $t9 0xc9ab53
+    sw $t9 10232($s7)
+    li $t9 0x8d7443
+    sw $t9 10236($s7)
+    li $t9 0x8b734d
+    sw $t9 10240($s7)
+    li $t9 0x927952
+    sw $t9 10244($s7)
+    li $t9 0x997d55
+    sw $t9 10248($s7)
+    li $t9 0x9a7247
+    sw $t9 10252($s7)
+    li $t9 0xbe8150
+    sw $t9 10256($s7)
+    li $t9 0xc58953
+    sw $t9 10260($s7)
+    li $t9 0xda9c50
+    sw $t9 10264($s7)
+    li $t9 0xdaa154
+    sw $t9 10268($s7)
+    li $t9 0xdca256
+    sw $t9 10272($s7)
+    li $t9 0xc1935d
+    sw $t9 10276($s7)
+    li $t9 0xbda071
+    sw $t9 10280($s7)
+    li $t9 0xbda373
+    sw $t9 10284($s7)
+    li $t9 0xb79972
+    sw $t9 10288($s7)
+    li $t9 0x693739
+    sw $t9 10292($s7)
+    li $t9 0xa7a7a7
+    sw $t9 10296($s7)
+    sw $t9 10300($s7)
+    li $t9 0x924355
+    sw $t9 10304($s7)
+    li $t9 0x734141
+    sw $t9 10308($s7)
+    li $t9 0xc74e4a
+    sw $t9 10312($s7)
+    li $t9 0xce4f4c
+    sw $t9 10316($s7)
+    li $t9 0xb14d5d
+    sw $t9 10320($s7)
+    li $t9 0x9c4e69
+    sw $t9 10324($s7)
+    li $t9 0x9d4d6a
+    sw $t9 10328($s7)
+    li $t9 0x9d506b
+    sw $t9 10332($s7)
+    li $t9 0xa0526c
+    sw $t9 10336($s7)
+    li $t9 0xa1526c
+    sw $t9 10340($s7)
+    li $t9 0xa1546f
+    sw $t9 10344($s7)
+    li $t9 0xa1546e
+    sw $t9 10348($s7)
+    li $t9 0xa1546f
+    sw $t9 10352($s7)
+    li $t9 0x935366
+    sw $t9 10356($s7)
+    li $t9 0x8c4f5f
+    sw $t9 10360($s7)
+    li $t9 0x8b505f
+    sw $t9 10364($s7)
+    li $t9 0x8b4f61
+    sw $t9 10368($s7)
+    li $t9 0x8c505f
+    sw $t9 10372($s7)
+    li $t9 0x8d4f5f
+    sw $t9 10376($s7)
+    li $t9 0x8c4e5e
+    sw $t9 10380($s7)
+    li $t9 0x894d5e
+    sw $t9 10384($s7)
+    li $t9 0x894c5e
+    sw $t9 10388($s7)
+    li $t9 0x894b5d
+    sw $t9 10392($s7)
+    li $t9 0x884a5c
+    sw $t9 10396($s7)
+    li $t9 0x884a5b
+    sw $t9 10400($s7)
+    li $t9 0x854858
+    sw $t9 10404($s7)
+    li $t9 0x864556
+    sw $t9 10408($s7)
+    li $t9 0x884558
+    sw $t9 10412($s7)
+    li $t9 0x9a4864
+    sw $t9 10416($s7)
+    li $t9 0x994663
+    sw $t9 10420($s7)
+    li $t9 0x994361
+    sw $t9 10424($s7)
+    li $t9 0xa74057
+    sw $t9 10428($s7)
+    li $t9 0x71383c
+    sw $t9 10432($s7)
+    li $t9 0xa98869
+    sw $t9 10436($s7)
+    li $t9 0xbfa377
+    sw $t9 10440($s7)
+    li $t9 0xbea169
+    sw $t9 10444($s7)
+    li $t9 0xe2c676
+    sw $t9 10448($s7)
+    li $t9 0xd6b971
+    sw $t9 10452($s7)
+    li $t9 0xc3a664
+    sw $t9 10456($s7)
+    li $t9 0xdec16f
+    sw $t9 10460($s7)
+    li $t9 0xdcc06c
+    sw $t9 10464($s7)
+    li $t9 0xdabd6a
+    sw $t9 10468($s7)
+    li $t9 0xd8be67
+    sw $t9 10472($s7)
+    li $t9 0xd7bb65
+    sw $t9 10476($s7)
+    li $t9 0xd7ba5f
+    sw $t9 10480($s7)
+    li $t9 0xd4b95e
+    sw $t9 10484($s7)
+    li $t9 0xd0b75c
+    sw $t9 10488($s7)
+    li $t9 0xcbaf54
+    sw $t9 10492($s7)
+    li $t9 0x867554
+    sw $t9 10496($s7)
+    li $t9 0x988056
+    sw $t9 10500($s7)
+    li $t9 0x9d855a
+    sw $t9 10504($s7)
+    li $t9 0x9c7a53
+    sw $t9 10508($s7)
+    li $t9 0xbf8554
+    sw $t9 10512($s7)
+    li $t9 0xc68b58
+    sw $t9 10516($s7)
+    li $t9 0xd89f56
+    sw $t9 10520($s7)
+    li $t9 0xdea45b
+    sw $t9 10524($s7)
+    li $t9 0xdfa75e
+    sw $t9 10528($s7)
+    li $t9 0xc2945e
+    sw $t9 10532($s7)
+    li $t9 0xbea174
+    sw $t9 10536($s7)
+    li $t9 0xc3a479
+    sw $t9 10540($s7)
+    li $t9 0xbda279
+    sw $t9 10544($s7)
+    li $t9 0x6f3d3f
+    sw $t9 10548($s7)
+    li $t9 0xa7a7a7
+    sw $t9 10552($s7)
+    sw $t9 10556($s7)
+    li $t9 0x9b4848
+    sw $t9 10560($s7)
+    li $t9 0x904a4a
+    sw $t9 10564($s7)
+    li $t9 0xce544f
+    sw $t9 10568($s7)
+    li $t9 0xcf5453
+    sw $t9 10572($s7)
+    li $t9 0xa75369
+    sw $t9 10576($s7)
+    li $t9 0xa0536d
+    sw $t9 10580($s7)
+    li $t9 0xa1546f
+    sw $t9 10584($s7)
+    li $t9 0xa25671
+    sw $t9 10588($s7)
+    li $t9 0xa25571
+    sw $t9 10592($s7)
+    li $t9 0xa25772
+    sw $t9 10596($s7)
+    li $t9 0xa35873
+    sw $t9 10600($s7)
+    li $t9 0xa65a73
+    sw $t9 10604($s7)
+    li $t9 0xa45a73
+    sw $t9 10608($s7)
+    li $t9 0xa15b71
+    sw $t9 10612($s7)
+    li $t9 0x905666
+    sw $t9 10616($s7)
+    sw $t9 10620($s7)
+    li $t9 0x915666
+    sw $t9 10624($s7)
+    li $t9 0x905567
+    sw $t9 10628($s7)
+    li $t9 0x905465
+    sw $t9 10632($s7)
+    li $t9 0x8f5465
+    sw $t9 10636($s7)
+    li $t9 0x8d5465
+    sw $t9 10640($s7)
+    li $t9 0x8d5262
+    sw $t9 10644($s7)
+    li $t9 0x8c5262
+    sw $t9 10648($s7)
+    li $t9 0x8b4f5f
+    sw $t9 10652($s7)
+    li $t9 0x8b4d5e
+    sw $t9 10656($s7)
+    li $t9 0x8a4b5e
+    sw $t9 10660($s7)
+    li $t9 0x884a5c
+    sw $t9 10664($s7)
+    li $t9 0x974b64
+    sw $t9 10668($s7)
+    li $t9 0x9d4b69
+    sw $t9 10672($s7)
+    li $t9 0x9b4a66
+    sw $t9 10676($s7)
+    li $t9 0x9a4765
+    sw $t9 10680($s7)
+    li $t9 0xa7485d
+    sw $t9 10684($s7)
+    li $t9 0x803f41
+    sw $t9 10688($s7)
+    li $t9 0xa17d64
+    sw $t9 10692($s7)
+    li $t9 0xc1a77b
+    sw $t9 10696($s7)
+    li $t9 0xb99c71
+    sw $t9 10700($s7)
+    li $t9 0xd6b974
+    sw $t9 10704($s7)
+    li $t9 0xbda067
+    sw $t9 10708($s7)
+    li $t9 0xdfc375
+    sw $t9 10712($s7)
+    li $t9 0xe1c373
+    sw $t9 10716($s7)
+    li $t9 0xdfc271
+    sw $t9 10720($s7)
+    li $t9 0xdcc06d
+    sw $t9 10724($s7)
+    li $t9 0xdabf6b
+    sw $t9 10728($s7)
+    li $t9 0xdabd67
+    sw $t9 10732($s7)
+    li $t9 0xd8bb64
+    sw $t9 10736($s7)
+    li $t9 0xd7bb63
+    sw $t9 10740($s7)
+    li $t9 0xd5b95e
+    sw $t9 10744($s7)
+    li $t9 0xd1b75d
+    sw $t9 10748($s7)
+    li $t9 0x887b57
+    sw $t9 10752($s7)
+    li $t9 0xa1865b
+    sw $t9 10756($s7)
+    li $t9 0xa78a5e
+    sw $t9 10760($s7)
+    li $t9 0xa7885d
+    sw $t9 10764($s7)
+    li $t9 0xbb8857
+    sw $t9 10768($s7)
+    li $t9 0xcb925c
+    sw $t9 10772($s7)
+    li $t9 0xdca25d
+    sw $t9 10776($s7)
+    li $t9 0xdaa25e
+    sw $t9 10780($s7)
+    li $t9 0xbe925f
+    sw $t9 10784($s7)
+    li $t9 0xbb9d75
+    sw $t9 10788($s7)
+    li $t9 0xc2a77c
+    sw $t9 10792($s7)
+    li $t9 0xc5a87d
+    sw $t9 10796($s7)
+    li $t9 0xc3aa81
+    sw $t9 10800($s7)
+    li $t9 0x90675a
+    sw $t9 10804($s7)
+    li $t9 0x353535
+    sw $t9 10808($s7)
+    li $t9 0x353534
+    sw $t9 10812($s7)
+    li $t9 0x834a4b
+    sw $t9 10816($s7)
+    li $t9 0xae5350
+    sw $t9 10820($s7)
+    li $t9 0xd05654
+    sw $t9 10824($s7)
+    li $t9 0xcd5a57
+    sw $t9 10828($s7)
+    li $t9 0xa25671
+    sw $t9 10832($s7)
+    li $t9 0xa25872
+    sw $t9 10836($s7)
+    li $t9 0xa45a73
+    sw $t9 10840($s7)
+    li $t9 0xa65b74
+    sw $t9 10844($s7)
+    li $t9 0xa65c74
+    sw $t9 10848($s7)
+    li $t9 0xa75e76
+    sw $t9 10852($s7)
+    li $t9 0xa75f78
+    sw $t9 10856($s7)
+    li $t9 0xa75e79
+    sw $t9 10860($s7)
+    li $t9 0xa7617a
+    sw $t9 10864($s7)
+    li $t9 0xa75e7a
+    sw $t9 10868($s7)
+    li $t9 0x9a5e6e
+    sw $t9 10872($s7)
+    li $t9 0x935d6b
+    sw $t9 10876($s7)
+    li $t9 0x945d6b
+    sw $t9 10880($s7)
+    li $t9 0x945c6b
+    sw $t9 10884($s7)
+    li $t9 0x945b6a
+    sw $t9 10888($s7)
+    li $t9 0x925b6a
+    sw $t9 10892($s7)
+    li $t9 0x925b69
+    sw $t9 10896($s7)
+    li $t9 0x925869
+    sw $t9 10900($s7)
+    li $t9 0x915567
+    sw $t9 10904($s7)
+    li $t9 0x905566
+    sw $t9 10908($s7)
+    li $t9 0x8f5465
+    sw $t9 10912($s7)
+    li $t9 0x8f5363
+    sw $t9 10916($s7)
+    li $t9 0x925364
+    sw $t9 10920($s7)
+    li $t9 0xa0546e
+    sw $t9 10924($s7)
+    li $t9 0x9d526c
+    sw $t9 10928($s7)
+    li $t9 0x9d4f6a
+    sw $t9 10932($s7)
+    li $t9 0x9c4e69
+    sw $t9 10936($s7)
+    li $t9 0xa74b61
+    sw $t9 10940($s7)
+    li $t9 0x904646
+    sw $t9 10944($s7)
+    li $t9 0x99735f
+    sw $t9 10948($s7)
+    li $t9 0xc6ab80
+    sw $t9 10952($s7)
+    li $t9 0xc5a97d
+    sw $t9 10956($s7)
+    li $t9 0xb2976b
+    sw $t9 10960($s7)
+    li $t9 0xd1b874
+    sw $t9 10964($s7)
+    li $t9 0xe4c879
+    sw $t9 10968($s7)
+    li $t9 0xe2c676
+    sw $t9 10972($s7)
+    li $t9 0xe1c574
+    sw $t9 10976($s7)
+    li $t9 0xe1c571
+    sw $t9 10980($s7)
+    li $t9 0xdec26e
+    sw $t9 10984($s7)
+    li $t9 0xddc06d
+    sw $t9 10988($s7)
+    li $t9 0xdabe69
+    sw $t9 10992($s7)
+    li $t9 0xd9bd65
+    sw $t9 10996($s7)
+    li $t9 0xd7bb62
+    sw $t9 11000($s7)
+    li $t9 0xd4b95e
+    sw $t9 11004($s7)
+    li $t9 0x8a9454
+    sw $t9 11008($s7)
+    li $t9 0x908553
+    sw $t9 11012($s7)
+    li $t9 0xab9163
+    sw $t9 11016($s7)
+    li $t9 0xb19465
+    sw $t9 11020($s7)
+    li $t9 0xb3885a
+    sw $t9 11024($s7)
+    li $t9 0xc9985d
+    sw $t9 11028($s7)
+    li $t9 0xbe925e
+    sw $t9 11032($s7)
+    li $t9 0xb29167
+    sw $t9 11036($s7)
+    li $t9 0xbea175
+    sw $t9 11040($s7)
+    li $t9 0xc1a77d
+    sw $t9 11044($s7)
+    li $t9 0xc5a87e
+    sw $t9 11048($s7)
+    li $t9 0xc6ac84
+    sw $t9 11052($s7)
+    li $t9 0xc7af85
+    sw $t9 11056($s7)
+    li $t9 0xc1a781
+    sw $t9 11060($s7)
+    li $t9 0x815553
+    sw $t9 11064($s7)
+    li $t9 0x353535
+    sw $t9 11068($s7)
+    li $t9 0x7b4d50
+    sw $t9 11072($s7)
+    li $t9 0xc85a57
+    sw $t9 11076($s7)
+    li $t9 0xd05d5b
+    sw $t9 11080($s7)
+    li $t9 0xc55d63
+    sw $t9 11084($s7)
+    li $t9 0xa45d75
+    sw $t9 11088($s7)
+    li $t9 0xa75e78
+    sw $t9 11092($s7)
+    li $t9 0xa75e76
+    sw $t9 11096($s7)
+    li $t9 0xa85f7a
+    sw $t9 11100($s7)
+    li $t9 0xa8627a
+    sw $t9 11104($s7)
+    li $t9 0xa9627a
+    sw $t9 11108($s7)
+    li $t9 0xaa647c
+    sw $t9 11112($s7)
+    li $t9 0xab647c
+    sw $t9 11116($s7)
+    li $t9 0xab657d
+    sw $t9 11120($s7)
+    li $t9 0xaa677d
+    sw $t9 11124($s7)
+    li $t9 0xa8667c
+    sw $t9 11128($s7)
+    li $t9 0x996271
+    sw $t9 11132($s7)
+    li $t9 0x986371
+    sw $t9 11136($s7)
+    li $t9 0x986272
+    sw $t9 11140($s7)
+    li $t9 0x975f6e
+    sw $t9 11144($s7)
+    li $t9 0x97616e
+    sw $t9 11148($s7)
+    li $t9 0x975e6e
+    sw $t9 11152($s7)
+    li $t9 0x945e6d
+    sw $t9 11156($s7)
+    li $t9 0x935c6d
+    sw $t9 11160($s7)
+    li $t9 0x935d6b
+    sw $t9 11164($s7)
+    li $t9 0x925b69
+    sw $t9 11168($s7)
+    li $t9 0x925869
+    sw $t9 11172($s7)
+    li $t9 0xa35a73
+    sw $t9 11176($s7)
+    li $t9 0xa25873
+    sw $t9 11180($s7)
+    li $t9 0xa25671
+    sw $t9 11184($s7)
+    li $t9 0xa0546f
+    sw $t9 11188($s7)
+    li $t9 0xa0526c
+    sw $t9 11192($s7)
+    li $t9 0xa75066
+    sw $t9 11196($s7)
+    li $t9 0x9c4a4c
+    sw $t9 11200($s7)
+    li $t9 0x92695c
+    sw $t9 11204($s7)
+    li $t9 0xc8b086
+    sw $t9 11208($s7)
+    li $t9 0xc5aa7e
+    sw $t9 11212($s7)
+    li $t9 0xbfa673
+    sw $t9 11216($s7)
+    li $t9 0xe5cd81
+    sw $t9 11220($s7)
+    li $t9 0xe5c97d
+    sw $t9 11224($s7)
+    li $t9 0xe2c87c
+    sw $t9 11228($s7)
+    li $t9 0xe2c676
+    sw $t9 11232($s7)
+    li $t9 0xe2c675
+    sw $t9 11236($s7)
+    li $t9 0xe0c373
+    sw $t9 11240($s7)
+    li $t9 0xdec36f
+    sw $t9 11244($s7)
+    li $t9 0xdcbf6d
+    sw $t9 11248($s7)
+    li $t9 0xdabd69
+    sw $t9 11252($s7)
+    li $t9 0xd8be64
+    sw $t9 11256($s7)
+    li $t9 0xd7bb62
+    sw $t9 11260($s7)
+    li $t9 0x9fbe5e
+    sw $t9 11264($s7)
+    li $t9 0x9db45e
+    sw $t9 11268($s7)
+    li $t9 0x9b975a
+    sw $t9 11272($s7)
+    li $t9 0xb29b69
+    sw $t9 11276($s7)
+    li $t9 0xba9a6b
+    sw $t9 11280($s7)
+    li $t9 0xbb9a6e
+    sw $t9 11284($s7)
+    li $t9 0xbfa375
+    sw $t9 11288($s7)
+    li $t9 0xc5a87e
+    sw $t9 11292($s7)
+    li $t9 0xc3a97d
+    sw $t9 11296($s7)
+    li $t9 0xc6aa81
+    sw $t9 11300($s7)
+    li $t9 0xc8ae82
+    sw $t9 11304($s7)
+    li $t9 0xc9b088
+    sw $t9 11308($s7)
+    li $t9 0xcbb18a
+    sw $t9 11312($s7)
+    li $t9 0xcdb38d
+    sw $t9 11316($s7)
+    li $t9 0xc5a788
+    sw $t9 11320($s7)
+    li $t9 0x89615c
+    sw $t9 11324($s7)
+    li $t9 0x8f5456
+    sw $t9 11328($s7)
+    li $t9 0xd15f5c
+    sw $t9 11332($s7)
+    li $t9 0xd1635e
+    sw $t9 11336($s7)
+    li $t9 0xbb5f6c
+    sw $t9 11340($s7)
+    li $t9 0xa95f78
+    sw $t9 11344($s7)
+    li $t9 0xa8627a
+    sw $t9 11348($s7)
+    li $t9 0xab647c
+    sw $t9 11352($s7)
+    li $t9 0xab677d
+    sw $t9 11356($s7)
+    li $t9 0xae677e
+    sw $t9 11360($s7)
+    li $t9 0xaf6980
+    sw $t9 11364($s7)
+    li $t9 0xae6a81
+    sw $t9 11368($s7)
+    li $t9 0xae6b81
+    sw $t9 11372($s7)
+    sw $t9 11376($s7)
+    li $t9 0xaf6c81
+    sw $t9 11380($s7)
+    li $t9 0xaf6d82
+    sw $t9 11384($s7)
+    li $t9 0xa86b80
+    sw $t9 11388($s7)
+    li $t9 0x9c6974
+    sw $t9 11392($s7)
+    li $t9 0x9c6975
+    sw $t9 11396($s7)
+    li $t9 0x9a6774
+    sw $t9 11400($s7)
+    li $t9 0x9b6773
+    sw $t9 11404($s7)
+    li $t9 0x9b6573
+    sw $t9 11408($s7)
+    li $t9 0x9a6473
+    sw $t9 11412($s7)
+    li $t9 0x986372
+    sw $t9 11416($s7)
+    li $t9 0x95616e
+    sw $t9 11420($s7)
+    li $t9 0x945e6e
+    sw $t9 11424($s7)
+    li $t9 0xa35f76
+    sw $t9 11428($s7)
+    li $t9 0xa75f79
+    sw $t9 11432($s7)
+    li $t9 0xa75f78
+    sw $t9 11436($s7)
+    li $t9 0xa45d74
+    sw $t9 11440($s7)
+    li $t9 0xa35773
+    sw $t9 11444($s7)
+    li $t9 0xa35572
+    sw $t9 11448($s7)
+    li $t9 0xa7546a
+    sw $t9 11452($s7)
+    li $t9 0xa95350
+    sw $t9 11456($s7)
+    li $t9 0x895f57
+    sw $t9 11460($s7)
+    li $t9 0xcbb189
+    sw $t9 11464($s7)
+    li $t9 0xb9a078
+    sw $t9 11468($s7)
+    li $t9 0xe1c784
+    sw $t9 11472($s7)
+    li $t9 0xe7ce85
+    sw $t9 11476($s7)
+    li $t9 0xe5cd81
+    sw $t9 11480($s7)
+    li $t9 0xe5ca7e
+    sw $t9 11484($s7)
+    li $t9 0xe1c276
+    sw $t9 11488($s7)
+    li $t9 0xe0c776
+    sw $t9 11492($s7)
+    li $t9 0xe2c674
+    sw $t9 11496($s7)
+    li $t9 0xe0c373
+    sw $t9 11500($s7)
+    li $t9 0xdfc26e
+    sw $t9 11504($s7)
+    li $t9 0xdcbf6c
+    sw $t9 11508($s7)
+    li $t9 0xdabd69
+    sw $t9 11512($s7)
+    li $t9 0xd9bd65
+    sw $t9 11516($s7)
+    li $t9 0xa4c161
+    sw $t9 11520($s7)
+    li $t9 0xa9c264
+    sw $t9 11524($s7)
+    li $t9 0xacc269
+    sw $t9 11528($s7)
+    li $t9 0xa3a263
+    sw $t9 11532($s7)
+    li $t9 0xb49d6e
+    sw $t9 11536($s7)
+    li $t9 0xc0a478
+    sw $t9 11540($s7)
+    li $t9 0xc2a77b
+    sw $t9 11544($s7)
+    li $t9 0xc3a97e
+    sw $t9 11548($s7)
+    li $t9 0xc6ac81
+    sw $t9 11552($s7)
+    li $t9 0xc7af85
+    sw $t9 11556($s7)
+    li $t9 0xcab188
+    sw $t9 11560($s7)
+    li $t9 0xcdb28c
+    sw $t9 11564($s7)
+    li $t9 0xceb68f
+    sw $t9 11568($s7)
+    li $t9 0xd0b892
+    sw $t9 11572($s7)
+    li $t9 0xd1ba95
+    sw $t9 11576($s7)
+    li $t9 0x9c766d
+    sw $t9 11580($s7)
+    li $t9 0xa65c5c
+    sw $t9 11584($s7)
+    li $t9 0xd1645f
+    sw $t9 11588($s7)
+    li $t9 0xd46763
+    sw $t9 11592($s7)
+    li $t9 0xb46475
+    sw $t9 11596($s7)
+    li $t9 0xab667d
+    sw $t9 11600($s7)
+    li $t9 0xae697e
+    sw $t9 11604($s7)
+    li $t9 0xac6a80
+    sw $t9 11608($s7)
+    li $t9 0xae6a81
+    sw $t9 11612($s7)
+    li $t9 0xaf6d83
+    sw $t9 11616($s7)
+    li $t9 0xaf6e83
+    sw $t9 11620($s7)
+    li $t9 0xb17186
+    sw $t9 11624($s7)
+    li $t9 0xb17285
+    sw $t9 11628($s7)
+    li $t9 0xb17188
+    sw $t9 11632($s7)
+    li $t9 0xb17388
+    sw $t9 11636($s7)
+    sw $t9 11640($s7)
+    sw $t9 11644($s7)
+    li $t9 0xac7285
+    sw $t9 11648($s7)
+    li $t9 0xa36f7d
+    sw $t9 11652($s7)
+    li $t9 0x9f6d7c
+    sw $t9 11656($s7)
+    li $t9 0x9f6d79
+    sw $t9 11660($s7)
+    li $t9 0x9f6b79
+    sw $t9 11664($s7)
+    li $t9 0x9c6b78
+    sw $t9 11668($s7)
+    li $t9 0x9c6974
+    sw $t9 11672($s7)
+    li $t9 0xa06878
+    sw $t9 11676($s7)
+    li $t9 0xa8697d
+    sw $t9 11680($s7)
+    li $t9 0xab677d
+    sw $t9 11684($s7)
+    li $t9 0xab647c
+    sw $t9 11688($s7)
+    li $t9 0xa96379
+    sw $t9 11692($s7)
+    li $t9 0xa76179
+    sw $t9 11696($s7)
+    li $t9 0xa75e76
+    sw $t9 11700($s7)
+    li $t9 0xa45b74
+    sw $t9 11704($s7)
+    li $t9 0xa7586e
+    sw $t9 11708($s7)
+    li $t9 0xb45756
+    sw $t9 11712($s7)
+    li $t9 0x835755
+    sw $t9 11716($s7)
+    li $t9 0xc6ac88
+    sw $t9 11720($s7)
+    li $t9 0xcbb680
+    sw $t9 11724($s7)
+    li $t9 0xe9d18a
+    sw $t9 11728($s7)
+    li $t9 0xe8d088
+    sw $t9 11732($s7)
+    li $t9 0xe6ce85
+    sw $t9 11736($s7)
+    li $t9 0xe7ce81
+    sw $t9 11740($s7)
+    li $t9 0xe5c97e
+    sw $t9 11744($s7)
+    li $t9 0xd9b772
+    sw $t9 11748($s7)
+    li $t9 0xe4c87a
+    sw $t9 11752($s7)
+    li $t9 0xe2c674
+    sw $t9 11756($s7)
+    li $t9 0xe1c373
+    sw $t9 11760($s7)
+    li $t9 0xdec26e
+    sw $t9 11764($s7)
+    li $t9 0xddc06d
+    sw $t9 11768($s7)
+    li $t9 0xdbbe69
+    sw $t9 11772($s7)
+    li $t9 0xa8c164
+    sw $t9 11776($s7)
+    li $t9 0xacc369
+    sw $t9 11780($s7)
+    li $t9 0xb1c66b
+    sw $t9 11784($s7)
+    li $t9 0xb1c66e
+    sw $t9 11788($s7)
+    li $t9 0xa3a369
+    sw $t9 11792($s7)
+    li $t9 0xc0a77a
+    sw $t9 11796($s7)
+    li $t9 0xc5a87e
+    sw $t9 11800($s7)
+    li $t9 0xc6ae82
+    sw $t9 11804($s7)
+    li $t9 0xc8b085
+    sw $t9 11808($s7)
+    li $t9 0xcab189
+    sw $t9 11812($s7)
+    li $t9 0xcbb38b
+    sw $t9 11816($s7)
+    li $t9 0xcfb490
+    sw $t9 11820($s7)
+    li $t9 0xd0b894
+    sw $t9 11824($s7)
+    li $t9 0xd2ba97
+    sw $t9 11828($s7)
+    li $t9 0xd2bb9a
+    sw $t9 11832($s7)
+    li $t9 0x8f6563
+    sw $t9 11836($s7)
+    li $t9 0xbd6360
+    sw $t9 11840($s7)
+    li $t9 0xd56964
+    sw $t9 11844($s7)
+    li $t9 0xd46b69
+    sw $t9 11848($s7)
+    li $t9 0xb0697d
+    sw $t9 11852($s7)
+    li $t9 0xae6b82
+    sw $t9 11856($s7)
+    li $t9 0xb06d83
+    sw $t9 11860($s7)
+    li $t9 0xb06f86
+    sw $t9 11864($s7)
+    li $t9 0xb17185
+    sw $t9 11868($s7)
+    li $t9 0xb17288
+    sw $t9 11872($s7)
+    li $t9 0xb27489
+    sw $t9 11876($s7)
+    li $t9 0xb37589
+    sw $t9 11880($s7)
+    li $t9 0xb3768a
+    sw $t9 11884($s7)
+    li $t9 0xb3788b
+    sw $t9 11888($s7)
+    li $t9 0xb47a8b
+    sw $t9 11892($s7)
+    li $t9 0xb5798c
+    sw $t9 11896($s7)
+    li $t9 0xb47a8b
+    sw $t9 11900($s7)
+    li $t9 0xb47a8c
+    sw $t9 11904($s7)
+    li $t9 0xb27a8b
+    sw $t9 11908($s7)
+    li $t9 0xb17688
+    sw $t9 11912($s7)
+    li $t9 0xaf7486
+    sw $t9 11916($s7)
+    li $t9 0xae7385
+    sw $t9 11920($s7)
+    li $t9 0xac7385
+    sw $t9 11924($s7)
+    li $t9 0xaf7385
+    sw $t9 11928($s7)
+    li $t9 0xb17185
+    sw $t9 11932($s7)
+    li $t9 0xb06f84
+    sw $t9 11936($s7)
+    li $t9 0xaf6c81
+    sw $t9 11940($s7)
+    li $t9 0xae6b81
+    sw $t9 11944($s7)
+    li $t9 0xab667e
+    sw $t9 11948($s7)
+    li $t9 0xaa647c
+    sw $t9 11952($s7)
+    li $t9 0xa96379
+    sw $t9 11956($s7)
+    li $t9 0xa75f76
+    sw $t9 11960($s7)
+    li $t9 0xa75d74
+    sw $t9 11964($s7)
+    li $t9 0xbf5c5b
+    sw $t9 11968($s7)
+    li $t9 0x805254
+    sw $t9 11972($s7)
+    li $t9 0xbba47d
+    sw $t9 11976($s7)
+    li $t9 0xe9d190
+    sw $t9 11980($s7)
+    li $t9 0xe8d18d
+    sw $t9 11984($s7)
+    li $t9 0xe9d28c
+    sw $t9 11988($s7)
+    li $t9 0xe9d188
+    sw $t9 11992($s7)
+    li $t9 0xe7d085
+    sw $t9 11996($s7)
+    li $t9 0xe7cf82
+    sw $t9 12000($s7)
+    li $t9 0xddc07a
+    sw $t9 12004($s7)
+    li $t9 0xe2c77c
+    sw $t9 12008($s7)
+    li $t9 0xe2c87a
+    sw $t9 12012($s7)
+    li $t9 0xe2c674
+    sw $t9 12016($s7)
+    li $t9 0xe0c372
+    sw $t9 12020($s7)
+    li $t9 0xdec26f
+    sw $t9 12024($s7)
+    li $t9 0xdcc06b
+    sw $t9 12028($s7)
+    li $t9 0xacc366
+    sw $t9 12032($s7)
+    li $t9 0xb1c66a
+    sw $t9 12036($s7)
+    li $t9 0xb1c86e
+    sw $t9 12040($s7)
+    li $t9 0xb1c972
+    sw $t9 12044($s7)
+    li $t9 0xabbb71
+    sw $t9 12048($s7)
+    li $t9 0xb2a274
+    sw $t9 12052($s7)
+    li $t9 0xc6ae81
+    sw $t9 12056($s7)
+    li $t9 0xc7af85
+    sw $t9 12060($s7)
+    li $t9 0xcbb189
+    sw $t9 12064($s7)
+    li $t9 0xceb38d
+    sw $t9 12068($s7)
+    li $t9 0xd0b791
+    sw $t9 12072($s7)
+    li $t9 0xd2b994
+    sw $t9 12076($s7)
+    li $t9 0xd1bb99
+    sw $t9 12080($s7)
+    li $t9 0xd4be9a
+    sw $t9 12084($s7)
+    li $t9 0xceb698
+    sw $t9 12088($s7)
+    li $t9 0x885e5e
+    sw $t9 12092($s7)
+    li $t9 0xd06a67
+    sw $t9 12096($s7)
+    li $t9 0xd46d6a
+    sw $t9 12100($s7)
+    li $t9 0xd26f6e
+    sw $t9 12104($s7)
+    li $t9 0xb06d84
+    sw $t9 12108($s7)
+    li $t9 0xb07185
+    sw $t9 12112($s7)
+    li $t9 0xb17388
+    sw $t9 12116($s7)
+    li $t9 0xb27489
+    sw $t9 12120($s7)
+    li $t9 0xb27889
+    sw $t9 12124($s7)
+    li $t9 0xb4798b
+    sw $t9 12128($s7)
+    li $t9 0xb47b8f
+    sw $t9 12132($s7)
+    li $t9 0xb77c8f
+    sw $t9 12136($s7)
+    li $t9 0xb77b90
+    sw $t9 12140($s7)
+    li $t9 0xb87d90
+    sw $t9 12144($s7)
+    li $t9 0xb87d91
+    sw $t9 12148($s7)
+    li $t9 0xb77d91
+    sw $t9 12152($s7)
+    li $t9 0xb87d90
+    sw $t9 12156($s7)
+    sw $t9 12160($s7)
+    li $t9 0xb77d91
+    sw $t9 12164($s7)
+    li $t9 0xb87d90
+    sw $t9 12168($s7)
+    li $t9 0xb87c91
+    sw $t9 12172($s7)
+    li $t9 0xb47b8f
+    sw $t9 12176($s7)
+    li $t9 0xb67a8c
+    sw $t9 12180($s7)
+    li $t9 0xb5798b
+    sw $t9 12184($s7)
+    li $t9 0xb37889
+    sw $t9 12188($s7)
+    li $t9 0xb17388
+    sw $t9 12192($s7)
+    li $t9 0xb17286
+    sw $t9 12196($s7)
+    li $t9 0xb06e84
+    sw $t9 12200($s7)
+    li $t9 0xb06c81
+    sw $t9 12204($s7)
+    li $t9 0xac6980
+    sw $t9 12208($s7)
+    li $t9 0xaa677d
+    sw $t9 12212($s7)
+    li $t9 0xab647c
+    sw $t9 12216($s7)
+    li $t9 0xa85e79
+    sw $t9 12220($s7)
+    li $t9 0xc9625f
+    sw $t9 12224($s7)
+    li $t9 0x825557
+    sw $t9 12228($s7)
+    li $t9 0xd5bd8a
+    sw $t9 12232($s7)
+    li $t9 0xebd692
+    sw $t9 12236($s7)
+    li $t9 0xebd491
+    sw $t9 12240($s7)
+    li $t9 0xebd48f
+    sw $t9 12244($s7)
+    li $t9 0xe8d38c
+    sw $t9 12248($s7)
+    li $t9 0xe9d088
+    sw $t9 12252($s7)
+    li $t9 0xe6d086
+    sw $t9 12256($s7)
+    li $t9 0xe7ce82
+    sw $t9 12260($s7)
+    li $t9 0xe5cd81
+    sw $t9 12264($s7)
+    li $t9 0xe5c97c
+    sw $t9 12268($s7)
+    li $t9 0xe4c77a
+    sw $t9 12272($s7)
+    li $t9 0xe2c675
+    sw $t9 12276($s7)
+    li $t9 0xe1c372
+    sw $t9 12280($s7)
+    li $t9 0xdec26c
+    sw $t9 12284($s7)
+    li $t9 0xa9be6b
+    sw $t9 12288($s7)
+    li $t9 0xa7ba6e
+    sw $t9 12292($s7)
+    li $t9 0xa7b86f
+    sw $t9 12296($s7)
+    li $t9 0xafc874
+    sw $t9 12300($s7)
+    li $t9 0xb1cd78
+    sw $t9 12304($s7)
+    li $t9 0xa7a072
+    sw $t9 12308($s7)
+    li $t9 0xc7af86
+    sw $t9 12312($s7)
+    li $t9 0xcdb18a
+    sw $t9 12316($s7)
+    li $t9 0xceb38d
+    sw $t9 12320($s7)
+    li $t9 0xd0b790
+    sw $t9 12324($s7)
+    li $t9 0xd1ba94
+    sw $t9 12328($s7)
+    li $t9 0xd2bb98
+    sw $t9 12332($s7)
+    li $t9 0xd5bd9c
+    sw $t9 12336($s7)
+    li $t9 0xd6c0a0
+    sw $t9 12340($s7)
+    li $t9 0xbfa690
+    sw $t9 12344($s7)
+    li $t9 0x996465
+    sw $t9 12348($s7)
+    li $t9 0xd76f6b
+    sw $t9 12352($s7)
+    li $t9 0xd6716e
+    sw $t9 12356($s7)
+    li $t9 0xcb7376
+    sw $t9 12360($s7)
+    li $t9 0xb17388
+    sw $t9 12364($s7)
+    li $t9 0xb3758a
+    sw $t9 12368($s7)
+    li $t9 0xb6798b
+    sw $t9 12372($s7)
+    li $t9 0xb47c8d
+    sw $t9 12376($s7)
+    li $t9 0xb87c91
+    sw $t9 12380($s7)
+    li $t9 0xb87d91
+    sw $t9 12384($s7)
+    li $t9 0xb98092
+    sw $t9 12388($s7)
+    li $t9 0xba8293
+    sw $t9 12392($s7)
+    li $t9 0xba8393
+    sw $t9 12396($s7)
+    li $t9 0xbb8497
+    sw $t9 12400($s7)
+    li $t9 0xbb8697
+    sw $t9 12404($s7)
+    li $t9 0xbb8595
+    sw $t9 12408($s7)
+    li $t9 0xbb8697
+    sw $t9 12412($s7)
+    li $t9 0xbb8695
+    sw $t9 12416($s7)
+    li $t9 0xbb8595
+    sw $t9 12420($s7)
+    li $t9 0xbb8394
+    sw $t9 12424($s7)
+    li $t9 0xb98294
+    sw $t9 12428($s7)
+    li $t9 0xba8192
+    sw $t9 12432($s7)
+    li $t9 0xb97e92
+    sw $t9 12436($s7)
+    li $t9 0xb77d90
+    sw $t9 12440($s7)
+    li $t9 0xb77b8f
+    sw $t9 12444($s7)
+    li $t9 0xb47a8b
+    sw $t9 12448($s7)
+    li $t9 0xb3768a
+    sw $t9 12452($s7)
+    li $t9 0xb27488
+    sw $t9 12456($s7)
+    li $t9 0xb17286
+    sw $t9 12460($s7)
+    li $t9 0xae6e84
+    sw $t9 12464($s7)
+    li $t9 0xac6b81
+    sw $t9 12468($s7)
+    li $t9 0xae6980
+    sw $t9 12472($s7)
+    li $t9 0xab657d
+    sw $t9 12476($s7)
+    li $t9 0xd06764
+    sw $t9 12480($s7)
+    li $t9 0x855a5c
+    sw $t9 12484($s7)
+    li $t9 0xd6bb89
+    sw $t9 12488($s7)
+    li $t9 0xecd795
+    sw $t9 12492($s7)
+    li $t9 0xecd693
+    sw $t9 12496($s7)
+    li $t9 0xebd591
+    sw $t9 12500($s7)
+    li $t9 0xebd48d
+    sw $t9 12504($s7)
+    li $t9 0xe8d28b
+    sw $t9 12508($s7)
+    li $t9 0xe8d088
+    sw $t9 12512($s7)
+    li $t9 0xd0b77c
+    sw $t9 12516($s7)
+    li $t9 0xbfa571
+    sw $t9 12520($s7)
+    li $t9 0xbfa46f
+    sw $t9 12524($s7)
+    li $t9 0xc7aa6d
+    sw $t9 12528($s7)
+    li $t9 0xddc074
+    sw $t9 12532($s7)
+    li $t9 0xe2c673
+    sw $t9 12536($s7)
+    li $t9 0xe0c371
+    sw $t9 12540($s7)
+    li $t9 0x9fab6b
+    sw $t9 12544($s7)
+    li $t9 0x9ca76b
+    sw $t9 12548($s7)
+    li $t9 0xa9c174
+    sw $t9 12552($s7)
+    li $t9 0xb0ce76
+    sw $t9 12556($s7)
+    li $t9 0xb1d07c
+    sw $t9 12560($s7)
+    li $t9 0xa3a973
+    sw $t9 12564($s7)
+    li $t9 0xcbb18a
+    sw $t9 12568($s7)
+    li $t9 0xceb28b
+    sw $t9 12572($s7)
+    li $t9 0xd0b790
+    sw $t9 12576($s7)
+    li $t9 0xd2b993
+    sw $t9 12580($s7)
+    li $t9 0xd2bb99
+    sw $t9 12584($s7)
+    li $t9 0xd5be9c
+    sw $t9 12588($s7)
+    li $t9 0xd6c2a1
+    sw $t9 12592($s7)
+    li $t9 0xd6c2a6
+    sw $t9 12596($s7)
+    li $t9 0xb29486
+    sw $t9 12600($s7)
+    li $t9 0xab6b69
+    sw $t9 12604($s7)
+    li $t9 0xd7736f
+    sw $t9 12608($s7)
+    li $t9 0xd77573
+    sw $t9 12612($s7)
+    li $t9 0xc8767d
+    sw $t9 12616($s7)
+    li $t9 0xb2768c
+    sw $t9 12620($s7)
+    li $t9 0xb67a8d
+    sw $t9 12624($s7)
+    li $t9 0xb77d91
+    sw $t9 12628($s7)
+    li $t9 0xba8092
+    sw $t9 12632($s7)
+    li $t9 0xb98293
+    sw $t9 12636($s7)
+    li $t9 0xbb8595
+    sw $t9 12640($s7)
+    li $t9 0xbb8698
+    sw $t9 12644($s7)
+    li $t9 0xbb8898
+    sw $t9 12648($s7)
+    li $t9 0xbe889a
+    sw $t9 12652($s7)
+    li $t9 0xbe899b
+    sw $t9 12656($s7)
+    li $t9 0xbe8a9b
+    sw $t9 12660($s7)
+    li $t9 0xbe8c9b
+    sw $t9 12664($s7)
+    li $t9 0xc18b9a
+    sw $t9 12668($s7)
+    li $t9 0xc88b95
+    sw $t9 12672($s7)
+    li $t9 0xcf8c92
+    sw $t9 12676($s7)
+    li $t9 0xd08c90
+    sw $t9 12680($s7)
+    li $t9 0xd08a90
+    sw $t9 12684($s7)
+    li $t9 0xcd8a90
+    sw $t9 12688($s7)
+    li $t9 0xc68891
+    sw $t9 12692($s7)
+    li $t9 0xbd8494
+    sw $t9 12696($s7)
+    li $t9 0xb98192
+    sw $t9 12700($s7)
+    li $t9 0xb87d91
+    sw $t9 12704($s7)
+    li $t9 0xb77c8f
+    sw $t9 12708($s7)
+    li $t9 0xb4798b
+    sw $t9 12712($s7)
+    li $t9 0xb27689
+    sw $t9 12716($s7)
+    li $t9 0xb17388
+    sw $t9 12720($s7)
+    li $t9 0xb17285
+    sw $t9 12724($s7)
+    li $t9 0xaf6c83
+    sw $t9 12728($s7)
+    li $t9 0xac697e
+    sw $t9 12732($s7)
+    li $t9 0xd26b69
+    sw $t9 12736($s7)
+    li $t9 0x8d5e5e
+    sw $t9 12740($s7)
+    li $t9 0xcdb188
+    sw $t9 12744($s7)
+    li $t9 0xedd899
+    sw $t9 12748($s7)
+    li $t9 0xebd797
+    sw $t9 12752($s7)
+    li $t9 0xecd792
+    sw $t9 12756($s7)
+    li $t9 0xebd591
+    sw $t9 12760($s7)
+    li $t9 0xe9d28d
+    sw $t9 12764($s7)
+    li $t9 0xc3ac7a
+    sw $t9 12768($s7)
+    li $t9 0xbfa47b
+    sw $t9 12772($s7)
+    li $t9 0xc6ab81
+    sw $t9 12776($s7)
+    li $t9 0xc5a97d
+    sw $t9 12780($s7)
+    li $t9 0xbda378
+    sw $t9 12784($s7)
+    li $t9 0xb49966
+    sw $t9 12788($s7)
+    li $t9 0xddbf73
+    sw $t9 12792($s7)
+    li $t9 0xe1c373
+    sw $t9 12796($s7)
+    li $t9 0x9ca266
+    sw $t9 12800($s7)
+    li $t9 0xa2b974
+    sw $t9 12804($s7)
+    li $t9 0xb1cd76
+    sw $t9 12808($s7)
+    li $t9 0xb1cf7a
+    sw $t9 12812($s7)
+    li $t9 0xb1d07d
+    sw $t9 12816($s7)
+    li $t9 0xa6b174
+    sw $t9 12820($s7)
+    li $t9 0xcab389
+    sw $t9 12824($s7)
+    li $t9 0xd0b691
+    sw $t9 12828($s7)
+    li $t9 0xd1b994
+    sw $t9 12832($s7)
+    li $t9 0xd2bb98
+    sw $t9 12836($s7)
+    li $t9 0xd5be9c
+    sw $t9 12840($s7)
+    li $t9 0xd6c1a0
+    sw $t9 12844($s7)
+    li $t9 0xd8c5a4
+    sw $t9 12848($s7)
+    li $t9 0xd9c6a9
+    sw $t9 12852($s7)
+    li $t9 0xa7867d
+    sw $t9 12856($s7)
+    li $t9 0xb96e6f
+    sw $t9 12860($s7)
+    li $t9 0xd87873
+    sw $t9 12864($s7)
+    li $t9 0xd87a76
+    sw $t9 12868($s7)
+    li $t9 0xc67b83
+    sw $t9 12872($s7)
+    li $t9 0xb87b90
+    sw $t9 12876($s7)
+    li $t9 0xba7e92
+    sw $t9 12880($s7)
+    li $t9 0xba8293
+    sw $t9 12884($s7)
+    li $t9 0xbb8595
+    sw $t9 12888($s7)
+    li $t9 0xbb8898
+    sw $t9 12892($s7)
+    li $t9 0xbd8a9b
+    sw $t9 12896($s7)
+    li $t9 0xc08c9c
+    sw $t9 12900($s7)
+    li $t9 0xc08d9f
+    sw $t9 12904($s7)
+    li $t9 0xbf919f
+    sw $t9 12908($s7)
+    li $t9 0xbf909f
+    sw $t9 12912($s7)
+    li $t9 0xc1919d
+    sw $t9 12916($s7)
+    li $t9 0xd59395
+    sw $t9 12920($s7)
+    li $t9 0xde9492
+    sw $t9 12924($s7)
+    li $t9 0xd79491
+    sw $t9 12928($s7)
+    li $t9 0xcd9290
+    sw $t9 12932($s7)
+    li $t9 0xc6918d
+    sw $t9 12936($s7)
+    li $t9 0xc28d8d
+    sw $t9 12940($s7)
+    li $t9 0xc58d8b
+    sw $t9 12944($s7)
+    li $t9 0xce8b8a
+    sw $t9 12948($s7)
+    li $t9 0xda8c89
+    sw $t9 12952($s7)
+    li $t9 0xc78892
+    sw $t9 12956($s7)
+    li $t9 0xbb8497
+    sw $t9 12960($s7)
+    li $t9 0xb98192
+    sw $t9 12964($s7)
+    li $t9 0xb77d90
+    sw $t9 12968($s7)
+    li $t9 0xb47b8f
+    sw $t9 12972($s7)
+    li $t9 0xb3788a
+    sw $t9 12976($s7)
+    li $t9 0xb37588
+    sw $t9 12980($s7)
+    li $t9 0xb17186
+    sw $t9 12984($s7)
+    li $t9 0xb06c83
+    sw $t9 12988($s7)
+    li $t9 0xd06e6e
+    sw $t9 12992($s7)
+    li $t9 0x996364
+    sw $t9 12996($s7)
+    li $t9 0xc3a983
+    sw $t9 13000($s7)
+    li $t9 0xeeda9a
+    sw $t9 13004($s7)
+    li $t9 0xedd898
+    sw $t9 13008($s7)
+    li $t9 0xebd795
+    sw $t9 13012($s7)
+    li $t9 0xe8d492
+    sw $t9 13016($s7)
+    li $t9 0xc2a97d
+    sw $t9 13020($s7)
+    li $t9 0xc6ae86
+    sw $t9 13024($s7)
+    li $t9 0xcbb188
+    sw $t9 13028($s7)
+    li $t9 0xc7af85
+    sw $t9 13032($s7)
+    li $t9 0xc7b38d
+    sw $t9 13036($s7)
+    li $t9 0xc5a97d
+    sw $t9 13040($s7)
+    li $t9 0xbfa479
+    sw $t9 13044($s7)
+    li $t9 0xb99c67
+    sw $t9 13048($s7)
+    li $t9 0xe1c674
+    sw $t9 13052($s7)
+    li $t9 0x9ca66b
+    sw $t9 13056($s7)
+    li $t9 0xa6be76
+    sw $t9 13060($s7)
+    li $t9 0xb1ce7b
+    sw $t9 13064($s7)
+    li $t9 0xb1d07c
+    sw $t9 13068($s7)
+    li $t9 0xb2d17e
+    sw $t9 13072($s7)
+    li $t9 0xa7b47a
+    sw $t9 13076($s7)
+    li $t9 0xc8b18b
+    sw $t9 13080($s7)
+    li $t9 0xd2b993
+    sw $t9 13084($s7)
+    li $t9 0xd5bb99
+    sw $t9 13088($s7)
+    li $t9 0xd4be9c
+    sw $t9 13092($s7)
+    li $t9 0xd7bfa0
+    sw $t9 13096($s7)
+    li $t9 0xd6c3a6
+    sw $t9 13100($s7)
+    li $t9 0xd9c6a8
+    sw $t9 13104($s7)
+    li $t9 0xdac7ac
+    sw $t9 13108($s7)
+    li $t9 0x9c7a76
+    sw $t9 13112($s7)
+    li $t9 0xc27473
+    sw $t9 13116($s7)
+    li $t9 0xd87b78
+    sw $t9 13120($s7)
+    li $t9 0xd97e7b
+    sw $t9 13124($s7)
+    li $t9 0xc17d89
+    sw $t9 13128($s7)
+    li $t9 0xba8292
+    sw $t9 13132($s7)
+    li $t9 0xbb8597
+    sw $t9 13136($s7)
+    li $t9 0xbb8899
+    sw $t9 13140($s7)
+    li $t9 0xbd899b
+    sw $t9 13144($s7)
+    li $t9 0xbf8f9c
+    sw $t9 13148($s7)
+    li $t9 0xbf919f
+    sw $t9 13152($s7)
+    li $t9 0xc192a1
+    sw $t9 13156($s7)
+    li $t9 0xc294a3
+    sw $t9 13160($s7)
+    li $t9 0xc394a2
+    sw $t9 13164($s7)
+    li $t9 0xc695a6
+    sw $t9 13168($s7)
+    li $t9 0xda989b
+    sw $t9 13172($s7)
+    li $t9 0xdd9a98
+    sw $t9 13176($s7)
+    li $t9 0xbb9795
+    sw $t9 13180($s7)
+    li $t9 0xb29999
+    sw $t9 13184($s7)
+    li $t9 0xc0a9a7
+    sw $t9 13188($s7)
+    li $t9 0xc1aca8
+    sw $t9 13192($s7)
+    li $t9 0xc2aba9
+    sw $t9 13196($s7)
+    li $t9 0xbaa19c
+    sw $t9 13200($s7)
+    li $t9 0xab8f8d
+    sw $t9 13204($s7)
+    li $t9 0xaf8c8b
+    sw $t9 13208($s7)
+    li $t9 0xcb8d8b
+    sw $t9 13212($s7)
+    li $t9 0xc88a94
+    sw $t9 13216($s7)
+    li $t9 0xbb8598
+    sw $t9 13220($s7)
+    li $t9 0xba8394
+    sw $t9 13224($s7)
+    li $t9 0xb98092
+    sw $t9 13228($s7)
+    li $t9 0xb77c90
+    sw $t9 13232($s7)
+    li $t9 0xb6798a
+    sw $t9 13236($s7)
+    li $t9 0xb37489
+    sw $t9 13240($s7)
+    li $t9 0xb17185
+    sw $t9 13244($s7)
+    li $t9 0xd07173
+    sw $t9 13248($s7)
+    li $t9 0xa06969
+    sw $t9 13252($s7)
+    li $t9 0xbd9d81
+    sw $t9 13256($s7)
+    li $t9 0xedda9c
+    sw $t9 13260($s7)
+    li $t9 0xeeda9b
+    sw $t9 13264($s7)
+    li $t9 0xebd797
+    sw $t9 13268($s7)
+    li $t9 0xc1ab82
+    sw $t9 13272($s7)
+    li $t9 0xcbb18f
+    sw $t9 13276($s7)
+    li $t9 0xd0b790
+    sw $t9 13280($s7)
+    li $t9 0xceb38c
+    sw $t9 13284($s7)
+    li $t9 0xc9b188
+    sw $t9 13288($s7)
+    li $t9 0xc7ad84
+    sw $t9 13292($s7)
+    li $t9 0xc5aa7e
+    sw $t9 13296($s7)
+    li $t9 0xc1a77b
+    sw $t9 13300($s7)
+    li $t9 0xbb9d72
+    sw $t9 13304($s7)
+    li $t9 0xc2a769
+    sw $t9 13308($s7)
+    li $t9 0x9ca46b
+    sw $t9 13312($s7)
+    li $t9 0xa4be7a
+    sw $t9 13316($s7)
+    li $t9 0xb1d07b
+    sw $t9 13320($s7)
+    li $t9 0xb1d27d
+    sw $t9 13324($s7)
+    li $t9 0xb2d17e
+    sw $t9 13328($s7)
+    li $t9 0xa7b47b
+    sw $t9 13332($s7)
+    li $t9 0xcbb690
+    sw $t9 13336($s7)
+    li $t9 0xd5be9c
+    sw $t9 13340($s7)
+    li $t9 0xd8c3a6
+    sw $t9 13344($s7)
+    li $t9 0xd6bfa0
+    sw $t9 13348($s7)
+    li $t9 0xd7c2a4
+    sw $t9 13352($s7)
+    li $t9 0xd9c6a8
+    sw $t9 13356($s7)
+    li $t9 0xdac8ac
+    sw $t9 13360($s7)
+    li $t9 0xdac8b0
+    sw $t9 13364($s7)
+    li $t9 0x977172
+    sw $t9 13368($s7)
+    li $t9 0xcf7976
+    sw $t9 13372($s7)
+    li $t9 0xd87e7c
+    sw $t9 13376($s7)
+    li $t9 0xda817e
+    sw $t9 13380($s7)
+    li $t9 0xc08491
+    sw $t9 13384($s7)
+    li $t9 0xbb8697
+    sw $t9 13388($s7)
+    li $t9 0xbd889a
+    sw $t9 13392($s7)
+    li $t9 0xbf8c9c
+    sw $t9 13396($s7)
+    li $t9 0xbf909f
+    sw $t9 13400($s7)
+    li $t9 0xc192a1
+    sw $t9 13404($s7)
+    li $t9 0xc394a3
+    sw $t9 13408($s7)
+    li $t9 0xc395a4
+    sw $t9 13412($s7)
+    li $t9 0xc698a7
+    sw $t9 13416($s7)
+    li $t9 0xc69ba8
+    sw $t9 13420($s7)
+    li $t9 0xda9da0
+    sw $t9 13424($s7)
+    li $t9 0xdfa19c
+    sw $t9 13428($s7)
+    li $t9 0xbd9c9c
+    sw $t9 13432($s7)
+    li $t9 0xcab9b4
+    sw $t9 13436($s7)
+    li $t9 0xe9dfd7
+    sw $t9 13440($s7)
+    li $t9 0xede2d9
+    sw $t9 13444($s7)
+    li $t9 0xece2d8
+    sw $t9 13448($s7)
+    li $t9 0xebe1d6
+    sw $t9 13452($s7)
+    li $t9 0xece0d7
+    sw $t9 13456($s7)
+    li $t9 0xe4d7ce
+    sw $t9 13460($s7)
+    li $t9 0xc2aea9
+    sw $t9 13464($s7)
+    li $t9 0xab8d8f
+    sw $t9 13468($s7)
+    li $t9 0xcd918f
+    sw $t9 13472($s7)
+    li $t9 0xc18b99
+    sw $t9 13476($s7)
+    li $t9 0xbb8998
+    sw $t9 13480($s7)
+    li $t9 0xbb8395
+    sw $t9 13484($s7)
+    li $t9 0xb98092
+    sw $t9 13488($s7)
+    li $t9 0xb87b91
+    sw $t9 13492($s7)
+    li $t9 0xb4798c
+    sw $t9 13496($s7)
+    li $t9 0xb2748a
+    sw $t9 13500($s7)
+    li $t9 0xd07476
+    sw $t9 13504($s7)
+    li $t9 0xa96c6a
+    sw $t9 13508($s7)
+    li $t9 0xb5977e
+    sw $t9 13512($s7)
+    li $t9 0xefdd9d
+    sw $t9 13516($s7)
+    li $t9 0xedda9c
+    sw $t9 13520($s7)
+    li $t9 0xc6b188
+    sw $t9 13524($s7)
+    li $t9 0xcbb694
+    sw $t9 13528($s7)
+    li $t9 0xd1bb98
+    sw $t9 13532($s7)
+    li $t9 0xd0b992
+    sw $t9 13536($s7)
+    li $t9 0xcfb68f
+    sw $t9 13540($s7)
+    li $t9 0xcbb28a
+    sw $t9 13544($s7)
+    li $t9 0xcaaf85
+    sw $t9 13548($s7)
+    li $t9 0xc6ab81
+    sw $t9 13552($s7)
+    li $t9 0xc5a97d
+    sw $t9 13556($s7)
+    li $t9 0xc1a479
+    sw $t9 13560($s7)
+    li $t9 0xb6986a
+    sw $t9 13564($s7)
+    li $t9 0x9ca76c
+    sw $t9 13568($s7)
+    li $t9 0xa1ba7c
+    sw $t9 13572($s7)
+    li $t9 0xb1cf7d
+    sw $t9 13576($s7)
+    li $t9 0xb1d17e
+    sw $t9 13580($s7)
+    li $t9 0xb3d582
+    sw $t9 13584($s7)
+    li $t9 0xa4b27c
+    sw $t9 13588($s7)
+    li $t9 0xd0ba93
+    sw $t9 13592($s7)
+    li $t9 0xd4ba9b
+    sw $t9 13596($s7)
+    li $t9 0xd6bf9f
+    sw $t9 13600($s7)
+    li $t9 0xd7c2a2
+    sw $t9 13604($s7)
+    li $t9 0xd8c4a7
+    sw $t9 13608($s7)
+    li $t9 0xdac7ae
+    sw $t9 13612($s7)
+    li $t9 0xdacab1
+    sw $t9 13616($s7)
+    li $t9 0xd4c1aa
+    sw $t9 13620($s7)
+    li $t9 0x957373
+    sw $t9 13624($s7)
+    li $t9 0xd67e7b
+    sw $t9 13628($s7)
+    li $t9 0xda827e
+    sw $t9 13632($s7)
+    li $t9 0xda8583
+    sw $t9 13636($s7)
+    li $t9 0xbf8697
+    sw $t9 13640($s7)
+    li $t9 0xbd8a9b
+    sw $t9 13644($s7)
+    li $t9 0xc08d9c
+    sw $t9 13648($s7)
+    li $t9 0xc190a1
+    sw $t9 13652($s7)
+    li $t9 0xc394a3
+    sw $t9 13656($s7)
+    li $t9 0xc697a6
+    sw $t9 13660($s7)
+    li $t9 0xc699a8
+    sw $t9 13664($s7)
+    li $t9 0xc79caa
+    sw $t9 13668($s7)
+    li $t9 0xc79fab
+    sw $t9 13672($s7)
+    li $t9 0xd9a2a4
+    sw $t9 13676($s7)
+    li $t9 0xe4a6a2
+    sw $t9 13680($s7)
+    li $t9 0xcda2a3
+    sw $t9 13684($s7)
+    li $t9 0xcbbab6
+    sw $t9 13688($s7)
+    li $t9 0xede4dc
+    sw $t9 13692($s7)
+    li $t9 0xeee5dd
+    sw $t9 13696($s7)
+    li $t9 0xeee5dc
+    sw $t9 13700($s7)
+    li $t9 0xede5dd
+    sw $t9 13704($s7)
+    li $t9 0xeee5db
+    sw $t9 13708($s7)
+    li $t9 0xebe2da
+    sw $t9 13712($s7)
+    li $t9 0xece4d8
+    sw $t9 13716($s7)
+    li $t9 0xece1d6
+    sw $t9 13720($s7)
+    li $t9 0xc3aeaa
+    sw $t9 13724($s7)
+    li $t9 0xb09191
+    sw $t9 13728($s7)
+    li $t9 0xd59293
+    sw $t9 13732($s7)
+    li $t9 0xbf8c9c
+    sw $t9 13736($s7)
+    li $t9 0xbd8899
+    sw $t9 13740($s7)
+    li $t9 0xbb8597
+    sw $t9 13744($s7)
+    li $t9 0xb97e92
+    sw $t9 13748($s7)
+    li $t9 0xb87b91
+    sw $t9 13752($s7)
+    li $t9 0xb6798c
+    sw $t9 13756($s7)
+    li $t9 0xd07679
+    sw $t9 13760($s7)
+    li $t9 0xb1716e
+    sw $t9 13764($s7)
+    li $t9 0xb0907b
+    sw $t9 13768($s7)
+    li $t9 0xefdca0
+    sw $t9 13772($s7)
+    li $t9 0xd5c392
+    sw $t9 13776($s7)
+    li $t9 0xc8b395
+    sw $t9 13780($s7)
+    li $t9 0xd7bf9d
+    sw $t9 13784($s7)
+    li $t9 0xd4be9b
+    sw $t9 13788($s7)
+    li $t9 0xd1b995
+    sw $t9 13792($s7)
+    li $t9 0xd0b791
+    sw $t9 13796($s7)
+    li $t9 0xceb48c
+    sw $t9 13800($s7)
+    li $t9 0xcbb188
+    sw $t9 13804($s7)
+    li $t9 0xc8ae84
+    sw $t9 13808($s7)
+    li $t9 0xc6ab80
+    sw $t9 13812($s7)
+    li $t9 0xc2a77b
+    sw $t9 13816($s7)
+    li $t9 0xbfa276
+    sw $t9 13820($s7)
+    li $t9 0x9ca76e
+    sw $t9 13824($s7)
+    li $t9 0x9dba7d
+    sw $t9 13828($s7)
+    li $t9 0xa3bf7e
+    sw $t9 13832($s7)
+    li $t9 0xaecb83
+    sw $t9 13836($s7)
+    li $t9 0xb3d484
+    sw $t9 13840($s7)
+    li $t9 0xa6b17b
+    sw $t9 13844($s7)
+    li $t9 0xd2bb97
+    sw $t9 13848($s7)
+    li $t9 0xd5bd9c
+    sw $t9 13852($s7)
+    li $t9 0xd7c2a1
+    sw $t9 13856($s7)
+    li $t9 0xd8c3a7
+    sw $t9 13860($s7)
+    li $t9 0xd9c6aa
+    sw $t9 13864($s7)
+    li $t9 0xdac7b0
+    sw $t9 13868($s7)
+    li $t9 0xdccbb3
+    sw $t9 13872($s7)
+    li $t9 0xceb8a7
+    sw $t9 13876($s7)
+    li $t9 0x9d7676
+    sw $t9 13880($s7)
+    li $t9 0xda8180
+    sw $t9 13884($s7)
+    li $t9 0xda8582
+    sw $t9 13888($s7)
+    li $t9 0xdd8a88
+    sw $t9 13892($s7)
+    li $t9 0xbe899b
+    sw $t9 13896($s7)
+    li $t9 0xc08d9f
+    sw $t9 13900($s7)
+    li $t9 0xc292a0
+    sw $t9 13904($s7)
+    li $t9 0xc595a6
+    sw $t9 13908($s7)
+    li $t9 0xc699a7
+    sw $t9 13912($s7)
+    li $t9 0xc89ca9
+    sw $t9 13916($s7)
+    li $t9 0xc89dac
+    sw $t9 13920($s7)
+    li $t9 0xcaa2af
+    sw $t9 13924($s7)
+    li $t9 0xd4a4ab
+    sw $t9 13928($s7)
+    li $t9 0xe2a9a7
+    sw $t9 13932($s7)
+    li $t9 0xdea8a8
+    sw $t9 13936($s7)
+    li $t9 0xc1abaa
+    sw $t9 13940($s7)
+    li $t9 0xece2de
+    sw $t9 13944($s7)
+    li $t9 0xefe9e2
+    sw $t9 13948($s7)
+    sw $t9 13952($s7)
+    li $t9 0xefe9e0
+    sw $t9 13956($s7)
+    li $t9 0xefe6e1
+    sw $t9 13960($s7)
+    li $t9 0xede7de
+    sw $t9 13964($s7)
+    li $t9 0xeee7de
+    sw $t9 13968($s7)
+    li $t9 0xede5dc
+    sw $t9 13972($s7)
+    li $t9 0xeee5da
+    sw $t9 13976($s7)
+    li $t9 0xe6ddd4
+    sw $t9 13980($s7)
+    li $t9 0xb29999
+    sw $t9 13984($s7)
+    li $t9 0xce9492
+    sw $t9 13988($s7)
+    li $t9 0xc7909c
+    sw $t9 13992($s7)
+    li $t9 0xc18b9c
+    sw $t9 13996($s7)
+    li $t9 0xbd8899
+    sw $t9 14000($s7)
+    li $t9 0xbb8395
+    sw $t9 14004($s7)
+    li $t9 0xb98092
+    sw $t9 14008($s7)
+    li $t9 0xb77b8d
+    sw $t9 14012($s7)
+    li $t9 0xcf7b7d
+    sw $t9 14016($s7)
+    li $t9 0xb87373
+    sw $t9 14020($s7)
+    li $t9 0x9c7b75
+    sw $t9 14024($s7)
+    li $t9 0xc1af8f
+    sw $t9 14028($s7)
+    li $t9 0xbfaa91
+    sw $t9 14032($s7)
+    li $t9 0xd9c5a7
+    sw $t9 14036($s7)
+    li $t9 0xd7c2a2
+    sw $t9 14040($s7)
+    li $t9 0xd5be9c
+    sw $t9 14044($s7)
+    li $t9 0xd1bb98
+    sw $t9 14048($s7)
+    li $t9 0xd0ba93
+    sw $t9 14052($s7)
+    li $t9 0xd0b78f
+    sw $t9 14056($s7)
+    li $t9 0xcdb289
+    sw $t9 14060($s7)
+    li $t9 0xcaaf86
+    sw $t9 14064($s7)
+    li $t9 0xc8aa82
+    sw $t9 14068($s7)
+    li $t9 0xc3a97c
+    sw $t9 14072($s7)
+    li $t9 0xc1a47a
+    sw $t9 14076($s7)
+    li $t9 0x9ca873
+    sw $t9 14080($s7)
+    li $t9 0x9db67c
+    sw $t9 14084($s7)
+    li $t9 0x9fb079
+    sw $t9 14088($s7)
+    li $t9 0xa2b87d
+    sw $t9 14092($s7)
+    li $t9 0xa6c084
+    sw $t9 14096($s7)
+    li $t9 0xa7ae80
+    sw $t9 14100($s7)
+    li $t9 0xd4ba9a
+    sw $t9 14104($s7)
+    li $t9 0xd7bf9f
+    sw $t9 14108($s7)
+    li $t9 0xd7c1a5
+    sw $t9 14112($s7)
+    li $t9 0xd9c6a8
+    sw $t9 14116($s7)
+    li $t9 0xdac7ae
+    sw $t9 14120($s7)
+    li $t9 0xdccab1
+    sw $t9 14124($s7)
+    li $t9 0xdecdb6
+    sw $t9 14128($s7)
+    li $t9 0xc7b2a2
+    sw $t9 14132($s7)
+    li $t9 0xa7797a
+    sw $t9 14136($s7)
+    li $t9 0xda8481
+    sw $t9 14140($s7)
+    li $t9 0xdc8a86
+    sw $t9 14144($s7)
+    li $t9 0xda8c8a
+    sw $t9 14148($s7)
+    li $t9 0xbf8f9c
+    sw $t9 14152($s7)
+    li $t9 0xc192a1
+    sw $t9 14156($s7)
+    li $t9 0xc395a4
+    sw $t9 14160($s7)
+    li $t9 0xc699a7
+    sw $t9 14164($s7)
+    li $t9 0xc89cab
+    sw $t9 14168($s7)
+    li $t9 0xcaa1ac
+    sw $t9 14172($s7)
+    li $t9 0xc9a3b0
+    sw $t9 14176($s7)
+    li $t9 0xd0a7b1
+    sw $t9 14180($s7)
+    li $t9 0xe2acaa
+    sw $t9 14184($s7)
+    li $t9 0xe4b0ac
+    sw $t9 14188($s7)
+    li $t9 0xceacac
+    sw $t9 14192($s7)
+    li $t9 0xdacecd
+    sw $t9 14196($s7)
+    li $t9 0xf0ece7
+    sw $t9 14200($s7)
+    li $t9 0xf0ece6
+    sw $t9 14204($s7)
+    li $t9 0xf0ebe6
+    sw $t9 14208($s7)
+    sw $t9 14212($s7)
+    li $t9 0xf0ebe5
+    sw $t9 14216($s7)
+    li $t9 0xefe9e5
+    sw $t9 14220($s7)
+    li $t9 0xefe9e2
+    sw $t9 14224($s7)
+    li $t9 0xefe7e1
+    sw $t9 14228($s7)
+    li $t9 0xede7de
+    sw $t9 14232($s7)
+    li $t9 0xede5dd
+    sw $t9 14236($s7)
+    li $t9 0xcab7b2
+    sw $t9 14240($s7)
+    li $t9 0xbe9797
+    sw $t9 14244($s7)
+    li $t9 0xd99598
+    sw $t9 14248($s7)
+    li $t9 0xc0909f
+    sw $t9 14252($s7)
+    li $t9 0xbd8b9c
+    sw $t9 14256($s7)
+    li $t9 0xbb8898
+    sw $t9 14260($s7)
+    li $t9 0xba8493
+    sw $t9 14264($s7)
+    li $t9 0xb77d90
+    sw $t9 14268($s7)
+    li $t9 0xce7d7e
+    sw $t9 14272($s7)
+    li $t9 0xbb7675
+    sw $t9 14276($s7)
+    li $t9 0xa17e7c
+    sw $t9 14280($s7)
+    li $t9 0xdacbb1
+    sw $t9 14284($s7)
+    li $t9 0xd9c6ae
+    sw $t9 14288($s7)
+    li $t9 0xd8c7a8
+    sw $t9 14292($s7)
+    li $t9 0xd7c3a6
+    sw $t9 14296($s7)
+    li $t9 0xd6c0a0
+    sw $t9 14300($s7)
+    li $t9 0xd4bf9f
+    sw $t9 14304($s7)
+    li $t9 0xd2ba97
+    sw $t9 14308($s7)
+    li $t9 0xd1b791
+    sw $t9 14312($s7)
+    li $t9 0xcfb68b
+    sw $t9 14316($s7)
+    li $t9 0xcdb188
+    sw $t9 14320($s7)
+    li $t9 0xc8ac83
+    sw $t9 14324($s7)
+    li $t9 0xc6aa80
+    sw $t9 14328($s7)
+    li $t9 0xc2a77a
+    sw $t9 14332($s7)
+    li $t9 0x9caa73
+    sw $t9 14336($s7)
+    li $t9 0xa8bf78
+    sw $t9 14340($s7)
+    li $t9 0xb1d27e
+    sw $t9 14344($s7)
+    li $t9 0xb3d583
+    sw $t9 14348($s7)
+    li $t9 0xabc381
+    sw $t9 14352($s7)
+    li $t9 0xbaaf88
+    sw $t9 14356($s7)
+    li $t9 0xd4bd9c
+    sw $t9 14360($s7)
+    li $t9 0xd7c2a1
+    sw $t9 14364($s7)
+    li $t9 0xd8c3a7
+    sw $t9 14368($s7)
+    li $t9 0xdac6ab
+    sw $t9 14372($s7)
+    li $t9 0xdacab0
+    sw $t9 14376($s7)
+    li $t9 0xddcbb6
+    sw $t9 14380($s7)
+    li $t9 0xdfceb9
+    sw $t9 14384($s7)
+    li $t9 0xc3aca1
+    sw $t9 14388($s7)
+    li $t9 0xb07c7c
+    sw $t9 14392($s7)
+    li $t9 0xda8883
+    sw $t9 14396($s7)
+    li $t9 0xdc8b88
+    sw $t9 14400($s7)
+    li $t9 0xd9918e
+    sw $t9 14404($s7)
+    li $t9 0xc2909f
+    sw $t9 14408($s7)
+    li $t9 0xc393a3
+    sw $t9 14412($s7)
+    li $t9 0xc699a7
+    sw $t9 14416($s7)
+    li $t9 0xc89caa
+    sw $t9 14420($s7)
+    li $t9 0xc9a1ac
+    sw $t9 14424($s7)
+    li $t9 0xcda4b1
+    sw $t9 14428($s7)
+    li $t9 0xcea9b3
+    sw $t9 14432($s7)
+    li $t9 0xdeafaf
+    sw $t9 14436($s7)
+    li $t9 0xe4b1af
+    sw $t9 14440($s7)
+    li $t9 0xe1b3b1
+    sw $t9 14444($s7)
+    li $t9 0xc9b8b8
+    sw $t9 14448($s7)
+    li $t9 0xf0ebe7
+    sw $t9 14452($s7)
+    li $t9 0xf1edec
+    sw $t9 14456($s7)
+    li $t9 0xf1edeb
+    sw $t9 14460($s7)
+    li $t9 0xf1edec
+    sw $t9 14464($s7)
+    li $t9 0xf1eee8
+    sw $t9 14468($s7)
+    sw $t9 14472($s7)
+    li $t9 0xf0ede6
+    sw $t9 14476($s7)
+    li $t9 0xf1ebe6
+    sw $t9 14480($s7)
+    li $t9 0xefebe5
+    sw $t9 14484($s7)
+    li $t9 0xefe9e4
+    sw $t9 14488($s7)
+    li $t9 0xefe7e0
+    sw $t9 14492($s7)
+    li $t9 0xded2ce
+    sw $t9 14496($s7)
+    li $t9 0xb29899
+    sw $t9 14500($s7)
+    li $t9 0xdd9a99
+    sw $t9 14504($s7)
+    li $t9 0xca939d
+    sw $t9 14508($s7)
+    li $t9 0xc08f9d
+    sw $t9 14512($s7)
+    li $t9 0xbe899a
+    sw $t9 14516($s7)
+    li $t9 0xbb8697
+    sw $t9 14520($s7)
+    li $t9 0xba7e92
+    sw $t9 14524($s7)
+    li $t9 0xcf8083
+    sw $t9 14528($s7)
+    li $t9 0xc07a78
+    sw $t9 14532($s7)
+    li $t9 0x9d7c7b
+    sw $t9 14536($s7)
+    li $t9 0xdccdb4
+    sw $t9 14540($s7)
+    li $t9 0xdacab1
+    sw $t9 14544($s7)
+    li $t9 0xdac8ac
+    sw $t9 14548($s7)
+    li $t9 0xd9c3a7
+    sw $t9 14552($s7)
+    li $t9 0xd7c2a2
+    sw $t9 14556($s7)
+    li $t9 0xd5bd9f
+    sw $t9 14560($s7)
+    li $t9 0xd2bb99
+    sw $t9 14564($s7)
+    li $t9 0xd0b792
+    sw $t9 14568($s7)
+    li $t9 0xcfb68d
+    sw $t9 14572($s7)
+    li $t9 0xcdb389
+    sw $t9 14576($s7)
+    li $t9 0xcab085
+    sw $t9 14580($s7)
+    li $t9 0xc6ab82
+    sw $t9 14584($s7)
+    li $t9 0xb29b73
+    sw $t9 14588($s7)
+    li $t9 0xa3b372
+    sw $t9 14592($s7)
+    li $t9 0xacc57a
+    sw $t9 14596($s7)
+    li $t9 0xa9be79
+    sw $t9 14600($s7)
+    li $t9 0xa6b078
+    sw $t9 14604($s7)
+    li $t9 0xbaae88
+    sw $t9 14608($s7)
+    li $t9 0xd1bb98
+    sw $t9 14612($s7)
+    li $t9 0xd5bf9d
+    sw $t9 14616($s7)
+    li $t9 0xd6c1a3
+    sw $t9 14620($s7)
+    li $t9 0xd8c5a8
+    sw $t9 14624($s7)
+    li $t9 0xdac7ad
+    sw $t9 14628($s7)
+    li $t9 0xddc9b1
+    sw $t9 14632($s7)
+    li $t9 0xdecbb6
+    sw $t9 14636($s7)
+    li $t9 0xe0d0ba
+    sw $t9 14640($s7)
+    li $t9 0xc1a99d
+    sw $t9 14644($s7)
+    li $t9 0xb37e7d
+    sw $t9 14648($s7)
+    li $t9 0xdd8a85
+    sw $t9 14652($s7)
+    li $t9 0xdc8d8a
+    sw $t9 14656($s7)
+    li $t9 0xd89292
+    sw $t9 14660($s7)
+    li $t9 0xc292a1
+    sw $t9 14664($s7)
+    li $t9 0xc695a7
+    sw $t9 14668($s7)
+    li $t9 0xc79aa9
+    sw $t9 14672($s7)
+    li $t9 0xc9a0ac
+    sw $t9 14676($s7)
+    li $t9 0xcba4b0
+    sw $t9 14680($s7)
+    li $t9 0xcea8b4
+    sw $t9 14684($s7)
+    li $t9 0xd6acb3
+    sw $t9 14688($s7)
+    li $t9 0xe5b3b1
+    sw $t9 14692($s7)
+    li $t9 0xe6b6b6
+    sw $t9 14696($s7)
+    li $t9 0xd5b7b4
+    sw $t9 14700($s7)
+    li $t9 0xdfd5d4
+    sw $t9 14704($s7)
+    li $t9 0xf4efed
+    sw $t9 14708($s7)
+    li $t9 0xf3efee
+    sw $t9 14712($s7)
+    li $t9 0xf4efed
+    sw $t9 14716($s7)
+    li $t9 0xf4efee
+    sw $t9 14720($s7)
+    sw $t9 14724($s7)
+    li $t9 0xf4efed
+    sw $t9 14728($s7)
+    li $t9 0xf3efeb
+    sw $t9 14732($s7)
+    li $t9 0xf0ede9
+    sw $t9 14736($s7)
+    li $t9 0xf0ece7
+    sw $t9 14740($s7)
+    li $t9 0xf0ede5
+    sw $t9 14744($s7)
+    li $t9 0xefe9e4
+    sw $t9 14748($s7)
+    li $t9 0xede7de
+    sw $t9 14752($s7)
+    li $t9 0xbaa1a1
+    sw $t9 14756($s7)
+    li $t9 0xd09a99
+    sw $t9 14760($s7)
+    li $t9 0xd8989a
+    sw $t9 14764($s7)
+    li $t9 0xc191a0
+    sw $t9 14768($s7)
+    li $t9 0xbf8c9c
+    sw $t9 14772($s7)
+    li $t9 0xbb8899
+    sw $t9 14776($s7)
+    li $t9 0xb98494
+    sw $t9 14780($s7)
+    li $t9 0xce8086
+    sw $t9 14784($s7)
+    li $t9 0xc37c79
+    sw $t9 14788($s7)
+    li $t9 0x9b7678
+    sw $t9 14792($s7)
+    li $t9 0xdeceb7
+    sw $t9 14796($s7)
+    li $t9 0xdcc9b2
+    sw $t9 14800($s7)
+    li $t9 0xdac8b0
+    sw $t9 14804($s7)
+    li $t9 0xd9c6a9
+    sw $t9 14808($s7)
+    li $t9 0xd6c2a4
+    sw $t9 14812($s7)
+    li $t9 0xd4c09d
+    sw $t9 14816($s7)
+    li $t9 0xd5bb9b
+    sw $t9 14820($s7)
+    li $t9 0xd1b994
+    sw $t9 14824($s7)
+    li $t9 0xd1b791
+    sw $t9 14828($s7)
+    li $t9 0xcfb28a
+    sw $t9 14832($s7)
+    li $t9 0xcab186
+    sw $t9 14836($s7)
+    li $t9 0xc7ac82
+    sw $t9 14840($s7)
+    li $t9 0xa79471
+    sw $t9 14844($s7)
+    li $t9 0xbea97e
+    sw $t9 14848($s7)
+    li $t9 0xb9a97d
+    sw $t9 14852($s7)
+    li $t9 0xbfae84
+    sw $t9 14856($s7)
+    li $t9 0xcfb691
+    sw $t9 14860($s7)
+    li $t9 0xd2ba95
+    sw $t9 14864($s7)
+    li $t9 0xd5ba9b
+    sw $t9 14868($s7)
+    li $t9 0xd6c0a0
+    sw $t9 14872($s7)
+    li $t9 0xd9c2a4
+    sw $t9 14876($s7)
+    li $t9 0xd8c7a8
+    sw $t9 14880($s7)
+    li $t9 0xdac8b0
+    sw $t9 14884($s7)
+    li $t9 0xddcbb3
+    sw $t9 14888($s7)
+    li $t9 0xdfcfb8
+    sw $t9 14892($s7)
+    li $t9 0xe1d1bb
+    sw $t9 14896($s7)
+    li $t9 0xc0a79c
+    sw $t9 14900($s7)
+    li $t9 0xb88280
+    sw $t9 14904($s7)
+    li $t9 0xdd8a88
+    sw $t9 14908($s7)
+    li $t9 0xdd918b
+    sw $t9 14912($s7)
+    li $t9 0xd99292
+    sw $t9 14916($s7)
+    li $t9 0xc594a3
+    sw $t9 14920($s7)
+    li $t9 0xc698a7
+    sw $t9 14924($s7)
+    li $t9 0xc89dab
+    sw $t9 14928($s7)
+    li $t9 0xc9a3af
+    sw $t9 14932($s7)
+    li $t9 0xcba7b2
+    sw $t9 14936($s7)
+    li $t9 0xd0acb7
+    sw $t9 14940($s7)
+    li $t9 0xe2b2b1
+    sw $t9 14944($s7)
+    li $t9 0xe7b7b6
+    sw $t9 14948($s7)
+    li $t9 0xe5baba
+    sw $t9 14952($s7)
+    li $t9 0xcfbbbe
+    sw $t9 14956($s7)
+    li $t9 0xf0edec
+    sw $t9 14960($s7)
+    li $t9 0xf4f0ef
+    sw $t9 14964($s7)
+    li $t9 0xf3f0ef
+    sw $t9 14968($s7)
+    li $t9 0xf4f0ef
+    sw $t9 14972($s7)
+    li $t9 0xf3f0ef
+    sw $t9 14976($s7)
+    sw $t9 14980($s7)
+    li $t9 0xf4f0ef
+    sw $t9 14984($s7)
+    li $t9 0xf4efef
+    sw $t9 14988($s7)
+    li $t9 0xf4efee
+    sw $t9 14992($s7)
+    li $t9 0xf4eeec
+    sw $t9 14996($s7)
+    li $t9 0xf1ede8
+    sw $t9 15000($s7)
+    li $t9 0xf0ebe6
+    sw $t9 15004($s7)
+    li $t9 0xefe8e2
+    sw $t9 15008($s7)
+    li $t9 0xcab8b6
+    sw $t9 15012($s7)
+    li $t9 0xc69b9a
+    sw $t9 15016($s7)
+    li $t9 0xe19b99
+    sw $t9 15020($s7)
+    li $t9 0xc7949d
+    sw $t9 15024($s7)
+    li $t9 0xc08f9f
+    sw $t9 15028($s7)
+    li $t9 0xbe899b
+    sw $t9 15032($s7)
+    li $t9 0xbb8596
+    sw $t9 15036($s7)
+    li $t9 0xce8186
+    sw $t9 15040($s7)
+    li $t9 0xc87d7a
+    sw $t9 15044($s7)
+    li $t9 0x997575
+    sw $t9 15048($s7)
+    li $t9 0xdfceb7
+    sw $t9 15052($s7)
+    li $t9 0xddcdb3
+    sw $t9 15056($s7)
+    li $t9 0xdac9b0
+    sw $t9 15060($s7)
+    li $t9 0xd8c6aa
+    sw $t9 15064($s7)
+    li $t9 0xd8c5a7
+    sw $t9 15068($s7)
+    li $t9 0xd7bfa0
+    sw $t9 15072($s7)
+    li $t9 0xd5bd9c
+    sw $t9 15076($s7)
+    li $t9 0xd1bb97
+    sw $t9 15080($s7)
+    li $t9 0xd0b891
+    sw $t9 15084($s7)
+    li $t9 0xcfb58c
+    sw $t9 15088($s7)
+    li $t9 0xcbb188
+    sw $t9 15092($s7)
+    li $t9 0xc9af84
+    sw $t9 15096($s7)
+    li $t9 0xa89573
+    sw $t9 15100($s7)
+    li $t9 0xc7b085
+    sw $t9 15104($s7)
+    li $t9 0xcdb188
+    sw $t9 15108($s7)
+    li $t9 0xcfb48b
+    sw $t9 15112($s7)
+    li $t9 0xd0b791
+    sw $t9 15116($s7)
+    li $t9 0xd1bb95
+    sw $t9 15120($s7)
+    li $t9 0xd4bd9c
+    sw $t9 15124($s7)
+    li $t9 0xd6bfa1
+    sw $t9 15128($s7)
+    li $t9 0xd8c3a4
+    sw $t9 15132($s7)
+    li $t9 0xdac6ab
+    sw $t9 15136($s7)
+    li $t9 0xdcc9b1
+    sw $t9 15140($s7)
+    li $t9 0xddcdb4
+    sw $t9 15144($s7)
+    li $t9 0xdfcfba
+    sw $t9 15148($s7)
+    li $t9 0xe1d1bd
+    sw $t9 15152($s7)
+    li $t9 0xbea49c
+    sw $t9 15156($s7)
+    li $t9 0xb98482
+    sw $t9 15160($s7)
+    li $t9 0xdc8b8a
+    sw $t9 15164($s7)
+    li $t9 0xdd908f
+    sw $t9 15168($s7)
+    li $t9 0xd89394
+    sw $t9 15172($s7)
+    li $t9 0xc595a6
+    sw $t9 15176($s7)
+    li $t9 0xc69aa8
+    sw $t9 15180($s7)
+    li $t9 0xc9a1ae
+    sw $t9 15184($s7)
+    li $t9 0xcba4b1
+    sw $t9 15188($s7)
+    li $t9 0xcfa9b6
+    sw $t9 15192($s7)
+    li $t9 0xdab0b3
+    sw $t9 15196($s7)
+    li $t9 0xe5b4b2
+    sw $t9 15200($s7)
+    li $t9 0xe6b9b7
+    sw $t9 15204($s7)
+    li $t9 0xddbbba
+    sw $t9 15208($s7)
+    li $t9 0xdad0d0
+    sw $t9 15212($s7)
+    li $t9 0xf4f1ef
+    sw $t9 15216($s7)
+    sw $t9 15220($s7)
+    li $t9 0xf3f1ef
+    sw $t9 15224($s7)
+    li $t9 0xf4f1f1
+    sw $t9 15228($s7)
+    li $t9 0xf3f1ef
+    sw $t9 15232($s7)
+    li $t9 0xf4f0ef
+    sw $t9 15236($s7)
+    li $t9 0xf3f0ef
+    sw $t9 15240($s7)
+    li $t9 0xf5f0ef
+    sw $t9 15244($s7)
+    li $t9 0xf4f0ee
+    sw $t9 15248($s7)
+    li $t9 0xf4efed
+    sw $t9 15252($s7)
+    li $t9 0xf1eded
+    sw $t9 15256($s7)
+    li $t9 0xf1eee6
+    sw $t9 15260($s7)
+    li $t9 0xf1ece5
+    sw $t9 15264($s7)
+    li $t9 0xdacfc9
+    sw $t9 15268($s7)
+    li $t9 0xbe9c9c
+    sw $t9 15272($s7)
+    li $t9 0xe19c9a
+    sw $t9 15276($s7)
+    li $t9 0xd4979a
+    sw $t9 15280($s7)
+    li $t9 0xc0919d
+    sw $t9 15284($s7)
+    li $t9 0xbd8a9a
+    sw $t9 15288($s7)
+    li $t9 0xbb8598
+    sw $t9 15292($s7)
+    li $t9 0xcf8388
+    sw $t9 15296($s7)
+    li $t9 0xcb7d7d
+    sw $t9 15300($s7)
+    li $t9 0x987575
+    sw $t9 15304($s7)
+    li $t9 0xdfcdb8
+    sw $t9 15308($s7)
+    li $t9 0xdecdb4
+    sw $t9 15312($s7)
+    li $t9 0xddcab1
+    sw $t9 15316($s7)
+    li $t9 0xdac7ae
+    sw $t9 15320($s7)
+    li $t9 0xd9c3a7
+    sw $t9 15324($s7)
+    li $t9 0xd7c1a3
+    sw $t9 15328($s7)
+    li $t9 0xd4bd9c
+    sw $t9 15332($s7)
+    li $t9 0xd2bb95
+    sw $t9 15336($s7)
+    li $t9 0xd0b892
+    sw $t9 15340($s7)
+    li $t9 0xceb68c
+    sw $t9 15344($s7)
+    li $t9 0xcbb188
+    sw $t9 15348($s7)
+    li $t9 0xcaae83
+    sw $t9 15352($s7)
+    li $t9 0xb19a74
+    sw $t9 15356($s7)
+    li $t9 0xc7b084
+    sw $t9 15360($s7)
+    li $t9 0xcdb188
+    sw $t9 15364($s7)
+    li $t9 0xcfb68b
+    sw $t9 15368($s7)
+    li $t9 0xd1b792
+    sw $t9 15372($s7)
+    li $t9 0xd1bb95
+    sw $t9 15376($s7)
+    li $t9 0xd5bd9c
+    sw $t9 15380($s7)
+    li $t9 0xd7c2a2
+    sw $t9 15384($s7)
+    li $t9 0xd9c5a7
+    sw $t9 15388($s7)
+    li $t9 0xdac8ab
+    sw $t9 15392($s7)
+    li $t9 0xddcab1
+    sw $t9 15396($s7)
+    li $t9 0xdecdb4
+    sw $t9 15400($s7)
+    li $t9 0xe0d0ba
+    sw $t9 15404($s7)
+    li $t9 0xe1d2be
+    sw $t9 15408($s7)
+    li $t9 0xbda49d
+    sw $t9 15412($s7)
+    li $t9 0xbb8384
+    sw $t9 15416($s7)
+    li $t9 0xdc8c89
+    sw $t9 15420($s7)
+    li $t9 0xde928d
+    sw $t9 15424($s7)
+    li $t9 0xda9594
+    sw $t9 15428($s7)
+    li $t9 0xc697a7
+    sw $t9 15432($s7)
+    li $t9 0xc79caa
+    sw $t9 15436($s7)
+    li $t9 0xcaa1af
+    sw $t9 15440($s7)
+    li $t9 0xcba4b1
+    sw $t9 15444($s7)
+    li $t9 0xd0abb6
+    sw $t9 15448($s7)
+    li $t9 0xe4b2b1
+    sw $t9 15452($s7)
+    li $t9 0xe7b7b6
+    sw $t9 15456($s7)
+    li $t9 0xe6bbbb
+    sw $t9 15460($s7)
+    li $t9 0xd4bdbe
+    sw $t9 15464($s7)
+    li $t9 0xe8e2e1
+    sw $t9 15468($s7)
+    li $t9 0xf4f0ef
+    sw $t9 15472($s7)
+    li $t9 0xf4f0f0
+    sw $t9 15476($s7)
+    li $t9 0xf3f3f1
+    sw $t9 15480($s7)
+    li $t9 0xf4f3f1
+    sw $t9 15484($s7)
+    li $t9 0xf4f4f1
+    sw $t9 15488($s7)
+    li $t9 0xf4f1ee
+    sw $t9 15492($s7)
+    li $t9 0xf4f1ef
+    sw $t9 15496($s7)
+    sw $t9 15500($s7)
+    li $t9 0xf3f0ef
+    sw $t9 15504($s7)
+    li $t9 0xf4f0ef
+    sw $t9 15508($s7)
+    li $t9 0xf3efec
+    sw $t9 15512($s7)
+    li $t9 0xf0ede9
+    sw $t9 15516($s7)
+    li $t9 0xf0ebe6
+    sw $t9 15520($s7)
+    li $t9 0xe8e1da
+    sw $t9 15524($s7)
+    li $t9 0xb79c9c
+    sw $t9 15528($s7)
+    li $t9 0xe09c9a
+    sw $t9 15532($s7)
+    li $t9 0xde9997
+    sw $t9 15536($s7)
+    li $t9 0xc3919d
+    sw $t9 15540($s7)
+    li $t9 0xbd8c9c
+    sw $t9 15544($s7)
+    li $t9 0xbb8898
+    sw $t9 15548($s7)
+    li $t9 0xd08488
+    sw $t9 15552($s7)
+    li $t9 0xd07e7d
+    sw $t9 15556($s7)
+    li $t9 0x997474
+    sw $t9 15560($s7)
+    li $t9 0xddcab7
+    sw $t9 15564($s7)
+    li $t9 0xdeceb6
+    sw $t9 15568($s7)
+    li $t9 0xdcc9b1
+    sw $t9 15572($s7)
+    li $t9 0xdac7ae
+    sw $t9 15576($s7)
+    li $t9 0xd8c5a9
+    sw $t9 15580($s7)
+    li $t9 0xd6c1a2
+    sw $t9 15584($s7)
+    li $t9 0xd5bd9c
+    sw $t9 15588($s7)
+    li $t9 0xd2bb99
+    sw $t9 15592($s7)
+    li $t9 0xd0b992
+    sw $t9 15596($s7)
+    li $t9 0xd0b68d
+    sw $t9 15600($s7)
+    li $t9 0xceb68b
+    sw $t9 15604($s7)
+    li $t9 0xcdb38a
+    sw $t9 15608($s7)
+    li $t9 0xc6ab80
+    sw $t9 15612($s7)
+    li $t9 0xc9b188
+    sw $t9 15616($s7)
+    li $t9 0xcdb388
+    sw $t9 15620($s7)
+    li $t9 0xceb48f
+    sw $t9 15624($s7)
+    li $t9 0xd1b892
+    sw $t9 15628($s7)
+    li $t9 0xd1bb98
+    sw $t9 15632($s7)
+    li $t9 0xd4bd9c
+    sw $t9 15636($s7)
+    li $t9 0xd7c1a2
+    sw $t9 15640($s7)
+    li $t9 0xd8c5a7
+    sw $t9 15644($s7)
+    li $t9 0xdac7ae
+    sw $t9 15648($s7)
+    li $t9 0xdcc9b1
+    sw $t9 15652($s7)
+    li $t9 0xdecfb6
+    sw $t9 15656($s7)
+    li $t9 0xe1d0ba
+    sw $t9 15660($s7)
+    li $t9 0xe1d1c0
+    sw $t9 15664($s7)
+    li $t9 0xbea49d
+    sw $t9 15668($s7)
+    li $t9 0xbb8583
+    sw $t9 15672($s7)
+    li $t9 0xdd8d8a
+    sw $t9 15676($s7)
+    li $t9 0xde928f
+    sw $t9 15680($s7)
+    li $t9 0xdc9594
+    sw $t9 15684($s7)
+    li $t9 0xc698a7
+    sw $t9 15688($s7)
+    li $t9 0xc89daa
+    sw $t9 15692($s7)
+    li $t9 0xcaa2b0
+    sw $t9 15696($s7)
+    li $t9 0xcda7b3
+    sw $t9 15700($s7)
+    li $t9 0xdaaeb1
+    sw $t9 15704($s7)
+    li $t9 0xe5b2b1
+    sw $t9 15708($s7)
+    li $t9 0xe6b7b6
+    sw $t9 15712($s7)
+    li $t9 0xe5bbbb
+    sw $t9 15716($s7)
+    li $t9 0xd0c0c0
+    sw $t9 15720($s7)
+    li $t9 0xf3efef
+    sw $t9 15724($s7)
+    li $t9 0xf2f1ef
+    sw $t9 15728($s7)
+    li $t9 0xf3f4f0
+    sw $t9 15732($s7)
+    li $t9 0xf4f3f1
+    sw $t9 15736($s7)
+    li $t9 0xf3f3f0
+    sw $t9 15740($s7)
+    li $t9 0xf2f3f0
+    sw $t9 15744($s7)
+    li $t9 0xf3f1f0
+    sw $t9 15748($s7)
+    li $t9 0xf3f1ef
+    sw $t9 15752($s7)
+    li $t9 0xf4f0ef
+    sw $t9 15756($s7)
+    li $t9 0xf3f1ef
+    sw $t9 15760($s7)
+    li $t9 0xf4f1ef
+    sw $t9 15764($s7)
+    li $t9 0xf4f0ed
+    sw $t9 15768($s7)
+    li $t9 0xf3efeb
+    sw $t9 15772($s7)
+    li $t9 0xf1ece7
+    sw $t9 15776($s7)
+    li $t9 0xefe9e5
+    sw $t9 15780($s7)
+    li $t9 0xbda7a6
+    sw $t9 15784($s7)
+    li $t9 0xda9c9b
+    sw $t9 15788($s7)
+    li $t9 0xde9997
+    sw $t9 15792($s7)
+    li $t9 0xd09298
+    sw $t9 15796($s7)
+    li $t9 0xbf8b9c
+    sw $t9 15800($s7)
+    li $t9 0xbb8898
+    sw $t9 15804($s7)
+    li $t9 0xd08588
+    sw $t9 15808($s7)
+    li $t9 0xd57e7d
+    sw $t9 15812($s7)
+    li $t9 0x987474
+    sw $t9 15816($s7)
+    li $t9 0xd9c8b7
+    sw $t9 15820($s7)
+    li $t9 0xdecfb7
+    sw $t9 15824($s7)
+    li $t9 0xddcdb1
+    sw $t9 15828($s7)
+    li $t9 0xdac7ac
+    sw $t9 15832($s7)
+    li $t9 0xd9c6a9
+    sw $t9 15836($s7)
+    li $t9 0xd7c2a2
+    sw $t9 15840($s7)
+    li $t9 0xd4bf9f
+    sw $t9 15844($s7)
+    li $t9 0xd4ba99
+    sw $t9 15848($s7)
+    li $t9 0xd0ba92
+    sw $t9 15852($s7)
+    li $t9 0xd0b48f
+    sw $t9 15856($s7)
+    li $t9 0xcbb28a
+    sw $t9 15860($s7)
+    li $t9 0xcab084
+    sw $t9 15864($s7)
+    li $t9 0xc6aa7e
+    sw $t9 15868($s7)
+    li $t9 0xc7b084
+    sw $t9 15872($s7)
+    li $t9 0xcbb188
+    sw $t9 15876($s7)
+    li $t9 0xcfb68d
+    sw $t9 15880($s7)
+    li $t9 0xd2b792
+    sw $t9 15884($s7)
+    li $t9 0xd1bb98
+    sw $t9 15888($s7)
+    li $t9 0xd4be9c
+    sw $t9 15892($s7)
+    li $t9 0xd7c1a2
+    sw $t9 15896($s7)
+    li $t9 0xd9c5a7
+    sw $t9 15900($s7)
+    li $t9 0xdac7ae
+    sw $t9 15904($s7)
+    li $t9 0xdccab1
+    sw $t9 15908($s7)
+    li $t9 0xdeceb6
+    sw $t9 15912($s7)
+    li $t9 0xe0d0bb
+    sw $t9 15916($s7)
+    li $t9 0xe2d2c0
+    sw $t9 15920($s7)
+    li $t9 0xc0a79d
+    sw $t9 15924($s7)
+    li $t9 0xbb8483
+    sw $t9 15928($s7)
+    li $t9 0xdc8c8a
+    sw $t9 15932($s7)
+    li $t9 0xdf928f
+    sw $t9 15936($s7)
+    li $t9 0xde9593
+    sw $t9 15940($s7)
+    li $t9 0xc698a7
+    sw $t9 15944($s7)
+    li $t9 0xc89caa
+    sw $t9 15948($s7)
+    li $t9 0xcaa2b0
+    sw $t9 15952($s7)
+    li $t9 0xcfa7b1
+    sw $t9 15956($s7)
+    li $t9 0xe2b0ac
+    sw $t9 15960($s7)
+    li $t9 0xe5b2b1
+    sw $t9 15964($s7)
+    li $t9 0xe7b7b6
+    sw $t9 15968($s7)
+    li $t9 0xddbbbb
+    sw $t9 15972($s7)
+    li $t9 0xd9cdcb
+    sw $t9 15976($s7)
+    li $t9 0xf4f0ef
+    sw $t9 15980($s7)
+    li $t9 0xf3f1ef
+    sw $t9 15984($s7)
+    li $t9 0xf3f1f1
+    sw $t9 15988($s7)
+    li $t9 0xf3f4f1
+    sw $t9 15992($s7)
+    li $t9 0xf4f3f0
+    sw $t9 15996($s7)
+    li $t9 0xf3f4f1
+    sw $t9 16000($s7)
+    li $t9 0xf3f1f0
+    sw $t9 16004($s7)
+    li $t9 0xf3f0ef
+    sw $t9 16008($s7)
+    sw $t9 16012($s7)
+    sw $t9 16016($s7)
+    li $t9 0xf4f0ef
+    sw $t9 16020($s7)
+    li $t9 0xf4f0ec
+    sw $t9 16024($s7)
+    li $t9 0xf3efec
+    sw $t9 16028($s7)
+    li $t9 0xf0ede8
+    sw $t9 16032($s7)
+    li $t9 0xf1ebe5
+    sw $t9 16036($s7)
+    li $t9 0xcab8b6
+    sw $t9 16040($s7)
+    li $t9 0xd09b9b
+    sw $t9 16044($s7)
+    li $t9 0xdf9997
+    sw $t9 16048($s7)
+    li $t9 0xda9292
+    sw $t9 16052($s7)
+    li $t9 0xc08c9d
+    sw $t9 16056($s7)
+    li $t9 0xba8898
+    sw $t9 16060($s7)
+    li $t9 0xd08488
+    sw $t9 16064($s7)
+    li $t9 0xd5807d
+    sw $t9 16068($s7)
+    li $t9 0x987574
+    sw $t9 16072($s7)
+    li $t9 0xd6c6b2
+    sw $t9 16076($s7)
+    li $t9 0xdfceb7
+    sw $t9 16080($s7)
+    li $t9 0xddcbb3
+    sw $t9 16084($s7)
+    li $t9 0xdac8ac
+    sw $t9 16088($s7)
+    li $t9 0xd9c6a9
+    sw $t9 16092($s7)
+    li $t9 0xd6c1a2
+    sw $t9 16096($s7)
+    li $t9 0xd5bf9f
+    sw $t9 16100($s7)
+    li $t9 0xd5bb99
+    sw $t9 16104($s7)
+    li $t9 0xd0b992
+    sw $t9 16108($s7)
+    li $t9 0xd0b68f
+    sw $t9 16112($s7)
+    li $t9 0xcdb28a
+    sw $t9 16116($s7)
+    li $t9 0xc9b085
+    sw $t9 16120($s7)
+    li $t9 0xc6ab80
+    sw $t9 16124($s7)
+    li $t9 0xc7af84
+    sw $t9 16128($s7)
+    li $t9 0xcbb188
+    sw $t9 16132($s7)
+    li $t9 0xcfb48b
+    sw $t9 16136($s7)
+    li $t9 0xd1b892
+    sw $t9 16140($s7)
+    li $t9 0xd1bb97
+    sw $t9 16144($s7)
+    li $t9 0xd5bd9c
+    sw $t9 16148($s7)
+    li $t9 0xd6c2a2
+    sw $t9 16152($s7)
+    li $t9 0xd9c5a7
+    sw $t9 16156($s7)
+    li $t9 0xdac8ac
+    sw $t9 16160($s7)
+    li $t9 0xdcc9b1
+    sw $t9 16164($s7)
+    li $t9 0xdeceb6
+    sw $t9 16168($s7)
+    li $t9 0xe1d0bb
+    sw $t9 16172($s7)
+    li $t9 0xe4d1c0
+    sw $t9 16176($s7)
+    li $t9 0xc1aba0
+    sw $t9 16180($s7)
+    li $t9 0xaa8281
+    sw $t9 16184($s7)
+    li $t9 0xb98888
+    sw $t9 16188($s7)
+    li $t9 0xbd8d8c
+    sw $t9 16192($s7)
+    li $t9 0xbf9291
+    sw $t9 16196($s7)
+    li $t9 0xba979a
+    sw $t9 16200($s7)
+    li $t9 0xbb9aa0
+    sw $t9 16204($s7)
+    li $t9 0xbda1a6
+    sw $t9 16208($s7)
+    li $t9 0xc3a6a7
+    sw $t9 16212($s7)
+    li $t9 0xcfaaa9
+    sw $t9 16216($s7)
+    li $t9 0xd0afaf
+    sw $t9 16220($s7)
+    li $t9 0xd1b6b2
+    sw $t9 16224($s7)
+    li $t9 0xcfb7b8
+    sw $t9 16228($s7)
+    li $t9 0xe4dada
+    sw $t9 16232($s7)
+    li $t9 0xf4f1ef
+    sw $t9 16236($s7)
+    li $t9 0xf3f1ef
+    sw $t9 16240($s7)
+    li $t9 0xf4f1ef
+    sw $t9 16244($s7)
+    li $t9 0xf4f1f1
+    sw $t9 16248($s7)
+    li $t9 0xf3f0f1
+    sw $t9 16252($s7)
+    sw $t9 16256($s7)
+    li $t9 0xf3f0ef
+    sw $t9 16260($s7)
+    li $t9 0xf3f1ef
+    sw $t9 16264($s7)
+    li $t9 0xf4f0ef
+    sw $t9 16268($s7)
+    li $t9 0xf4f1ef
+    sw $t9 16272($s7)
+    li $t9 0xf3f1ef
+    sw $t9 16276($s7)
+    li $t9 0xf4efed
+    sw $t9 16280($s7)
+    li $t9 0xf3efec
+    sw $t9 16284($s7)
+    li $t9 0xf0ede7
+    sw $t9 16288($s7)
+    li $t9 0xf0ebe5
+    sw $t9 16292($s7)
+    li $t9 0xd2c3c0
+    sw $t9 16296($s7)
+    li $t9 0xb99899
+    sw $t9 16300($s7)
+    li $t9 0xbf9394
+    sw $t9 16304($s7)
+    li $t9 0xbe918f
+    sw $t9 16308($s7)
+    li $t9 0xb18990
+    sw $t9 16312($s7)
+    li $t9 0xae838c
+    sw $t9 16316($s7)
+    li $t9 0xb68281
+    sw $t9 16320($s7)
+    li $t9 0xb77b7b
+    sw $t9 16324($s7)
+    li $t9 0x987474
+    sw $t9 16328($s7)
+    li $t9 0xd7c1b1
+    sw $t9 16332($s7)
+    li $t9 0xdfceb8
+    sw $t9 16336($s7)
+    li $t9 0xddc9b1
+    sw $t9 16340($s7)
+    li $t9 0xdac7ae
+    sw $t9 16344($s7)
+    li $t9 0xd8c6a8
+    sw $t9 16348($s7)
+    li $t9 0xd7c2a3
+    sw $t9 16352($s7)
+    li $t9 0xd4bf9d
+    sw $t9 16356($s7)
+    li $t9 0xd4bb99
+    sw $t9 16360($s7)
+    li $t9 0xd0bb92
+    sw $t9 16364($s7)
+    li $t9 0xd1b891
+    sw $t9 16368($s7)
+    li $t9 0xcdb28a
+    sw $t9 16372($s7)
+    li $t9 0xcab084
+    sw $t9 16376($s7)
+    li $t9 0xc6ab80
+    sw $t9 16380($s7)
 
 
-li $v0, 32 
-li $a0, 500
-syscall
+    li $v0, 32 
+    li $a0, 500
+    syscall
 
-jr $ra
+    jr $ra
