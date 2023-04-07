@@ -26,10 +26,11 @@
 # 6. Animated Player (2)
 # 
 # Link to video demonstration for final submission: 
-# - (insert YouTube / MyMedia / other URL here). Make sure we can view it! 
+# - https://youtu.be/ebcG9PwvIVc
 # 
 # Are you OK with us sharing the video with people outside course staff? 
 # - yes, and please share this project github link as well! 
+# - https://github.com/chunkanglu/CSCB58-Asm-Project-2023
 # 
 # Any additional information that the TA needs to know: 
 # - Entire project is split into multiple files, but you only need to look at

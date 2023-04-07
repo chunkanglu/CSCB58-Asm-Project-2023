@@ -1,9 +1,0 @@
-health 2
-fail cond 1
-win cond 1
-different levels 2
-start menu 1
-animated sprites 2
-
-jumping - use stationary sprite
-moving - update & cycle sprite every left/right key, max 5 game loops in between or else it goes back to stationary
