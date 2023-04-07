@@ -20,7 +20,7 @@
 # (See the assignment handout for the list of additional features) 
 # 1. Hearts (2)
 # 2. Win Condition (reach flag) (1)
-# 3. Lose Conditioin (no hearts) (1)
+# 3. Lose Condition (no hearts) (1)
 # 4. Main menu screen (1)
 # 5. Different Levels (2)
 # 6. Animated Player (2)
@@ -49,7 +49,6 @@
 .include "main_quit.asm"
 .include "main_start.asm"
 .include "player.asm"
-.include "title.asm"
 .include "ui.asm"
 .include "win.asm"
 
@@ -835,7 +834,7 @@ end_of_loop:
 game_over:
 		jal clear_screen
 		jal draw_lose
-		j exit
+		j game_end
 
 # ----------------------------------------
 # Win
@@ -843,6 +842,22 @@ game_over:
 win:
 		jal clear_screen
 		jal draw_win
+
+game_end:
+    end_keypress_event:
+        li $t9, 0xffff0000  
+        lw $t8, 0($t9) 
+        bne $t8, 1, end_keypress_event
+		
+    end_check_keypress:
+        lw $t8, 4($t9) 				# this assumes $t9 is set to 0xfff0000 from before 
+        beq $t8, 0x70, restart   	# ASCII code of 'p' is 0x70
+
+    li $v0, 32 
+		li $a0, SLP_T   			# Wait 40 milliseconds
+		syscall
+		
+		j end_keypress_event
 
 exit:	
 		li $v0, 10 # terminate the program gracefully 
